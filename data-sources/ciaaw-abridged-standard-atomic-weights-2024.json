@@ -1,0 +1,592 @@
+{
+ "1": {
+  "symbol": "H",
+  "value": "1.0080",
+  "uncertainty": "0.0002"
+ },
+ "2": {
+  "symbol": "He",
+  "value": "4.0026",
+  "uncertainty": "0.0001"
+ },
+ "3": {
+  "symbol": "Li",
+  "value": "6.94",
+  "uncertainty": "0.06"
+ },
+ "4": {
+  "symbol": "Be",
+  "value": "9.0122",
+  "uncertainty": "0.0001"
+ },
+ "5": {
+  "symbol": "B",
+  "value": "10.81",
+  "uncertainty": "0.02"
+ },
+ "6": {
+  "symbol": "C",
+  "value": "12.011",
+  "uncertainty": "0.002"
+ },
+ "7": {
+  "symbol": "N",
+  "value": "14.007",
+  "uncertainty": "0.001"
+ },
+ "8": {
+  "symbol": "O",
+  "value": "15.999",
+  "uncertainty": "0.001"
+ },
+ "9": {
+  "symbol": "F",
+  "value": "18.998",
+  "uncertainty": "0.001"
+ },
+ "10": {
+  "symbol": "Ne",
+  "value": "20.180",
+  "uncertainty": "0.001"
+ },
+ "11": {
+  "symbol": "Na",
+  "value": "22.990",
+  "uncertainty": "0.001"
+ },
+ "12": {
+  "symbol": "Mg",
+  "value": "24.305",
+  "uncertainty": "0.002"
+ },
+ "13": {
+  "symbol": "Al",
+  "value": "26.982",
+  "uncertainty": "0.001"
+ },
+ "14": {
+  "symbol": "Si",
+  "value": "28.085",
+  "uncertainty": "0.001"
+ },
+ "15": {
+  "symbol": "P",
+  "value": "30.974",
+  "uncertainty": "0.001"
+ },
+ "16": {
+  "symbol": "S",
+  "value": "32.06",
+  "uncertainty": "0.02"
+ },
+ "17": {
+  "symbol": "Cl",
+  "value": "35.45",
+  "uncertainty": "0.01"
+ },
+ "18": {
+  "symbol": "Ar",
+  "value": "39.95",
+  "uncertainty": "0.16"
+ },
+ "19": {
+  "symbol": "K",
+  "value": "39.098",
+  "uncertainty": "0.001"
+ },
+ "20": {
+  "symbol": "Ca",
+  "value": "40.078",
+  "uncertainty": "0.004"
+ },
+ "21": {
+  "symbol": "Sc",
+  "value": "44.956",
+  "uncertainty": "0.001"
+ },
+ "22": {
+  "symbol": "Ti",
+  "value": "47.867",
+  "uncertainty": "0.001"
+ },
+ "23": {
+  "symbol": "V",
+  "value": "50.942",
+  "uncertainty": "0.001"
+ },
+ "24": {
+  "symbol": "Cr",
+  "value": "51.996",
+  "uncertainty": "0.001"
+ },
+ "25": {
+  "symbol": "Mn",
+  "value": "54.938",
+  "uncertainty": "0.001"
+ },
+ "26": {
+  "symbol": "Fe",
+  "value": "55.845",
+  "uncertainty": "0.002"
+ },
+ "27": {
+  "symbol": "Co",
+  "value": "58.933",
+  "uncertainty": "0.001"
+ },
+ "28": {
+  "symbol": "Ni",
+  "value": "58.693",
+  "uncertainty": "0.001"
+ },
+ "29": {
+  "symbol": "Cu",
+  "value": "63.546",
+  "uncertainty": "0.003"
+ },
+ "30": {
+  "symbol": "Zn",
+  "value": "65.38",
+  "uncertainty": "0.02"
+ },
+ "31": {
+  "symbol": "Ga",
+  "value": "69.723",
+  "uncertainty": "0.001"
+ },
+ "32": {
+  "symbol": "Ge",
+  "value": "72.630",
+  "uncertainty": "0.008"
+ },
+ "33": {
+  "symbol": "As",
+  "value": "74.922",
+  "uncertainty": "0.001"
+ },
+ "34": {
+  "symbol": "Se",
+  "value": "78.971",
+  "uncertainty": "0.008"
+ },
+ "35": {
+  "symbol": "Br",
+  "value": "79.904",
+  "uncertainty": "0.003"
+ },
+ "36": {
+  "symbol": "Kr",
+  "value": "83.798",
+  "uncertainty": "0.002"
+ },
+ "37": {
+  "symbol": "Rb",
+  "value": "85.468",
+  "uncertainty": "0.001"
+ },
+ "38": {
+  "symbol": "Sr",
+  "value": "87.62",
+  "uncertainty": "0.01"
+ },
+ "39": {
+  "symbol": "Y",
+  "value": "88.906",
+  "uncertainty": "0.001"
+ },
+ "40": {
+  "symbol": "Zr",
+  "value": "91.222",
+  "uncertainty": "0.003"
+ },
+ "41": {
+  "symbol": "Nb",
+  "value": "92.906",
+  "uncertainty": "0.001"
+ },
+ "42": {
+  "symbol": "Mo",
+  "value": "95.95",
+  "uncertainty": "0.01"
+ },
+ "43": {
+  "symbol": "Tc",
+  "value": null,
+  "uncertainty": null
+ },
+ "44": {
+  "symbol": "Ru",
+  "value": "101.07",
+  "uncertainty": "0.02"
+ },
+ "45": {
+  "symbol": "Rh",
+  "value": "102.91",
+  "uncertainty": "0.01"
+ },
+ "46": {
+  "symbol": "Pd",
+  "value": "106.42",
+  "uncertainty": "0.01"
+ },
+ "47": {
+  "symbol": "Ag",
+  "value": "107.87",
+  "uncertainty": "0.01"
+ },
+ "48": {
+  "symbol": "Cd",
+  "value": "112.41",
+  "uncertainty": "0.01"
+ },
+ "49": {
+  "symbol": "In",
+  "value": "114.82",
+  "uncertainty": "0.01"
+ },
+ "50": {
+  "symbol": "Sn",
+  "value": "118.71",
+  "uncertainty": "0.01"
+ },
+ "51": {
+  "symbol": "Sb",
+  "value": "121.76",
+  "uncertainty": "0.01"
+ },
+ "52": {
+  "symbol": "Te",
+  "value": "127.60",
+  "uncertainty": "0.03"
+ },
+ "53": {
+  "symbol": "I",
+  "value": "126.90",
+  "uncertainty": "0.01"
+ },
+ "54": {
+  "symbol": "Xe",
+  "value": "131.29",
+  "uncertainty": "0.01"
+ },
+ "55": {
+  "symbol": "Cs",
+  "value": "132.91",
+  "uncertainty": "0.01"
+ },
+ "56": {
+  "symbol": "Ba",
+  "value": "137.33",
+  "uncertainty": "0.01"
+ },
+ "57": {
+  "symbol": "La",
+  "value": "138.91",
+  "uncertainty": "0.01"
+ },
+ "58": {
+  "symbol": "Ce",
+  "value": "140.12",
+  "uncertainty": "0.01"
+ },
+ "59": {
+  "symbol": "Pr",
+  "value": "140.91",
+  "uncertainty": "0.01"
+ },
+ "60": {
+  "symbol": "Nd",
+  "value": "144.24",
+  "uncertainty": "0.01"
+ },
+ "61": {
+  "symbol": "Pm",
+  "value": null,
+  "uncertainty": null
+ },
+ "62": {
+  "symbol": "Sm",
+  "value": "150.36",
+  "uncertainty": "0.02"
+ },
+ "63": {
+  "symbol": "Eu",
+  "value": "151.96",
+  "uncertainty": "0.01"
+ },
+ "64": {
+  "symbol": "Gd",
+  "value": "157.25",
+  "uncertainty": "0.01"
+ },
+ "65": {
+  "symbol": "Tb",
+  "value": "158.93",
+  "uncertainty": "0.01"
+ },
+ "66": {
+  "symbol": "Dy",
+  "value": "162.50",
+  "uncertainty": "0.01"
+ },
+ "67": {
+  "symbol": "Ho",
+  "value": "164.93",
+  "uncertainty": "0.01"
+ },
+ "68": {
+  "symbol": "Er",
+  "value": "167.26",
+  "uncertainty": "0.01"
+ },
+ "69": {
+  "symbol": "Tm",
+  "value": "168.93",
+  "uncertainty": "0.01"
+ },
+ "70": {
+  "symbol": "Yb",
+  "value": "173.05",
+  "uncertainty": "0.02"
+ },
+ "71": {
+  "symbol": "Lu",
+  "value": "174.97",
+  "uncertainty": "0.01"
+ },
+ "72": {
+  "symbol": "Hf",
+  "value": "178.49",
+  "uncertainty": "0.01"
+ },
+ "73": {
+  "symbol": "Ta",
+  "value": "180.95",
+  "uncertainty": "0.01"
+ },
+ "74": {
+  "symbol": "W",
+  "value": "183.84",
+  "uncertainty": "0.01"
+ },
+ "75": {
+  "symbol": "Re",
+  "value": "186.21",
+  "uncertainty": "0.01"
+ },
+ "76": {
+  "symbol": "Os",
+  "value": "190.23",
+  "uncertainty": "0.03"
+ },
+ "77": {
+  "symbol": "Ir",
+  "value": "192.22",
+  "uncertainty": "0.01"
+ },
+ "78": {
+  "symbol": "Pt",
+  "value": "195.08",
+  "uncertainty": "0.02"
+ },
+ "79": {
+  "symbol": "Au",
+  "value": "196.97",
+  "uncertainty": "0.01"
+ },
+ "80": {
+  "symbol": "Hg",
+  "value": "200.59",
+  "uncertainty": "0.01"
+ },
+ "81": {
+  "symbol": "Tl",
+  "value": "204.38",
+  "uncertainty": "0.01"
+ },
+ "82": {
+  "symbol": "Pb",
+  "value": "207.2",
+  "uncertainty": "1.1"
+ },
+ "83": {
+  "symbol": "Bi",
+  "value": "208.98",
+  "uncertainty": "0.01"
+ },
+ "84": {
+  "symbol": "Po",
+  "value": null,
+  "uncertainty": null
+ },
+ "85": {
+  "symbol": "At",
+  "value": null,
+  "uncertainty": null
+ },
+ "86": {
+  "symbol": "Rn",
+  "value": null,
+  "uncertainty": null
+ },
+ "87": {
+  "symbol": "Fr",
+  "value": null,
+  "uncertainty": null
+ },
+ "88": {
+  "symbol": "Ra",
+  "value": null,
+  "uncertainty": null
+ },
+ "89": {
+  "symbol": "Ac",
+  "value": null,
+  "uncertainty": null
+ },
+ "90": {
+  "symbol": "Th",
+  "value": "232.04",
+  "uncertainty": "0.01"
+ },
+ "91": {
+  "symbol": "Pa",
+  "value": "231.04",
+  "uncertainty": "0.01"
+ },
+ "92": {
+  "symbol": "U",
+  "value": "238.03",
+  "uncertainty": "0.01"
+ },
+ "93": {
+  "symbol": "Np",
+  "value": null,
+  "uncertainty": null
+ },
+ "94": {
+  "symbol": "Pu",
+  "value": null,
+  "uncertainty": null
+ },
+ "95": {
+  "symbol": "Am",
+  "value": null,
+  "uncertainty": null
+ },
+ "96": {
+  "symbol": "Cm",
+  "value": null,
+  "uncertainty": null
+ },
+ "97": {
+  "symbol": "Bk",
+  "value": null,
+  "uncertainty": null
+ },
+ "98": {
+  "symbol": "Cf",
+  "value": null,
+  "uncertainty": null
+ },
+ "99": {
+  "symbol": "Es",
+  "value": null,
+  "uncertainty": null
+ },
+ "100": {
+  "symbol": "Fm",
+  "value": null,
+  "uncertainty": null
+ },
+ "101": {
+  "symbol": "Md",
+  "value": null,
+  "uncertainty": null
+ },
+ "102": {
+  "symbol": "No",
+  "value": null,
+  "uncertainty": null
+ },
+ "103": {
+  "symbol": "Lr",
+  "value": null,
+  "uncertainty": null
+ },
+ "104": {
+  "symbol": "Rf",
+  "value": null,
+  "uncertainty": null
+ },
+ "105": {
+  "symbol": "Db",
+  "value": null,
+  "uncertainty": null
+ },
+ "106": {
+  "symbol": "Sg",
+  "value": null,
+  "uncertainty": null
+ },
+ "107": {
+  "symbol": "Bh",
+  "value": null,
+  "uncertainty": null
+ },
+ "108": {
+  "symbol": "Hs",
+  "value": null,
+  "uncertainty": null
+ },
+ "109": {
+  "symbol": "Mt",
+  "value": null,
+  "uncertainty": null
+ },
+ "110": {
+  "symbol": "Ds",
+  "value": null,
+  "uncertainty": null
+ },
+ "111": {
+  "symbol": "Rg",
+  "value": null,
+  "uncertainty": null
+ },
+ "112": {
+  "symbol": "Cn",
+  "value": null,
+  "uncertainty": null
+ },
+ "113": {
+  "symbol": "Nh",
+  "value": null,
+  "uncertainty": null
+ },
+ "114": {
+  "symbol": "Fl",
+  "value": null,
+  "uncertainty": null
+ },
+ "115": {
+  "symbol": "Mc",
+  "value": null,
+  "uncertainty": null
+ },
+ "116": {
+  "symbol": "Lv",
+  "value": null,
+  "uncertainty": null
+ },
+ "117": {
+  "symbol": "Ts",
+  "value": null,
+  "uncertainty": null
+ },
+ "118": {
+  "symbol": "Og",
+  "value": null,
+  "uncertainty": null
+ }
+}

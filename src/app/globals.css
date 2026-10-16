@@ -1,0 +1,1076 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens follow the Atlassian Design System (as used by Jira), values
+ * from @atlaskit/tokens 20.x (atlassian-dark / atlassian-light themes).
+ * Dark is the default; light overrides live in :root[data-theme="light"].
+ * Element category colours are data, not chrome, and are not part of this.
+ */
+:root {
+  --background: #1f1f21; /* ds-surface */
+  --foreground: #cecfd2; /* ds-text */
+  --tile-base: #242528; /* ds-surface-raised */
+  --focus-ring: #8fb8f6; /* ds-border-focused */
+
+  /* Text, strongest → faintest (ds-text / -subtle / -subtlest) */
+  --text-strong: #dedfe2;
+  --text-1: #cecfd2;
+  --text-2: #a9abaf;
+  --text-3: #a9abaf;
+  --text-4: #96999e;
+
+  /* "ink" is the overlay colour for hairline fills (rgb triplet). */
+  --ink: 227 228 242;
+  --shadow: 1 4 4;
+  --shadow-k: 1;
+  --mix-toward: white;
+
+  --border: #e3e4f21f; /* ds-border */
+  --border-input: #7e8188; /* ds-border-input */
+  --hover-bg: #ceced912; /* ds-background-neutral-subtle-hovered */
+  --pressed-bg: #e3e4f21f; /* ds-background-neutral-subtle-pressed */
+  --neutral-bg: #ceced912; /* ds-background-neutral */
+
+  --surface: #242528; /* ds-surface-raised */
+  --surface-solid: #2b2c2f; /* ds-surface-overlay */
+  --sunken: #18191a; /* ds-surface-sunken */
+  --field: #242528; /* ds-background-input */
+  --field-focus: #8fb8f6;
+  --popover: #2b2c2f;
+  --navbar-bg: #1f1f21;
+  --drawer-bg: #2b2c2f;
+  --handle-bg: #2b2c2f;
+  --backdrop: #10121499; /* ds-blanket */
+  --glow-1: transparent;
+  --glow-2: transparent;
+  --shadow-overlay: 0 0 0 1px #bdbdbd1f, 0 8px 12px #0104045c, 0 0 1px 1px #01040480;
+
+  --brand: #669df1; /* ds-background-brand-bold */
+  --brand-hover: #8fb8f6;
+  --brand-text: #1f1f21; /* ds-text-inverse */
+  --accent-bg: #1c2b42; /* ds-background-selected */
+  --accent-bg-hover: #123263;
+  --accent-text: #669df1; /* ds-text-selected */
+  --accent-soft-text: #669df1;
+  --logo-text: #669df1;
+  --warn-text: #fbc828;
+  --warn-border: #fbc82866;
+
+  /* 3D viewports (canvas is transparent; this is the backdrop) */
+  --scene-bg: #18191a;
+  --scene-glow: #2b2c2f;
+
+  /* Category tint strength on element tiles */
+  --tile-mix: 16%;
+  --tile-mix-hover: 30%;
+  --tile-mix-selected: 42%;
+  --tile-border-mix: 40%;
+  /* Selection ring: the accent itself on dark, darkened on light. */
+  --tile-ring-mix: 100%;
+
+  /* ADS shape: radius-small for controls, radius-large for panels */
+  --radius-control: 0.25rem;
+  --radius-field: 0.375rem;
+  --radius-panel: 0.5rem;
+
+  /* Keep in sync with NAVBAR_HEIGHT_PX in components/layout/AppShell.tsx */
+  --navbar-h: 3rem;
+  --side-menu-w: 15rem;
+  --side-rail-w: 3.5rem;
+
+  /* Periodic grid sizing — container query units of .table-scaler */
+  --label-size: 1.6cqi;
+  --series-gap: 1.2cqi;
+
+  /*
+   * Tailwind palette mapped onto ADS neutrals so utility classes in the
+   * components (text-white headings, text-slate-400 secondary text,
+   * bg-white/5 fills…) follow the theme without per-component changes.
+   */
+  --color-white: #dedfe2;
+  --color-slate-100: #cecfd2;
+  --color-slate-200: #cecfd2;
+  --color-slate-300: #a9abaf;
+  --color-slate-400: #a9abaf;
+  --color-slate-500: #96999e;
+  --color-slate-600: #7e8188;
+  --color-sky-300: #669df1;
+  --color-amber-200: #fbc828;
+}
+
+:root[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #292a2e;
+  --tile-base: #ffffff;
+  --focus-ring: #4688ec;
+
+  --text-strong: #292a2e;
+  --text-1: #292a2e;
+  --text-2: #505258;
+  --text-3: #505258;
+  --text-4: #6b6e76;
+
+  --ink: 5 21 36;
+  --shadow: 30 31 33;
+  --shadow-k: 0.4;
+  --mix-toward: #292a2e;
+
+  --border: #0b120e24;
+  --border-input: #8c8f97;
+  --hover-bg: #0515240f;
+  --pressed-bg: #0b120e24;
+  --neutral-bg: #0515240f;
+
+  --surface: #f8f8f8; /* sunken panels on the white page */
+  --surface-solid: #ffffff;
+  --sunken: #f8f8f8;
+  --field: #ffffff;
+  --field-focus: #4688ec;
+  --popover: #ffffff;
+  --navbar-bg: #ffffff;
+  --drawer-bg: #ffffff;
+  --handle-bg: #f0f1f2;
+  --backdrop: #050c1f75;
+  --shadow-overlay: 0 8px 12px #1e1f2126, 0 0 1px #1e1f214f;
+
+  --brand: #1868db;
+  --brand-hover: #1558bc;
+  --brand-text: #ffffff;
+  --accent-bg: #e9f2fe;
+  --accent-bg-hover: #cfe1fd;
+  --accent-text: #1868db;
+  --accent-soft-text: #1868db;
+  --logo-text: #1868db;
+  --warn-text: #9e4c00;
+  --warn-border: #9e4c0066;
+
+  --scene-bg: #f0f1f2;
+  --scene-glow: #ffffff;
+
+  /* White page: lighter tints keep the table crisp rather than muddy. */
+  --tile-mix: 17%;
+  --tile-mix-hover: 32%;
+  --tile-mix-selected: 45%;
+  --tile-border-mix: 60%;
+  --tile-ring-mix: 55%;
+
+  --color-white: #292a2e;
+  --color-slate-100: #292a2e;
+  --color-slate-200: #292a2e;
+  --color-slate-300: #505258;
+  --color-slate-400: #505258;
+  --color-slate-500: #6b6e76;
+  --color-slate-600: #8c8f97;
+  --color-sky-300: #1868db;
+  --color-amber-200: #9e4c00;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* ADS font stack (Atlassian Sans is not publicly hosted) + Traditional Chinese */
+  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
+    "Noto Sans TC", "Microsoft JhengHei", Ubuntu, "Helvetica Neue", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  color-scheme: dark;
+  /* Solid canvas so the page background continues past the first screen. */
+  background-color: var(--background);
+}
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+body {
+  /*
+   * The glows are painted once at the top. Without no-repeat they tile every
+   * viewport height (html is h-full), leaving a lighter band further down.
+   */
+  background-color: var(--background);
+  background-image:
+    radial-gradient(1200px 600px at 15% -10%, var(--glow-1), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, var(--glow-2), transparent 60%);
+  background-repeat: no-repeat;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 0.875rem; /* ds-font-body */
+  line-height: 1.25rem;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Surfaces                                                                 */
+/* ------------------------------------------------------------------------ */
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-control);
+  padding: 0.375rem;
+  color: var(--text-3);
+  transition: background-color 120ms, color 120ms;
+}
+.icon-button:hover {
+  background: var(--hover-bg);
+  color: var(--text-strong);
+}
+.icon-button:focus-visible,
+.legend-item:focus-visible,
+.view-toggle > a:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ------------------------------------------------------------------------ */
+/* App shell: navbar + side menu (no border lines; separated by tone)        */
+/* ------------------------------------------------------------------------ */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  min-height: var(--navbar-h);
+  background: var(--navbar-bg);
+  border-bottom: 1px solid var(--border);
+}
+.navbar__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: var(--radius-control);
+  padding: 0.15rem 0.35rem 0.15rem 0.15rem;
+}
+.navbar__brand:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.navbar__logo {
+  display: grid;
+  width: 1.75rem;
+  height: 1.75rem;
+  place-items: center;
+  border-radius: var(--radius-control);
+  background: var(--brand);
+  color: var(--brand-text);
+}
+
+/* Desktop side menu (lg+). Below lg the menu lives in .menu-drawer. */
+.side-menu {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .side-menu {
+    position: sticky;
+    top: var(--navbar-h);
+    display: block;
+    width: var(--side-menu-w);
+    height: calc(100dvh - var(--navbar-h));
+    flex-shrink: 0;
+    overflow-y: auto;
+    padding: 0.75rem 0.5rem;
+    background: var(--navbar-bg);
+    transition: width 160ms ease;
+    border-right: 1px solid var(--border);
+  }
+}
+/* Space header (Jira "project" block) */
+.side-menu__space {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.25rem 0.5rem 0.5rem;
+}
+.side-menu__space-avatar {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: var(--radius-control);
+  background: linear-gradient(135deg, #8270db, #1868db);
+  color: #ffffff;
+}
+.side-menu__space-text {
+  min-width: 0;
+}
+.side-menu__section {
+  margin: 0 0 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 653;
+  letter-spacing: 0;
+  color: var(--text-4);
+}
+.side-menu__item {
+  display: flex;
+  min-height: 2rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-control);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-2);
+  transition:
+    background-color 120ms,
+    color 120ms;
+}
+a.side-menu__item:hover {
+  background: var(--hover-bg);
+  color: var(--text-1);
+}
+.side-menu__item {
+  position: relative;
+}
+/* Jira's selected-item marker on the leading edge */
+.side-menu__item[data-active]::before {
+  content: "";
+  position: absolute;
+  inset: 0.375rem auto 0.375rem 0;
+  width: 3px;
+  border-radius: 0 2px 2px 0;
+  background: var(--accent-text);
+}
+.side-menu__item[data-active] {
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  font-weight: 500;
+}
+.side-menu__item[aria-disabled="true"] {
+  cursor: not-allowed;
+  color: var(--text-4);
+}
+.side-menu__item:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+.side-menu__icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.side-menu__label {
+  min-width: 0;
+  flex: 1;
+  white-space: nowrap;
+}
+.side-menu__badge {
+  flex-shrink: 0;
+  border-radius: var(--radius-control);
+  background: var(--neutral-bg);
+  padding: 0.1rem 0.45rem;
+  font-size: 0.6875rem;
+  color: var(--text-2);
+  font-weight: 653;
+}
+
+/*
+ * Icon rail: explicit "collapsed", or "auto" below 1600px. Labels are clipped
+ * (not display:none) so links keep their accessible names.
+ */
+@media (min-width: 1024px) {
+  .app-shell[data-sidebar="collapsed"] .side-menu {
+    width: var(--side-rail-w);
+  }
+  .app-shell[data-sidebar="collapsed"] :is(.side-menu__item, .side-menu__space) {
+    justify-content: center;
+    padding-inline: 0;
+  }
+  .app-shell[data-sidebar="collapsed"] .side-menu__section {
+    margin-left: 0;
+    text-align: center;
+    font-size: 0.625rem;
+    letter-spacing: 0;
+  }
+  .app-shell[data-sidebar="collapsed"] :is(.side-menu__label, .side-menu__badge, .side-menu__space-text) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1599.98px) {
+  .app-shell[data-sidebar="auto"] .side-menu {
+    width: var(--side-rail-w);
+  }
+  .app-shell[data-sidebar="auto"] :is(.side-menu__item, .side-menu__space) {
+    justify-content: center;
+    padding-inline: 0;
+  }
+  .app-shell[data-sidebar="auto"] .side-menu__section {
+    margin-left: 0;
+    text-align: center;
+    font-size: 0.625rem;
+    letter-spacing: 0;
+  }
+  .app-shell[data-sidebar="auto"] :is(.side-menu__label, .side-menu__badge, .side-menu__space-text) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+/* Mobile drawer (below lg) */
+.menu-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+.menu-drawer__backdrop {
+  position: absolute;
+  inset: 0;
+  background: var(--backdrop);
+}
+.menu-drawer__panel {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: min(18rem, 85vw);
+  overflow-y: auto;
+  padding: 0.9rem 0.75rem;
+  background: var(--drawer-bg);
+  box-shadow: var(--shadow-overlay);
+}
+
+/* Breadcrumbs (Jira page header) */
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-3);
+}
+
+/* ------------------------------------------------------------------------ */
+/* Periodic grid                                                            */
+/* ------------------------------------------------------------------------ */
+
+.table-scroll {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  /* Room so focus rings and the selection glow are not clipped. */
+  padding: 0.25rem;
+  scrollbar-color: rgb(var(--ink) / 0.15) transparent;
+}
+
+/*
+ * The whole table scales with its container (like a camera fitting the
+ * scene): tile size, type and spacing are all in cqi. Below the min-width
+ * tiles would become unreadable, so narrow screens scroll horizontally;
+ * px floors on the type keep labels legible at that minimum.
+ */
+.table-scaler {
+  container-type: inline-size;
+  min-width: 44rem;
+}
+
+.periodic-grid {
+  display: grid;
+  gap: 0.28cqi;
+}
+
+.grid-axis-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75cqi;
+  color: var(--text-4);
+  font-variant-numeric: tabular-nums;
+  padding-bottom: 0.2cqi;
+}
+
+.element-tile {
+  --tile-ring: color-mix(in srgb, var(--cat) var(--tile-ring-mix), var(--mix-toward));
+  position: relative;
+  display: flex;
+  aspect-ratio: 1 / 1.2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  border: 1px solid color-mix(in srgb, var(--cat) var(--tile-border-mix), transparent);
+  background: color-mix(in srgb, var(--cat) var(--tile-mix), var(--tile-base));
+  color: var(--text-strong);
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color 120ms,
+    border-color 120ms,
+    opacity 160ms,
+    transform 120ms,
+    box-shadow 120ms;
+}
+.element-tile__number {
+  position: absolute;
+  top: 0.35cqi;
+  left: 0.4cqi;
+  font-size: max(0.85cqi, 8px);
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+.element-tile__symbol {
+  margin-top: 0.6cqi;
+  font-size: max(1.9cqi, 15px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.element-tile__name {
+  margin-top: 0.3cqi;
+  font-size: max(1.15cqi, 10px);
+  color: var(--text-1);
+}
+
+@media (hover: hover) {
+  .element-tile:hover {
+    background: color-mix(in srgb, var(--cat) var(--tile-mix-hover), var(--tile-base));
+    border-color: var(--cat);
+    transform: translateY(-1px);
+    z-index: 1;
+  }
+}
+.element-tile:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  z-index: 2;
+}
+.element-tile[data-selected] {
+  background: color-mix(in srgb, var(--cat) var(--tile-mix-selected), var(--tile-base));
+  border-color: var(--cat);
+  border-color: var(--tile-ring);
+  box-shadow:
+    0 0 0 2px var(--tile-ring),
+    0 0 18px color-mix(in srgb, var(--cat) 45%, transparent);
+  z-index: 2;
+}
+.element-tile[data-dimmed]:not([data-selected]) {
+  opacity: 0.22;
+}
+
+.series-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3cqi;
+  border-radius: 0;
+  border: 1px dashed color-mix(in srgb, var(--cat) 45%, transparent);
+  color: color-mix(in srgb, var(--cat) 70%, var(--mix-toward));
+  font-size: 0.8cqi;
+  text-align: center;
+}
+.series-placeholder__range {
+  font-variant-numeric: tabular-nums;
+}
+.series-row-label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.6cqi;
+  font-size: 0.95cqi;
+  color: color-mix(in srgb, var(--cat) 70%, var(--mix-toward));
+}
+
+/* ------------------------------------------------------------------------ */
+/* Legend                                                                   */
+/* ------------------------------------------------------------------------ */
+
+.legend-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--border);
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8125rem;
+  color: var(--text-1);
+  transition:
+    background-color 120ms,
+    border-color 120ms,
+    opacity 120ms;
+}
+.legend-item:hover {
+  background: color-mix(in srgb, var(--cat) 12%, transparent);
+}
+.legend-item[data-active] {
+  border-color: var(--cat);
+  background: color-mix(in srgb, var(--cat) 18%, transparent);
+}
+.legend-item[data-muted] {
+  opacity: 0.5;
+}
+.legend-item__swatch {
+  width: 0.7rem;
+  height: 0.7rem;
+  flex-shrink: 0;
+  border-radius: var(--radius-control);
+  background: var(--cat);
+}
+
+/* ------------------------------------------------------------------------ */
+/* Search                                                                   */
+/* ------------------------------------------------------------------------ */
+
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-field);
+  border: 1px solid var(--border-input);
+  background: var(--field);
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  transition: border-color 120ms, box-shadow 120ms;
+}
+.search-field:focus-within {
+  border-color: var(--field-focus);
+  box-shadow: inset 0 0 0 1px var(--field-focus);
+}
+.search-results {
+  position: absolute;
+  z-index: 30;
+  margin-top: 0.375rem;
+  max-height: 22rem;
+  width: 100%;
+  overflow-y: auto;
+  border-radius: var(--radius-panel);
+  border: none;
+  background: var(--popover);
+  padding: 0.25rem;
+  box-shadow: var(--shadow-overlay);
+}
+.search-result {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: var(--radius-control);
+  padding: 0.45rem 0.6rem;
+}
+.search-result[data-active] {
+  background: var(--hover-bg);
+}
+.search-result__symbol {
+  display: flex;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  border: 1px solid color-mix(in srgb, var(--cat) 55%, transparent);
+  background: color-mix(in srgb, var(--cat) 18%, var(--tile-base));
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+/* ------------------------------------------------------------------------ */
+/* View toggle                                                              */
+/* ------------------------------------------------------------------------ */
+
+.view-toggle {
+  display: inline-flex;
+  flex-shrink: 0;
+  border-radius: var(--radius-control);
+  border: none;
+  background: var(--neutral-bg);
+  padding: 0.125rem;
+}
+.view-toggle > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: var(--radius-control);
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+  transition:
+    background-color 120ms,
+    color 120ms;
+  font-weight: 500;
+}
+.view-toggle > a:hover {
+  color: var(--text-1);
+}
+.view-toggle > a[data-active] {
+  background: var(--surface-solid);
+  color: var(--accent-text);
+  box-shadow: 0 1px 1px rgb(var(--shadow) / calc(0.25 * var(--shadow-k))), 0 0 1px rgb(var(--shadow) / calc(0.3 * var(--shadow-k)));
+}
+
+/* Segmented control (3D layout switcher) */
+.segmented {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  border-radius: var(--radius-control);
+  background: var(--neutral-bg);
+  padding: 0.125rem;
+  border: none;
+}
+.segmented > button {
+  border-radius: var(--radius-control);
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+  transition:
+    background-color 120ms,
+    color 120ms;
+  font-weight: 500;
+}
+.segmented > button:hover {
+  color: var(--text-1);
+}
+.segmented > button[data-active] {
+  background: var(--surface-solid);
+  color: var(--accent-text);
+  box-shadow: 0 1px 1px rgb(var(--shadow) / calc(0.25 * var(--shadow-k))), 0 0 1px rgb(var(--shadow) / calc(0.3 * var(--shadow-k)));
+}
+.segmented > button:focus-visible,
+.scene-select:focus-visible,
+.scene-fallback-action:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.scene-select {
+  max-width: 14rem;
+  border-radius: var(--radius-field);
+  background: var(--field);
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--text-1);
+  border: 1px solid var(--border-input);
+}
+.scene-fallback-action {
+  border-radius: var(--radius-control);
+  background: var(--brand);
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8125rem;
+  color: var(--brand-text);
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Details panel                                                            */
+/* ------------------------------------------------------------------------ */
+
+.details-panel {
+  border-radius: var(--radius-panel);
+  background: var(--surface);
+  padding: 1.25rem;
+}
+/* Draggable wrapper around the details panel (no border lines). */
+.floating-panel {
+  position: relative;
+  border-radius: var(--radius-panel);
+  transition: box-shadow 160ms;
+}
+/*
+ * Torn off: fixed to the viewport (left/top set inline), scrolls internally
+ * if taller than the window. Stacking above the table comes from the <aside>.
+ */
+.floating-panel[data-floating] {
+  position: fixed;
+  width: 23rem;
+  max-height: calc(100dvh - 1rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  box-shadow: var(--shadow-overlay);
+}
+/* Opaque while floating so the table underneath does not show through. */
+.floating-panel[data-floating] .details-panel {
+  background: var(--surface-solid);
+}
+/* Keep the handle reachable while the floating panel scrolls. */
+.floating-panel[data-floating] .panel-handle {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.panel-handle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-radius: var(--radius-panel) var(--radius-panel) 0 0;
+  background: var(--handle-bg);
+  padding: 0.35rem 0.5rem 0.35rem 0.75rem;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+.panel-handle:active {
+  cursor: grabbing;
+}
+.panel-handle + .details-panel {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.panel-handle__grip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: var(--radius-control);
+  padding: 0.15rem 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-3);
+  cursor: inherit;
+}
+.panel-handle__reset {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: var(--radius-control);
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--accent-soft-text);
+  cursor: pointer;
+}
+.panel-handle__reset:hover {
+  background: var(--hover-bg);
+}
+.panel-handle__grip:focus-visible,
+.panel-handle__reset:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+
+.details-panel--empty {
+  padding: 1.75rem 1.5rem;
+}
+.details-symbol {
+  display: flex;
+  width: 5rem;
+  height: 5.25rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0;
+  border: 1px solid var(--cat);
+  background: color-mix(in srgb, var(--cat) 22%, var(--tile-base));
+  padding: 0.4rem 0.55rem 0.6rem;
+}
+.category-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: var(--radius-control);
+  border: none;
+  background: color-mix(in srgb, var(--cat) 28%, transparent);
+  padding: 0.125rem 0.375rem;
+  font-size: 0.6875rem;
+  color: var(--text-strong);
+  font-weight: 653;
+  line-height: 1rem;
+}
+.predicted-badge {
+  border-radius: var(--radius-control);
+  border: none;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.6875rem;
+  color: var(--warn-text);
+  font-weight: 653;
+  line-height: 1rem;
+  background: color-mix(in srgb, var(--warn-text) 18%, transparent);
+}
+.element-photo {
+  margin-top: 1rem;
+}
+.element-photo__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+  object-fit: contain;
+  border-radius: var(--radius-control);
+  background: var(--sunken);
+}
+.element-photo--empty {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-control);
+  background: var(--neutral-bg);
+  padding: 0.6rem 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--text-3);
+}
+.element-photo__link {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.element-photo__link:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.fact {
+  border-radius: var(--radius-control);
+  background: var(--neutral-bg);
+  padding: 0.5rem 0.65rem;
+}
+.shell-bar {
+  height: 0.4rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(var(--ink) / 0.06);
+}
+.shell-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--cat);
+}
+
+/* ------------------------------------------------------------------------ */
+/* 3D scenes                                                                */
+/* ------------------------------------------------------------------------ */
+
+.atom-toggle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--border);
+  background: transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--text-1);
+  transition: background-color 120ms, border-color 120ms;
+}
+.atom-toggle:hover {
+  border-color: var(--border-input);
+  background: var(--hover-bg);
+}
+.atom-toggle:focus-visible,
+.atom-control:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.atom-toggle [data-open] {
+  transform: rotate(180deg);
+}
+.scene-canvas {
+  position: relative;
+  overflow: hidden;
+}
+.scene-canvas canvas {
+  touch-action: none;
+}
+.atom-canvas {
+  height: 15.5rem;
+  margin-block: 0.625rem;
+  border-radius: var(--radius-panel);
+  border: none;
+  background: radial-gradient(ellipse at center, var(--scene-glow) 0%, var(--scene-bg) 72%);
+}
+.table-scene {
+  height: clamp(26rem, 74vh, 52rem);
+  border-radius: var(--radius-panel);
+  background: radial-gradient(ellipse at center, var(--scene-glow) 0%, var(--scene-bg) 75%);
+}
+.scene-message {
+  display: flex;
+  height: 100%;
+  min-height: 8rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.25rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  color: var(--text-3);
+}
+.atom-control {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: var(--radius-control);
+  border: none;
+  background: var(--neutral-bg);
+  color: var(--text-2);
+  transition: background-color 120ms, color 120ms;
+}
+.atom-control:hover:not(:disabled) {
+  color: var(--text-1);
+  background: var(--pressed-bg);
+}
+.atom-control:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+
+.bopomofo {
+  white-space: nowrap;
+}
+/* Tone marks render tiny in CJK fonts; scale them up without moving the baseline. */
+.bopomofo__tone {
+  display: inline-block;
+  margin-left: 0.05em;
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 0;
+  vertical-align: -0.18em;
+}
+.bopomofo__tone--light {
+  margin-left: 0;
+  margin-right: 0.05em;
+}
+
+/* Character with vertical Zhuyin on its right, as in Taiwanese textbooks. */
+.details-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.12em;
+  vertical-align: middle;
+}
+.bopomofo-v {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* Leave room on the right for the tone mark. */
+  margin-right: 0.55em;
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 1.05;
+  color: var(--text-2);
+}
+.bopomofo-v__letter {
+  display: block;
+}
+/* ˊˇˋ sit at the upper right of the last letter (MOE vertical-Zhuyin convention). */
+.bopomofo-v__tone {
+  position: absolute;
+  left: 100%;
+  /* em here is the enlarged mark's own size, hence the division. */
+  top: calc(((var(--letters) - 1) * 1.05em - 0.3em) / 1.5);
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1;
+}
+/* The light-tone dot sits above the column. */
+.bopomofo-v__light {
+  display: block;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 0.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

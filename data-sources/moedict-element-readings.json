@@ -1,0 +1,417 @@
+{
+ "_source": "教育部《重編國語辭典修訂本》，經 g0v 萌典 API（https://www.moedict.tw/raw/<字>）逐字查詢，2026-10-16 取得。僅收錄釋義標明「化學元素」的讀音；104–118 號元素辭典未收錄。用於交叉核對國家教育研究院資料。",
+ "readings": {
+  "1": {
+   "nameZh": "氫",
+   "bopomofo": "ㄑㄧㄥ"
+  },
+  "2": {
+   "nameZh": "氦",
+   "bopomofo": "ㄏㄞˋ"
+  },
+  "3": {
+   "nameZh": "鋰",
+   "bopomofo": "ㄌㄧˇ"
+  },
+  "4": {
+   "nameZh": "鈹",
+   "bopomofo": "ㄆㄧˊ"
+  },
+  "5": {
+   "nameZh": "硼",
+   "bopomofo": "ㄆㄥˊ"
+  },
+  "6": {
+   "nameZh": "碳",
+   "bopomofo": "ㄊㄢˋ"
+  },
+  "7": {
+   "nameZh": "氮",
+   "bopomofo": "ㄉㄢˋ"
+  },
+  "8": {
+   "nameZh": "氧",
+   "bopomofo": "ㄧㄤˇ"
+  },
+  "9": {
+   "nameZh": "氟",
+   "bopomofo": "ㄈㄨˊ"
+  },
+  "10": {
+   "nameZh": "氖",
+   "bopomofo": "ㄋㄞˇ"
+  },
+  "11": {
+   "nameZh": "鈉",
+   "bopomofo": "ㄋㄚˋ"
+  },
+  "12": {
+   "nameZh": "鎂",
+   "bopomofo": "ㄇㄟˇ"
+  },
+  "13": {
+   "nameZh": "鋁",
+   "bopomofo": "ㄌㄩˇ"
+  },
+  "14": {
+   "nameZh": "矽",
+   "bopomofo": "ㄒㄧˋ"
+  },
+  "15": {
+   "nameZh": "磷",
+   "bopomofo": "ㄌㄧㄣˊ"
+  },
+  "16": {
+   "nameZh": "硫",
+   "bopomofo": "ㄌㄧㄡˊ"
+  },
+  "17": {
+   "nameZh": "氯",
+   "bopomofo": "ㄌㄩˋ"
+  },
+  "18": {
+   "nameZh": "氬",
+   "bopomofo": "ㄧㄚˇ"
+  },
+  "19": {
+   "nameZh": "鉀",
+   "bopomofo": "ㄐㄧㄚˇ"
+  },
+  "20": {
+   "nameZh": "鈣",
+   "bopomofo": "ㄍㄞˋ"
+  },
+  "21": {
+   "nameZh": "鈧",
+   "bopomofo": "ㄎㄤˋ"
+  },
+  "22": {
+   "nameZh": "鈦",
+   "bopomofo": "ㄊㄞˋ"
+  },
+  "23": {
+   "nameZh": "釩",
+   "bopomofo": "ㄈㄢˊ"
+  },
+  "24": {
+   "nameZh": "鉻",
+   "bopomofo": "ㄍㄜˋ"
+  },
+  "25": {
+   "nameZh": "錳",
+   "bopomofo": "ㄇㄥˇ"
+  },
+  "26": {
+   "nameZh": "鐵",
+   "bopomofo": "ㄊㄧㄝˇ"
+  },
+  "27": {
+   "nameZh": "鈷",
+   "bopomofo": "ㄍㄨ"
+  },
+  "28": {
+   "nameZh": "鎳",
+   "bopomofo": "ㄋㄧㄝˋ"
+  },
+  "29": {
+   "nameZh": "銅",
+   "bopomofo": "ㄊㄨㄥˊ"
+  },
+  "30": {
+   "nameZh": "鋅",
+   "bopomofo": "ㄒㄧㄣ"
+  },
+  "31": {
+   "nameZh": "鎵",
+   "bopomofo": "ㄐㄧㄚ"
+  },
+  "32": {
+   "nameZh": "鍺",
+   "bopomofo": "ㄓㄜˇ"
+  },
+  "33": {
+   "nameZh": "砷",
+   "bopomofo": "ㄕㄣ"
+  },
+  "34": {
+   "nameZh": "硒",
+   "bopomofo": "ㄒㄧ"
+  },
+  "35": {
+   "nameZh": "溴",
+   "bopomofo": "ㄒㄧㄡˋ"
+  },
+  "36": {
+   "nameZh": "氪",
+   "bopomofo": "ㄎㄜˋ"
+  },
+  "37": {
+   "nameZh": "銣",
+   "bopomofo": "ㄖㄨˊ"
+  },
+  "38": {
+   "nameZh": "鍶",
+   "bopomofo": "ㄙ"
+  },
+  "39": {
+   "nameZh": "釔",
+   "bopomofo": "ㄧˇ"
+  },
+  "40": {
+   "nameZh": "鋯",
+   "bopomofo": "ㄍㄠˋ"
+  },
+  "41": {
+   "nameZh": "鈮",
+   "bopomofo": "ㄋㄧˊ"
+  },
+  "42": {
+   "nameZh": "鉬",
+   "bopomofo": "ㄇㄨˋ"
+  },
+  "43": {
+   "nameZh": "鎝",
+   "bopomofo": "ㄊㄚˇ"
+  },
+  "44": {
+   "nameZh": "釕",
+   "bopomofo": "ㄌㄧㄠˇ"
+  },
+  "45": {
+   "nameZh": "銠",
+   "bopomofo": "ㄌㄠˇ"
+  },
+  "46": {
+   "nameZh": "鈀",
+   "bopomofo": "ㄅㄚ"
+  },
+  "47": {
+   "nameZh": "銀",
+   "bopomofo": "ㄧㄣˊ"
+  },
+  "48": {
+   "nameZh": "鎘",
+   "bopomofo": "ㄍㄜˊ"
+  },
+  "49": {
+   "nameZh": "銦",
+   "bopomofo": "ㄧㄣ"
+  },
+  "50": {
+   "nameZh": "錫",
+   "bopomofo": "ㄒㄧˊ"
+  },
+  "51": {
+   "nameZh": "銻",
+   "bopomofo": "ㄊㄧˋ"
+  },
+  "52": {
+   "nameZh": "碲",
+   "bopomofo": "ㄉㄧˋ"
+  },
+  "53": {
+   "nameZh": "碘",
+   "bopomofo": "ㄉㄧㄢˇ"
+  },
+  "54": {
+   "nameZh": "氙",
+   "bopomofo": "ㄒㄧㄢ"
+  },
+  "55": {
+   "nameZh": "銫",
+   "bopomofo": "ㄙㄜˋ"
+  },
+  "56": {
+   "nameZh": "鋇",
+   "bopomofo": "ㄅㄟˋ"
+  },
+  "57": {
+   "nameZh": "鑭",
+   "bopomofo": "ㄌㄢˊ"
+  },
+  "58": {
+   "nameZh": "鈰",
+   "bopomofo": "ㄕˋ"
+  },
+  "59": {
+   "nameZh": "鐠",
+   "bopomofo": "ㄆㄨˇ"
+  },
+  "60": {
+   "nameZh": "釹",
+   "bopomofo": "ㄋㄩˇ"
+  },
+  "61": {
+   "nameZh": "鉕",
+   "bopomofo": "ㄆㄛˇ"
+  },
+  "62": {
+   "nameZh": "釤",
+   "bopomofo": "ㄕㄢ"
+  },
+  "63": {
+   "nameZh": "銪",
+   "bopomofo": "ㄧㄡˇ"
+  },
+  "64": {
+   "nameZh": "釓",
+   "bopomofo": "ㄍㄚˊ"
+  },
+  "65": {
+   "nameZh": "鋱",
+   "bopomofo": "ㄊㄜˋ"
+  },
+  "66": {
+   "nameZh": "鏑",
+   "bopomofo": "ㄉㄧ"
+  },
+  "67": {
+   "nameZh": "鈥",
+   "bopomofo": "ㄏㄨㄛˇ"
+  },
+  "68": {
+   "nameZh": "鉺",
+   "bopomofo": "ㄦˇ"
+  },
+  "69": {
+   "nameZh": "銩",
+   "bopomofo": "ㄉㄧㄡ"
+  },
+  "70": {
+   "nameZh": "鐿",
+   "bopomofo": "ㄧˋ"
+  },
+  "71": {
+   "nameZh": "鎦",
+   "bopomofo": "ㄌㄧㄡˊ"
+  },
+  "72": {
+   "nameZh": "鉿",
+   "bopomofo": "ㄏㄚ"
+  },
+  "73": {
+   "nameZh": "鉭",
+   "bopomofo": "ㄉㄢˋ"
+  },
+  "74": {
+   "nameZh": "鎢",
+   "bopomofo": "ㄨ"
+  },
+  "75": {
+   "nameZh": "錸",
+   "bopomofo": "ㄌㄞˊ"
+  },
+  "76": {
+   "nameZh": "鋨",
+   "bopomofo": "ㄜˊ"
+  },
+  "77": {
+   "nameZh": "銥",
+   "bopomofo": "ㄧ"
+  },
+  "78": {
+   "nameZh": "鉑",
+   "bopomofo": "ㄅㄛˊ"
+  },
+  "79": {
+   "nameZh": "金",
+   "bopomofo": "ㄐㄧㄣ"
+  },
+  "80": {
+   "nameZh": "汞",
+   "bopomofo": "ㄍㄨㄥˇ"
+  },
+  "81": {
+   "nameZh": "鉈",
+   "bopomofo": "ㄊㄚ"
+  },
+  "82": {
+   "nameZh": "鉛",
+   "bopomofo": "ㄑㄧㄢ"
+  },
+  "83": {
+   "nameZh": "鉍",
+   "bopomofo": "ㄅㄧˋ"
+  },
+  "84": {
+   "nameZh": "釙",
+   "bopomofo": "ㄆㄛˋ"
+  },
+  "85": {
+   "nameZh": "砈",
+   "bopomofo": "ㄜˋ"
+  },
+  "86": {
+   "nameZh": "氡",
+   "bopomofo": "ㄉㄨㄥ"
+  },
+  "87": {
+   "nameZh": "鍅",
+   "bopomofo": "ㄈㄚˇ"
+  },
+  "88": {
+   "nameZh": "鐳",
+   "bopomofo": "ㄌㄟˊ"
+  },
+  "89": {
+   "nameZh": "錒",
+   "bopomofo": "ㄚ"
+  },
+  "90": {
+   "nameZh": "釷",
+   "bopomofo": "ㄊㄨˇ"
+  },
+  "91": {
+   "nameZh": "鏷",
+   "bopomofo": "ㄆㄨˊ"
+  },
+  "92": {
+   "nameZh": "鈾",
+   "bopomofo": "ㄧㄡˋ"
+  },
+  "93": {
+   "nameZh": "錼",
+   "bopomofo": "ㄋㄞˋ"
+  },
+  "94": {
+   "nameZh": "鈽",
+   "bopomofo": "ㄅㄨˋ"
+  },
+  "95": {
+   "nameZh": "鋂",
+   "bopomofo": "ㄇㄟˊ"
+  },
+  "96": {
+   "nameZh": "鋦",
+   "bopomofo": "ㄐㄩˊ"
+  },
+  "97": {
+   "nameZh": "鉳",
+   "bopomofo": "ㄅㄟˇ"
+  },
+  "98": {
+   "nameZh": "鉲",
+   "bopomofo": "ㄎㄚˇ"
+  },
+  "99": {
+   "nameZh": "鑀",
+   "bopomofo": "ㄞˋ"
+  },
+  "100": {
+   "nameZh": "鐨",
+   "bopomofo": "ㄈㄟˋ"
+  },
+  "101": {
+   "nameZh": "鍆",
+   "bopomofo": "ㄇㄣˊ"
+  },
+  "102": {
+   "nameZh": "鍩",
+   "bopomofo": "ㄋㄨㄛˋ"
+  },
+  "103": {
+   "nameZh": "鐒",
+   "bopomofo": "ㄌㄠˊ"
+  }
+ }
+}
