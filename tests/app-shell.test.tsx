@@ -50,7 +50,8 @@ describe("AppShell", () => {
     const nav = screen.getByRole("navigation", { name: "主選單" });
     expect(within(nav).getByRole("link", { name: /元素週期表/ })).toHaveAttribute("aria-current", "page");
     expect(within(nav).getByRole("link", { name: /3D 週期表/ })).toHaveAttribute("href", "/3d");
-    for (const label of ["元素故事", "週期表遊戲"]) {
+    expect(within(nav).getByRole("link", { name: /元素故事/ })).toHaveAttribute("href", "/stories");
+    for (const label of ["週期表遊戲"]) {
       const item = within(nav).getByText(label).closest(".side-menu__item")!;
       expect(item, label).toHaveAttribute("aria-disabled", "true");
       expect(item.tagName, label).not.toBe("A");

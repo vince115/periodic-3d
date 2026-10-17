@@ -37,7 +37,8 @@ export function useElements(elements: readonly ChemicalElement[] = ELEMENTS) {
   const isDimmed = useCallback(
     (el: ChemicalElement) =>
       (matchingNumbers !== null && !matchingNumbers.has(el.number)) ||
-      (highlightedCategory !== null && el.category !== highlightedCategory),
+      // Tags are non-exclusive: e.g. lutetium lights up for both lanthanides and transition metals.
+      (highlightedCategory !== null && !el.categoryTags.some((t) => t.id === highlightedCategory)),
     [matchingNumbers, highlightedCategory],
   );
 

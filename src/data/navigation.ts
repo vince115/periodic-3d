@@ -47,9 +47,10 @@ export const NAV_SECTIONS: readonly NavSection[] = [
       {
         id: "element-stories",
         label: "元素故事",
-        description: "元素的發現歷史與生活應用介紹",
+        description: "元素分類導讀與元素的科學故事",
         icon: BookOpen,
-        status: "coming-soon",
+        href: "/stories",
+        status: "available",
       },
     ],
   },

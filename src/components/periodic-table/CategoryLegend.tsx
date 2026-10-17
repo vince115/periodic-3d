@@ -14,7 +14,10 @@ interface CategoryLegendProps {
 export function CategoryLegend({ elements, highlighted, onToggle }: CategoryLegendProps) {
   const counts = useMemo(() => {
     const map = new Map<ElementCategoryId, number>();
-    for (const el of elements) map.set(el.category, (map.get(el.category) ?? 0) + 1);
+    // Counts tag memberships, so the totals can exceed 118 (tags overlap).
+    for (const el of elements) {
+      for (const tag of el.categoryTags) map.set(tag.id, (map.get(tag.id) ?? 0) + 1);
+    }
     return map;
   }, [elements]);
 
@@ -24,7 +27,7 @@ export function CategoryLegend({ elements, highlighted, onToggle }: CategoryLege
         <h2 id="legend-heading" className="text-xs font-medium tracking-wide text-slate-400">
           元素分類
         </h2>
-        <p className="text-xs text-slate-500">點選分類以標示對應元素</p>
+        <p className="text-xs text-slate-500">顏色為主要分類；點選可標示元素並閱讀分類導讀（分類可重疊）</p>
       </div>
       <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-5">
         {ELEMENT_CATEGORIES.map((category) => (

@@ -19,7 +19,9 @@ describe("PeriodicExplorer", () => {
     await user.click(tile(/^26 號元素 鐵/));
 
     const details = screen.getByRole("article");
-    expect(within(details).getByRole("heading", { level: 2 })).toHaveTextContent("鐵ㄊㄧㄝˇIron");
+    expect(within(details).getByRole("heading", { level: 2 })).toHaveTextContent(/^鐵.*Iron$/);
+    // Screen readers get the Zhuyin with its tone spelled out.
+    expect(within(details).getByRole("heading", { level: 2 })).toHaveTextContent("ㄊㄧㄝˇ（三聲）");
     expect(details).toHaveTextContent("55.845");
     expect(details).toHaveTextContent("過渡金屬");
     expect(details).toHaveTextContent("音同「帖」");
@@ -110,5 +112,50 @@ describe("PeriodicExplorer", () => {
     await user.click(screen.getByRole("button", { name: /^稀有氣體/ }));
     expect(tile(/^10 號元素 氖/)).not.toHaveAttribute("data-dimmed");
     expect(tile(/^11 號元素 鈉/)).toHaveAttribute("data-dimmed");
+  });
+
+  it("opens a category guide from the legend and highlights every tagged element", async () => {
+    const user = userEvent.setup();
+    render(<PeriodicExplorer />);
+    await user.click(screen.getByRole("button", { name: /^過渡金屬/ }));
+    expect(screen.getByRole("heading", { name: "週期表中央的大家族" })).toBeInTheDocument();
+    // Tags overlap: lutetium is a lanthanide that also carries the transition-metal tag.
+    expect(tile(/^71 號元素/)).not.toHaveAttribute("data-dimmed");
+    expect(tile(/^26 號元素 鐵/)).not.toHaveAttribute("data-dimmed");
+    expect(tile(/^11 號元素 鈉/)).toHaveAttribute("data-dimmed");
+
+    // A second click clears the highlight and closes the guide.
+    await user.click(screen.getByRole("button", { name: /^過渡金屬/ }));
+    expect(screen.queryByRole("heading", { name: "週期表中央的大家族" })).toBeNull();
+    expect(tile(/^11 號元素 鈉/)).not.toHaveAttribute("data-dimmed");
+  });
+
+  it("shows primary and secondary tags, and opens a guide from a tag", async () => {
+    const user = userEvent.setup();
+    render(<PeriodicExplorer />);
+    await user.click(tile(/^71 號元素/));
+    const tags = screen.getByRole("list", { name: "分類標籤" });
+    expect(within(tags).getAllByRole("button")).toHaveLength(2);
+    expect(within(tags).getByRole("button", { name: /主要分類：鑭系/ })).toBeInTheDocument();
+    expect(within(tags).getByRole("button", { name: /同時屬於：過渡金屬/ })).toBeInTheDocument();
+    await user.click(within(tags).getByRole("button", { name: /主要分類：鑭系/ }));
+    expect(screen.getByRole("heading", { name: "性質相近的十五個元素" })).toBeInTheDocument();
+  });
+
+  it("reads an element story and goes back to the details", async () => {
+    const user = userEvent.setup();
+    render(<PeriodicExplorer />);
+    await user.click(tile(/^1 號元素 氫/));
+    await user.click(screen.getByRole("button", { name: /科學故事.*宇宙最初的元素/ }));
+    expect(screen.getByRole("heading", { name: "宇宙最初的元素" })).toBeInTheDocument();
+    expect(screen.getByText("已對照來源")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /CIAAW.*Hydrogen/ })).toHaveAttribute("href", "https://www.ciaaw.org/hydrogen.htm");
+
+    // Related element links select that element.
+    await user.click(screen.getByRole("button", { name: "8 O 氧" }));
+    expect(screen.getByRole("article")).toHaveTextContent("Oxygen");
+
+    await user.click(tile(/^26 號元素 鐵/));
+    expect(screen.getByText(/鐵的科學故事撰寫中/)).toBeInTheDocument();
   });
 });

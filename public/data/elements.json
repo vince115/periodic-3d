@@ -49,6 +49,15 @@
         ]
       },
       {
+        "id": "iupac-redbook-2005",
+        "label": "IUPAC Nomenclature of Inorganic Chemistry 2005（Red Book）§IR-3.5",
+        "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf",
+        "usedFor": [
+          "categoryTags",
+          "familyTags"
+        ]
+      },
+      {
         "id": "wikimedia-commons",
         "label": "Wikimedia Commons（經 Wikidata P18，即維基百科資訊框照片）",
         "url": "https://commons.wikimedia.org/",
@@ -110,6 +119,21 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": "氫位於第 1 族，但 IUPAC 的鹼金屬名單（Li、Na、K、Rb、Cs、Fr）不含氫；氫在一般條件下是雙原子分子的非金屬氣體。",
+      "relatedElementNumbers": [
+        2,
+        3
+      ],
       "notesZh": [
         "氫位於第 1 族，但屬於非金屬，並非鹼金屬。"
       ]
@@ -138,6 +162,21 @@
       "summaryZh": "化學性質極不活潑的稀有氣體，密度比空氣小。常用於填充氣球與飛艇，液態氦則用於超導磁體等極低溫冷卻。",
       "image": null,
       "imageNoteZh": "目前沒有可呈現元素本身、且授權允許使用的照片。",
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        1,
+        10
+      ],
       "notesZh": [
         "氦在版面上置於第 18 族（稀有氣體），但其電子排布屬於 s 區。"
       ]
@@ -176,6 +215,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Purified_lithium_in_an_ampoule_under_argon,_dark_background.png"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkali-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        1,
+        4,
+        11
+      ],
       "notesZh": []
     },
     {
@@ -212,6 +267,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beryllium_nuggets_2.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkaline-earth-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        3,
+        5,
+        12
+      ],
       "notesZh": []
     },
     {
@@ -248,6 +319,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boron.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metalloid",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        4,
+        6,
+        13
+      ],
       "notesZh": []
     },
     {
@@ -284,6 +371,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coal_anthracite.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        5,
+        7,
+        14
+      ],
       "notesZh": []
     },
     {
@@ -320,6 +423,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fluessiger_Stickstoff.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "pnictogen"
+      ],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        6,
+        8,
+        15
+      ],
       "notesZh": []
     },
     {
@@ -356,6 +477,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liquid_oxygen_in_a_beaker_4.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "chalcogen"
+      ],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        7,
+        9,
+        16
+      ],
       "notesZh": []
     },
     {
@@ -392,6 +531,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liquid_fluorine_tighter_crop.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "halogen",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        8,
+        10,
+        17
+      ],
       "notesZh": []
     },
     {
@@ -428,6 +583,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:NeTube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        2,
+        9,
+        18
+      ],
       "notesZh": []
     },
     {
@@ -465,6 +636,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Na_(Sodium).jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkali-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        3,
+        12,
+        19
+      ],
       "notesZh": []
     },
     {
@@ -502,6 +689,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnesium_crystals.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkaline-earth-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        4,
+        11,
+        13,
+        20
+      ],
       "notesZh": []
     },
     {
@@ -539,6 +743,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        5,
+        12,
+        14,
+        31
+      ],
       "notesZh": []
     },
     {
@@ -576,6 +797,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metalloid",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        6,
+        13,
+        15,
+        32
+      ],
       "notesZh": []
     },
     {
@@ -613,6 +851,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phosphor.JPG"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "pnictogen"
+      ],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        7,
+        14,
+        16,
+        33
+      ],
       "notesZh": []
     },
     {
@@ -650,6 +907,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sulfur_-_El_Desierto_mine,_San_Pablo_de_Napa,_Daniel_Campos_Province,_Potos%C3%AD,_Bolivia.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "chalcogen"
+      ],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        8,
+        15,
+        17,
+        34
+      ],
       "notesZh": []
     },
     {
@@ -687,6 +963,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chlorine_liquid_in_an_ampoule.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "halogen",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        9,
+        16,
+        18,
+        35
+      ],
       "notesZh": []
     },
     {
@@ -724,6 +1017,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArTube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        10,
+        17,
+        36
+      ],
       "notesZh": []
     },
     {
@@ -762,6 +1071,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkali-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        11,
+        20,
+        37
+      ],
       "notesZh": []
     },
     {
@@ -800,6 +1125,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calcium_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkaline-earth-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        12,
+        19,
+        21,
+        38
+      ],
       "notesZh": []
     },
     {
@@ -838,6 +1180,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scandium_sublimed_dendritic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        20,
+        22,
+        39
+      ],
       "notesZh": []
     },
     {
@@ -876,6 +1236,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titan-crystal_bar.JPG"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        21,
+        23,
+        40
+      ],
       "notesZh": []
     },
     {
@@ -914,6 +1290,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vanadium_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        22,
+        24,
+        41
+      ],
       "notesZh": []
     },
     {
@@ -952,6 +1344,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        23,
+        25,
+        42
+      ],
       "notesZh": []
     },
     {
@@ -990,6 +1398,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manganese_electrolytic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        24,
+        26,
+        43
+      ],
       "notesZh": []
     },
     {
@@ -1028,6 +1452,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        25,
+        27,
+        44
+      ],
       "notesZh": []
     },
     {
@@ -1066,6 +1506,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kobalt_electrolytic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        26,
+        28,
+        45
+      ],
       "notesZh": []
     },
     {
@@ -1104,6 +1560,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electrolytic_nickel.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        27,
+        29,
+        46
+      ],
       "notesZh": []
     },
     {
@@ -1142,6 +1614,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuivre_Michigan.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        28,
+        30,
+        47
+      ],
       "notesZh": []
     },
     {
@@ -1180,6 +1668,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zinc_fragment_sublimed_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "disputed",
+          "noteZh": "IUPAC Red Book IR-3.5：第 3–12 族常稱為過渡元素，但「第 12 族並非總是包含在內」；鋅的 d 軌域在元素與常見離子中都是全滿。"
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        29,
+        31,
+        48
+      ],
       "notesZh": [
         "第 12 族是否屬於過渡金屬依定義而異；本表沿用 PubChem 分類。"
       ]
@@ -1220,6 +1724,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallium_crystals.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        13,
+        30,
+        32,
+        49
+      ],
       "notesZh": []
     },
     {
@@ -1258,6 +1779,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Germanium_element.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metalloid",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        14,
+        31,
+        33,
+        50
+      ],
       "notesZh": []
     },
     {
@@ -1296,6 +1834,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arsen_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "pnictogen"
+      ],
+      "metallicity": "metalloid",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        15,
+        32,
+        34,
+        51
+      ],
       "notesZh": []
     },
     {
@@ -1334,6 +1891,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selen_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "nonmetal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "chalcogen"
+      ],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        16,
+        33,
+        35,
+        52
+      ],
       "notesZh": []
     },
     {
@@ -1372,6 +1948,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bromine_vial_in_acrylic_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "halogen",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        17,
+        34,
+        36,
+        53
+      ],
       "notesZh": []
     },
     {
@@ -1410,6 +2003,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:KrTube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        18,
+        35,
+        54
+      ],
       "notesZh": []
     },
     {
@@ -1449,6 +2058,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:RbMetal.JPG"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkali-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        19,
+        38,
+        55
+      ],
       "notesZh": []
     },
     {
@@ -1488,6 +2113,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strontium_destilled_crystals.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkaline-earth-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        20,
+        37,
+        39,
+        56
+      ],
       "notesZh": []
     },
     {
@@ -1527,6 +2169,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        21,
+        38,
+        40,
+        71
+      ],
       "notesZh": []
     },
     {
@@ -1566,6 +2227,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zirconium_crystal_bar_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        22,
+        39,
+        41,
+        72
+      ],
       "notesZh": []
     },
     {
@@ -1605,6 +2283,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niobium_crystals_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        23,
+        40,
+        42,
+        73
+      ],
       "notesZh": []
     },
     {
@@ -1644,6 +2339,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        24,
+        41,
+        43,
+        74
+      ],
       "notesZh": []
     },
     {
@@ -1685,6 +2397,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technetium-sample.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        25,
+        42,
+        44,
+        75
+      ],
       "notesZh": [
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：98。"
       ]
@@ -1726,6 +2455,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruthenium_a_half_bar.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "platinum-group-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        26,
+        43,
+        45,
+        76
+      ],
       "notesZh": []
     },
     {
@@ -1765,6 +2513,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhodium_powder_pressed_melted.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "platinum-group-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        27,
+        44,
+        46,
+        77
+      ],
       "notesZh": []
     },
     {
@@ -1803,6 +2570,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palladium_(46_Pd).jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "platinum-group-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        28,
+        45,
+        47,
+        78
+      ],
       "notesZh": []
     },
     {
@@ -1842,6 +2628,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        29,
+        46,
+        48,
+        79
+      ],
       "notesZh": []
     },
     {
@@ -1881,6 +2684,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cadmium-crystal_bar.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "disputed",
+          "noteZh": "IUPAC Red Book IR-3.5：第 12 族並非總是被列為過渡元素；鎘的 d 軌域在常見氧化態中全滿。"
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        30,
+        47,
+        49,
+        80
+      ],
       "notesZh": [
         "第 12 族是否屬於過渡金屬依定義而異；本表沿用 PubChem 分類。"
       ]
@@ -1922,6 +2742,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indium_wetting_glass.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        31,
+        48,
+        50,
+        81
+      ],
       "notesZh": []
     },
     {
@@ -1961,6 +2798,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%ADn.PNG"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        32,
+        49,
+        51,
+        82
+      ],
       "notesZh": []
     },
     {
@@ -2000,6 +2854,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antimony-2.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "pnictogen"
+      ],
+      "metallicity": "metalloid",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        33,
+        50,
+        52,
+        83
+      ],
       "notesZh": []
     },
     {
@@ -2039,6 +2912,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tellurium_element_2.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "chalcogen"
+      ],
+      "metallicity": "metalloid",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        34,
+        51,
+        53,
+        84
+      ],
       "notesZh": []
     },
     {
@@ -2078,6 +2970,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sample_of_iodine.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "halogen",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        35,
+        52,
+        54,
+        85
+      ],
       "notesZh": []
     },
     {
@@ -2117,6 +3026,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:XeTube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        36,
+        53,
+        86
+      ],
       "notesZh": []
     },
     {
@@ -2157,6 +3082,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkali-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        37,
+        56,
+        87
+      ],
       "notesZh": []
     },
     {
@@ -2197,6 +3138,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barium_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkaline-earth-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        38,
+        55,
+        57,
+        88
+      ],
       "notesZh": []
     },
     {
@@ -2237,6 +3195,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lanthan_1-cropflipped.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": "鑭是 IUPAC 列名的鑭系元素；部分週期表把鑭（而非鎦）放在第 3 族，屬於版面慣例差異。",
+      "relatedElementNumbers": [
+        56,
+        58,
+        89
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2279,6 +3255,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:CE2k2g.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        57,
+        59,
+        90
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2321,6 +3315,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praseodym_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        58,
+        60,
+        91
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2363,6 +3375,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neodym_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        59,
+        61,
+        92
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2405,6 +3435,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Promethium_Metal_Buttons_(cropped).png"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        60,
+        62,
+        93
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -2448,6 +3496,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samarium_1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        61,
+        63,
+        94
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2490,6 +3556,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eu-Block.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        62,
+        64,
+        95
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2532,6 +3616,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gadolinium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        63,
+        65,
+        96
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2574,6 +3676,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terbium_element.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        64,
+        66,
+        97
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2616,6 +3736,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dysprosium1.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        65,
+        67,
+        98
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2658,6 +3796,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holmium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        66,
+        68,
+        99
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2700,6 +3856,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erbium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        67,
+        69,
+        100
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2742,6 +3916,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thulium_sublimed_dendritic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        68,
+        70,
+        101
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2784,6 +3976,24 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ytterbium_element.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        69,
+        71,
+        102
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -2826,6 +4036,31 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "lanthanide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        },
+        {
+          "id": "transition-metal",
+          "role": "secondary",
+          "status": "convention",
+          "noteZh": "依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr，因此也屬於第 3–12 族的 d 區過渡元素；同時仍是 IUPAC 列名的鑭系／錒系元素。"
+        }
+      ],
+      "familyTags": [
+        "rare-earth-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        39,
+        70,
+        72,
+        103
+      ],
       "notesZh": [
         "依 IUPAC 2021 臨時建議列為第 3 族、d 區；版面上仍依常見慣例顯示於下方的鑭系／錒系列。"
       ]
@@ -2868,6 +4103,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hf-crystal_bar.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        40,
+        71,
+        73,
+        104
+      ],
       "notesZh": []
     },
     {
@@ -2908,6 +4160,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tantalum_single_crystal_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        41,
+        72,
+        74,
+        105
+      ],
       "notesZh": []
     },
     {
@@ -2948,6 +4217,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        42,
+        73,
+        75,
+        106
+      ],
       "notesZh": []
     },
     {
@@ -2988,6 +4274,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        43,
+        74,
+        76,
+        107
+      ],
       "notesZh": []
     },
     {
@@ -3028,6 +4331,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osmium_crystals.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "platinum-group-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        44,
+        75,
+        77,
+        108
+      ],
       "notesZh": []
     },
     {
@@ -3068,6 +4390,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iridium_foil.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "platinum-group-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        45,
+        76,
+        78,
+        109
+      ],
       "notesZh": []
     },
     {
@@ -3108,6 +4449,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "platinum-group-metal"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        46,
+        77,
+        79,
+        110
+      ],
       "notesZh": []
     },
     {
@@ -3148,6 +4508,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold-crystals.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        47,
+        78,
+        80,
+        111
+      ],
       "notesZh": []
     },
     {
@@ -3188,6 +4565,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercury-element.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "disputed",
+          "noteZh": "IUPAC Red Book IR-3.5：第 12 族並非總是被列為過渡元素；汞的 d 軌域在常見氧化態中全滿。"
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        48,
+        79,
+        81,
+        112
+      ],
       "notesZh": [
         "第 12 族是否屬於過渡金屬依定義而異；本表沿用 PubChem 分類。"
       ]
@@ -3230,6 +4624,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thallium_pieces_in_ampoule.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        49,
+        80,
+        82,
+        113
+      ],
       "notesZh": []
     },
     {
@@ -3270,6 +4681,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lead_electrolytic_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        50,
+        81,
+        83,
+        114
+      ],
       "notesZh": []
     },
     {
@@ -3310,6 +4738,25 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "pnictogen"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        51,
+        82,
+        84,
+        115
+      ],
       "notesZh": []
     },
     {
@@ -3341,6 +4788,31 @@
       "summaryZh": "具強烈放射性的稀有元素，由居禮夫婦發現並以波蘭命名。釙-210 的毒性極高。",
       "image": null,
       "imageNoteZh": "目前沒有可呈現元素本身、且授權允許使用的照片。",
+      "categoryTags": [
+        {
+          "id": "metalloid",
+          "role": "primary",
+          "status": "disputed",
+          "noteZh": "釙的分類沒有統一標準：PubChem 列為類金屬，許多教科書依其導電性列為金屬（其他金屬）。"
+        },
+        {
+          "id": "post-transition-metal",
+          "role": "secondary",
+          "status": "disputed",
+          "noteZh": "許多教科書把釙歸為金屬（位於硼族右側的 p 區金屬）。"
+        }
+      ],
+      "familyTags": [
+        "chalcogen"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": "釙常被視為金屬或類金屬，依所採用的判斷標準而定。",
+      "relatedElementNumbers": [
+        52,
+        83,
+        85,
+        116
+      ],
       "notesZh": [
         "釙的分類有爭議：PubChem 列為類金屬，其他資料常列為其他金屬。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3384,6 +4856,23 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glow_from_a_sample_of_astatine_(cropped).jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "halogen",
+          "role": "primary",
+          "status": "disputed",
+          "noteZh": "砈列在 IUPAC 的鹵素名單中，但大量樣本從未被製得，其金屬性推測多於實測。"
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "uncertain",
+      "classificationNoteZh": "砈的金屬性主要依理論推測，可能具有金屬性質。",
+      "relatedElementNumbers": [
+        53,
+        84,
+        86,
+        117
+      ],
       "notesZh": [
         "砈的分類有爭議：PubChem 列為鹵素，部分資料列為類金屬。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3418,6 +4907,22 @@
       "summaryZh": "具放射性的稀有氣體，由鈾與釷的衰變產生。室內累積的氡是肺癌的重要環境風險因子之一。",
       "image": null,
       "imageNoteZh": "目前沒有可呈現元素本身、且授權允許使用的照片。",
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "nonmetal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        54,
+        85,
+        118
+      ],
       "notesZh": [
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
       ]
@@ -3452,6 +4957,21 @@
       "summaryZh": "極不穩定的放射性鹼金屬，自然界中僅存在極微量。因半衰期短，幾乎沒有實際應用。",
       "image": null,
       "imageNoteZh": "目前沒有可呈現元素本身、且授權允許使用的照片。",
+      "categoryTags": [
+        {
+          "id": "alkali-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        55,
+        88
+      ],
       "notesZh": [
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
       ]
@@ -3495,6 +5015,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radium226.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "alkaline-earth-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        56,
+        87,
+        89
+      ],
       "notesZh": [
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
       ]
@@ -3538,6 +5074,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": "錒是 IUPAC 列名的錒系元素；部分週期表把錒（而非鐒）放在第 3 族，屬於版面慣例差異。",
+      "relatedElementNumbers": [
+        57,
+        88,
+        90
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3582,6 +5134,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        58,
+        89,
+        91
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -3625,6 +5193,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        59,
+        90,
+        92
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -3668,6 +5252,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uranium2.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        60,
+        91,
+        93
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。"
       ]
@@ -3711,6 +5311,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neptunium2.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        61,
+        92,
+        94
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3755,6 +5371,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        62,
+        93,
+        95
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3799,6 +5431,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        63,
+        94,
+        96
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3843,6 +5491,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cm-Fluoreszenz.png"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        64,
+        95,
+        97
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3887,6 +5551,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        65,
+        96,
+        98
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3931,6 +5611,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Californium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        66,
+        97,
+        99
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -3975,6 +5671,22 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Einsteinium.jpg"
       },
       "imageNoteZh": null,
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        67,
+        98,
+        100
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4010,6 +5722,22 @@
       "summaryZh": "同樣在氫彈試爆落塵中發現，以費米命名。是能以輕元素連續捕獲中子方式生成的最重元素。",
       "image": null,
       "imageNoteZh": "目前沒有可呈現元素本身、且授權允許使用的照片。",
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        68,
+        99,
+        101
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4045,6 +5773,22 @@
       "summaryZh": "以門得列夫命名的人工元素，以紀念他對週期表的貢獻。只能以極少量合成，供研究使用。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        69,
+        100,
+        102
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4080,6 +5824,22 @@
       "summaryZh": "以諾貝爾命名的人工放射性元素。半衰期短，僅用於科學研究。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        70,
+        101,
+        103
+      ],
       "notesZh": [
         "本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4117,6 +5877,28 @@
       "summaryZh": "以迴旋加速器發明者勞倫斯命名的錒系元素。實驗顯示其基態最外層電子可能位於 7p 而非 6d 軌域。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "actinide",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        },
+        {
+          "id": "transition-metal",
+          "role": "secondary",
+          "status": "convention",
+          "noteZh": "依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr，因此也屬於第 3–12 族的 d 區過渡元素；同時仍是 IUPAC 列名的鑭系／錒系元素。"
+        }
+      ],
+      "familyTags": [],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        71,
+        102,
+        104
+      ],
       "notesZh": [
         "依 IUPAC 2021 臨時建議列為第 3 族、d 區；版面上仍依常見慣例顯示於下方的鑭系／錒系列。",
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：262。",
@@ -4153,6 +5935,24 @@
       "summaryZh": "第一個錒系後元素（超錒系元素），以拉塞福命名。只能在粒子加速器中逐個原子合成。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        72,
+        103,
+        105
+      ],
       "notesZh": [
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
       ]
@@ -4187,6 +5987,24 @@
       "summaryZh": "以俄羅斯杜布納（Dubna）命名的人工元素，該地為聯合原子核研究所所在地。僅能少量合成供研究。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        73,
+        104,
+        106
+      ],
       "notesZh": [
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
       ]
@@ -4223,6 +6041,24 @@
       "summaryZh": "以化學家西博格命名，命名時西博格仍在世，十分罕見。化學實驗顯示其性質與鎢相似。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        74,
+        105,
+        107
+      ],
       "notesZh": [
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：271。"
       ]
@@ -4259,6 +6095,24 @@
       "summaryZh": "以物理學家波耳命名的人工元素。化學實驗顯示其性質與錸相近。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        75,
+        106,
+        108
+      ],
       "notesZh": [
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：274。"
       ]
@@ -4295,6 +6149,24 @@
       "summaryZh": "以德國黑森邦（Hessen）命名的人工元素。實驗顯示其可形成類似四氧化鋨的揮發性四氧化物。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "established",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "metal",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        76,
+        107,
+        109
+      ],
       "notesZh": [
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：270。"
       ]
@@ -4331,6 +6203,24 @@
       "summaryZh": "以物理學家莉澤．邁特納命名的人工元素。半衰期極短，化學性質多依理論預測。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        77,
+        108,
+        110
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：278。"
@@ -4366,6 +6256,24 @@
       "summaryZh": "以德國達姆施塔特（Darmstadt）命名的人工元素。僅合成過少量原子，性質主要來自理論預測。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        78,
+        109,
+        111
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4401,6 +6309,24 @@
       "summaryZh": "以 X 射線發現者倫琴命名的人工元素。理論預測其化學性質可能與金相似。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        79,
+        110,
+        112
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4436,6 +6362,24 @@
       "summaryZh": "以天文學家哥白尼命名的人工元素。實驗顯示其具揮發性，行為與同族的汞有相似之處。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": "鎶位於第 12 族：是否算過渡元素與鋅、鎘、汞同樣有定義上的爭議，且其化學性質主要來自理論預測與極少數原子的實驗。",
+      "relatedElementNumbers": [
+        80,
+        111,
+        113
+      ],
       "notesZh": [
         "第 12 族是否屬於過渡金屬依定義而異；本表沿用 PubChem 分類。",
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
@@ -4474,6 +6418,24 @@
       "summaryZh": "由日本理化學研究所合成，以日本（Nihon）命名，是第一個由亞洲國家發現並命名的元素。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        81,
+        112,
+        114
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：285。"
@@ -4511,6 +6473,24 @@
       "summaryZh": "以俄羅斯弗廖羅夫核反應實驗室命名。科學家正研究相對論效應是否使其化學性質較不活潑。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        82,
+        113,
+        115
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：289。"
@@ -4549,6 +6529,25 @@
       "summaryZh": "以莫斯科州命名的人工元素。半衰期極短，化學性質仍待研究。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "pnictogen",
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        83,
+        114,
+        116
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：288、289。"
@@ -4587,6 +6586,25 @@
       "summaryZh": "以美國勞倫斯利佛摩國家實驗室所在地利佛摩命名。目前僅合成過極少數原子。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "post-transition-metal",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "chalcogen",
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        84,
+        115,
+        117
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示最長壽同位素的質量數。CIAAW 指出候選同位素難以區分，其他候選質量數：291、292。"
@@ -4622,6 +6640,24 @@
       "summaryZh": "以美國田納西州命名的人工元素。位於鹵素族，但實際化學性質仍以理論預測為主。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "halogen",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        85,
+        116,
+        118
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"
@@ -4657,6 +6693,23 @@
       "summaryZh": "以核物理學家奧加涅相命名，是目前已知原子序最大的元素。雖位於稀有氣體族，理論預測其性質可能與典型稀有氣體不同。",
       "image": null,
       "imageNoteZh": "此元素僅以加速器合成過極少數原子，壽命極短，無法拍攝實物照片。",
+      "categoryTags": [
+        {
+          "id": "noble-gas",
+          "role": "primary",
+          "status": "predicted",
+          "noteZh": null
+        }
+      ],
+      "familyTags": [
+        "transactinide"
+      ],
+      "metallicity": "uncertain",
+      "classificationNoteZh": null,
+      "relatedElementNumbers": [
+        86,
+        117
+      ],
       "notesZh": [
         "此元素的化學分類與電子排布主要依理論預測，尚未經充分實驗確認。",
         "無標準原子量；顯示已知最穩定同位素的質量數（CIAAW／NUBASE2020）。"

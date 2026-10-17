@@ -1,0 +1,41 @@
+{
+  "_note": "Shared bibliography for elementCategories.json and elementStories.json. 'accessed' is the date the text was actually read and compared against the claims citing it; null means the work is cited for background but its text was not available to the author (e.g. paywalled), so claims relying only on it remain unverified. Per-element PubChem pages are referenced as 'pubchem-element:<Z>' and CIAAW element pages as 'ciaaw:<name>'; those are resolved in src/lib/content.ts.",
+  "references": {
+    "iupac-redbook-2005": {
+      "kind": "standard",
+      "citation": "IUPAC. Nomenclature of Inorganic Chemistry — IUPAC Recommendations 2005 (Red Book). N. G. Connelly, T. Damhus, R. M. Hartshorn, A. T. Hutton (eds.). RSC Publishing, 2005. §IR-3.5 Elements in the periodic table, p. 51.",
+      "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf",
+      "accessed": "2026-10-16"
+    },
+    "iupac-group3-2021": {
+      "kind": "standard",
+      "citation": "IUPAC Project 2015-039-2-200, The constitution of group 3 of the periodic table (chair: E. R. Scerri). Provisional recommendation, 2021.",
+      "url": "https://iupac.org/projects/project-details/?project_nr=2015-039-2-200",
+      "accessed": null
+    },
+    "pubchem-periodic-table": {
+      "kind": "database",
+      "citation": "National Center for Biotechnology Information. PubChem Periodic Table of Elements (GroupBlock classification).",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
+      "accessed": "2026-10-03"
+    },
+    "vernon-2013": {
+      "kind": "journal",
+      "citation": "R. E. Vernon. Which Elements Are Metalloids? Journal of Chemical Education 2013, 90 (12), 1703–1707.",
+      "url": "https://doi.org/10.1021/ed3008457",
+      "accessed": null
+    },
+    "greenwood-earnshaw-1997": {
+      "kind": "book",
+      "citation": "N. N. Greenwood, A. Earnshaw. Chemistry of the Elements, 2nd ed. Butterworth-Heinemann, 1997.",
+      "url": "https://doi.org/10.1016/C2009-0-30414-6",
+      "accessed": null
+    },
+    "pyykko-1988": {
+      "kind": "journal",
+      "citation": "P. Pyykkö. Relativistic Effects in Structural Chemistry. Chemical Reviews 1988, 88 (3), 563–594.",
+      "url": "https://doi.org/10.1021/cr00085a006",
+      "accessed": null
+    }
+  }
+}

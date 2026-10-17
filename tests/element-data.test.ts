@@ -79,7 +79,7 @@ describe("element dataset", () => {
   it("uses Traditional Chinese, not Simplified, for names and summaries", () => {
     // Characters that only appear in Simplified Chinese element names / common words.
     // Characters identical in both scripts (e.g. 砷、碘、氡、鿬、鿫) are intentionally excluded.
-    const simplified = /[氢锂铍钠镁铝硅钾钙钛钒铬锰铁钴镍铜锌镓锗铷锶钇锆铌钼锝钌铑钯银镉铟锡锑铯钡镧铈镨钕钷钐铕钆铽镝钬铒铥镱镥铪钽钨铼锇铱铂钋砹钫镭锕钍镤铀镎钚镅锔锫锎锿镄钔锘铹𬬻𬭊𬭳𬭛𬭶鿏𫟼𬬭鿔鿭𫓧镆𫟷这们个为说时实电发会级应体图门]/u;
+    const simplified = /[氢锂铍钠镁铝硅钾钙钛钒铬锰铁钴镍铜锌镓锗铷锶钇锆铌钼锝钌铑钯银镉铟锡锑铯钡镧铈镨钕钷钐铕钆铽镝钬铒铥镱镥铪钽钨铼锇铱铂钋砹钫镭锕钍镤铀镎钚镅锔锫锎锿镄钔锘铹𬬻𬭊𬭳𬭛𬭶鿏𫟼𬬭鿔鿭𫓧镆𫟷这们个为说时实电发会级应体图门]/u; // language-guard: allow (detection pattern)
     for (const el of ELEMENTS) {
       expect(el.nameZh + el.summaryZh, el.symbol).not.toMatch(simplified);
     }

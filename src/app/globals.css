@@ -54,6 +54,8 @@
   --accent-soft-text: #669df1;
   --logo-text: #669df1;
   --warn-text: #fbc828;
+  --success-text: #b3df72; /* ds-text-success */
+  --success-bg: #28311b; /* ds-background-success */
   --warn-border: #fbc82866;
 
   /* 3D viewports (canvas is transparent; this is the backdrop) */
@@ -63,7 +65,8 @@
   /* Category tint strength on element tiles */
   --tile-mix: 16%;
   --tile-mix-hover: 30%;
-  --tile-mix-selected: 42%;
+  /* Kept low enough that tile text stays ≥ 4.5:1 (WCAG AA); the ring marks selection. */
+  --tile-mix-selected: 28%;
   --tile-border-mix: 40%;
   /* Selection ring: the accent itself on dark, darkened on light. */
   --tile-ring-mix: 100%;
@@ -142,6 +145,8 @@
   --accent-soft-text: #1868db;
   --logo-text: #1868db;
   --warn-text: #9e4c00;
+  --success-text: #4c6b1f;
+  --success-bg: #efffd6;
   --warn-border: #9e4c0066;
 
   --scene-bg: #f0f1f2;
@@ -509,7 +514,7 @@ a.side-menu__item:hover {
   top: 0.35cqi;
   left: 0.4cqi;
   font-size: max(0.85cqi, 8px);
-  color: var(--text-2);
+  color: var(--text-1);
   font-variant-numeric: tabular-nums;
 }
 .element-tile__symbol {
@@ -1067,7 +1072,336 @@ a.side-menu__item:hover {
   line-height: 0.7;
 }
 
+/* ------------------------------------------------------------------------ */
+/* Classification tags, story entry and articles                            */
+/* ------------------------------------------------------------------------ */
+
+.tag-lozenge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: var(--radius-control);
+  padding: 0.125rem 0.4rem;
+  font-size: 0.6875rem;
+  font-weight: 653;
+  line-height: 1rem;
+  color: var(--text-strong);
+}
+.tag-lozenge[data-role="primary"] {
+  background: color-mix(in srgb, var(--cat) 28%, transparent);
+}
+/* Secondary = "also belongs to": outlined so it never reads as the colour category. */
+.tag-lozenge[data-role="secondary"] {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--cat) 70%, transparent);
+  background: transparent;
+}
+.tag-lozenge[data-role="secondary"]::before {
+  content: "同時屬於";
+  font-weight: 400;
+  color: var(--text-3);
+}
+button.tag-lozenge:hover {
+  background: color-mix(in srgb, var(--cat) 40%, transparent);
+}
+button.tag-lozenge:focus-visible,
+.story-entry:focus-visible,
+.article__back:focus-visible,
+.article__chip:focus-visible,
+.article__ref-link:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.tag-lozenge__status {
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--warn-text) 18%, transparent);
+  padding: 0 0.25rem;
+  font-size: 0.625rem;
+  color: var(--warn-text);
+}
+.tag-notes {
+  margin-top: 0.375rem;
+  font-size: 0.75rem;
+  color: var(--text-3);
+}
+.tag-notes > summary {
+  cursor: pointer;
+  color: var(--accent-text);
+}
+.tag-notes ul {
+  margin-top: 0.25rem;
+  list-style: disc;
+  padding-left: 1rem;
+  line-height: 1.6;
+}
+
+.story-entry {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+  border-radius: var(--radius-control);
+  background: var(--accent-bg);
+  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--accent-text);
+  transition: background-color 120ms;
+}
+button.story-entry:hover:not(:disabled) {
+  background: var(--accent-bg-hover);
+}
+.story-entry--pending {
+  background: var(--neutral-bg);
+  font-size: 0.75rem;
+  color: var(--text-3);
+}
+
+.article {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--text-1);
+}
+.article__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+  border-radius: var(--radius-control);
+  padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+  font-size: 0.8125rem;
+  color: var(--accent-text);
+}
+.article__back:hover {
+  background: var(--hover-bg);
+}
+.article__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--text-3);
+}
+.article__title {
+  margin-top: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 653;
+  line-height: 1.5rem;
+  color: var(--text-strong);
+}
+.article__lede {
+  margin-top: 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--text-1);
+}
+.article__section {
+  margin-top: 1rem;
+}
+.article__h {
+  margin-bottom: 0.25rem;
+  font-size: 0.8125rem;
+  font-weight: 653;
+  color: var(--text-strong);
+}
+.article__p + .article__p {
+  margin-top: 0.5rem;
+}
+.article__facts {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+  border-radius: var(--radius-control);
+  background: var(--neutral-bg);
+  padding: 0.75rem;
+  font-size: 0.8125rem;
+}
+.article__facts dt {
+  font-size: 0.75rem;
+  font-weight: 653;
+  color: var(--text-3);
+}
+.article__facts ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+.article__question {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  border-left: 3px solid var(--cat, var(--brand));
+  border-radius: 0 var(--radius-control) var(--radius-control) 0;
+  background: color-mix(in srgb, var(--cat, var(--brand)) 10%, transparent);
+  padding: 0.6rem 0.75rem;
+  color: var(--text-1);
+}
+.article__chip {
+  border-radius: var(--radius-control);
+  background: color-mix(in srgb, var(--cat) 22%, transparent);
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-strong);
+}
+button.article__chip:hover,
+a.article__chip:hover {
+  background: color-mix(in srgb, var(--cat) 36%, transparent);
+}
+.article__refs {
+  list-style: decimal;
+  padding-left: 1.1rem;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+.article__refs li + li {
+  margin-top: 0.35rem;
+}
+.article__ref-link {
+  color: var(--accent-text);
+  word-break: break-word;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.article__ref-status {
+  display: block;
+  color: var(--text-4);
+}
+.article__verification {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+.article__verification > summary {
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: var(--radius-control);
+  padding: 0.1rem 0.4rem;
+  font-weight: 653;
+  background: var(--neutral-bg);
+  color: var(--text-2);
+}
+.article__verification[data-status="source-checked"] > summary,
+.article__verification[data-status="expert-reviewed"] > summary {
+  background: var(--success-bg);
+  color: var(--success-text);
+}
+.article__verification[data-status="partial"] > summary,
+.article__verification[data-status="pending"] > summary {
+  background: color-mix(in srgb, var(--warn-text) 10%, transparent);
+  color: var(--warn-text);
+}
+.article__verification > p {
+  margin-top: 0.35rem;
+  line-height: 1.6;
+  color: var(--text-3);
+}
+
+/* ------------------------------------------------------------------------ */
+/* Element card browsing (‹ › / swipe) and the phone bottom sheet           */
+/* ------------------------------------------------------------------------ */
+
+.card-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.card-nav__btn {
+  display: inline-flex;
+  min-height: 2.5rem; /* comfortable touch target */
+  align-items: center;
+  gap: 0.25rem;
+  justify-self: start;
+  border-radius: var(--radius-control);
+  padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+  transition: background-color 120ms, color 120ms;
+}
+.card-nav__btn--next {
+  justify-self: end;
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+}
+.card-nav__btn:hover:not(:disabled) {
+  background: var(--hover-bg);
+  color: var(--text-1);
+}
+.card-nav__btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.card-nav__btn:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.card-nav__label {
+  max-width: 7rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.card-nav__position {
+  text-align: center;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-3);
+}
+/* Vertical scrolling stays native; horizontal moves are read as swipes. */
+.card-swipe {
+  touch-action: pan-y;
+}
+.card-slide[data-from="right"] {
+  animation: card-in-right 200ms ease-out;
+}
+.card-slide[data-from="left"] {
+  animation: card-in-left 200ms ease-out;
+}
+@keyframes card-in-right {
+  from {
+    opacity: 0.4;
+    transform: translateX(2.5rem);
+  }
+}
+@keyframes card-in-left {
+  from {
+    opacity: 0.4;
+    transform: translateX(-2.5rem);
+  }
+}
+
+/* Phones: the selected element is a full-width card docked to the bottom. */
+@media (max-width: 767.98px) {
+  aside[data-sheet] {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 45;
+    max-height: 85dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-radius: 0.75rem 0.75rem 0 0;
+    background: var(--surface-solid);
+    box-shadow: var(--shadow-overlay);
+    padding-top: 0.5rem;
+  }
+  /* Grab bar: signals a sheet you can dismiss and swipe through. */
+  aside[data-sheet]::before {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 0.25rem;
+    margin: 0 auto 0.25rem;
+    border-radius: 999px;
+    background: var(--border-input);
+  }
+  aside[data-sheet] .details-panel {
+    background: transparent;
+    padding-top: 0.5rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .card-slide[data-from] {
+    animation: none;
+  }
   *,
   *::before {
     transition: none !important;

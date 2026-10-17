@@ -1,4 +1,10 @@
-import { ELEMENT_CATEGORY_IDS, type ElementCategoryId } from "@/types/element";
+import {
+  ELEMENT_CATEGORY_IDS,
+  type ClassificationStatus,
+  type ElementCategoryId,
+  type ElementFamilyId,
+  type Metallicity,
+} from "@/types/element";
 
 export interface ElementCategory {
   id: ElementCategoryId;
@@ -82,3 +88,27 @@ export function getCategory(id: ElementCategoryId): ElementCategory {
 export function isElementCategoryId(value: unknown): value is ElementCategoryId {
   return typeof value === "string" && (ELEMENT_CATEGORY_IDS as readonly string[]).includes(value);
 }
+
+/** Families outside the ten intro categories (IUPAC collective names and common groupings). */
+export const FAMILY_LABELS: Record<ElementFamilyId, string> = {
+  pnictogen: "氮族（第 15 族）",
+  chalcogen: "氧族（第 16 族）",
+  "rare-earth-metal": "稀土金屬",
+  "platinum-group-metal": "鉑族金屬",
+  transactinide: "超錒系元素",
+};
+
+export const METALLICITY_LABELS: Record<Metallicity, string> = {
+  metal: "金屬",
+  metalloid: "類金屬",
+  nonmetal: "非金屬",
+  uncertain: "尚無定論",
+};
+
+/** Shown next to a tag; "established" needs no marker. */
+export const CLASSIFICATION_STATUS_LABELS: Record<ClassificationStatus, string | null> = {
+  established: null,
+  convention: "慣例",
+  disputed: "有爭議",
+  predicted: "預測",
+};

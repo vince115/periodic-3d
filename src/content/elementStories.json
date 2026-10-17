@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "_note": "Element science stories, keyed by atomic number (elementNumber). Basic element data is not repeated here — it comes from public/data/elements.json. First batch (phase 2): H, C, O, Si, Cu, Au. People are named with their original-language names to avoid ambiguous transliterations.",
+  "stories": [
+    {
+      "elementNumber": 1,
+      "title": "宇宙最初的元素",
+      "openingZh": "如果把宇宙中所有的原子拿來點名，九成以上都會是氫。這個最簡單的原子，只有一個質子和一個電子。",
+      "sections": [
+        {
+          "heading": "被「看見」很早，被「認出」很晚",
+          "paragraphs": [
+            "早在 1671 年，Robert Boyle 用鐵和酸做實驗時就已經製出氫氣，只是當時沒有人知道它是什麼。直到 1766 年，英國科學家 Henry Cavendish 才確認它是一種獨立的物質。氫的名稱源自希臘文的「水」與「生成」，因為它在空氣中燃燒後會生成水。"
+          ]
+        },
+        {
+          "heading": "最輕，也最基本",
+          "paragraphs": [
+            "氫原子只有一個電子，在一般條件下兩個氫原子共用電子，形成氫分子。恆星的能量主要來自核融合：在極高溫與高壓下，氫原子核結合成氦，同時釋放巨大能量。宇宙中較重的元素，最初也都是由氫，或由氫所形成的元素一步步製造出來的。"
+          ]
+        },
+        {
+          "heading": "從肥料到火箭",
+          "paragraphs": [
+            "工業上大量的氫用於哈柏法，與空氣中的氮結合製成氨，進而製造肥料；油脂的氫化也需要氫。液態氫與液態氧組合是優良的火箭燃料，燃料電池則能把氫的化學能直接轉換成電能。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "氫排在週期表第 1 族的最上方，和鋰、鈉同一族，為什麼它卻不算鹼金屬？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "referenceIds": [
+        "ciaaw:hydrogen",
+        "pubchem-element:1",
+        "iupac-redbook-2005"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-16",
+        "notesZh": "1671 年 Boyle、1766 年 Cavendish、名稱由來、九成以上原子為氫、恆星核融合、哈柏法、氫化、火箭燃料與燃料電池皆已對照 CIAAW 與 PubChem（LANL、Jefferson Lab）原文。註：LANL 原文寫作 1776 年，與 CIAAW 及 Jefferson Lab 的 1766 年不同，本文採用 1766 年。"
+      },
+      "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 6,
+      "title": "同一種原子，不同的排列",
+      "openingZh": "鉛筆芯裡的石墨又黑又軟，鑽石卻閃亮堅硬。很難想像，它們都只由碳原子組成。",
+      "sections": [
+        {
+          "heading": "古老又年輕的元素",
+          "paragraphs": [
+            "碳在史前時代就以木炭和煤灰的形式為人所知，它的名稱源自拉丁文 carbo，意思是「木炭」。然而鑽石也是碳這件事，直到 1797 年才由英國化學家 Smithson Tennant 證明。"
+          ]
+        },
+        {
+          "heading": "排列決定性質",
+          "paragraphs": [
+            "碳原子最外層有四個電子，能與其他原子形成四個共價鍵。在鑽石中，每個碳原子都與四個碳原子牢牢相連，構成堅固的立體網路；在石墨中，碳原子排成一層層平面，層與層之間的作用力很弱，容易滑動，所以石墨是已知最軟的材料之一，可以當作潤滑劑。碳在自然界中有非晶碳、石墨與鑽石等形式。"
+          ]
+        },
+        {
+          "heading": "從墨水到生命",
+          "paragraphs": [
+            "不完全燃燒產生的碳黑用來製造墨水、油漆與橡膠製品。碳也是生命化學的核心：它能與自己及許多元素連成長鏈與環，構成種類極多的有機分子。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "如果原子的排列方式能決定材料的性質，科學家能不能「設計」出全新的碳材料？你會希望它具有什麼性質？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        1,
+        7,
+        8,
+        14
+      ],
+      "referenceIds": [
+        "ciaaw:carbon",
+        "pubchem-element:6",
+        "greenwood-earnshaw-1997"
+      ],
+      "verification": {
+        "status": "partial",
+        "checkedOn": "2026-10-16",
+        "notesZh": "史前已知、名稱由來、1797 年 Tennant 證明鑽石為碳、三種天然形式、石墨柔軟與潤滑用途、碳黑用途已對照 CIAAW 與 Jefferson Lab 原文。「四個共價鍵」與有機分子多樣性的說明引用 Greenwood & Earnshaw，未取得全文逐句比對，待專家審閱。"
+      },
+      "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 8,
+      "title": "誰先發現了氧？",
+      "openingZh": "我們每一口呼吸都需要氧，但「誰發現了氧」這個問題，答案比想像中複雜。",
+      "sections": [
+        {
+          "heading": "兩位發現者，一個命名者",
+          "paragraphs": [
+            "瑞典藥劑師 Carl Wilhelm Scheele 在 1771 年就獨立發現了氧，英國化學家 Joseph Priestley 則在 1774 年發現。兩人都是加熱氧化汞得到這種氣體，但 Scheele 的著作延到 1777 年才出版，所以發現的功勞常歸給先發表的 Priestley。名稱則來自法國化學家 Antoine Lavoisier，他誤以為所有的酸都含有氧，因此用希臘文「酸」與「生成」為它命名。"
+          ]
+        },
+        {
+          "heading": "活潑又無所不在",
+          "paragraphs": [
+            "氧的反應性很高，幾乎能與所有元素化合。它約占地球大氣的 21%、地殼質量將近一半，也占人體質量約三分之二。在高空，由三個氧原子組成的臭氧形成一層保護膜，吸收太陽的紫外線。"
+          ]
+        },
+        {
+          "heading": "從煉鋼到醫院",
+          "paragraphs": [
+            "煉鋼時以高壓氧氣燒除熔融生鐵中的雜質；氧與乙炔燃燒產生的高溫火焰用於焊接；液態氧與液態氫是火箭燃料；醫院也為呼吸系統疾病的病人提供氧氣。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "既然氧這麼活潑、會與許多物質反應，為什麼地球大氣能長期保持約 21% 的氧氣？是什麼過程在持續補充它？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        1,
+        6,
+        7,
+        16
+      ],
+      "referenceIds": [
+        "ciaaw:oxygen",
+        "pubchem-element:8"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-16",
+        "notesZh": "Scheele 1771 年與 1777 年出版、Priestley 1774 年、加熱氧化汞、Lavoisier 命名與酸的誤解、大氣 21%、地殼近一半、人體約三分之二、臭氧層、煉鋼、焊接、火箭燃料、醫療用氧皆已對照 CIAAW 與 PubChem（Jefferson Lab、LANL）原文。"
+      },
+      "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 14,
+      "title": "沙子裡的晶片",
+      "openingZh": "海灘上的沙子和手機裡的晶片，主角都是同一種元素——矽。",
+      "sections": [
+        {
+          "heading": "地殼中第二多的元素",
+          "paragraphs": [
+            "矽約占地殼重量的四分之一，僅次於氧。它在自然界中從不以單質形式存在，主要以二氧化矽與矽酸鹽的形式出現，沙子、石英、瑪瑙都是二氧化矽。名稱源自拉丁文 silex，意思是「燧石」。1824 年，瑞典化學家 Jöns Jacob Berzelius 製得非晶形的矽；1854 年，法國化學家 Henri Sainte-Claire Deville 首次製得結晶矽。"
+          ]
+        },
+        {
+          "heading": "元素、化合物要分清楚",
+          "paragraphs": [
+            "矽是元素；二氧化矽是矽與氧組成的化合物，是製造玻璃與磚的主要原料。工業上把二氧化矽與碳一起在電爐中高溫加熱，取得元素矽。"
+          ]
+        },
+        {
+          "heading": "半導體的關鍵",
+          "paragraphs": [
+            "矽是類金屬，也是半導體。以柴可拉斯基法可以拉出大塊的矽單晶，再摻入極少量的硼、鎵、磷或砷，就能精確調整導電性質，製成電晶體、太陽能電池與微晶片。正是這種「可以控制的導電性」，讓矽成為現代電子工業的基礎。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "在極純的矽中刻意加入微量雜質，反而讓它變得更有用。為什麼「不純」在這裡是一件好事？",
+      "categoryIds": [
+        "metalloid"
+      ],
+      "furtherReadingElementNumbers": [
+        5,
+        6,
+        8,
+        32
+      ],
+      "referenceIds": [
+        "ciaaw:silicon",
+        "pubchem-element:14"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-16",
+        "notesZh": "地殼含量 25.7% 且僅次於氧、不以單質存在、二氧化矽的形式、名稱由來、1824 年 Berzelius、1854 年 Deville、電爐製矽、玻璃與磚、柴可拉斯基法與摻雜元素及用途皆已對照 CIAAW 與 PubChem（LANL、Jefferson Lab）原文。"
+      },
+      "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 29,
+      "title": "人類最早的金屬夥伴之一",
+      "openingZh": "考古證據顯示，人類使用銅至少已有一萬一千年。為什麼銅能陪伴人類這麼久？",
+      "sections": [
+        {
+          "heading": "從賽普勒斯到青銅時代",
+          "paragraphs": [
+            "銅相對容易開採與提煉，人類至少在七千年前就學會從礦石中取得銅。銅的英文與拉丁文名稱 cuprum 源自地中海的賽普勒斯島，羅馬帝國的銅主要來自那裡。大約五千年前，人們發現把銅與其他金屬混合可以變得更堅硬：含錫的青銅是人類最早製造的合金，用來打造工具、武器與器皿；另一種常見的銅合金是含鋅的黃銅。"
+          ]
+        },
+        {
+          "heading": "導電的好手",
+          "paragraphs": [
+            "銅的導電性僅次於銀，電力產業也是銅最大的使用者之一，大量製成電線。它也能抵抗空氣、水氣與海水的腐蝕，因此常被用來鑄造錢幣、製作水管。"
+          ]
+        },
+        {
+          "heading": "不只是電線",
+          "paragraphs": [
+            "銅的化合物也很有用：斐林試劑是檢驗糖類的經典試劑，銅鹽也被用作殺藻劑。純銅太軟，許多用途都需要先製成合金。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "銀的導電性比銅更好，為什麼家裡的電線幾乎都用銅，而不是銀？除了導電性，選擇材料時還要考慮哪些因素？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        30,
+        47,
+        50,
+        79
+      ],
+      "referenceIds": [
+        "ciaaw:copper",
+        "pubchem-element:29"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-16",
+        "notesZh": "使用至少 11,000 年與提煉至少 7,000 年（Jefferson Lab）、名稱源自賽普勒斯、約 5,000 年前發展合金、青銅為最早合金、黃銅、導電性僅次於銀、耐腐蝕與錢幣水管、斐林試劑、殺藻劑皆已對照 CIAAW 與 PubChem 原文。註：LANL 另寫「開採約 5,000 年」，與 Jefferson Lab 的估計不同；本文採用 Jefferson Lab 對「使用」與「提煉」的區分。"
+      },
+      "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 79,
+      "title": "不會失去光澤的金屬",
+      "openingZh": "幾千年前的金飾出土時依然閃亮。金為什麼不像鐵那樣生鏽？又為什麼是金黃色？",
+      "sections": [
+        {
+          "heading": "人類珍視的金屬",
+          "paragraphs": [
+            "人類認識並珍視金至少已有 5,500 年。金在自然界中有時以單質形式存在，元素符號 Au 源自拉丁文 aurum。金暴露在空氣中不會失去光澤，這正是古代金器能保存至今的原因。"
+          ]
+        },
+        {
+          "heading": "延展性冠軍",
+          "paragraphs": [
+            "金是已知延展性最好的金屬：一盎司的金可以打成邊長約 5 公尺的薄片，金箔最薄可達約 0.000127 毫米，大約是頭髮的四百分之一。純金很軟，通常與銀、銅等金屬製成合金來增加強度；「K」是純度單位，1 K 代表 24 份中的 1 份，所以 18 K 金含有 18 份純金。"
+          ]
+        },
+        {
+          "heading": "為什麼是金色？",
+          "paragraphs": [
+            "大多數金屬呈銀白色，金卻偏黃。化學研究指出，這與「相對論效應」有關：金的原子核電荷很大，內層電子運動得極快，使電子軌域的能量發生變化，結果金會吸收部分藍光，反射的光看起來就偏金黃色。同樣的效應也被用來解釋金為何特別不活潑。"
+          ]
+        },
+        {
+          "heading": "從首飾到太空",
+          "paragraphs": [
+            "金用於首飾、牙科、錢幣與電子接點的鍍層；它能良好反射紅外線又不易反應，因此也被鍍在某些人造衛星表面。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "金、銀、銅同在第 11 族，為什麼只有金呈現金黃色？如果相對論效應的強弱與原子核電荷有關，你預期更重的元素會怎樣？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        29,
+        47,
+        78,
+        80
+      ],
+      "referenceIds": [
+        "ciaaw:gold",
+        "pubchem-element:79",
+        "pyykko-1988"
+      ],
+      "verification": {
+        "status": "partial",
+        "checkedOn": "2026-10-16",
+        "notesZh": "5,500 年歷史、以單質存在、Au 的由來、不失光澤、延展性數據、合金與 K 金定義、首飾牙科錢幣用途、衛星紅外線反射皆已對照 CIAAW 與 PubChem（Jefferson Lab、LANL）原文。「相對論效應造成金色與惰性」引用 Pyykkö (1988)，但未取得全文逐句比對，待查核。"
+      },
+      "version": "2026-10-16"
+    }
+  ]
+}

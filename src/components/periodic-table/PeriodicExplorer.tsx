@@ -3,21 +3,28 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Box, Grid3x3 } from "lucide-react";
 import { SceneBoundary } from "@/components/three-d/SceneBoundary";
 import { AppShell, NAVBAR_HEIGHT_PX } from "@/components/layout/AppShell";
 import { useDraggable } from "@/hooks/useDraggable";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { useSwipe } from "@/hooks/useSwipe";
 import { useElements } from "@/hooks/useElements";
+import { ArticleView } from "@/components/stories/ArticleView";
+import { getCategoryGuide, getElementStory } from "@/lib/content";
+import type { ElementCategoryId } from "@/types/element";
 import { CategoryLegend } from "./CategoryLegend";
 import { DraggablePanel } from "./DraggablePanel";
+import { ElementCardNav } from "./ElementCardNav";
 import { ElementDetails } from "./ElementDetails";
 import { ElementSearch } from "./ElementSearch";
 import { PeriodicTable2D } from "./PeriodicTable2D";
 
 /** Tailwind `xl`: the details panel sits beside the table and can be torn off. */
 const WIDE_LAYOUT_QUERY = "(min-width: 1280px)";
+/** Tailwind `md`: below this the details become a full-width bottom-sheet card. */
+const TABLET_QUERY = "(min-width: 768px)";
 
 export type ExplorerView = "2d" | "3d";
 
@@ -27,6 +34,8 @@ const VIEW_NAV_IDS: Record<ExplorerView, string> = {
   "2d": "periodic-table",
   "3d": "periodic-table-3d",
 };
+
+type Reading = { kind: "category"; id: ElementCategoryId } | { kind: "story"; number: number } | null;
 
 export function viewFromPathname(pathname: string | null): ExplorerView {
   return pathname === VIEW_ROUTES["3d"] ? "3d" : "2d";
@@ -49,36 +58,102 @@ export function PeriodicExplorer() {
   const detailsRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const isWide = useMediaQuery(WIDE_LAYOUT_QUERY);
+  // Phones show the details as a bottom-sheet card sized to the screen.
+  const isPhone = !useMediaQuery(TABLET_QUERY);
   // Floating panel may not slide under the sticky navbar.
   const panelDrag = useDraggable(panelRef, isWide, NAVBAR_HEIGHT_PX + 8);
   const selectedNumber = state.selected?.number ?? null;
 
   // The details panel can be closed; choosing any element opens it again.
   const [panelOpen, setPanelOpen] = useState(true);
-  const { select } = state;
+  // What the panel shows besides element details: a category guide or a story.
+  const [reading, setReading] = useState<Reading>(null);
+  // 3D atom view stays open across elements (the card remounts per element).
+  const [atomOpen, setAtomOpen] = useState(false);
+  // Direction the next card slides in from (set by ‹ › and swipes).
+  const [slideFrom, setSlideFrom] = useState<"left" | "right" | null>(null);
+  const { select, highlightedCategory, setHighlightedCategory } = state;
   const { reset: dockPanel } = panelDrag;
   const selectElement = useCallback(
     (number: number | null) => {
       select(number);
+      setReading(null);
+      setSlideFrom(null);
       if (number !== null) setPanelOpen(true);
     },
     [select],
   );
   const closePanel = useCallback(() => {
     select(null);
+    setReading(null);
     setPanelOpen(false);
     dockPanel(); // reopen docked, not wherever it was dragged
   }, [select, dockPanel]);
+  const openCategory = useCallback(
+    (id: ElementCategoryId) => {
+      setHighlightedCategory(id);
+      setReading({ kind: "category", id });
+      setPanelOpen(true);
+    },
+    [setHighlightedCategory],
+  );
+  const openStory = useCallback((number: number) => {
+    setReading({ kind: "story", number });
+    setPanelOpen(true);
+  }, []);
+  // Legend: first click highlights the category and opens its guide; a second clears both.
+  const toggleLegendCategory = useCallback(
+    (id: ElementCategoryId) => {
+      if (highlightedCategory === id) {
+        setHighlightedCategory(null);
+        setReading((r) => (r?.kind === "category" && r.id === id ? null : r));
+      } else {
+        openCategory(id);
+      }
+    },
+    [highlightedCategory, setHighlightedCategory, openCategory],
+  );
+  // Card browsing (‹ › and swipe): neighbours in atomic-number order, limited to
+  // the elements still visible when a search or category highlight is active.
+  const filtered = state.query.trim() !== "" || highlightedCategory !== null;
+  const { elements, isDimmed } = state;
+  const sequence = useMemo(() => {
+    const visible = filtered ? elements.filter((el) => !isDimmed(el)) : elements;
+    // If the current element is itself filtered out, browse the whole table.
+    return selectedNumber !== null && !visible.some((el) => el.number === selectedNumber)
+      ? elements
+      : visible;
+  }, [filtered, elements, isDimmed, selectedNumber]);
+  const index = sequence.findIndex((el) => el.number === selectedNumber);
+  const previous = index > 0 ? sequence[index - 1] : null;
+  const next = index >= 0 && index < sequence.length - 1 ? sequence[index + 1] : null;
+  const browseTo = useCallback(
+    (number: number, from: "left" | "right") => {
+      selectElement(number);
+      setSlideFrom(from);
+    },
+    [selectElement],
+  );
+  const swipe = useSwipe({
+    onSwipeLeft: () => next && browseTo(next.number, "right"),
+    onSwipeRight: () => previous && browseTo(previous.number, "left"),
+  });
+  const showSheet = isPhone && panelOpen && (state.selected !== null || reading !== null);
+
+  const guide = reading?.kind === "category" ? getCategoryGuide(reading.id) : undefined;
+  const story = reading?.kind === "story" ? getElementStory(reading.number) : undefined;
   // Closed or torn off: the table takes the panel's column and scales up.
   const tableFullWidth = panelDrag.floating || !panelOpen;
 
   // On narrow screens the panel sits below the table: bring it into view.
   useEffect(() => {
-    if (selectedNumber === null) return;
+    if (selectedNumber === null && reading === null) return;
     if (window.matchMedia(WIDE_LAYOUT_QUERY).matches) return;
+    // Phones use a fixed bottom-sheet card instead; nothing to scroll to.
+    if (!window.matchMedia(TABLET_QUERY).matches) return;
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     detailsRef.current?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "nearest" });
-  }, [selectedNumber]);
+  }, [selectedNumber, reading]);
 
   const search = (
     <ElementSearch
@@ -112,8 +187,9 @@ export function PeriodicExplorer() {
 
   return (
     <AppShell activeNavId={VIEW_NAV_IDS[view]} search={search} navbarTrailing={viewToggle}>
-      <div className="flex w-full flex-col gap-5 px-4 py-5 sm:px-6 lg:py-6">
-        <header>
+      <main className="flex w-full flex-col gap-5 px-4 py-5 sm:px-6 lg:py-6">
+        {/* Page heading, not a banner: the navbar is the page's only <header>. */}
+        <div>
           <nav aria-label="導覽路徑" className="breadcrumbs">
             <span>探索</span>
             <span aria-hidden>/</span>
@@ -125,7 +201,7 @@ export function PeriodicExplorer() {
           <p className="mt-1 text-sm text-slate-400">
             {state.elements.length} 種已命名元素 · 點選或搜尋以探索各元素的性質
           </p>
-        </header>
+        </div>
 
         {/* A floating (torn-off) panel gives its column back: the table goes full width and scales up. */}
         <div
@@ -134,7 +210,7 @@ export function PeriodicExplorer() {
             tableFullWidth ? "grid gap-x-5" : "grid gap-5 xl:grid-cols-[minmax(0,1fr)_23rem]"
           }
         >
-          <main className="flex min-w-0 flex-col gap-5">
+          <div className="flex min-w-0 flex-col gap-5">
             {view === "2d" ? (
               <div>
                 <PeriodicTable2D
@@ -168,9 +244,9 @@ export function PeriodicExplorer() {
             <CategoryLegend
               elements={state.elements}
               highlighted={state.highlightedCategory}
-              onToggle={state.toggleCategory}
+              onToggle={toggleLegendCategory}
             />
-          </main>
+          </div>
 
           {panelOpen && (
             <>
@@ -183,10 +259,56 @@ export function PeriodicExplorer() {
                 ref={detailsRef}
                 aria-label="元素詳細資訊"
                 className="relative z-20 scroll-mt-20 xl:sticky xl:top-[calc(var(--navbar-h)+1.5rem)] xl:self-start"
+                data-sheet={showSheet || undefined}
               >
                 <DraggablePanel title="元素資訊" panelRef={panelRef} drag={panelDrag} onClose={closePanel}>
                   {/* On wide screens the panel's title bar carries the close button. */}
-                  <ElementDetails element={state.selected} onClose={closePanel} showClose={!isWide} />
+                  {guide || story ? (
+                    <div className="details-panel">
+                      {guide ? (
+                        <ArticleView
+                          kind="category"
+                          guide={guide}
+                          onBack={() => setReading(null)}
+                          backLabel={state.selected ? "返回元素資訊" : "返回"}
+                          onSelectElement={selectElement}
+                        />
+                      ) : (
+                        <ArticleView
+                          kind="story"
+                          story={story!}
+                          onBack={() => setReading(null)}
+                          onSelectElement={selectElement}
+                          onOpenCategory={openCategory}
+                        />
+                      )}
+                    </div>
+                  ) : (
+                    <div className="card-swipe" {...swipe}>
+                      {state.selected && (
+                        <ElementCardNav
+                          previous={previous}
+                          next={next}
+                          position={index + 1}
+                          total={sequence.length}
+                          filtered={filtered && sequence !== elements}
+                          onSelect={(n) => browseTo(n, n > (selectedNumber ?? 0) ? "right" : "left")}
+                        />
+                      )}
+                      {/* Keyed so each element slides in from the side it came from. */}
+                      <div key={selectedNumber ?? "empty"} className="card-slide" data-from={slideFrom ?? undefined}>
+                        <ElementDetails
+                          element={state.selected}
+                          onClose={closePanel}
+                          showClose={!isWide}
+                          onOpenCategory={openCategory}
+                          onOpenStory={openStory}
+                          atomOpen={atomOpen}
+                          onAtomOpenChange={setAtomOpen}
+                        />
+                      </div>
+                    </div>
+                  )}
                 </DraggablePanel>
               </aside>
             </>
@@ -197,7 +319,7 @@ export function PeriodicExplorer() {
           資料來源：PubChem（名稱、分類、電子排布）、CIAAW 2024 標準原子量與 NUBASE2020 最穩定同位素、NIST ASD（電子排布交叉核對）；
           中文名稱依教育部公布用字。方括號 [ ] 表示無標準原子量之元素的最穩定同位素質量數。
         </footer>
-      </div>
+      </main>
     </AppShell>
   );
 }

@@ -24,11 +24,8 @@ export function Bopomofo({ value, orientation = "horizontal", className = "" }: 
   if (orientation === "vertical") {
     const letters = [...base];
     return (
-      <span
-        className={`bopomofo-v ${className}`}
-        style={{ "--letters": letters.length } as CSSProperties}
-        aria-label={label}
-      >
+      <span className={`bopomofo-v ${className}`} style={{ "--letters": letters.length } as CSSProperties}>
+        <span className="sr-only">{label}</span>
         {tone === 5 && (
           <span className="bopomofo-v__light" aria-hidden>
             {mark}
@@ -49,7 +46,8 @@ export function Bopomofo({ value, orientation = "horizontal", className = "" }: 
   }
 
   return (
-    <span className={`bopomofo ${className}`} aria-label={label}>
+    <span className={`bopomofo ${className}`}>
+      <span className="sr-only">{label}</span>
       {tone === 5 && (
         <span className="bopomofo__tone bopomofo__tone--light" aria-hidden>
           {mark}

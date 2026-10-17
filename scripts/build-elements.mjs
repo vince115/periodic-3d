@@ -22,6 +22,63 @@ const nist = readJson("data-sources/nist-asd-ground-configurations.json");
 const zh = readJson("data-sources/elements-zh-tw.json").elements;
 const moeReadings = readJson("data-sources/moedict-element-readings.json").readings;
 const elementImages = readJson("data-sources/element-images.json").images;
+const classification = readJson("data-sources/element-classification.json");
+
+/**
+ * Non-exclusive category tags. The primary tag is the display category
+ * (PubChem GroupBlock, drives colour); secondary tags record documented
+ * overlaps such as Lu being both a lanthanoid and a group-3 d-block element.
+ */
+function categoryTags(z, category) {
+  const disputed = classification.primaryStatus.disputed[String(z)];
+  const primary = {
+    id: category,
+    role: "primary",
+    status: z >= classification.primaryStatus.predictedFrom ? "predicted" : disputed ? "disputed" : "established",
+    noteZh: disputed ?? null,
+  };
+  const secondary = classification.secondaryTags
+    .filter((rule) => rule.elements.includes(z))
+    .map((rule) => ({ id: rule.id, role: "secondary", status: rule.status, noteZh: rule.noteZh }));
+  const tags = [primary, ...secondary];
+  if (new Set(tags.map((t) => t.id)).size !== tags.length) {
+    throw new Error(`Z=${z}: duplicate category tag`);
+  }
+  return tags;
+}
+
+function familyTags(z) {
+  return Object.entries(classification.families)
+    .filter(([, f]) =>
+      f.range ? z >= f.range[0] && z <= f.range[1] : f.members.includes(z) || f.predicted.includes(z),
+    )
+    .map(([id]) => id);
+}
+
+function metallicity(z, category) {
+  if (z >= classification.metallicity.uncertainFrom) return "uncertain";
+  if (String(z) in classification.metallicity.uncertain) return "uncertain";
+  return classification.metallicity.byCategory[category];
+}
+
+/** Neighbours in the table: same period left/right, same group up/down (f-block rows pair La↔Ac). */
+function relatedNumbers(z, { period, group }) {
+  const out = [];
+  const samePeriod = (n) => n >= 1 && n <= 118 && position(n).period === period;
+  for (const n of [z - 1, z + 1]) if (samePeriod(n)) out.push(n);
+  if (group !== null) {
+    for (const p of [period - 1, period + 1]) {
+      const match = Array.from({ length: 118 }, (_, i) => i + 1).find(
+        (n) => position(n).period === p && position(n).group === group,
+      );
+      if (match) out.push(match);
+    }
+  } else {
+    // Lanthanide ↔ actinide directly below/above (same f-block column).
+    for (const n of [z - 32, z + 32]) if (n >= 57 && n <= 102 && position(n).group === null) out.push(n);
+  }
+  return out.sort((a, b) => a - b);
+}
 
 /** Photo with attribution (Wikimedia Commons), or null with the reason in Chinese. */
 function photo(z) {
@@ -311,11 +368,18 @@ const elements = pubchem.Table.Row.map(({ Cell: cell }) => {
     shellElectrons,
     summaryZh: names.summaryZh,
     ...photo(z),
+    categoryTags: categoryTags(z, category),
+    familyTags: familyTags(z),
+    metallicity: metallicity(z, category),
+    classificationNoteZh:
+      classification.elementNotes[String(z)] ?? classification.metallicity.uncertain[String(z)] ?? null,
+    relatedElementNumbers: [],
   };
   return { ...el, notesZh: notesFor(z, el) };
 });
 
 if (elements.length !== 118) throw new Error(`Expected 118 elements, got ${elements.length}`);
+for (const el of elements) el.relatedElementNumbers = relatedNumbers(el.number, el);
 
 const output = {
   meta: {
@@ -351,6 +415,12 @@ const output = {
         label: "中華民國教育部／國家教育研究院 元素中文名稱",
         url: "https://terms.naer.edu.tw/",
         usedFor: ["nameZh"],
+      },
+      {
+        id: "iupac-redbook-2005",
+        label: "IUPAC Nomenclature of Inorganic Chemistry 2005（Red Book）§IR-3.5",
+        url: "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf",
+        usedFor: ["categoryTags", "familyTags"],
       },
       {
         id: "wikimedia-commons",

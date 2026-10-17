@@ -5,7 +5,9 @@ import Image from "next/image";
 import { useState, type ReactNode } from "react";
 import {
   Atom,
+  BookOpen,
   ChevronDown,
+  ChevronRight,
   ImageOff,
   Info,
   Keyboard,
@@ -27,13 +29,25 @@ import {
   formatGroup,
   parseElectronConfiguration,
 } from "@/lib/element-utils";
-import type { ChemicalElement } from "@/types/element";
+import { getElementStory } from "@/lib/content";
+import type { ChemicalElement, ElementCategoryId } from "@/types/element";
+import { CategoryTagList } from "./CategoryTagList";
 
 interface ElementDetailsProps {
   element: ChemicalElement | null;
   onClose: () => void;
   /** Hide the header close button when the surrounding panel provides one. */
   showClose?: boolean;
+  /** Open the guide article of a category (from the classification tags). */
+  onOpenCategory?: (id: ElementCategoryId) => void;
+  /** Open this element's science story. */
+  onOpenStory?: (number: number) => void;
+  /**
+   * Whether the 3D atom view is expanded. Owned by the caller so the choice
+   * survives switching elements (the card remounts per element for its slide-in).
+   */
+  atomOpen?: boolean;
+  onAtomOpenChange?: (open: boolean) => void;
 }
 
 /** Widest possible shell (n = 4, 5 in real atoms) — used to scale the bars. */
@@ -49,9 +63,19 @@ const AtomViewer = dynamic(() => import("@/components/three-d/AtomViewer"), {
   ),
 });
 
-export function ElementDetails({ element, onClose, showClose = true }: ElementDetailsProps) {
-  // Lives above the early return so the choice persists across selections.
-  const [showAtom, setShowAtom] = useState(false);
+export function ElementDetails({
+  element,
+  onClose,
+  showClose = true,
+  onOpenCategory,
+  onOpenStory,
+  atomOpen,
+  onAtomOpenChange,
+}: ElementDetailsProps) {
+  // Uncontrolled fallback when no owner is provided.
+  const [localAtomOpen, setLocalAtomOpen] = useState(false);
+  const showAtom = atomOpen ?? localAtomOpen;
+  const setShowAtom = (open: boolean) => (onAtomOpenChange ?? setLocalAtomOpen)(open);
   // Shell bars double as the 3D atom's legend, so they share its palette.
   const palette = shellColors(useTheme());
   if (!element) return <EmptyState />;
@@ -63,7 +87,7 @@ export function ElementDetails({ element, onClose, showClose = true }: ElementDe
     <article className="details-panel" style={categoryStyle(element.category)} aria-labelledby="details-title">
       <header className="flex items-start gap-4">
         <div className="details-symbol" aria-hidden>
-          <span className="text-xs text-slate-300 tabular-nums">{element.number}</span>
+          <span className="text-xs text-slate-200 tabular-nums">{element.number}</span>
           <span className="text-4xl font-semibold leading-none text-white">{element.symbol}</span>
         </div>
         <div className="min-w-0 flex-1">
@@ -79,13 +103,7 @@ export function ElementDetails({ element, onClose, showClose = true }: ElementDe
             <span className="mx-1.5 text-slate-600">·</span>
             音同「<span className="text-slate-200">{element.nameZhHomophone}</span>」
           </p>
-          <p className="mt-2 flex flex-wrap items-center gap-2">
-            <span className="category-badge">
-              <span aria-hidden className="legend-item__swatch" />
-              {category.labelZh}
-            </span>
-            {element.categoryPredicted && <span className="predicted-badge">理論預測</span>}
-          </p>
+          <CategoryTagList element={element} onOpenCategory={onOpenCategory} />
         </div>
         {showClose && (
           <button type="button" onClick={onClose} className="icon-button" aria-label="關閉元素資訊">
@@ -95,6 +113,7 @@ export function ElementDetails({ element, onClose, showClose = true }: ElementDe
       </header>
 
       <ElementPhoto element={element} />
+      <StoryEntry element={element} onOpenStory={onOpenStory} />
 
       <dl className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
         <Fact label="原子序">{element.number}</Fact>
@@ -137,7 +156,7 @@ export function ElementDetails({ element, onClose, showClose = true }: ElementDe
           className="atom-toggle"
           aria-expanded={showAtom}
           aria-controls="atom-viewer-panel"
-          onClick={() => setShowAtom((open) => !open)}
+          onClick={() => setShowAtom(!showAtom)}
         >
           <Orbit aria-hidden className="size-4" />
           <span className="flex-1 text-left">{showAtom ? "收合 3D 原子結構" : "探索 3D 原子結構"}</span>
@@ -204,7 +223,7 @@ function Fact({ label, hint, children }: { label: string; hint?: string; childre
       <dt className="text-xs text-slate-400">{label}</dt>
       <dd className="mt-0.5 font-mono text-base text-slate-100 tabular-nums">
         {children}
-        {hint && <span className="block text-xs text-slate-500">{hint}</span>}
+        {hint && <span className="block text-xs text-slate-400">{hint}</span>}
       </dd>
     </div>
   );
@@ -292,5 +311,39 @@ function ElementPhoto({ element }: { element: ChemicalElement }) {
         </span>
       </figcaption>
     </figure>
+  );
+}
+
+/** Entry point to the element's science story (or a note that it is being written). */
+function StoryEntry({
+  element,
+  onOpenStory,
+}: {
+  element: ChemicalElement;
+  onOpenStory?: (number: number) => void;
+}) {
+  const story = getElementStory(element.number);
+  if (!story) {
+    return (
+      <p className="story-entry story-entry--pending">
+        <BookOpen aria-hidden className="size-4 shrink-0" />
+        {element.nameZh}的科學故事撰寫中，將在查核後陸續上線。
+      </p>
+    );
+  }
+  return (
+    <button
+      type="button"
+      className="story-entry"
+      onClick={() => onOpenStory?.(element.number)}
+      disabled={!onOpenStory}
+    >
+      <BookOpen aria-hidden className="size-4 shrink-0" />
+      <span className="min-w-0 flex-1 text-left">
+        <span className="block text-xs text-slate-400">科學故事</span>
+        <span className="block truncate font-medium text-white">{story.title}</span>
+      </span>
+      <ChevronRight aria-hidden className="size-4 shrink-0" />
+    </button>
   );
 }

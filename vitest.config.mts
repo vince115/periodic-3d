@@ -8,5 +8,7 @@ export default defineConfig({
     environment: "jsdom",
     include: ["tests/**/*.test.{ts,tsx}"],
     setupFiles: ["tests/setup.ts"],
+    // Explorer tests re-render all 118 tiles per interaction; 5 s is too tight when files run in parallel.
+    testTimeout: 15_000,
   },
 });

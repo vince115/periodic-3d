@@ -67,7 +67,9 @@ export function SceneCanvas({
             dpr={[1, 1.5]}
             frameloop="demand"
             gl={{ antialias: true, powerPreference: "low-power" }}
-            fallback={fallback}
+            // Rendered *inside* <canvas> (aria-hidden), so it must stay plain text:
+            // interactive fallbacks (e.g. "back to 2D") live outside, in `fallback`.
+            fallback={<p>此瀏覽器無法顯示 3D 場景。</p>}
             aria-hidden
           >
             <ContextLossGuard onLost={onLost} />
