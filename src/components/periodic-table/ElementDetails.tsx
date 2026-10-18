@@ -42,6 +42,8 @@ interface ElementDetailsProps {
   onOpenCategory?: (id: ElementCategoryId) => void;
   /** Open this element's science story. */
   onOpenStory?: (number: number) => void;
+  /** Hide the story entry when the story is already shown alongside (stories pages). */
+  showStoryEntry?: boolean;
   /**
    * Whether the 3D atom view is expanded. Owned by the caller so the choice
    * survives switching elements (the card remounts per element for its slide-in).
@@ -69,6 +71,7 @@ export function ElementDetails({
   showClose = true,
   onOpenCategory,
   onOpenStory,
+  showStoryEntry = true,
   atomOpen,
   onAtomOpenChange,
 }: ElementDetailsProps) {
@@ -113,7 +116,7 @@ export function ElementDetails({
       </header>
 
       <ElementPhoto element={element} />
-      <StoryEntry element={element} onOpenStory={onOpenStory} />
+      {showStoryEntry && <StoryEntry element={element} onOpenStory={onOpenStory} />}
 
       <dl className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
         <Fact label="原子序">{element.number}</Fact>

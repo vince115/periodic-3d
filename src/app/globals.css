@@ -1408,3 +1408,268 @@ a.article__chip:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* ------------------------------------------------------------------------ */
+/* Element stories: table of contents, article pages, pagers                 */
+/* ------------------------------------------------------------------------ */
+
+/* Fluid width: fills the browser; the TOC column appears from lg up. */
+.stories-layout {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1rem;
+}
+@media (min-width: 640px) {
+  .stories-layout {
+    padding: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .stories-layout {
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: 2rem;
+    padding: 1.5rem 2rem;
+  }
+}
+.stories-main {
+  min-width: 0;
+}
+
+/* Narrow screens: a jump menu instead of the sidebar TOC. */
+.stories-jump {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.stories-jump__select {
+  width: 100%;
+  border-radius: var(--radius-control);
+  background: var(--neutral-bg);
+  padding: 0.5rem 0.625rem;
+  font-size: 0.875rem;
+  color: var(--text-1);
+}
+.stories-jump__select:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.stories-toc {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .stories-jump {
+    display: none;
+  }
+  .stories-toc {
+    position: sticky;
+    top: calc(var(--navbar-h) + 1.5rem);
+    display: flex;
+    max-height: calc(100dvh - var(--navbar-h) - 3rem);
+    flex-direction: column;
+    gap: 0.125rem;
+    overflow-y: auto;
+    padding-right: 0.25rem;
+  }
+}
+.stories-toc__heading {
+  margin: 1rem 0 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 653;
+  color: var(--text-4);
+}
+.stories-toc__link {
+  display: flex;
+  min-height: 1.875rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-control);
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+  transition:
+    background-color 120ms,
+    color 120ms;
+}
+.stories-toc__link:hover {
+  background: var(--hover-bg);
+  color: var(--text-1);
+}
+.stories-toc__link[aria-current="page"] {
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  font-weight: 500;
+}
+.stories-toc__period > summary {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: var(--radius-control);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+}
+.stories-toc__period > summary:hover {
+  background: var(--hover-bg);
+}
+.stories-toc__period > ul {
+  margin: 0.125rem 0 0.25rem 0.5rem;
+}
+.stories-toc__link:focus-visible,
+.stories-toc__period > summary:focus-visible,
+.story-pager__link:focus-visible,
+.story-card:focus-visible,
+.story-element:focus-visible,
+.story-member:focus-visible,
+.story-start:focus-visible,
+.period-pager__page:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Data card beside the story; stacks below xl. */
+.story-columns {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+}
+@media (min-width: 1280px) {
+  .story-columns {
+    grid-template-columns: minmax(22rem, 28rem) minmax(0, 1fr);
+  }
+  .story-columns--article-first {
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 26rem);
+  }
+}
+/* Keep article lines readable on very wide screens. */
+.story-columns .article {
+  max-width: 52rem;
+}
+
+.story-start {
+  margin-top: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: var(--radius-control);
+  background: var(--brand);
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--brand-text);
+}
+.story-start:hover {
+  background: var(--brand-hover);
+}
+
+.story-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.75rem;
+}
+.story-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 0.375rem;
+  border-radius: var(--radius-panel);
+  border-left: 3px solid var(--cat);
+  background: var(--surface);
+  padding: 0.875rem 1rem;
+  transition: background-color 120ms;
+}
+.story-card:hover,
+.story-element:hover,
+.story-member:hover {
+  background: color-mix(in srgb, var(--cat) 14%, var(--surface));
+}
+
+.story-element-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+  gap: 0.5rem;
+}
+.story-element,
+.story-member {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 0.125rem;
+  border-radius: var(--radius-control);
+  background: color-mix(in srgb, var(--cat) 8%, var(--surface));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--cat) 35%, transparent);
+  padding: 0.5rem 0.625rem;
+  transition: background-color 120ms;
+}
+.story-element__story {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.6875rem;
+  color: var(--accent-text);
+}
+.story-member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  gap: 0.375rem;
+}
+.story-member__note {
+  font-size: 0.625rem;
+  color: var(--text-3);
+}
+
+.period-pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+}
+.period-pager .icon-button:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.period-pager__page {
+  min-width: 2rem;
+  border-radius: var(--radius-control);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-2);
+}
+.period-pager__page:hover {
+  background: var(--hover-bg);
+}
+.period-pager__page[aria-current="page"] {
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  font-weight: 653;
+}
+
+.story-pager {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.75rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+.story-pager__link {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-panel);
+  background: var(--surface);
+  padding: 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  transition: background-color 120ms;
+}
+.story-pager__link:hover {
+  background: var(--hover-bg);
+}
+.story-pager__link--next {
+  justify-content: flex-end;
+}
+.story-pager__count {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}

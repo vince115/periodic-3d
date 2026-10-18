@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowLeft, BookOpen, ExternalLink, Lightbulb, ShieldCheck } from "lucide-react";
 import type { ReactNode } from "react";
 import { getCategory } from "@/data/categories";
@@ -7,7 +8,6 @@ import { getElementByNumber } from "@/data/elements";
 import { categoryStyle } from "@/lib/element-colors";
 import {
   VERIFICATION_LABELS,
-  getElementStory,
   resolveReference,
   type ArticleSection,
   type CategoryGuide,
@@ -18,15 +18,15 @@ import type { ElementCategoryId } from "@/types/element";
 
 /**
  * How links inside an article behave. In the explorer panel they act on the
- * table (select an element, open another article); on the /stories page
- * they are in-page anchors. Missing handlers render plain text.
+ * table (select an element, open another article); on the /stories pages
+ * they link to the element or category page. Missing handlers render plain text.
  */
 export interface ArticleLinks {
   onSelectElement?: (number: number) => void;
   onOpenCategory?: (id: ElementCategoryId) => void;
   /** Builds an href instead of using callbacks (page mode). */
   categoryHref?: (id: ElementCategoryId) => string;
-  storyHref?: (number: number) => string;
+  elementHref?: (number: number) => string;
 }
 
 type ArticleViewProps = ArticleLinks & {
@@ -214,7 +214,6 @@ function ElementLink({ number, links }: { number: number; links: ArticleLinks })
   const el = getElementByNumber(number);
   if (!el) return null;
   const label = `${el.number} ${el.symbol} ${el.nameZh}`;
-  const hasStory = Boolean(getElementStory(number));
   if (links.onSelectElement) {
     return (
       <button type="button" className="article__chip" style={categoryStyle(el.category)} onClick={() => links.onSelectElement!(number)}>
@@ -222,11 +221,11 @@ function ElementLink({ number, links }: { number: number; links: ArticleLinks })
       </button>
     );
   }
-  if (links.storyHref && hasStory) {
+  if (links.elementHref) {
     return (
-      <a className="article__chip" style={categoryStyle(el.category)} href={links.storyHref(number)}>
+      <Link className="article__chip" style={categoryStyle(el.category)} href={links.elementHref(number)}>
         {label}
-      </a>
+      </Link>
     );
   }
   return (
@@ -247,9 +246,9 @@ function CategoryLink({ id, links }: { id: ElementCategoryId; links: ArticleLink
   }
   if (links.categoryHref) {
     return (
-      <a className="article__chip" style={categoryStyle(id)} href={links.categoryHref(id)}>
+      <Link className="article__chip" style={categoryStyle(id)} href={links.categoryHref(id)}>
         {label}
-      </a>
+      </Link>
     );
   }
   return (
