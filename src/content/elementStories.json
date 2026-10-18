@@ -2420,6 +2420,307 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 72,
+      "title": "理論指出藏身之處的元素",
+      "openingZh": "鉿的發現，靠的是一套原子理論：Niels Bohr 根據他的電子排布理論預測，72 號元素不會是稀土元素，而會藏在鋯礦裡。",
+      "sections": [
+        {
+          "heading": "哥本哈根的發現",
+          "paragraphs": [
+            "1923 年，Dirk Coster 與 George de Hevesy 在哥本哈根 Bohr 的研究所工作時，以 X 光光譜分析挪威的鋯石，找到了這個元素，並以哥本哈根的拉丁名 Hafnia 為它命名。在此之前，法國化學家 Georges Urbain 曾在 1911 年宣稱從稀土樣品中發現名為 celtium 的元素，但這項說法是錯誤的。"
+          ]
+        },
+        {
+          "heading": "最難分開的一對",
+          "paragraphs": [
+            "大多數鋯礦都含有 1% 到 5% 的鉿。鋯和鉿的化學性質幾乎相同，是所有元素中最難分離的一對，不過鉿的密度大約是鋯的兩倍。"
+          ]
+        },
+        {
+          "heading": "控制核反應",
+          "paragraphs": [
+            "鉿吸收熱中子的能力約為鋯的 600 倍，機械性質又好、極耐腐蝕，因此被用來製作核反應爐的控制棒，包括核子潛艇使用的控制棒。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鉿很會吸收中子，鋯卻幾乎不吸收，而兩者的化學性質又幾乎相同。為什麼核反應爐用的鋯必須先除去鉿？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        40,
+        22,
+        73
+      ],
+      "referenceIds": [
+        "pubchem-element:72@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Bohr 依電子排布理論預測不為稀土而存在於鋯礦（CIAAW、Jefferson Lab）、1923 年 Coster 與 de Hevesy 在哥本哈根 Bohr 研究所以 X 光光譜分析挪威鋯石發現、Hafnia 字源、Urbain 1911 年誤稱 celtium（CIAAW、LANL）、鋯礦含 1–5% 鉿、最難分離的一對、密度約為鋯的兩倍、熱中子吸收約為鋯的 600 倍、控制棒與核子潛艇（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Coster 的國籍 CIAAW 寫荷蘭、Jefferson Lab 寫丹麥，本文不寫國籍。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 73,
+      "title": "喝不到水的國王",
+      "openingZh": "鉭的名字來自希臘神話中的 Tantalus：他被罰站在水中，每當想喝水，水就退去。鉭也是這樣，即使泡在酸裡，也幾乎不會吸收任何酸。",
+      "sections": [
+        {
+          "heading": "與鈮的混淆",
+          "paragraphs": [
+            "1802 年，瑞典化學家 Anders Gustaf Ekeberg 發現了鉭。許多化學家認為鉭和鈮是同一種元素，直到 1866 年，瑞士化學家 Jean Charles Galissard de Marignac 才證明它們確實不同。相對純淨的鉭，要到二十世紀初才製成。"
+          ]
+        },
+        {
+          "heading": "幾乎不怕酸",
+          "paragraphs": [
+            "在 150 °C 以下，鉭幾乎完全不受化學侵蝕，只有氫氟酸等少數物質能侵蝕它。它的熔點非常高，在金屬中只低於鎢和錸。"
+          ]
+        },
+        {
+          "heading": "電容與人工關節",
+          "paragraphs": [
+            "五氧化二鉭是良好的介電材料，電容器與真空爐零件約占鉭用量的 60%。鉭不會與體液反應，也不會刺激人體，被用來製作手術縫線、人工關節與顱骨骨板。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Ekeberg 以「喝不到水」的 Tantalus 為鉭命名。你覺得用神話人物為元素命名，有什麼好處與壞處？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        41,
+        74,
+        22
+      ],
+      "referenceIds": [
+        "pubchem-element:73@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Tantalus 神話與鉭不吸收酸的命名理由、1802 年 Ekeberg 發現（CIAAW、Jefferson Lab）、曾被認為與鈮相同、1866 年 Marignac 證明不同（Jefferson Lab、LANL）、150 °C 以下幾乎不受侵蝕且僅受氫氟酸等侵蝕、熔點僅低於鎢與錸、電容器與真空爐零件約占 60%（LANL）、五氧化二鉭介電材料、不與體液反應並用於縫線人工關節顱骨骨板（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：相對純淨的鉭 LANL 記 1903 年、Jefferson Lab 記 1907 年，本文寫二十世紀初。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 74,
+      "title": "熔點最高的金屬",
+      "openingZh": "鎢是熔點最高的金屬，因此被用來製作白熾燈泡的燈絲。",
+      "sections": [
+        {
+          "heading": "沉重的石頭",
+          "paragraphs": [
+            "鎢的英文 tungsten 來自瑞典文，意思是「沉重的石頭」；符號 W 則來自德文 wolfram。據說這種礦物和錫礦一起出現時會妨礙煉錫，像狼吃羊一樣「吃掉」錫。"
+          ]
+        },
+        {
+          "heading": "誰發現了鎢",
+          "paragraphs": [
+            "1781 年，Carl Wilhelm Scheele 從一種礦物中製得了新的酸，並推測可以從中還原出新金屬。1783 年，西班牙的 Elhuyar 兄弟從黑鎢礦中找到相同的酸，用木炭還原後取得了金屬鎢。CIAAW 把發現歸於 Scheele，Jefferson Lab 則歸於 Elhuyar 兄弟。"
+          ]
+        },
+        {
+          "heading": "又硬又耐熱",
+          "paragraphs": [
+            "鎢的熱膨脹率和硼矽酸鹽玻璃相近，適合做成金屬與玻璃的封接。鎢鋼可以製造高速切削刀具與火箭噴嘴；碳化鎢極為堅硬，被用在鑽頭的尖端。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "燈絲必須在高溫下發光又不熔化。除了熔點，燈絲材料還需要具備哪些性質？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        42,
+        24,
+        26
+      ],
+      "referenceIds": [
+        "pubchem-element:74@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "熔點最高的金屬並用於燈絲（Jefferson Lab、LANL）、tungsten 與 wolfram 字源及吃掉錫的說法（CIAAW）、1781 年 Scheele 製得新酸並與 Bergman 提出還原的可能、1783 年 Elhuyar 兄弟在黑鎢礦中找到相同的酸並以木炭還原（LANL）、熱膨脹率近硼矽酸鹽玻璃、鎢鋼刀具與火箭噴嘴、碳化鎢鑽頭（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：CIAAW 將發現歸於 Scheele（1781 年），Jefferson Lab 歸於 Elhuyar 兄弟（1783 年），本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 75,
+      "title": "以萊茵河命名",
+      "openingZh": "錸的名字來自拉丁文 Rhenus，也就是德國的萊茵河。",
+      "sections": [
+        {
+          "heading": "用 X 光找到的元素",
+          "paragraphs": [
+            "1925 年，德國化學家 Walter Noddack、Ida Tacke 與 Otto Berg 以 X 光光譜分析，在鉑礦與鈮鐵礦中偵測到了錸。它在這些礦物中只有微量；1928 年，他們處理了 660 公斤的輝鉬礦，才提取出 1 公克的錸。"
+          ]
+        },
+        {
+          "heading": "又重又耐熱",
+          "paragraphs": [
+            "錸是帶有金屬光澤的銀白色金屬，密度只低於鉑、銥與鋨，熔點只低於鎢和碳。它在地殼中分布很廣，但含量只有約十億分之一，也沒有以錸為主的礦物。"
+          ]
+        },
+        {
+          "heading": "耐用的合金",
+          "paragraphs": [
+            "錸常被加進鎢與鉬的合金中。錸鎢熱電偶可以測量高達 2200 °C 的溫度；錸催化劑不容易被氮、硫、磷毒化，被用於精細化學品的氫化。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "1928 年，科學家處理了 660 公斤的礦石才得到 1 公克的錸。你能算出錸在這批礦石中的濃度大約是多少嗎？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        43,
+        74,
+        76
+      ],
+      "referenceIds": [
+        "pubchem-element:75@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Rhenus 字源、1925 年 Noddack、Tacke 與 Berg 以 X 光光譜發現（CIAAW）、在鉑礦與鈮鐵礦中偵測、1928 年從 660 公斤輝鉬礦提取 1 公克（Jefferson Lab、LANL）、銀白金屬光澤、密度僅低於鉑銥鋨、熔點僅低於鎢與碳、地殼約 0.001 ppm 且無獨立礦物、鎢鉬合金添加物、錸鎢熱電偶至 2200 °C、催化劑耐氮硫磷毒化並用於氫化（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 76,
+      "title": "誰才是最重的元素？",
+      "openingZh": "鋨和銥都是密度極高的元素，但兩者到底哪一個比較重？根據 Los Alamos 的說明，IUPAC 至今還沒有定論。",
+      "sections": [
+        {
+          "heading": "王水裡的黑色殘渣",
+          "paragraphs": [
+            "1803 年，英國化學家 Smithson Tennant 用王水溶解鉑礦後，在剩下的黑色殘渣中，同時發現了鋨和銥。"
+          ]
+        },
+        {
+          "heading": "測量與計算的矛盾",
+          "paragraphs": [
+            "實際測量顯示鋨的密度略高於銥，因此鋨常被說成較重的元素；但由晶格計算的密度，銥約為每立方公分 22.65 公克、鋨約為 22.61 公克，反而是銥略重。由於兩種結果矛盾，哪一個比較重仍未定案。"
+          ]
+        },
+        {
+          "heading": "刺鼻的氧化物",
+          "paragraphs": [
+            "鋨的名稱來自希臘文 osme，意思是「氣味」，因為它的揮發性氧化物有刺鼻的氣味。粉末狀的鋨會慢慢釋出劇毒的四氧化鋨。鋨主要用來製作極硬的合金，用於鋼筆筆尖、儀器軸承與電接點。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "測量值和計算值為什麼可能不同？在科學上遇到這種矛盾時，應該怎麼處理？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        77,
+        78,
+        75
+      ],
+      "referenceIds": [
+        "pubchem-element:76@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1803 年 Tennant 在王水溶解鉑礦後的黑色殘渣中同時發現鋨與銥（CIAAW、Jefferson Lab、LANL）、測量密度鋨略高、晶格計算銥 22.65 與鋨 22.61、IUPAC 未決定何者較重（LANL）、osme 字源與揮發性氧化物氣味（CIAAW）、粉末釋出劇毒四氧化鋨、用於鋼筆筆尖儀器軸承電接點的硬質合金（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 77,
+      "title": "地層裡的撞擊證據",
+      "openingZh": "白堊紀末期的沉積層中，全世界都有一層富含銥的薄層。由於隕石與小行星的銥含量比地殼高，這被視為當時有大型隕石或小行星撞擊地球的證據。",
+      "sections": [
+        {
+          "heading": "彩虹的名字",
+          "paragraphs": [
+            "銥的名稱來自希臘神話的彩虹女神 Iris，因為它的鹽類溶液顏色多變。1803 年，Smithson Tennant 在鉑礦溶於王水後的殘渣中發現了銥；法國化學家 Collet-Descotils 也獨立發現了它，還比 Tennant 早一個月發表，但功勞通常歸於 Tennant，可能是因為他同時發現了鋨。"
+          ]
+        },
+        {
+          "heading": "最耐腐蝕的金屬",
+          "paragraphs": [
+            "銥是已知最耐腐蝕的金屬，任何酸甚至王水都無法侵蝕它。巴黎的標準公尺棒，就是用 90% 鉑與 10% 銥的合金製成；1960 年才被氪的光譜線取代。"
+          ]
+        },
+        {
+          "heading": "堅硬難加工",
+          "paragraphs": [
+            "銥又硬又脆，幾乎無法機械加工，主要用來強化鉑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼地層中某種元素的含量突然升高，可以成為過去發生撞擊事件的證據？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        76,
+        78,
+        36
+      ],
+      "referenceIds": [
+        "pubchem-element:77@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "白堊紀末全球富銥沉積層、隕石與小行星含銥較高而視為撞擊證據（Jefferson Lab）、Iris 字源與多彩鹽類溶液、1803 年 Tennant 發現、Collet-Descotils 獨立發現並早一個月發表、功勞歸 Tennant 的可能原因（CIAAW）、最耐腐蝕、不受酸與王水侵蝕、90% 鉑 10% 銥的公尺棒與 1960 年由氪取代（LANL、Jefferson Lab）、硬脆難加工並主要用於強化鉑，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 78,
+      "title": "被稱為「銀」的金屬",
+      "openingZh": "鉑的名稱來自西班牙文 platina，意思是「銀」。早在歐洲科學家注意到它之前，南美洲前哥倫布時期的原住民就已經在使用鉑了。",
+      "sections": [
+        {
+          "heading": "近代的重新發現",
+          "paragraphs": [
+            "1735 年，西班牙天文學家 Antonio de Ulloa 在南美洲發現了鉑，一般認為他是鉑在近代的重新發現者；1741 年，英國冶金學家 Charles Wood 也在南美洲找到了鉑。1750 年，英國醫師 William Brownrigg 製得了純化的鉑。"
+          ]
+        },
+        {
+          "heading": "不會氧化的金屬",
+          "paragraphs": [
+            "鉑在任何溫度下都不會在空氣中氧化，也不溶於鹽酸或硝酸，只有兩者混合成的王水才能溶解它。它的熱膨脹率與鈉鈣玻璃幾乎相同，因此被用來製作封在玻璃中的電極。"
+          ]
+        },
+        {
+          "heading": "催化劑",
+          "paragraphs": [
+            "細粉狀的鉑是極佳的催化劑：它能讓甲醇蒸氣轉變成甲醛，並在過程中變得紅熱，這個效應被用在小型暖手爐上。大多數汽車排氣系統中的觸媒轉換器，也使用鉑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鉑很昂貴，卻被大量用在汽車的觸媒轉換器中。催化劑在反應中不會被消耗，這和它需要的用量有什麼關係？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        46,
+        77,
+        79
+      ],
+      "referenceIds": [
+        "pubchem-element:78@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "platina 字源（CIAAW）、前哥倫布時期原住民使用（Jefferson Lab、LANL）、1735 年 Ulloa 與 1741 年 Wood 在南美洲發現、1750 年 Brownrigg 製得純化鉑（CIAAW）、Ulloa 一般被視為近代重新發現者（Jefferson Lab）、任何溫度下不在空氣中氧化、不溶於鹽酸或硝酸而溶於王水、熱膨脹率與鈉鈣玻璃相近而用於玻璃封接電極（LANL、Jefferson Lab）、甲醇轉甲醛並紅熱而用於暖手爐、觸媒轉換器（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 79,
       "title": "不會失去光澤的金屬",
       "openingZh": "幾千年前的金飾出土時依然閃亮。金為什麼不像鐵那樣生鏽？又為什麼是金黃色？",
@@ -2470,6 +2771,49 @@
         "notesZh": "5,500 年歷史、以單質存在、Au 的由來、不失光澤、延展性數據、合金與 K 金定義、首飾牙科錢幣用途、衛星紅外線反射皆已對照 CIAAW 與 PubChem（Jefferson Lab、LANL）原文。「相對論效應造成金色與惰性」引用 Pyykkö (1988)，但未取得全文逐句比對，待查核。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 80,
+      "title": "室溫下的液態金屬",
+      "openingZh": "汞是唯一在室溫下呈液態的常見金屬。它的符號 Hg 來自希臘文 hydrargyrum，意思是「液態的銀」。",
+      "sections": [
+        {
+          "heading": "古墓中的汞",
+          "paragraphs": [
+            "古代的中國人與印度人都知道汞，在約 3500 年前的埃及古墓中也曾發現汞。英文 mercury 來自羅馬神話中敏捷的眾神信使墨丘利。汞主要從辰砂中提取：在氣流中加熱辰砂，再把汞蒸氣冷凝下來。"
+          ]
+        },
+        {
+          "heading": "汞齊",
+          "paragraphs": [
+            "汞很容易和金、銀、錫等金屬形成合金，稱為汞齊；利用汞與金結合的特性，可以從礦石中回收金。汞也被用來製作溫度計、氣壓計與水銀燈。"
+          ]
+        },
+        {
+          "heading": "劇毒",
+          "paragraphs": [
+            "汞是劇毒物質，能經由呼吸道、消化道，甚至未破損的皮膚被人體吸收；氯化汞同樣是劇烈的毒物。汞是否屬於過渡金屬各方看法不同，本站將這項分類標為有爭議。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "汞和多數金屬不同，在室溫下是液體。從原子結構的角度想想，可能是什麼讓汞的熔點特別低？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        30,
+        48,
+        79
+      ],
+      "referenceIds": [
+        "pubchem-element:80@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "唯一室溫液態的常見金屬、中國與印度古代已知、埃及古墓（Jefferson Lab 寫 3500 年前、LANL 寫西元前 1500 年，兩者一致）、自辰砂加熱冷凝取得（LANL、Jefferson Lab）、hydrargyrum 與墨丘利字源（CIAAW）、汞齊與回收金、溫度計氣壓計水銀燈、劇毒並經呼吸道消化道與完整皮膚吸收、氯化汞劇毒（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。分類爭議一句依據本站分類資料（IUPAC 註明第 12 族並非總是包含在過渡金屬內）。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 81,

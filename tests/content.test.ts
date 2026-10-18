@@ -55,12 +55,13 @@ describe("element stories (elementStories.json)", () => {
     expect(members).toHaveLength(50);
     for (const el of members) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
     // Transition metals are written period by period.
-    const transitionPeriodsDone = [4, 5];
+    const transitionPeriodsDone = [4, 5, 6];
     const transitionDone = ELEMENTS.filter(
       (el) => el.category === "transition-metal" && transitionPeriodsDone.includes(el.period),
     );
     expect(transitionDone.map((el) => el.number)).toEqual([
-      21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48,
+      21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 72, 73, 74, 75, 76, 77,
+      78, 79, 80,
     ]);
     for (const el of transitionDone) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
   });
