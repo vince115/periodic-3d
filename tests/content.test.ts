@@ -50,9 +50,9 @@ describe("element stories (elementStories.json)", () => {
     expect(new Set(numbers).size).toBe(numbers.length);
     for (const n of [1, 6, 8, 14, 29, 79]) expect(numbers).toContain(n);
     // Phase 3 batches, one category group at a time.
-    const finished = ["alkali-metal", "alkaline-earth-metal", "halogen", "noble-gas", "nonmetal", "metalloid", "post-transition-metal", "lanthanide"];
+    const finished = ["alkali-metal", "alkaline-earth-metal", "halogen", "noble-gas", "nonmetal", "metalloid", "post-transition-metal", "lanthanide", "actinide"];
     const members = ELEMENTS.filter((el) => el.categoryTags.some((t) => finished.includes(t.id)));
-    expect(members).toHaveLength(65);
+    expect(members).toHaveLength(80);
     for (const el of members) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
     // Transition metals are written period by period.
     const transitionPeriodsDone = [4, 5, 6];

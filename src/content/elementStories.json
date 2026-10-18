@@ -3810,6 +3810,637 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 89,
+      "title": "光束般的名字",
+      "openingZh": "錒的名字來自希臘文 aktis，意思是「光束」或「射線」。它是天然存在於鈾礦中的放射性元素。",
+      "sections": [
+        {
+          "heading": "兩次發現",
+          "paragraphs": [
+            "1899 年，法國化學家 André-Louis Debierne 在試驗分離稀土氧化物的新方法時發現了錒；1902 年，Friedrich Otto Giesel 也獨立發現了它。錒在鈾礦中的含量極少，需要時通常以核反應爐中的中子轟擊鐳來製造，比從礦石中提取更便宜、更容易。"
+          ]
+        },
+        {
+          "heading": "像鑭的化學性質",
+          "paragraphs": [
+            "錒的化學行為和稀土元素相似，特別像鑭。最穩定的同位素錒-227 半衰期約 22 年；它和衰變產物達到平衡後，是很強的 α 粒子來源，放射性大約是鐳的 150 倍。錒目前沒有重要的商業用途，但可以用來產生中子。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "錒的化學性質很像鑭，兩者分別位在錒系與鑭系的開頭。你覺得這兩個系列之間，可能有什麼對應關係？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        57,
+        88,
+        90
+      ],
+      "referenceIds": [
+        "pubchem-element:89@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "aktis 字源、1899 年 Debierne 與 1902 年 Giesel 獨立發現、天然存在於鈾礦（LANL、Jefferson Lab）、試驗分離稀土氧化物、以中子轟擊鐳製造較便宜容易（Jefferson Lab）、化學性質似鑭、平衡後為強 α 源、放射性約為鐳的 150 倍、用於產生中子（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。來源差異：錒-227 半衰期 Jefferson Lab 為 21.77 年、LANL 為 21.6 年，本文寫約 22 年。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 90,
+      "title": "以雷神命名",
+      "openingZh": "釷的名字來自北歐神話的雷神索爾（Thor）。它在多數岩石與土壤中都有少量存在：一般土壤平均約含百萬分之六的釷。",
+      "sections": [
+        {
+          "heading": "黑色的礦物",
+          "paragraphs": [
+            "挪威的 Esmark 父子找到一種無法辨認的黑色礦物，把樣品寄給瑞典化學家 Jöns Jacob Berzelius，他從中發現了新元素釷（CIAAW 與 Jefferson Lab 記為 1828 年，Los Alamos 記為 1829 年）。"
+          ]
+        },
+        {
+          "heading": "古老的原子",
+          "paragraphs": [
+            "釷-232 是原始核種，在地球形成之前就已存在。1898 年，Marie Curie 與 Gerhard Carl Schmidt 各自發現釷具有放射性；1900 到 1903 年間，Ernest Rutherford 與 Frederick Soddy 證明釷會以固定的速率，衰變成一系列其他元素。"
+          ]
+        },
+        {
+          "heading": "發光的燈罩",
+          "paragraphs": [
+            "1885 年 Carl Auer von Welsbach 發明煤氣燈罩後，釷才有了實際用途：以氧化釷為主的燈罩在煤氣火焰中加熱，會發出耀眼的白光。氧化釷的熔點約 3300 °C，是所有氧化物中最高的。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Rutherford 和 Soddy 發現釷會以固定的速率衰變。為什麼「固定的衰變速率」可以用來推算岩石的年代？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        58,
+        92,
+        89
+      ],
+      "referenceIds": [
+        "pubchem-element:90@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Thor 字源（CIAAW、LANL）、土壤平均約 6 ppm、Esmark 父子與 Berzelius、1898 年 Curie 與 Schmidt 各自發現放射性、1900–1903 年 Rutherford 與 Soddy 的衰變研究、釷-232 為原始核種、1885 年 von Welsbach 煤氣燈罩、氧化釷熔點約 3300 °C 為氧化物最高（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。來源差異：Berzelius 的發現年份 CIAAW 與 Jefferson Lab 為 1828 年、LANL 為 1829 年（LANL 記樣品於 1828 年寄出），本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 91,
+      "title": "排在錒之前",
+      "openingZh": "鏷的名字由希臘文 protos（第一）加上 actinium 組成，因為它最常見的同位素鏷-231 會放出 α 粒子，衰變成錒。",
+      "sections": [
+        {
+          "heading": "從 brevium 到 protactinium",
+          "paragraphs": [
+            "1871 年，Mendeleev 預言釷和鈾之間還有一個元素。1913 年，Kasimir Fajans 與 O. H. Göhring 研究鈾的衰變鏈時，找到了鏷的第一個同位素；因為它的半衰期很短，他們取名為 brevium（短暫）。1918 年，德國的 Otto Hahn 與 Lise Meitner，以及英國的 Frederick Soddy 與 John Cranston，各自發現了半衰期約 3 萬 2 千年的鏷-231。"
+          ]
+        },
+        {
+          "heading": "最稀有的天然元素之一",
+          "paragraphs": [
+            "鏷是最稀有、最昂貴的天然元素之一，在地殼中的平均濃度只有兆分之幾。1959 到 1961 年間，英國原子能管理局從 60 公噸的廢料中，以 12 道步驟提煉出 125 公克純度 99.9% 的鏷，花費約 50 萬美元。由於稀少、放射性強又具有高毒性，鏷只用於基礎研究。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "從 60 公噸的廢料中只提煉出 125 公克的鏷。你能算出它在這些廢料中的濃度大約是多少嗎？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        89,
+        92,
+        90
+      ],
+      "referenceIds": [
+        "pubchem-element:91@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "protos 字源與鏷-231 衰變為錒（CIAAW）、1871 年 Mendeleev 預言（LANL）、1913 年 Fajans 與 Göhring 研究鈾衰變鏈並命名 brevium、1918 年 Hahn 與 Meitner 及 Soddy 與 Cranston 各自發現鏷-231（CIAAW、Jefferson Lab、LANL）、半衰期約 32,000 年（LANL；CIAAW 為 3.25 × 10⁴ 年）、最稀有昂貴、地殼兆分之幾、英國原子能管理局 60 公噸廢料、12 道步驟、125 公克、約 50 萬美元、僅用於研究（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。註：第一個同位素的半衰期 CIAAW 寫 6.7 小時、Jefferson Lab 寫約 1.17 分鐘（可能分指不同核態），本文未寫數值。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 92,
+      "title": "古羅馬的黃色玻璃",
+      "openingZh": "早在西元 79 年，人們就用鈾的氧化物替陶瓷釉料上黃色；義大利拿坡里附近的一座古羅馬別墅中，曾發現含 1% 氧化鈾的黃色玻璃。",
+      "sections": [
+        {
+          "heading": "以天王星命名",
+          "paragraphs": [
+            "1789 年，德國化學家 Martin Heinrich Klaproth 研究瀝青鈾礦，認為其中含有新元素，並以八年前才被發現的天王星（Uranus）為它命名。不過他取得的其實是鈾的氧化物；1841 年，法國化學家 Eugène-Melchior Péligot 才用鉀還原，分離出純的金屬鈾。"
+          ]
+        },
+        {
+          "heading": "放射性的發現",
+          "paragraphs": [
+            "1896 年，法國物理學家 Antoine Henri Becquerel 在一份鈾的樣品中，首次偵測到放射性。純鈾是帶弱放射性的銀白色金屬，密度比鉛高約 70%。"
+          ]
+        },
+        {
+          "heading": "核能的燃料",
+          "paragraphs": [
+            "天然的鈾中只有約 0.72% 是鈾-235，它是唯一天然存在、能被熱中子分裂的同位素。鈾通常以二氧化鈾的形式用在核能發電中。Los Alamos 指出，鈾其實並不稀有，比汞、銀或鎘都多。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "天然鈾中只有約 0.72% 是能分裂的鈾-235。你覺得這個比例，會對使用鈾作為核燃料帶來什麼挑戰？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        91,
+        93,
+        94,
+        88
+      ],
+      "referenceIds": [
+        "pubchem-element:92@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "西元 79 年作黃色釉料與拿坡里附近羅馬別墅含 1% 氧化鈾的玻璃（LANL）、1789 年 Klaproth 研究瀝青鈾礦並以天王星命名、天王星發現於 1781 年（CIAAW）、Klaproth 取得的是氧化物、1841 年 Péligot 以鉀還原分離（Jefferson Lab、LANL）、1896 年 Becquerel 發現放射性（Jefferson Lab）、銀白弱放射性且比鉛密約 70%、鈾-235 為唯一天然可被熱中子分裂的同位素、比汞銀鎘多（LANL）、0.7204% 鈾-235 與二氧化鈾核能發電（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 93,
+      "title": "第一個人造的超鈾元素",
+      "openingZh": "錼是第一個以人工合成的超鈾元素，名字來自緊接在天王星之後的海王星（Neptune）。",
+      "sections": [
+        {
+          "heading": "Fermi 的誤會",
+          "paragraphs": [
+            "1934 年，Enrico Fermi 用中子轟擊鈾，以為製造出了 93 和 94 號元素；後來才知道，他其實讓鈾原子分裂成了許多碎片。核分裂的解釋後來由 Hahn 與 Strassmann 發表，而正確詮釋實驗結果的，是他們的同事 Lise Meitner。"
+          ]
+        },
+        {
+          "heading": "柏克萊的成功",
+          "paragraphs": [
+            "1940 年，加州大學柏克萊分校的 Edwin McMillan 與研究生 Philip Abelson 以慢中子轟擊鈾，製造出錼-239。它的半衰期約 2.4 天，會衰變成鈽-239。"
+          ]
+        },
+        {
+          "heading": "天然的微量錼",
+          "paragraphs": [
+            "錼最穩定的同位素錼-237 半衰期約 214 萬年，可用於中子偵測器。錼曾被認為完全是人造的，但鈾礦中的鈾原子吸收其他鈾原子衰變產生的中子後，也會形成極微量的錼。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Fermi 以為自己製造了新元素，其實是讓鈾分裂了。一個錯誤的解釋，為什麼反而可能引導出重大的發現？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        92,
+        94,
+        95
+      ],
+      "referenceIds": [
+        "pubchem-element:93@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "海王星字源、Fermi 1934 年以為製得 93 與 94 號元素實為核分裂、Hahn 與 Strassmann 發表而 Meitner 正確詮釋、1940 年 McMillan 與 Abelson 以慢中子轟擊鈾、錼-239 為第一個人工合成的超鈾元素並衰變成鈽-239（LANL）、半衰期約 2.4 天、錼-237 半衰期約 214 萬年並用於中子偵測器、鈾礦中自然形成極微量錼（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 94,
+      "title": "以冥王星命名",
+      "openingZh": "繼以天王星命名的鈾、以海王星命名的錼之後，94 號元素依序以冥王星（Pluto）命名為鈽。",
+      "sections": [
+        {
+          "heading": "戰時的秘密",
+          "paragraphs": [
+            "1940 到 1941 年間，Glenn T. Seaborg、Edwin McMillan、Joseph Kennedy 與 Arthur Wahl 在加州大學柏克萊分校，以迴旋加速器加速的氘核轟擊鈾-238，製造出錼-238，它衰變後形成了鈽-238。Seaborg 在 1941 年 3 月投稿發表，但論文很快就被撤回；由於戰時的保密需要，這項發現直到 1946 年才公開。"
+          ]
+        },
+        {
+          "heading": "最複雜的元素之一",
+          "paragraphs": [
+            "鈽位在週期表的轉折處：它的 5f 電子介於「屬於單一原子」與「不屬於單一原子」之間，因此被認為是最複雜的元素之一。剛製成的鈽呈明亮的銀色，氧化後會變成暗灰、黃或橄欖綠色。"
+          ]
+        },
+        {
+          "heading": "太空與核能",
+          "paragraphs": [
+            "鈽-238 被用在放射性同位素熱電機中，為卡西尼號、伽利略號等遠離太陽的探測器供電。鈽-239 被用於核武與部分核反應爐。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "遠離太陽的太空探測器，為什麼不能只靠太陽能板，而要改用放射性同位素發電？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        93,
+        95,
+        92
+      ],
+      "referenceIds": [
+        "pubchem-element:94@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "冥王星命名並延續天王星與海王星的慣例、Seaborg 等人以氘核轟擊鈾-238 得到錼-238 並衰變成鈽-238、1941 年 3 月投稿後撤回（LANL）、戰時保密至 1946 年公開（Jefferson Lab）、5f 電子介於局域與非局域之間且為最複雜的元素之一、銀色與氧化後的顏色（LANL）、鈽-238 熱電機供電卡西尼號與伽利略號、鈽-239 用於核武與核反應爐（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。來源差異：LANL 寫 1940/41 年、Jefferson Lab 寫 1941 年，本文寫 1940 到 1941 年間。註：LANL 原文「Element 93 was discovered in 1940/41」應為 94 號的筆誤。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 95,
+      "title": "煙霧偵測器裡的元素",
+      "openingZh": "商用煙霧偵測器中作為游離輻射源的，正是鋂-241。",
+      "sections": [
+        {
+          "heading": "以美洲命名",
+          "paragraphs": [
+            "鋂以北美洲命名，就像它在鑭系中的對應元素銪，以歐洲命名一樣。1944 年，Glenn Seaborg、Ralph James、Leon Morgan 與 Albert Ghiorso 讓鈽同位素在核反應爐中連續捕獲中子，製造出了鋂。"
+          ]
+        },
+        {
+          "heading": "意料之外的化學性質",
+          "paragraphs": [
+            "鋂的實際化學性質和科學家原先的預期不同，因此一開始很難分離。最初的鋂樣品只有幾微克，幾乎看不見，只能靠放射性辨認；直到 1951 年，才製得較大量的金屬鋂。"
+          ]
+        },
+        {
+          "heading": "實用的鋂",
+          "paragraphs": [
+            "鋂-241 的半衰期約 432 年，容易製得較純的樣品，也可以作為攜帶式的 γ 射線源，例如用來測量玻璃的厚度。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鋂和銪在週期表上的位置相互對應，連命名方式都一樣。你能在鑭系與錒系中，找到其他上下對應的元素嗎？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        63,
+        94,
+        96
+      ],
+      "referenceIds": [
+        "pubchem-element:95@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "煙霧偵測器游離源（LANL、Jefferson Lab）、以北美洲命名並類比銪、1944 年 Seaborg、James、Morgan 與 Ghiorso 以鈽連續捕獲中子製得、實際化學性質與預期不同而難以分離、最初樣品僅數微克、1951 年製得較大量金屬、γ 射線源與測量玻璃厚度（LANL）、鋂-241 半衰期 432.2 年且易得較純樣品（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。來源差異：首次合成地點 Jefferson Lab 與 LANL 寫芝加哥大學冶金實驗室、IUPAC IPTEI 寫柏克萊，本文未寫地點。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 96,
+      "title": "紀念居禮夫婦",
+      "openingZh": "鋦的名字，是為了紀念發現鐳和釙的 Pierre Curie 與 Marie Curie。",
+      "sections": [
+        {
+          "heading": "第三個被發現的超鈾元素",
+          "paragraphs": [
+            "雖然鋦在週期表上排在鋂之後，它卻是第三個被發現的超鈾元素。1944 年，Seaborg、James 與 Ghiorso 利用柏克萊的迴旋加速器，以氦離子轟擊鈽-239，製造出鋦-242。1947 年，Werner 與 Perlman 首次分離出肉眼可見的鋦，大約 30 微克。"
+          ]
+        },
+        {
+          "heading": "與釓相似",
+          "paragraphs": [
+            "鋦在某些方面和它在鑭系中的對應元素釓相似，但晶體結構更複雜。金屬鋦有光澤、呈銀色，化學性質活潑，正電性比鋁還強。天然鈾礦中或許存在極微量的鋦，但從未被偵測到。"
+          ]
+        },
+        {
+          "heading": "只用於研究",
+          "paragraphs": [
+            "目前鋦主要用於基礎科學研究，未來可能被用在放射性同位素熱電機中。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鋦以居禮夫婦命名，鈦以神話中的泰坦命名。你覺得以科學家命名元素，和以神話或地名命名，各有什麼意義？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        95,
+        64,
+        88,
+        84
+      ],
+      "referenceIds": [
+        "pubchem-element:96@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Curie 夫婦命名（IUPAC IPTEI）、第三個被發現的超鈾元素、1944 年 Seaborg、James 與 Ghiorso 以柏克萊迴旋加速器的氦離子轟擊鈽-239、1947 年 Werner 與 Perlman 分離約 30 微克、與釓相似但晶體結構較複雜、銀色活潑且正電性強於鋁、天然鋦從未被偵測（LANL）、鋦-242、主要用於研究與未來熱電機用途（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 97,
+      "title": "以柏克萊命名",
+      "openingZh": "鉳以美國加州的柏克萊命名，那是它首次被合成的城市。",
+      "sections": [
+        {
+          "heading": "1949 年的發現",
+          "paragraphs": [
+            "1949 年 12 月，Stanley Thompson、Albert Ghiorso 與 Glenn Seaborg 在柏克萊以 α 粒子轟擊鋂-241，製造出鉳-243。這個新的放射性物質在層析管柱中，恰好在鋦之前流出。"
+          ]
+        },
+        {
+          "heading": "看得見的鉳",
+          "paragraphs": [
+            "1962 年，科學家首次製得肉眼可見的鉳化合物氯化鉳，重量只有約十億分之三公克。鉳最穩定的同位素鉳-247，半衰期約 1400 年。"
+          ]
+        },
+        {
+          "heading": "合成更重元素的原料",
+          "paragraphs": [
+            "鉳-249 的半衰期約 320 天，足以分離出來做較大規模的研究，但它放出的輻射對健康有危害。鉳-249 也被當作靶材，以鈣-48 轟擊後合成了 117 號元素鿬。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "合成超重元素時，為什麼要先製造出像鉳-249 這樣的重元素作為靶材？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        96,
+        98,
+        117
+      ],
+      "referenceIds": [
+        "pubchem-element:97@2026-10-18",
+        "pubchem-element:117@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以柏克萊命名、1949 年 12 月 Thompson、Ghiorso 與 Seaborg 以 α 粒子轟擊鋂-241 製得鉳-243、鉳-247 半衰期約 1.4 × 10³ 年、鉳-249 半衰期 320 天並可大規模研究、輻射危害（IUPAC IPTEI、LANL）、層析管柱中在鋦之前流出（LANL）、1962 年約 3 奈克的氯化鉳（Jefferson Lab）、以鈣-48 轟擊鉳-249 合成鿬（元素 117 頁，Jefferson Lab 與 IUPAC IPTEI），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 98,
+      "title": "強大的中子源",
+      "openingZh": "1 微克的鉲-252，每分鐘就能放出 1 億 7000 萬個中子。",
+      "sections": [
+        {
+          "heading": "以加州命名",
+          "paragraphs": [
+            "1950 年，Thompson、Street、Ghiorso 與 Seaborg 在柏克萊以氦離子轟擊微克級的鋦-242，製造出鉲，並以它首次被合成的加州（California）為它命名。"
+          ]
+        },
+        {
+          "heading": "準確的預測",
+          "paragraphs": [
+            "科學家預期鉲會像它在鑭系中的對應元素鏑一樣，在水溶液中具有穩定的三價狀態。這個預測是正確的，讓他們能以層析法把鉲從其他錒系元素中分離出來，並確認它的身分。"
+          ]
+        },
+        {
+          "heading": "尋找礦藏與油層",
+          "paragraphs": [
+            "鉲-252 的半衰期約 2.6 年，是很強的中子源，被用來以中子活化分析辨識金礦與銀礦，也用於尋找油井中含水與含油地層的中子水分計。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "科學家靠著「鉲應該像鏑」的預測，成功分離出鉲。週期表的規律，為什麼能幫助科學家設計實驗？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        66,
+        97,
+        99
+      ],
+      "referenceIds": [
+        "pubchem-element:98@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "鉲-252 每微克每分鐘 1.7 億個中子、半衰期約 2.6 年、中子活化辨識金銀礦與中子水分計（Jefferson Lab）、1950 年 Thompson、Street、Ghiorso 與 Seaborg 以氦離子轟擊微克級鋦-242、預期與鏑相同的三價狀態並以層析法分離（LANL）、以加州命名（IUPAC IPTEI），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 99,
+      "title": "核爆塵埃中的元素",
+      "openingZh": "鑀是在 1952 年第一次大型熱核爆炸留下的殘骸中被發現的。",
+      "sections": [
+        {
+          "heading": "以愛因斯坦命名",
+          "paragraphs": [
+            "1952 年 12 月，Albert Ghiorso 等人分析這次試爆的殘骸，發現了鑀-253；它是鈾-238 吸收 15 個中子後，再經過七次 β 衰變形成的。這個元素以 Albert Einstein 命名。參與鑑定的科學家，來自阿貢、Los Alamos 與柏克萊等實驗室。"
+          ]
+        },
+        {
+          "heading": "極微量的樣品",
+          "paragraphs": [
+            "1961 年，科學家才製得足以秤重的鑀-253，重量只有約 0.01 微克，必須用特殊的磁力天平測量。鑀本身的強烈輻射，讓它的晶體結構非常難以測定。"
+          ]
+        },
+        {
+          "heading": "合成鍆的原料",
+          "paragraphs": [
+            "鑀-253 曾被用來合成 101 號元素鍆。除了基礎研究之外，鑀沒有其他用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼核爆的殘骸中，能找到自然界原本沒有的重元素？想想鈾在極短時間內吸收大量中子會發生什麼。",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        100,
+        92,
+        101
+      ],
+      "referenceIds": [
+        "pubchem-element:99@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1952 年第一次大型熱核爆炸殘骸、1952 年 12 月 Ghiorso 等人發現鑀-253、以 Einstein 命名、1961 年約 0.01 微克的樣品與磁力天平、自身輻射使晶體結構難以測定、用於合成鍆（LANL）、鈾-238 吸收 15 個中子並經七次 β 衰變、僅用於研究（Jefferson Lab）、阿貢、Los Alamos 與柏克萊的科學家（IUPAC IPTEI），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 100,
+      "title": "能大量製造的最重元素",
+      "openingZh": "鐨是以中子轟擊較輕元素所能形成的最重元素，因此也是能製造出「肉眼可見數量」的最重元素。",
+      "sections": [
+        {
+          "heading": "Ivy Mike 的落塵",
+          "paragraphs": [
+            "1952 年，代號「Ivy Mike」的 1000 萬噸級氫彈在南太平洋試爆，科學家在落塵中發現了鐨。最先被辨認出來的鐨-255，是鈾-238 吸收 17 個中子後，再經八次 β 衰變形成的，半衰期約 20 小時。"
+          ]
+        },
+        {
+          "heading": "以費米命名",
+          "paragraphs": [
+            "鐨以義大利物理學家、諾貝爾獎得主 Enrico Fermi 命名，他建造了第一座人造核反應爐。"
+          ]
+        },
+        {
+          "heading": "只用於研究",
+          "paragraphs": [
+            "鐨的化學性質只能用極微量的樣品研究，至今還沒有製得金屬鐨。由於產量極少、同位素壽命又短，它除了基礎研究之外沒有用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼以中子轟擊製造重元素的方法，到鐨就停住了？比鐨更重的元素，科學家改用什麼方法製造？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        99,
+        101,
+        93
+      ],
+      "referenceIds": [
+        "pubchem-element:100@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以中子轟擊可形成的最重元素且能製得巨觀數量（LANL、IUPAC IPTEI）、1952 年 1000 萬噸級 Ivy Mike 試爆落塵（LANL）、鐨-255 由鈾-238 吸收 17 個中子並經八次 β 衰變、半衰期約 20 小時（Jefferson Lab、IUPAC IPTEI）、以 Fermi 命名且其建造第一座人造核反應爐（IUPAC IPTEI、LANL）、僅以微量研究且未製得金屬、僅用於研究（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 101,
+      "title": "以週期表之父命名",
+      "openingZh": "鍆以俄羅斯科學家 Dmitri Mendeleev 命名，他建立了化學元素週期表。",
+      "sections": [
+        {
+          "heading": "一次一個原子",
+          "paragraphs": [
+            "1955 年初，Ghiorso、Harvey、Choppin、Thompson 與 Seaborg 在柏克萊以氦離子轟擊鑀-253，製造出鍆-256，半衰期約 76 分鐘。這次合成很特別：鍆原子是一個一個被製造、偵測出來的。"
+          ]
+        },
+        {
+          "heading": "兩種價態",
+          "paragraphs": [
+            "實驗顯示，鍆除了錒系元素典型的三價狀態，也具有相當穩定的二價狀態。鍆-256 曾被用來研究鍆在水溶液中的化學性質。"
+          ]
+        },
+        {
+          "heading": "只用於研究",
+          "paragraphs": [
+            "鍆最穩定的同位素鍆-258，半衰期約 51.5 天。由於產量極少，它除了基礎研究之外沒有用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Mendeleev 當年在週期表上留下空格，預言尚未發現的元素。以他的名字命名第 101 號元素，有什麼特別的意義？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        99,
+        102,
+        32
+      ],
+      "referenceIds": [
+        "pubchem-element:101@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Mendeleev 命名並說明其建立週期表（IUPAC IPTEI）、1955 年初 Ghiorso 等五人以氦離子轟擊鑀-253、鍆-256 半衰期 76 分鐘、逐一原子合成、二價與三價狀態、鍆-256 用於水溶液化學研究（LANL）、鍆-258 半衰期約 51.5 天、僅用於研究（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 102,
+      "title": "名字比發現更早確定",
+      "openingZh": "鍩以炸藥的發明者、諾貝爾獎的創立者 Alfred Nobel 命名。但究竟是誰最先製造出它，各來源的說法並不一致。",
+      "sections": [
+        {
+          "heading": "1957 年的宣布",
+          "paragraphs": [
+            "1957 年，在瑞典斯德哥爾摩諾貝爾物理研究所工作的科學家宣布，他們以碳-13 轟擊鋦-244，製造出半衰期約 10 分鐘的新元素，並取名 nobelium。但 1958 年，柏克萊的 Ghiorso、Sikkeland、Walton 與 Seaborg 無法重現這個結果，反而製造出半衰期只有幾秒的鍩-254。"
+          ]
+        },
+        {
+          "heading": "誰才是發現者",
+          "paragraphs": [
+            "Los Alamos 認為，鍩是 1958 年 4 月在柏克萊首次被明確發現的；IUPAC 的資料則指出，鍩首次合成於 1966 年，由 Georgi Flerov 領導的杜布納聯合原子核研究所完成，而 1957 年起的早期主張都被證明是錯誤的。不過 nobelium 這個名稱已在科學文獻中廣泛使用，因此被保留了下來。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "如果最早的發現主張後來被證明是錯的，卻已經取了名字，你覺得應該保留原來的名稱嗎？為什麼？",
+      "categoryIds": [
+        "actinide"
+      ],
+      "furtherReadingElementNumbers": [
+        101,
+        103,
+        114
+      ],
+      "referenceIds": [
+        "pubchem-element:102@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Nobel 命名（LANL、IUPAC IPTEI）、1957 年諾貝爾物理研究所以碳-13 轟擊鋦-244 宣布 10 分鐘半衰期的新元素並命名、1958 年柏克萊團隊無法重現而製得鍩-254（Jefferson Lab）、LANL 稱 1958 年 4 月柏克萊首次明確發現、IUPAC IPTEI 稱 1966 年杜布納 Flerov 團隊首次合成且早期主張錯誤、因廣泛使用而保留名稱（IUPAC IPTEI），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。來源差異：發現者與年份 LANL 與 IUPAC IPTEI 不同，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 103,
+      "title": "錒系的最後一個元素",
+      "openingZh": "鐒以迴旋加速器的發明者 Ernest O. Lawrence 命名，它位在錒系元素的最後一格。",
+      "sections": [
+        {
+          "heading": "幾微克的鉲",
+          "paragraphs": [
+            "1961 年 3 月，Albert Ghiorso、Torbjørn Sikkeland、Almon Larsh 與 Robert Latimer 在柏克萊，用硼離子轟擊約 3 微克的鉲靶，製造出了鐒。當時產生了好幾種鐒的同位素，他們究竟偵測到哪一種，至今仍有些混淆。IUPAC 則把首次合成的功勞，共同歸於柏克萊的 Ghiorso 團隊與杜布納的 Flerov 團隊。"
+          ]
+        },
+        {
+          "heading": "從 Lw 到 Lr",
+          "paragraphs": [
+            "鐒的符號最初被提議為 Lw，但 IUPAC 的無機命名委員會認為，字母 w 在英語以外的語言中會造成問題，因此改為 Lr。"
+          ]
+        },
+        {
+          "heading": "第 3 族的爭議",
+          "paragraphs": [
+            "鐒的化學行為和二價的鍩不同，比較像錒系前段的三價元素。依 IUPAC 2021 年的臨時建議，它也被放在第 3 族，因此本站同時為它加上過渡金屬的分類標籤。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鐒和鎦都可以放在第 3 族。比較這兩個元素的故事，你覺得它們在週期表上的位置有什麼相似之處？",
+      "categoryIds": [
+        "actinide",
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        71,
+        102,
+        104
+      ],
+      "referenceIds": [
+        "pubchem-element:103@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Lawrence 命名（LANL、IUPAC IPTEI）、1961 年 3 月 Ghiorso、Sikkeland、Larsh 與 Latimer 以硼離子轟擊約 3 微克鉲靶（Jefferson Lab、LANL）、同位素辨認的混淆（Jefferson Lab）、首次合成功勞共同歸於 Ghiorso 與 Flerov 團隊、Lw 改為 Lr 的原因（IUPAC IPTEI）、化學行為異於二價的鍩而似三價錒系（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。第 3 族與過渡金屬標籤一句依據本站分類資料（IUPAC 2021 臨時建議）。註：IUPAC IPTEI 將共同功勞記於 1971 年，本文未寫該年份。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 113,
       "title": "第一個在亞洲發現的元素",
       "openingZh": "鉨是第一個在亞洲國家發現的元素。它的名字來自日文的 Nihon（日本），意思是「日出之國」。",
