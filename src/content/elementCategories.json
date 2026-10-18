@@ -625,9 +625,9 @@
       "referenceIds": [
         "iupac-redbook-2005",
         "iupac-group3-2021",
-        "pubchem-element:58",
-        "pubchem-element:63",
-        "pubchem-element:64",
+        "pubchem-element:58@2026-10-16",
+        "pubchem-element:63@2026-10-16",
+        "pubchem-element:64@2026-10-16",
         "greenwood-earnshaw-1997"
       ],
       "verification": {

@@ -2420,6 +2420,654 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 57,
+      "title": "躲起來的元素",
+      "openingZh": "鑭的名字來自希臘文 lanthanein，意思是「躲藏」或「不被注意」，因為它藏在鈰礦裡，很難分離出來。",
+      "sections": [
+        {
+          "heading": "藏在鈰裡",
+          "paragraphs": [
+            "1839 年，瑞典化學家 Carl Gustaf Mosander 懷疑鈰的樣品中含有雜質，他用稀硝酸處理硝酸鈰，找到了一種新物質，命名為鑭土（lanthana）。1842 年，他又把鑭的樣品分成兩種氧化物，一種保留鑭的名字，另一種稱為 didymium，意思是「雙胞胎」。"
+          ]
+        },
+        {
+          "heading": "很活潑的稀土",
+          "paragraphs": [
+            "鑭是銀白色、柔軟得可以用刀切開的金屬，也是最活潑的稀土金屬之一，在空氣中會迅速氧化。"
+          ]
+        },
+        {
+          "heading": "打火石與鏡頭",
+          "paragraphs": [
+            "打火機的打火石使用一種混合稀土金屬（misch metal），其中約 25% 是鑭。氧化鑭可以製造相機鏡頭等特殊光學玻璃；含鑭的稀土化合物也曾大量用於電影攝影棚與放映機的碳弧燈。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鑭的名字意思是「躲藏」。為什麼稀土元素特別容易「躲」在彼此之中，讓化學家難以分離？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        58,
+        60,
+        39
+      ],
+      "referenceIds": [
+        "pubchem-element:57@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "lanthanein 字源與藏於鈰礦、1839 年 Mosander 發現、1842 年分出 didymium（CIAAW）、以稀硝酸處理硝酸鈰得鑭土（Jefferson Lab）、銀白柔軟可用刀切、最活潑的稀土金屬之一並迅速氧化（LANL）、misch metal 約 25% 鑭、氧化鑭用於相機鏡頭與特殊玻璃、碳弧燈（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 58,
+      "title": "含量最多的稀土",
+      "openingZh": "鈰是含量最多的稀土元素。它的名字來自 1801 年發現的穀神星（Ceres），而穀神星又以羅馬的農業女神命名。",
+      "sections": [
+        {
+          "heading": "同時被兩組人發現",
+          "paragraphs": [
+            "穀神星被發現兩年後，1803 年，德國化學家 Martin Heinrich Klaproth，以及瑞典的 Jöns Jacob Berzelius 與 Wilhelm Hisinger，各自獨立發現了鈰。金屬鈰則要到 1875 年，才由 Hillebrand 與 Norton 製得。"
+          ]
+        },
+        {
+          "heading": "會變動的電子",
+          "paragraphs": [
+            "鈰的 4f 電子能量與最外層的價電子非常接近，只需很少的能量就能改變電子的分布，因此鈰會表現出兩種價態；在高壓或低溫下，它的體積甚至會改變約 10%。"
+          ]
+        },
+        {
+          "heading": "刮一下就點燃",
+          "paragraphs": [
+            "純鈰被尖銳物體刮過時會起火，它也是打火機打火石所用混合稀土金屬的成分之一。氧化鈰被用來研磨玻璃、做成自潔式烤箱的內壁，也用於煤氣燈的燈罩。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鈰的電子分布很容易改變，因此有兩種價態。這種性質，可能讓鈰在化學反應中扮演什麼角色？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        57,
+        59,
+        39
+      ],
+      "referenceIds": [
+        "pubchem-element:58@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "含量最多的稀土（Jefferson Lab、LANL）、Ceres 與農業女神字源、1801 年發現穀神星、1803 年 Klaproth 及 Berzelius 與 Hisinger 各自發現、1875 年 Hillebrand 與 Norton 製得金屬（CIAAW、LANL）、4f 與價電子能量相近、雙價態、高壓低溫下體積改變約 10%（LANL）、刮擦起火、misch metal、研磨玻璃、自潔烤箱、煤氣燈罩（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 59,
+      "title": "綠色的雙胞胎",
+      "openingZh": "鐠的名字由希臘文 prasios（綠色）與 didymos（雙胞胎）組成，因為它會形成淡綠色的鹽類。",
+      "sections": [
+        {
+          "heading": "拆開雙胞胎",
+          "paragraphs": [
+            "1841 年，Mosander 從鑭土中分離出一種稱為 didymium 的物質，當時被當成一種元素。1885 年，奧地利化學家 Carl Auer von Welsbach 把 didymium 分成兩種元素：鐠與釹，兩者的鹽類顏色不同。"
+          ]
+        },
+        {
+          "heading": "銳利的吸收線",
+          "paragraphs": [
+            "鐠和其他稀土一樣，化合物溶液會出現非常銳利的吸收譜線，有些寬度只有幾埃。金屬鐠柔軟、呈銀色，在空氣中會長出一層綠色的氧化物，需要保存在礦物油中或密封在塑膠裡。"
+          ]
+        },
+        {
+          "heading": "黃色玻璃與護目鏡",
+          "paragraphs": [
+            "鐠鹽能讓玻璃與琺瑯呈現特別純淨的黃色。含鐠的 didymium 玻璃被用來製作焊工與玻璃工匠的護目鏡。鐠也與鎂製成高強度合金，用在飛機引擎上。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鐠和釹的化學性質極為相似，von Welsbach 卻能把它們分開。如果兩種物質幾乎一樣，可以利用哪些細微的差異來分離它們？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        60,
+        57,
+        58
+      ],
+      "referenceIds": [
+        "pubchem-element:59@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "prasios 與 didymos 字源及淡綠色鹽類（CIAAW）、1841 年 Mosander 從鑭土分出 didymia、1885 年 von Welsbach 分離成鐠與釹且鹽類顏色不同、銳利吸收譜線、柔軟銀色並生成綠色氧化層、保存於礦物油（LANL）、純淨黃色玻璃與琺瑯、didymium 護目鏡、鐠鎂合金用於飛機引擎（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 60,
+      "title": "新的雙胞胎",
+      "openingZh": "釹的名字意思是「新的雙胞胎」：希臘文 neos 是「新」，didymos 是「雙胞胎」。",
+      "sections": [
+        {
+          "heading": "從 didymium 中誕生",
+          "paragraphs": [
+            "1841 年，Mosander 從鈰礦中提取出一種玫瑰色的氧化物，認為它是鑭「分不開的雙胞胎兄弟」，取名 didymium。1885 年，Carl Auer von Welsbach 經過反覆分餾，把 didymium 分成兩種元素，其中之一就是釹。相對純淨的金屬釹，要到 1925 年才製成。"
+          ]
+        },
+        {
+          "heading": "會變色的玻璃",
+          "paragraphs": [
+            "釹能讓玻璃呈現從純紫、酒紅到暖灰的柔和色調，透過這種玻璃的光會出現特別銳利的吸收帶，天文學家曾用它來校準光譜線。含釹的玻璃也可以作為雷射材料。"
+          ]
+        },
+        {
+          "heading": "打火石的成分",
+          "paragraphs": [
+            "釹是較活潑的稀土金屬之一，在空氣中很快失去光澤，需要保存在礦物油中。打火機打火石所用的混合稀土金屬中，約 18% 是釹。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼含有特定元素的玻璃，可以用來校準測量光譜的儀器？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        59,
+        57,
+        61
+      ],
+      "referenceIds": [
+        "pubchem-element:60@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "neos 與 didymos 字源（CIAAW、LANL）、1841 年 Mosander 從鈰礦取得玫瑰色氧化物並命名 didymium、1885 年 von Welsbach 反覆分餾分出釹、1925 年製得相對純的金屬、紫至酒紅與暖灰的玻璃色調、銳利吸收帶用於天文校準、雷射材料、較活潑而需存於礦物油、misch metal 約 18%（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 61,
+      "title": "地殼中找不到的稀土",
+      "openingZh": "鉕的名字來自希臘神話中為人類從天上盜火的 Prometheus。在稀土元素中，它是地殼裡似乎完全找不到的一個。",
+      "sections": [
+        {
+          "heading": "預言與證明",
+          "paragraphs": [
+            "1902 年，捷克化學家 Bohuslav Brauner 預言釹和釤之間還有一個元素。此後雖有幾個團隊宣稱製得了它，卻因為稀土元素難以彼此分離而無法證實。第二次世界大戰期間，Jacob Marinsky、Lawrence Glendenin 與 Charles Coryell 分析鈾的分裂產物，以離子交換層析法首次證明了它的存在；因為忙於戰時研究，他們到 1946 年才發表。"
+          ]
+        },
+        {
+          "heading": "恆星上正在形成",
+          "paragraphs": [
+            "已知的鉕同位素，半衰期都不超過 17.7 年。地殼中似乎完全沒有鉕，但科學家在仙女座恆星 HR465 的光譜中發現了它，表示它正在那顆恆星的表面附近形成。"
+          ]
+        },
+        {
+          "heading": "核能電池",
+          "paragraphs": [
+            "鉕的鹽類因為放射性很強，會在黑暗中發出淡藍或淡綠色的光。鉕-147 可以用來製作核能電池：它放出的 β 粒子讓螢光物質發光，再由光電池把光轉換成電，使用壽命約 5 年。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "如果一種元素的半衰期只有幾年，卻在一顆恆星上被觀測到，這告訴我們那顆恆星正在發生什麼事？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        60,
+        62,
+        92
+      ],
+      "referenceIds": [
+        "pubchem-element:61@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Prometheus 字源、地殼中似乎完全沒有鉕、HR465 光譜與在恆星表面附近形成、已知同位素半衰期不超過 17.7 年、鹽類發淡藍或綠色光（LANL）、1902 年 Brauner 預言、多個團隊無法證實、Marinsky、Glendenin 與 Coryell 分析鈾分裂產物證明存在、因戰時研究延至 1946 年發表（Jefferson Lab）、離子交換層析（LANL）、鉕-147 核能電池與約 5 年壽命（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：首次證明的年份 Jefferson Lab 為 1944 年、LANL 為 1945 年，本文寫第二次世界大戰期間。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 62,
+      "title": "以礦場官員命名",
+      "openingZh": "釤的名字來自礦物鈮釔礦（samarskite），而這種礦物是以一位俄羅斯礦場官員 Samarski 上校命名的。",
+      "sections": [
+        {
+          "heading": "誰先發現？",
+          "paragraphs": [
+            "1878 年，瑞士化學家 Marc Delafontaine 發現了一種新物質，取名 decipium；1879 年，法國化學家 Lecoq de Boisbaudran 從鈮釔礦中以光譜發現了釤。1881 年，Delafontaine 發現他的 decipium 其實由兩種元素組成，其中一種正是釤。1901 年，Demarçay 又證明釤土中還含有銪。"
+          ]
+        },
+        {
+          "heading": "最難退磁的磁鐵",
+          "paragraphs": [
+            "釤和鈷形成的化合物 SmCo₅ 是一種強力永久磁鐵，抗退磁的能力在已知材料中最高。"
+          ]
+        },
+        {
+          "heading": "吸收紅外線",
+          "paragraphs": [
+            "氧化釤被加入光學玻璃中吸收紅外線，也能催化乙醇的脫水與脫氫反應。釤還被用作核反應爐中的中子吸收劑。金屬釤在約 150 °C 時就會在空氣中起火。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "稀土元素常常由不同的科學家「各自發現」一部分。為什麼稀土元素的發現史，特別容易出現這種情況？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        63,
+        27,
+        60
+      ],
+      "referenceIds": [
+        "pubchem-element:62@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "samarskite 與 Samarski 上校字源、1878 年 Delafontaine 的 decipium、1879 年 Lecoq de Boisbaudran、1881 年 decipium 分為兩種元素、1901 年 Demarçay 發現其中含銪（CIAAW）、光譜發現（LANL）、SmCo₅ 抗退磁能力最高、氧化釤吸收紅外線與催化乙醇脫水脫氫（Jefferson Lab、LANL）、中子吸收劑、約 150 °C 起火（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Jefferson Lab 另記 Marignac 於 1853 年以光譜觀察到釤，本文未採用。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 63,
+      "title": "電視螢幕上的紅色",
+      "openingZh": "銪的名字來自歐洲。氧化銪曾被廣泛用作彩色電視中的紅色螢光粉。",
+      "sections": [
+        {
+          "heading": "藏在釤裡",
+          "paragraphs": [
+            "法國化學家 Eugène-Anatole Demarçay 懷疑新發現的釤樣品中混有未知元素，於 1896 年分離出了銪，並在 1901 年製得相當純的銪。在此之前，Lecoq de Boisbaudran 在 1890 年就觀察到無法歸於釤或釓的光譜線，後來證明那些譜線屬於銪。"
+          ]
+        },
+        {
+          "heading": "最活潑的稀土",
+          "paragraphs": [
+            "銪是最活潑的稀土金屬，在空氣中很快就會氧化，與水的反應和鈣相似；它的硬度和鉛差不多，延展性很好。"
+          ]
+        },
+        {
+          "heading": "吸收中子",
+          "paragraphs": [
+            "銪的同位素善於吸收中子，正被研究用於核反應爐的控制。科學家也在太陽與某些恆星的光譜中辨認出了銪。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "螢光粉要發出特定顏色的光，需要什麼樣的原子特性？為什麼稀土元素常被用來製作螢光材料？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        62,
+        64,
+        39
+      ],
+      "referenceIds": [
+        "pubchem-element:63@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Europe 字源、1896 年 Demarçay 從釤中分離、1901 年製得相當純的銪（CIAAW、Jefferson Lab）、1890 年 Lecoq de Boisbaudran 觀察到後來證明屬於銪的譜線（LANL）、氧化銪為電視紅色螢光粉（Jefferson Lab）、最活潑的稀土、迅速氧化、與水反應似鈣、硬度似鉛、同位素吸收中子並研究用於核控制、太陽與恆星光譜（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 64,
+      "title": "最會捕捉中子的元素",
+      "openingZh": "在所有已知元素中，釓捕捉熱中子的能力最強。",
+      "sections": [
+        {
+          "heading": "以 Gadolin 命名",
+          "paragraphs": [
+            "釓的名稱來自礦物矽鈹釔礦（gadolinite），而這種礦物是以芬蘭化學家 Johan Gadolin 命名的。瑞士化學家 Jean Charles Galissard de Marignac 最早取得它的氧化物（Jefferson Lab 與 Los Alamos 記為 1880 年，CIAAW 記為 1886 年）；1886 年，Lecoq de Boisbaudran 獨立分離出它，並為它命名。"
+          ]
+        },
+        {
+          "heading": "控制棒的難題",
+          "paragraphs": [
+            "釓可以做成核反應爐的控制棒，但最擅長捕捉中子的兩種同位素釓-155 與釓-157 所占比例不高，因此釓控制棒很快就會失去效果。"
+          ]
+        },
+        {
+          "heading": "室溫附近的磁性開關",
+          "paragraphs": [
+            "釓具有鐵磁性，而它的居禮溫度（高於此溫度鐵磁性就會消失）恰好在室溫附近，因此可能用來製作能感應冷熱的磁性元件。只要加入 1% 的釓，就能提高鐵、鉻等合金耐高溫與抗氧化的能力。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼「鐵磁性會在某個溫度消失」這種性質，可以被用來感應冷熱？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        63,
+        65,
+        39
+      ],
+      "referenceIds": [
+        "pubchem-element:64@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "熱中子捕獲截面最高（49,000 邦）（LANL、Jefferson Lab）、gadolinite 與 Gadolin 字源（CIAAW、LANL）、Marignac 取得氧化物、1886 年 Lecoq de Boisbaudran 獨立分離並命名（CIAAW、LANL）、控制棒與釓-155、釓-157 比例低而很快失效（Jefferson Lab）、鐵磁性、居禮溫度在室溫附近可感應冷熱、1% 釓改善鐵鉻合金（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Marignac 的年份 Jefferson Lab 與 LANL 為 1880 年、CIAAW 為 1886 年，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 65,
+      "title": "名字被調換的元素",
+      "openingZh": "鋱和鉺的名字曾經被調換：今天的鋱，其實是發現者當初稱為「鉺」的物質。",
+      "sections": [
+        {
+          "heading": "Ytterby 的三兄弟",
+          "paragraphs": [
+            "1843 年，瑞典化學家 Carl Gustaf Mosander 把釔的樣品分成三種：釔、一種他稱為「鋱」的玫瑰色鹽類，以及一種他稱為「鉺」的深黃色過氧化物。這些名字都來自瑞典小鎮 Ytterby。"
+          ]
+        },
+        {
+          "heading": "名字的調換",
+          "paragraphs": [
+            "這幾種物質的名稱與性質太相似，科學家很快就搞混了。1862 年，瑞士化學家 Marc Delafontaine 重新檢驗釔，找到那種黃色過氧化物；由於「鉺」這個名字已經被用在玫瑰色的氧化物上，他便把黃色的物質重新命名為「鋱」。"
+          ]
+        },
+        {
+          "heading": "少數的用途",
+          "paragraphs": [
+            "鋱是銀灰色、柔軟得可以用刀切開的金屬，它的氧化物呈巧克力色或深褐紅色。硼酸鈉鋱可用於固態裝置與雷射，氧化鋱則可能作為電視綠色螢光粉的活化劑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鋱和鉺的名字被調換後，早期文獻中的「鉺」可能指的是今天的鋱。這會給閱讀科學史的人帶來什麼困擾？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        68,
+        39,
+        64
+      ],
+      "referenceIds": [
+        "pubchem-element:65@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Ytterby 字源、1843 年 Mosander 將釔分為釔、玫瑰色的「鋱」與深黃色的「鉺」、1862 年 Delafontaine 重新命名、名稱如今調換（CIAAW）、科學家混淆名稱（Jefferson Lab、LANL）、銀灰柔軟可用刀切、氧化物巧克力色或深褐紅色（LANL）、硼酸鈉鋱用於固態裝置與雷射、氧化鋱可能作綠色螢光粉活化劑（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 66,
+      "title": "難以取得的元素",
+      "openingZh": "鏑的名字來自希臘文 dysprositos，意思是「難以取得」，因為它很難從含鈥的礦物中分離出來。",
+      "sections": [
+        {
+          "heading": "一再被重新發現",
+          "paragraphs": [
+            "1878 年，瑞士化學家 Marc Delafontaine 在鈮釔礦中找到一種物質，稱為 philippia，後來卻被認為是鋱與釔的混合物。1886 年，法國化學家 Lecoq de Boisbaudran 重新發現了它，並因此獲得發現的功勞。1906 年，Georges Urbain 分離出了這個元素。"
+          ]
+        },
+        {
+          "heading": "等了半個多世紀的純度",
+          "paragraphs": [
+            "直到 1950 年前後，Spedding 等人發展出離子交換分離與金屬還原的技術，才製得相對純淨的鏑。"
+          ]
+        },
+        {
+          "heading": "核能的潛力",
+          "paragraphs": [
+            "鏑容易吸收中子，熔點又高，可能被用在核反應爐中。氧化鏑與鎳製成的水泥能大量吸收中子，長時間受中子轟擊也不會膨脹或收縮，被用來冷卻核反應爐的燃料棒。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鏑的發現經歷了 1878 年、1886 年與 1906 年三個階段。「發現一種元素」與「分離出一種元素」有什麼不同？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        67,
+        65,
+        64
+      ],
+      "referenceIds": [
+        "pubchem-element:66@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "dysprositos 字源與難以從鈥礦分離、1878 年 Delafontaine 的 philippia 被認為是鋱與釔的混合物、1886 年 Lecoq de Boisbaudran 重新發現並獲得功勞、1906 年 Urbain 分離（CIAAW、Jefferson Lab）、約 1950 年 Spedding 等人的離子交換與還原技術（LANL；Jefferson Lab 寫 1950 年代）、吸收中子與高熔點、氧化鏑鎳水泥冷卻燃料棒且不膨脹收縮（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Lecoq de Boisbaudran 的發現樣品 CIAAW 寫鈥、Jefferson Lab 寫鉺土，本文未寫樣品。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 67,
+      "title": "以斯德哥爾摩命名",
+      "openingZh": "鈥的名字來自拉丁文 Holmia，也就是斯德哥爾摩。",
+      "sections": [
+        {
+          "heading": "元素 X",
+          "paragraphs": [
+            "1878 年，瑞士化學家 Delafontaine 與 Soret 注意到一組特殊的吸收譜線，宣布存在一個「元素 X」。1879 年，瑞典化學家 Per Teodor Cleve 從鉺土中除去已知的雜質，得到兩種新物質，分別命名為 holmia 與 thulia，也就是鈥和銩的氧化物。"
+          ]
+        },
+        {
+          "heading": "名字的由來",
+          "paragraphs": [
+            "CIAAW 指出，1911 年首次分離出鈥的 Homberg 提出 holmium 這個名稱，可能是為了紀念來自斯德哥爾摩的 Cleve，也可能是想讓自己的名字留在歷史上。"
+          ]
+        },
+        {
+          "heading": "不尋常的磁性",
+          "paragraphs": [
+            "鈥是柔軟、具銀色光澤的金屬，在乾燥空氣中穩定，在潮濕空氣中則會迅速氧化。它有不尋常的磁性，但目前用途很少。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Cleve 用「除去已知雜質，看看剩下什麼」的方法發現了鈥和銩。這種方法有什麼優點，又可能遇到什麼陷阱？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        69,
+        68,
+        66
+      ],
+      "referenceIds": [
+        "pubchem-element:67@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Holmia 字源（CIAAW、LANL）、1878 年 Delafontaine 與 Soret 的吸收譜線與「元素 X」（LANL）、1879 年 Cleve 從鉺土除去雜質得到 holmia 與 thulia（Jefferson Lab）、1911 年 Homberg 分離並提出名稱的兩種可能動機（CIAAW）、柔軟銀色、乾燥空氣中穩定而潮濕空氣中迅速氧化、不尋常的磁性、用途很少（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：holmia 的顏色 Jefferson Lab 寫棕色、LANL 寫黃色，本文未寫顏色。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 68,
+      "title": "粉紅色的玻璃",
+      "openingZh": "氧化鉺呈粉紅色，被用來為玻璃與陶瓷釉料上色。",
+      "sections": [
+        {
+          "heading": "一分為五",
+          "paragraphs": [
+            "Mosander 把釔土分成三部分：釔土、鉺土與鋱土。Los Alamos 指出，後來所謂的「鉺土」又被證明由五種氧化物組成，也就是今天的鉺、鈧、鈥、銩與鐿的氧化物。"
+          ]
+        },
+        {
+          "heading": "純度的追求",
+          "paragraphs": [
+            "1905 年前後，Urbain 與 James 各自成功分離出相當純的氧化鉺；1934 年，Klemm 與 Bommer 以鉀蒸氣還原無水氯化鉺，才製得相當純的金屬鉺。"
+          ]
+        },
+        {
+          "heading": "光纖的放大器",
+          "paragraphs": [
+            "鉺被摻入光纖中，作為訊號的放大器；加進釩中，則能降低硬度、讓釩更容易加工。天然的鉺由六種穩定同位素組成。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "光訊號在光纖中跑了很長的距離後會變弱。你覺得在光纖中摻入鉺，可能是怎麼讓訊號變強的？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        65,
+        67,
+        69,
+        70
+      ],
+      "referenceIds": [
+        "pubchem-element:68@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "氧化鉺粉紅色用於玻璃與釉料（Jefferson Lab、LANL）、Mosander 將釔土分為三部分、鉺土後來被證明含五種氧化物、1905 年前後 Urbain 與 James 分離相當純的氧化鉺、1934 年 Klemm 與 Bommer 以鉀蒸氣製得金屬、六種穩定同位素（LANL）、光纖放大器、使釩較軟易加工（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Mosander 的分離年份 CIAAW 與 Jefferson Lab 為 1843 年、LANL 為 1842 年，本文未寫年份。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 69,
+      "title": "最稀少的稀土",
+      "openingZh": "銩是天然稀土元素中含量最少的一個。它的名字來自 Thule，古人對最北方之地斯堪地那維亞的稱呼。",
+      "sections": [
+        {
+          "heading": "綠色的 thulia",
+          "paragraphs": [
+            "1879 年，瑞典化學家 Per Teodor Cleve 從鉺土中分離出兩種新物質，其中綠色的一種被命名為 thulia，也就是銩的氧化物。1911 年，美國化學家 Charles James 首次分離出銩。"
+          ]
+        },
+        {
+          "heading": "和金銀一樣稀有",
+          "paragraphs": [
+            "銩在獨居石中只占約 0.007%。不過 Los Alamos 指出，隨著新來源的發現，銩現在被認為大約和銀、金或鎘一樣稀有。"
+          ]
+        },
+        {
+          "heading": "可攜式 X 光",
+          "paragraphs": [
+            "銩的價格較高，實際用途不多。銩-169 在核反應爐中受中子照射後，可以作為可攜式 X 光設備的輻射源。天然的銩全部是穩定的銩-169。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "銩是最稀少的稀土，卻被說「和銀、金差不多稀有」。「稀土」這個名稱，真的代表這些元素很稀少嗎？",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        67,
+        68,
+        70
+      ],
+      "referenceIds": [
+        "pubchem-element:69@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "最稀少的天然稀土（Jefferson Lab、LANL）、Thule 字源、1879 年 Cleve 發現、1911 年 James 首次分離（CIAAW）、從鉺土得到綠色的 thulia（Jefferson Lab）、獨居石約 0.007%、約與銀金鎘一樣稀有、價格高而用途少、銩-169 經中子照射作可攜式 X 光源、天然銩全為穩定的銩-169（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 70,
+      "title": "又一個 Ytterby 元素",
+      "openingZh": "鐿的名字也來自瑞典小鎮 Ytterby，是以這個小鎮命名的四個元素之一。",
+      "sections": [
+        {
+          "heading": "鉺土裡的新成分",
+          "paragraphs": [
+            "1878 年，瑞士化學家 Jean Charles Galissard de Marignac 發現當時所謂的鉺土含有一種新成分，命名為 ytterbia。1907 年，法國的 Georges Urbain 又把 ytterbia 分成兩種，也就是今天的鐿和鎦；幾乎同一時間，Carl Auer von Welsbach 也獨立發現了它們。"
+          ]
+        },
+        {
+          "heading": "加壓變成半導體",
+          "paragraphs": [
+            "鐿是柔軟、延展性很好的銀色金屬。它在室溫下具有金屬的導電性，但壓力增加到約 16,000 大氣壓時，會變成半導體。"
+          ]
+        },
+        {
+          "heading": "少量的用途",
+          "paragraphs": [
+            "鐿可以改善不鏽鋼的晶粒與強度，也被摻入光纖作為放大器；它的一種同位素曾被當作可攜式 X 光機的輻射源。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼加壓可以改變一種金屬的導電性？想想原子被擠得更近時，可能會發生什麼。",
+      "categoryIds": [
+        "lanthanide"
+      ],
+      "furtherReadingElementNumbers": [
+        71,
+        69,
+        39
+      ],
+      "referenceIds": [
+        "pubchem-element:70@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Ytterby 字源（CIAAW、LANL）、1878 年 Marignac 在鉺土中發現 ytterbia、1907 年 Urbain 分為鐿與鎦、von Welsbach 同時獨立發現（LANL、CIAAW）、柔軟延展的銀色金屬、約 16,000 大氣壓下變成半導體、改善不鏽鋼晶粒與強度、同位素作可攜式 X 光源（LANL、Jefferson Lab）、光纖放大器（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 71,
+      "title": "以巴黎命名",
+      "openingZh": "鎦的名字來自 Lutetia，也就是巴黎的古名。它是最難製備的元素之一。",
+      "sections": [
+        {
+          "heading": "發表的先後",
+          "paragraphs": [
+            "1907 年，法國化學家 Georges Urbain 從鐿的樣品中分離出鎦；奧地利化學家 Carl Auer von Welsbach 也獨立分離出它，並依星座 Cassiopeia 將它命名為 cassiopeium。由於 Urbain 較早發表，IUPAC 在 1949 年採用了他的命名。"
+          ]
+        },
+        {
+          "heading": "天然的放射性",
+          "paragraphs": [
+            "天然的鎦中約 2.6% 是鎦-176，它具有放射性，半衰期約 300 億年。鎦在獨居石中只占約 0.003%，純金屬直到近年才被製得。"
+          ]
+        },
+        {
+          "heading": "第 3 族的爭議",
+          "paragraphs": [
+            "鎦屬於鑭系元素，但依 IUPAC 2021 年的臨時建議，它也被放在第 3 族，因此本站同時為它加上過渡金屬的分類標籤。鎦目前幾乎沒有商業用途，只有少量用作石油裂解與聚合反應的催化劑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鎦可以算是鑭系元素，也可以放在第 3 族。你覺得週期表的排法，應該依據哪些原則來決定？",
+      "categoryIds": [
+        "lanthanide",
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        70,
+        103,
+        21,
+        39
+      ],
+      "referenceIds": [
+        "pubchem-element:71@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Lutetia 字源、1907 年 Urbain 發現、von Welsbach 獨立分離並命名 cassiopeium、Urbain 較早發表而 IUPAC 於 1949 年採用（CIAAW）、最難製備的元素之一（Jefferson Lab、LANL）、鎦-176 占 2.6% 且半衰期約 3 × 10¹⁰ 年、獨居石約 0.003%、純金屬近年才製得、裂解與聚合催化劑（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。第 3 族與過渡金屬標籤一句依據本站分類資料（IUPAC 2021 臨時建議）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 72,
       "title": "理論指出藏身之處的元素",
       "openingZh": "鉿的發現，靠的是一套原子理論：Niels Bohr 根據他的電子排布理論預測，72 號元素不會是稀土元素，而會藏在鋯礦裡。",
