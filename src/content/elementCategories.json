@@ -346,10 +346,10 @@
       "referenceIds": [
         "vernon-2013",
         "pubchem-periodic-table",
-        "pubchem-element:5",
+        "pubchem-element:5@2026-10-16",
         "pubchem-element:14",
-        "pubchem-element:32",
-        "pubchem-element:33",
+        "pubchem-element:32@2026-10-16",
+        "pubchem-element:33@2026-10-16",
         "greenwood-earnshaw-1997"
       ],
       "verification": {

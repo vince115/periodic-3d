@@ -49,9 +49,9 @@ describe("element stories (elementStories.json)", () => {
     expect(new Set(numbers).size).toBe(numbers.length);
     for (const n of [1, 6, 8, 14, 29, 79]) expect(numbers).toContain(n);
     // Phase 3 batches, one category group at a time.
-    const finished = ["alkali-metal", "alkaline-earth-metal", "halogen", "noble-gas"];
+    const finished = ["alkali-metal", "alkaline-earth-metal", "halogen", "noble-gas", "nonmetal", "metalloid"];
     const members = ELEMENTS.filter((el) => el.categoryTags.some((t) => finished.includes(t.id)));
-    expect(members).toHaveLength(25);
+    expect(members).toHaveLength(39);
     for (const el of members) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
     expect(getElementStory(26)).toBeUndefined();
   });

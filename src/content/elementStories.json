@@ -178,6 +178,49 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 5,
+      "title": "煙火裡的綠色",
+      "openingZh": "煙火與信號彈中獨特的綠色火光，有時來自硼。",
+      "sections": [
+        {
+          "heading": "同一年的兩組人馬",
+          "paragraphs": [
+            "硼的化合物已被使用了數千年，但元素硼直到 1808 年才被分離出來：法國化學家 Gay-Lussac 與 Thénard，以及英國化學家 Humphry Davy，各自讓硼酸與鉀反應而取得了硼。它的名稱源自阿拉伯文 buraq，意思是「白色」。"
+          ]
+        },
+        {
+          "heading": "從玻璃纖維到耐熱玻璃",
+          "paragraphs": [
+            "五水硼砂大量用於製造隔熱玻璃纖維與過硼酸鈉漂白劑，硼化合物也被用來製造硼矽酸鹽玻璃。氮化硼能做成和鑽石一樣硬的材料，它不導電，導熱性卻像金屬。"
+          ]
+        },
+        {
+          "heading": "吸收中子",
+          "paragraphs": [
+            "天然硼中約有 19.8% 是硼-10，它善於吸收中子，因此被用在核反應爐的控制棒、輻射屏蔽與中子偵測器中。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Los Alamos 的資料指出，硼的能隙比矽和鍺都大。能隙越大，材料導電的難易程度會怎麼變化？",
+      "categoryIds": [
+        "metalloid"
+      ],
+      "furtherReadingElementNumbers": [
+        6,
+        13,
+        14
+      ],
+      "referenceIds": [
+        "pubchem-element:5@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "綠色火光用於煙火信號彈、化合物使用數千年、1808 年 Gay-Lussac 與 Thénard 及 Davy 各自以硼酸與鉀取得（Jefferson Lab、LANL）、buraq 字源（CIAAW）、五水硼砂用於隔熱玻璃纖維與過硼酸鈉漂白劑、硼矽酸鹽玻璃、氮化硼硬如鑽石且絕緣導熱、硼-10 占 19.78% 並用於控制棒屏蔽與中子偵測、能隙 1.50–1.56 eV 高於矽與鍺（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 6,
       "title": "同一種原子，不同的排列",
       "openingZh": "鉛筆芯裡的石墨又黑又軟，鑽石卻閃亮堅硬。很難想像，它們都只由碳原子組成。",
@@ -222,6 +265,49 @@
         "notesZh": "史前已知、名稱由來、1797 年 Tennant 證明鑽石為碳、三種天然形式、石墨柔軟與潤滑用途、碳黑用途已對照 CIAAW 與 Jefferson Lab 原文。「四個共價鍵」與有機分子多樣性的說明引用 Greenwood & Earnshaw，未取得全文逐句比對，待專家審閱。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 7,
+      "title": "空氣中最多的氣體",
+      "openingZh": "我們吸進的每一口空氣，大約有 78% 是氮氣。這種看似平凡的氣體，卻是肥料與炸藥的原料。",
+      "sections": [
+        {
+          "heading": "不能維持生命的空氣",
+          "paragraphs": [
+            "1772 年，蘇格蘭醫師暨化學家 Daniel Rutherford 把空氣中的氧和二氧化碳除去，發現剩下的氣體既不能助燃，也無法維持生物生存。同一時期，Scheele、Cavendish、Priestley 等人也在研究這種氣體。氮的名稱來自希臘文 nitron（天然鹼）與 genes（生成）。"
+          ]
+        },
+        {
+          "heading": "從空氣到肥料",
+          "paragraphs": [
+            "氮最大的用途是製造氨：在哈伯法中，大量氮氣與氫氣結合成氨，再用來製造肥料、炸藥，或經奧士華法製成硝酸。氮也存在於所有生物體內，是生物化合物的成分之一。"
+          ]
+        },
+        {
+          "heading": "便宜的低溫液體",
+          "paragraphs": [
+            "液態氮是一種便宜的低溫液體，用於冷藏、保存生物樣本與低溫科學實驗。氮氣本身相當不活潑，在半導體工業中用作保護氣體。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "空氣中有 78% 是氮氣，植物卻常常需要施加含氮的肥料。為什麼植物不能直接利用空氣中的氮？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        8,
+        15,
+        1
+      ],
+      "referenceIds": [
+        "pubchem-element:7@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "大氣約 78%、1772 年 Rutherford 除去氧與二氧化碳後的殘餘氣體不助燃也不維持生命、Scheele 等人同時研究、nitron 與 genes 字源（LANL、CIAAW）、最大用途為哈伯法製氨、氨用於肥料炸藥與奧士華法製硝酸、液態氮用於冷藏樣本保存與低溫實驗、半導體工業保護氣體（Jefferson Lab）、存在於所有生物體的生物化合物（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 8,
@@ -480,6 +566,92 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 15,
+      "title": "從尿液中發現的發光元素",
+      "openingZh": "磷的名字來自希臘文 phosphoros，意思是「帶來光明」，因為它能在黑暗中發光。這也是古人對清晨出現的金星的稱呼。",
+      "sections": [
+        {
+          "heading": "六十桶尿",
+          "paragraphs": [
+            "1669 年，德國的 Hennig Brand 首次分離出磷。根據 Jefferson Lab 的記載，他把多達 60 桶的尿液煮沸、過濾並反覆處理，才得到這種元素。幸好今天的磷主要從磷酸鹽礦中取得。"
+          ]
+        },
+        {
+          "heading": "白磷、紅磷與黑磷",
+          "paragraphs": [
+            "磷有白磷、紅磷與黑磷等同素異形體。白磷有毒，接觸空氣就可能自燃，必須保存在水中；把白磷加熱到 250 °C 或照射陽光，可以得到無毒、較安全的紅磷，用於安全火柴與煙火。黑磷最不活潑，目前沒有重要的商業用途。"
+          ]
+        },
+        {
+          "heading": "生命不可缺少",
+          "paragraphs": [
+            "磷是所有細胞原生質、神經組織與骨骼的必要成分。全球對肥料的需求，曾讓磷酸鹽的產量創下紀錄。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "白磷和紅磷都只由磷原子組成，為什麼一個會自燃而且有毒，另一個卻相對安全？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        7,
+        16,
+        20
+      ],
+      "referenceIds": [
+        "pubchem-element:15@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "phosphoros 字源與金星的古稱（CIAAW、LANL）、1669 年 Brand 從尿液中分離、多達 60 桶尿液、今日主要取自磷酸鹽礦、三種主要同素異形體、白磷有毒會自燃需存於水中、加熱至 250 °C 或照射陽光得到無毒紅磷、紅磷用於安全火柴與煙火、黑磷無重要商業用途（Jefferson Lab）、細胞原生質神經組織與骨骼的必要成分、肥料需求使磷酸鹽產量創紀錄（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Brand 的身分 CIAAW 寫商人、Jefferson Lab 寫醫師與煉金術士，本文不寫職業。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 16,
+      "title": "火山口的黃色石頭",
+      "openingZh": "硫會以單質的形式出現在火山與溫泉附近。古人很早就認識它，舊稱 brimstone，源自「可燃燒的石頭」。",
+      "sections": [
+        {
+          "heading": "它是元素嗎？",
+          "paragraphs": [
+            "硫自史前時代就為人所知，但它是不是元素，曾有過爭論。CIAAW 指出，人們曾以為硫含有氫和氧，直到 1809 年 Gay-Lussac 與 Thénard 才證明它是元素；Jefferson Lab 則記載，Antoine Lavoisier 在 1777 年前後就說服了科學界。"
+          ]
+        },
+        {
+          "heading": "八個原子的環",
+          "paragraphs": [
+            "硫是淡黃色、無臭、易碎的固體。結晶硫似乎由每環八個原子的硫環堆疊而成；熔融的硫若快速冷卻，會變成柔軟又有彈性的「塑膠硫」。"
+          ]
+        },
+        {
+          "heading": "最重要的工業化學品",
+          "paragraphs": [
+            "生產出來的硫大多用來製造硫酸，Los Alamos 稱硫酸為最重要的工業化學品，可用於製造肥料與鉛酸電池等。硫也用於天然橡膠的硫化與黑火藥。帶有臭雞蛋味的是硫化氫，而不是硫本身。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "純硫沒有氣味，為什麼人們常把溫泉的臭雞蛋味說成「硫磺味」？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        8,
+        34,
+        26
+      ],
+      "referenceIds": [
+        "pubchem-element:16@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "火山與溫泉附近以單質存在（LANL）、brenne stone 與 brimstone（CIAAW）、史前已知、曾被認為含氫與氧並於 1809 年由 Gay-Lussac 與 Thénard 證明（CIAAW）、Lavoisier 約 1777 年說服科學界（Jefferson Lab）、淡黃無臭易碎、結晶硫為八原子環、快速冷卻得塑膠硫（LANL、Jefferson Lab）、大部分用於製造硫酸且為最重要的工業化學品、肥料與鉛酸電池、橡膠硫化與黑火藥、硫化氫具臭雞蛋味，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：證明硫為元素者與年份兩來源不同，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 17,
       "title": "讓自來水變安全的黃綠色氣體",
       "openingZh": "氯氣是一種黃綠色的危險氣體，但它也是讓世界各地的自來水能安全飲用的重要功臣。",
@@ -697,6 +869,135 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 32,
+      "title": "被預言的元素",
+      "openingZh": "早在鍺被發現的十五年前，Dmitri Mendeleev 就根據他的週期表上留下的空格，預言了它的存在。",
+      "sections": [
+        {
+          "heading": "類矽",
+          "paragraphs": [
+            "1871 年，Mendeleev 把這個尚未發現的元素稱為「類矽」（ekasilicon）。1886 年，德國化學家 Clemens Winkler 在硫銀鍺礦中發現並分離出鍺，並以拉丁文 Germania（德國）為它命名。"
+          ]
+        },
+        {
+          "heading": "重要的半導體",
+          "paragraphs": [
+            "鍺是一種灰白色的類金屬，也是非常重要的半導體。摻入少量的砷、鎵等元素後，鍺可以做成電晶體，用在成千上萬種電子裝置中。區域精煉技術能讓鍺的雜質降到百億分之一。"
+          ]
+        },
+        {
+          "heading": "讓紅外線通過",
+          "paragraphs": [
+            "鍺與氧化鍺能讓紅外線穿透，被用在紅外線光譜儀與極靈敏的紅外線偵測器中。今天的鍺主要從冶煉鋅礦的粉塵，以及某些煤炭燃燒後的副產物中回收。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Mendeleev 是怎麼從週期表上的空格，推測出一個尚未被發現的元素會有哪些性質？",
+      "categoryIds": [
+        "metalloid"
+      ],
+      "furtherReadingElementNumbers": [
+        14,
+        31,
+        50
+      ],
+      "referenceIds": [
+        "pubchem-element:32@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1871 年 Mendeleev 依週期表空格預言並稱為 ekasilicon、1886 年 Winkler 在硫銀鍺礦中發現與分離、Germania 字源（LANL、Jefferson Lab、CIAAW）、灰白色類金屬與重要半導體、摻雜砷鎵製成電晶體、區域精煉雜質達 10¹⁰ 分之一、鍺與氧化鍺透紅外線並用於光譜儀與偵測器、取自鋅礦冶煉粉塵與煤炭燃燒副產物（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 33,
+      "title": "惡名昭彰的毒物",
+      "openingZh": "砷與它的化合物都有毒。但同樣是這種元素，也被少量摻進半導體，成為電子元件的一部分。",
+      "sections": [
+        {
+          "heading": "古老的毒物",
+          "paragraphs": [
+            "早在史前時代，人們就知道含砷的硫化物有毒，中國、希臘與埃及等古文明也都曾開採砷的化合物。一般認為，德國學者 Albertus Magnus 大約在 1250 年首次取得了砷元素。"
+          ]
+        },
+        {
+          "heading": "不經液態的元素",
+          "paragraphs": [
+            "在一般大氣壓下加熱，砷會直接從固體變成氣體，不經過液態；必須把壓力提高到約 28 倍大氣壓，才能讓它熔化。砷受熱時會迅速氧化，產生帶有大蒜味的氧化物。"
+          ]
+        },
+        {
+          "heading": "從殺蟲劑到雷射",
+          "paragraphs": [
+            "砷化合物曾被用來製造老鼠藥與農業殺蟲劑。今天，少量的砷被摻進鍺等材料中製造電晶體；砷化鎵則能直接把電能轉換成雷射光。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "同一種元素既能當毒藥，又能做成電子元件。決定一種物質危險與否的，除了它是什麼元素，還有哪些因素？",
+      "categoryIds": [
+        "metalloid"
+      ],
+      "furtherReadingElementNumbers": [
+        15,
+        31,
+        32
+      ],
+      "referenceIds": [
+        "pubchem-element:33@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "砷與其化合物有毒（LANL、Jefferson Lab）、史前已知含砷硫化物有毒（CIAAW）、中國希臘埃及古文明開採（Jefferson Lab）、Albertus Magnus 約 1250 年取得、常壓下直接昇華且需約 28 大氣壓才能熔化（Jefferson Lab）、受熱迅速氧化並有大蒜味（LANL）、老鼠藥與農業殺蟲劑、摻雜電晶體、砷化鎵產生雷射光，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 34,
+      "title": "以月亮命名的元素",
+      "openingZh": "硒的名字來自希臘神話的月亮女神 Selene，因為它在化學上總是和以大地女神 Tellus 命名的碲一起出現。",
+      "sections": [
+        {
+          "heading": "硫酸工廠裡的雜質",
+          "paragraphs": [
+            "1817 年，瑞典化學家 Jöns Jacob Berzelius 分析瑞典一家工廠所產硫酸中的雜質，起初以為是碲，後來才確認這是一種新元素。今天的硒大多是精煉銅時的副產品。"
+          ]
+        },
+        {
+          "heading": "見光就導電",
+          "paragraphs": [
+            "硒的導電性會隨光照增強：光越亮，導電越好；它也能直接把光轉換成電。因此硒被用於光電池、相機測光表、影印機與太陽能電池。"
+          ]
+        },
+        {
+          "heading": "紅色玻璃與毒性",
+          "paragraphs": [
+            "硒能讓玻璃與琺瑯呈現寶石般的紅色，也能用來替玻璃脫色。元素硒被視為必需的微量元素，但硒化氫等硒化合物毒性極強。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "影印機需要一種「照到光的地方才導電」的材料。你能推想硒在影印過程中扮演什麼角色嗎？",
+      "categoryIds": [
+        "nonmetal"
+      ],
+      "furtherReadingElementNumbers": [
+        16,
+        52,
+        29
+      ],
+      "referenceIds": [
+        "pubchem-element:34@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Selene 與 Tellus 字源（CIAAW）、1817 年 Berzelius 分析瑞典工廠硫酸雜質並起初以為是碲、多為精煉銅副產品（Jefferson Lab）、光照增強導電與光電轉換、光電池測光表影印機太陽能電池（Jefferson Lab、LANL）、紅色玻璃琺瑯與玻璃脫色、元素硒被視為必需微量元素而硒化氫等化合物毒性極強（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 35,
       "title": "惡臭的紅棕色液體",
       "openingZh": "溴是唯一在室溫下呈液態的非金屬元素。它的名字來自希臘文 bromos，意思是「惡臭」。",
@@ -865,6 +1166,92 @@
         "status": "source-checked",
         "checkedOn": "2026-10-18",
         "notesZh": "碳酸鍶與硝酸鍶用於煙火與信號彈的紅光、Strontian 地名與菱鍶礦、Crawford 1790 年認出新礦物、Hope 1792 年觀察紅色火焰（CIAAW）、Davy 1808 年電解分離、比鈣軟且與水反應較劇烈、保存在煤油、切面由銀白轉黃、細粉自燃、鍶-90 為核爆產物、半衰期約 28.8 年、累積於骨骼，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現者與年份 LANL 與 Jefferson Lab 歸於 Crawford（1790 年），CIAAW 歸於 Hope（1792 年），本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 51,
+      "title": "古埃及的黑色眼妝",
+      "openingZh": "古埃及人用一種叫輝銻礦的礦物畫黑色眼妝。這種礦物，至今仍是銻最主要的來源。",
+      "sections": [
+        {
+          "heading": "名字的由來",
+          "paragraphs": [
+            "銻的符號 Sb 來自拉丁文 stibium，源自希臘文的「記號」，因為它曾被用來塗黑眉毛與睫毛。英文 antimony 則被解釋為 anti 加 monos，意思是「不單獨存在」，因為它常出現在各種化合物中。法國化學家 Nicolas Lémery 是第一位以科學方法研究銻及其化合物的人，並在 1707 年發表了研究成果。"
+          ]
+        },
+        {
+          "heading": "讓鉛變硬",
+          "paragraphs": [
+            "銻質地易碎，導熱、導電性都差，卻能大幅提高鉛的硬度與機械強度。電池、減摩合金、鉛字合金與電纜外皮等產品，用掉了大約一半的銻。"
+          ]
+        },
+        {
+          "heading": "安全提醒",
+          "paragraphs": [
+            "銻與許多銻化合物具有毒性。高純度的銻則被用來製造二極體與紅外線偵測器等半導體元件。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "銻和砷在週期表上同族，兩者都被歸為類金屬，也都有毒性。同一族元素的性質為什麼常常相似？",
+      "categoryIds": [
+        "metalloid"
+      ],
+      "furtherReadingElementNumbers": [
+        33,
+        82,
+        83
+      ],
+      "referenceIds": [
+        "pubchem-element:51@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "古埃及以輝銻礦作黑色眼妝（Jefferson Lab）、最常以輝銻礦存在（LANL）、stibium 與 stibi 字源及塗黑眉毛睫毛、anti + monos 字源（CIAAW）、Lémery 首先科學研究並於 1707 年發表（Jefferson Lab）、易碎且導熱導電差、大幅提高鉛的硬度與強度、電池減摩合金鉛字合金電纜外皮約用掉一半、有毒（LANL）、二極體與紅外線偵測器，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 52,
+      "title": "被遺忘的發現",
+      "openingZh": "碲在 1782 年就被發現了，卻被忽略了大約十五年，才又重新受到注意。",
+      "sections": [
+        {
+          "heading": "金礦裡的新金屬",
+          "paragraphs": [
+            "1782 年，在外西凡尼亞擔任礦場總督察的 Franz Joseph Müller von Reichenstein，從一種金礦中提煉出新的金屬；他起初以為是銻，不久便發現是未知的元素。他的研究被遺忘，直到 1798 年，德國化學家 Martin Heinrich Klaproth 在論文中提到這種物質，依羅馬神話的大地女神 Tellus 將它命名為 tellurium，並把發現的功勞完全歸於 Reichenstein。匈牙利化學家 Paul Kitaibel 也曾在 1789 年獨立發現碲。"
+          ]
+        },
+        {
+          "heading": "會導電的脆性固體",
+          "paragraphs": [
+            "結晶碲呈銀白色並帶有金屬光澤，質地脆、容易磨成粉。它是一種 p 型半導體，導電性會隨光照略微增加；在空氣中燃燒時，會發出藍綠色的火焰。"
+          ]
+        },
+        {
+          "heading": "加進金屬裡",
+          "paragraphs": [
+            "少量的碲加進銅與不鏽鋼，能讓它們更容易切削加工；加進鉛中，則能提高強度並減少硫酸造成的腐蝕。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Klaproth 為碲命名，卻把發現的功勞歸給 Reichenstein，而 Kitaibel 也曾獨立發現它。科學史上「誰發現了元素」為什麼常常很難判定？",
+      "categoryIds": [
+        "metalloid"
+      ],
+      "furtherReadingElementNumbers": [
+        34,
+        51,
+        79
+      ],
+      "referenceIds": [
+        "pubchem-element:52@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1782 年 Reichenstein 發現並被忽略約 15 年、1798 年 Klaproth 命名、Tellus 字源、Kitaibel 1789 年獨立發現（CIAAW）、外西凡尼亞礦場總督察、從金礦中提煉並起初以為是銻、Klaproth 將功勞歸於 Reichenstein（Jefferson Lab）、銀白色金屬光澤易碎、p 型半導體且導電性隨光照略增、燃燒呈藍綠色火焰、改善銅與不鏽鋼切削性、提高鉛強度並減少硫酸腐蝕（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Jefferson Lab 稱 Reichenstein 為羅馬尼亞礦務官員，本文只寫其職務與地點。"
       },
       "version": "2026-10-18"
     },
@@ -1091,6 +1478,50 @@
         "notesZh": "5,500 年歷史、以單質存在、Au 的由來、不失光澤、延展性數據、合金與 K 金定義、首飾牙科錢幣用途、衛星紅外線反射皆已對照 CIAAW 與 PubChem（Jefferson Lab、LANL）原文。「相對論效應造成金色與惰性」引用 Pyykkö (1988)，但未取得全文逐句比對，待查核。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 84,
+      "title": "以祖國命名的放射性元素",
+      "openingZh": "釙是 Marie Curie 在 1898 年發現的第一個元素，她以祖國波蘭為它命名。",
+      "sections": [
+        {
+          "heading": "藏在瀝青鈾礦裡",
+          "paragraphs": [
+            "Marie Curie 注意到未精煉的瀝青鈾礦比從中分離出的鈾更具放射性，推論礦石中還有其他放射性元素。釙非常稀少，每噸鈾礦只含約 100 微克，含量大約只有鐳的 0.2%。今天的釙通常在核反應爐中以中子轟擊鉍-209 製造。"
+          ]
+        },
+        {
+          "heading": "驚人的熱量",
+          "paragraphs": [
+            "釙-210 是很強的 α 粒子放射源，半衰期約 138 天。每公克釙-210 衰變時約產生 140 瓦的熱，半公克就能讓容器溫度超過 500 °C，因此曾被考慮作為人造衛星熱電電源的輕量熱源。"
+          ]
+        },
+        {
+          "heading": "必須嚴格密封",
+          "paragraphs": [
+            "釙曾被用在消除機器靜電的裝置，以及清除底片灰塵的刷子中，但都必須嚴格密封，以免使用者受到汙染；消除靜電的用途多已改用較安全的 β 射源。本站將釙歸為類金屬，但它也常被列為金屬，分類仍有爭議。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "α 粒子幾乎會被固體與容器完全擋下，並把能量轉成熱。為什麼這個特性讓釙適合作為太空中的熱源？",
+      "categoryIds": [
+        "metalloid",
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        83,
+        88,
+        52
+      ],
+      "referenceIds": [
+        "pubchem-element:84@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以波蘭命名、1898 年為 Curie 發現的第一個元素（LANL）、瀝青鈾礦比分離出的鈾更具放射性的推論、每噸鈾礦約 100 微克（Jefferson Lab、LANL）、約為鐳的 0.2%（LANL）、以中子轟擊鉍-209 製造、釙-210 強 α 放射源、半衰期 138.39 天、每公克 140 瓦、半公克容器超過 500 °C、衛星熱電電源熱源、消除靜電與底片除塵刷且需密封、β 射源較常用且較安全，皆已對照 PubChem 收錄的 Los Alamos 與 Jefferson Lab 原文。分類爭議一句依據本站分類資料（主要分類類金屬、次要分類其他金屬，皆標為有爭議）。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 85,
