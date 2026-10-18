@@ -486,9 +486,9 @@
       },
       "referenceIds": [
         "iupac-redbook-2005",
-        "pubchem-element:9",
-        "pubchem-element:17",
-        "pubchem-element:53",
+        "pubchem-element:9@2026-10-16",
+        "pubchem-element:17@2026-10-16",
+        "pubchem-element:53@2026-10-16",
         "greenwood-earnshaw-1997"
       ],
       "verification": {
@@ -553,10 +553,10 @@
       },
       "referenceIds": [
         "iupac-redbook-2005",
-        "pubchem-element:2",
-        "pubchem-element:10",
-        "pubchem-element:18",
-        "pubchem-element:54",
+        "pubchem-element:2@2026-10-16",
+        "pubchem-element:10@2026-10-16",
+        "pubchem-element:18@2026-10-16",
+        "pubchem-element:54@2026-10-16",
         "greenwood-earnshaw-1997"
       ],
       "verification": {

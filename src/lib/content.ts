@@ -78,12 +78,11 @@ export const CATEGORY_GUIDES = categoriesFile.categories as CategoryGuide[];
 export const ELEMENT_STORIES = storiesFile.stories as ElementStory[];
 const BIBLIOGRAPHY = referencesFile.references as Record<string, Omit<Reference, "id">>;
 
-/** Date each element's PubChem record was read, by atomic number. */
-const PUBCHEM_READ_ON = new Map(
-  Object.entries(referencesFile.elementPagesRead as Record<string, number[]>).flatMap(([date, numbers]) =>
-    numbers.map((n) => [n, date] as const),
-  ),
-);
+/** Dates each element's PubChem record was read, by atomic number (oldest first). */
+const PUBCHEM_READ_ON = new Map<number, string[]>();
+for (const [date, numbers] of Object.entries(referencesFile.elementPagesRead as Record<string, number[]>).sort()) {
+  for (const n of numbers) PUBCHEM_READ_ON.set(n, [...(PUBCHEM_READ_ON.get(n) ?? []), date]);
+}
 
 const GUIDES_BY_ID = new Map(CATEGORY_GUIDES.map((g) => [g.id, g]));
 const STORIES_BY_NUMBER = new Map(ELEMENT_STORIES.map((s) => [s.elementNumber, s]));
@@ -101,7 +100,7 @@ const CIAAW_PAGES_ACCESSED = "2026-10-16";
 
 /**
  * Resolves a reference id. Besides bibliography ids, two families are
- * generated: "pubchem-element:<Z>" (PubChem element page, which carries the
+ * generated: "pubchem-element:<Z>[@<date read>]" (PubChem element page, which carries the
  * Los Alamos National Laboratory and Jefferson Lab texts) and
  * "ciaaw:<english-name>" (CIAAW element page).
  */
@@ -109,12 +108,20 @@ export function resolveReference(id: string): Reference {
   const entry = BIBLIOGRAPHY[id];
   if (entry) return { id, ...entry };
 
-  const pubchem = id.match(/^pubchem-element:(\d+)$/);
+  // "pubchem-element:<Z>" or, when the page was read more than once, "pubchem-element:<Z>@<date>".
+  const pubchem = id.match(/^pubchem-element:(\d+)(?:@(\d{4}-\d{2}-\d{2}))?$/);
   if (pubchem) {
     const element = getElementByNumber(Number(pubchem[1]));
     if (!element) throw new Error(`Unknown element in reference ${id}`);
-    const accessed = PUBCHEM_READ_ON.get(element.number);
-    if (!accessed) throw new Error(`${id} is cited but not recorded as read (contentReferences.json → elementPagesRead)`);
+    const reads = PUBCHEM_READ_ON.get(element.number) ?? [];
+    const accessed = pubchem[2] ?? (reads.length === 1 ? reads[0] : undefined);
+    if (!accessed || !reads.includes(accessed)) {
+      throw new Error(
+        reads.length > 1 && !pubchem[2]
+          ? `${id} was read on ${reads.join(", ")}; cite it as ${id}@<date>`
+          : `${id} is cited but not recorded as read (contentReferences.json → elementPagesRead)`,
+      );
+    }
     return {
       id,
       kind: "database",

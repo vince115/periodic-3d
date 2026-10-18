@@ -43,16 +43,16 @@ describe("category guides (elementCategories.json)", () => {
 });
 
 describe("element stories (elementStories.json)", () => {
-  it("include the first batch and every alkali / alkaline earth metal, once each, in order", () => {
+  it("cover every element of the categories finished so far, once each, in order", () => {
     const numbers = ELEMENT_STORIES.map((s) => s.elementNumber);
     expect(numbers).toEqual([...numbers].sort((a, b) => a - b));
     expect(new Set(numbers).size).toBe(numbers.length);
     for (const n of [1, 6, 8, 14, 29, 79]) expect(numbers).toContain(n);
-    const sBlockMetals = ELEMENTS.filter((el) =>
-      el.categoryTags.some((t) => t.id === "alkali-metal" || t.id === "alkaline-earth-metal"),
-    ).map((el) => el.number);
-    expect(sBlockMetals).toEqual([3, 4, 11, 12, 19, 20, 37, 38, 55, 56, 87, 88]);
-    for (const n of sBlockMetals) expect(getElementStory(n), String(n)).toBeDefined();
+    // Phase 3 batches, one category group at a time.
+    const finished = ["alkali-metal", "alkaline-earth-metal", "halogen", "noble-gas"];
+    const members = ELEMENTS.filter((el) => el.categoryTags.some((t) => finished.includes(t.id)));
+    expect(members).toHaveLength(25);
+    for (const el of members) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
     expect(getElementStory(26)).toBeUndefined();
   });
 
@@ -97,6 +97,10 @@ describe("sources and verification", () => {
     expect(() => resolveReference("made-up-source")).toThrow();
     // Element pages must be recorded as read before they can be cited.
     expect(() => resolveReference("pubchem-element:27")).toThrow(/not recorded as read/);
+    // A page read on several dates must say which reading the claims were checked against.
+    expect(() => resolveReference("pubchem-element:2")).toThrow(/cite it as/);
+    expect(resolveReference("pubchem-element:2@2026-10-18").accessed).toBe("2026-10-18");
+    expect(() => resolveReference("pubchem-element:2@2026-10-17")).toThrow(/not recorded as read/);
   });
 
   it("records an honest status: never self-assigned expert review, and 'source-checked' only when every source was read", () => {

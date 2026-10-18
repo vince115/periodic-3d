@@ -49,6 +49,49 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 2,
+      "title": "先在太陽上被發現的元素",
+      "openingZh": "氦是先在太陽上被發現的：科學家先在陽光的光譜裡看見它，過了二十多年，才在地球上找到它。",
+      "sections": [
+        {
+          "heading": "日食中的黃色譜線",
+          "paragraphs": [
+            "1868 年，法國天文學家 Pierre-Jules-César Janssen 觀測日全食時，注意到太陽光譜中一條黃色譜線。英國天文學家 Norman Lockyer 認為這條線不可能來自當時已知的任何元素，並依希臘文 helios（太陽）把這個新元素命名為 helium。1895 年，蘇格蘭化學家 William Ramsay 在含鈾礦物 cleveite 釋出的氣體中找到了氦；瑞典的 Per Teodor Cleve 與 Nils Langlet 也幾乎同時獨立發現。"
+          ]
+        },
+        {
+          "heading": "降到絕對零度也不凝固",
+          "paragraphs": [
+            "氦是熔點最低的元素。在一般壓力下，液態氦即使降到絕對零度也不會凝固，必須加壓才能變成固體。液態氦因此是研究超導與製造超導磁鐵的重要材料。"
+          ]
+        },
+        {
+          "heading": "不斷逃離地球",
+          "paragraphs": [
+            "大氣中的氦極少，而且不受地球重力束縛，會不斷散逸到太空；補充它的是地殼中放射性元素衰變產生的 α 粒子。商業用的氦主要從天然氣中提取。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "氦被用來填充氣球，是因為它比氫安全得多。同樣比空氣輕，為什麼氦不會像氫那樣燃燒？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        1,
+        10,
+        92
+      ],
+      "referenceIds": [
+        "pubchem-element:2@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "先在太陽上發現、1868 年 Janssen 於日全食觀察黃色譜線、Lockyer 判斷為新元素並命名、helios 字源、1895 年 Ramsay 於 cleveite 中發現、Cleve 與 Langlet 同時獨立發現（CIAAW、Jefferson Lab）、熔點最低、常壓下至絕對零度仍為液體且需加壓才能固化、超導研究與超導磁鐵、大氣氦不受重力束縛而散逸並由 α 衰變補充、從天然氣提取、填充氣球比氫安全（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 3,
       "title": "比水還輕的金屬",
       "openingZh": "鋰是最輕的金屬，密度大約只有水的一半。這麼輕的金屬，為什麼會出現在電池裡？",
@@ -226,6 +269,86 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 9,
+      "title": "最活潑的元素",
+      "openingZh": "氟是所有元素中電負度最高、也最活潑的一個。細碎的金屬、玻璃、陶瓷，甚至水，都會在氟氣中燃燒。",
+      "sections": [
+        {
+          "heading": "漫長的分離之路",
+          "paragraphs": [
+            "早在 1670 年前後，就有人用酸處理過的螢石來蝕刻玻璃。後來 Scheele、Davy、Gay-Lussac 等許多科學家都研究過氫氟酸，有些實驗以悲劇收場。1869 年，George Gore 以電解產生少量的氟，但它立刻與另一個電極產生的氫氣發生爆炸性反應。直到 1886 年，法國化學家 Henri Moissan 用全鉑製成的裝置電解氟化鉀與氫氟酸，並把氟與氫完全隔開，才成功分離出氟；他在 1906 年獲得諾貝爾化學獎。"
+          ]
+        },
+        {
+          "heading": "牙齒的保護者",
+          "paragraphs": [
+            "自來水中加入約百萬分之一的氟，牙膏中添加氟化鈉等化合物，都有助於預防蛀牙；但兒童換牙期間若飲用含氟量達百萬分之二的水，恆牙可能出現斑釉。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "氟幾乎能和所有物質反應，Moissan 為什麼選擇用鉑來製作電解裝置？",
+      "categoryIds": [
+        "halogen"
+      ],
+      "furtherReadingElementNumbers": [
+        17,
+        8,
+        20
+      ],
+      "referenceIds": [
+        "pubchem-element:9@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "最高電負度與最活潑、金屬玻璃陶瓷與水在氟中燃燒（LANL）、約 1670 年以處理過的螢石蝕刻玻璃、Scheele 等人研究氫氟酸且有實驗以悲劇收場、1869 年 Gore 電解產生少量氟並與氫爆炸、Moissan 以全鉑裝置電解 KF 與 HF 並隔開氫氣、1906 年諾貝爾化學獎（Jefferson Lab）、自來水約 1 ppm 與牙膏含氟化合物防蛀、2 ppm 可能造成恆牙斑釉（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：分離年份 CIAAW 與 Jefferson Lab 為 1886 年，LANL 寫 1866 年，本文採 1886 年。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 10,
+      "title": "招牌燈裡的「新」氣體",
+      "openingZh": "氖的英文 neon 來自希臘文 neos，意思是「新」。它最大的用途，是廣告招牌的燈管。",
+      "sections": [
+        {
+          "heading": "液態空氣中的新發現",
+          "paragraphs": [
+            "1898 年，蘇格蘭化學家 William Ramsay 與英國化學家 Morris Travers 研究液態空氣，在發現氪後不久又找到了氖；它的光譜中有明亮的橙色譜線。"
+          ]
+        },
+        {
+          "heading": "宇宙中很多，地球上很少",
+          "paragraphs": [
+            "氖是宇宙中含量第四多的元素，卻只占地球大氣的 0.0018%。今天的氖是把空氣液化後，以分餾法與其他氣體分離而得。"
+          ]
+        },
+        {
+          "heading": "不只是招牌",
+          "paragraphs": [
+            "氖也用於高壓指示燈，與氦混合可製成氦氖雷射；液態氖則是一種經濟的低溫冷媒。氖極不活潑，目前沒有已知的化合物。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "不同氣體通電時會發出不同顏色的光。為什麼每種氣體發出的顏色都不一樣？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        2,
+        18,
+        36
+      ],
+      "referenceIds": [
+        "pubchem-element:10@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "neos 字源、廣告招牌為最大用途、1898 年 Ramsay 與 Travers 研究液態空氣並在氪之後發現、明亮橙色譜線（CIAAW）、宇宙含量第四、大氣 0.0018%、液化空氣後分餾取得、高壓指示燈、氦氖雷射、液態氖冷媒、無已知化合物，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 11,
       "title": "藏在鹽裡的活潑金屬",
       "openingZh": "每天吃的食鹽是氯化鈉，但純的鈉金屬一碰到水就可能起火。同一種元素，為什麼差別這麼大？",
@@ -355,6 +478,92 @@
         "notesZh": "地殼含量 25.7% 且僅次於氧、不以單質存在、二氧化矽的形式、名稱由來、1824 年 Berzelius、1854 年 Deville、電爐製矽、玻璃與磚、柴可拉斯基法與摻雜元素及用途皆已對照 CIAAW 與 PubChem（LANL、Jefferson Lab）原文。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 17,
+      "title": "讓自來水變安全的黃綠色氣體",
+      "openingZh": "氯氣是一種黃綠色的危險氣體，但它也是讓世界各地的自來水能安全飲用的重要功臣。",
+      "sections": [
+        {
+          "heading": "以為含有氧的氣體",
+          "paragraphs": [
+            "1774 年，瑞典化學家 Carl Wilhelm Scheele 把軟錳礦與鹽酸混合，首次製得氯氣，但他以為這種氣體含有氧。1810 年，Humphry Davy 證明它是一種元素，並依希臘文 chloros（黃綠色）為它命名。"
+          ]
+        },
+        {
+          "heading": "從不單獨存在",
+          "paragraphs": [
+            "氯幾乎能直接與所有元素化合，因此在自然界中只以化合物存在，主要是和鈉結合成食鹽。今天的氯大多以電解食鹽水製得。"
+          ]
+        },
+        {
+          "heading": "用途與危險",
+          "paragraphs": [
+            "氯被用來消毒飲用水與泳池，也大量用於造紙、塑膠、染料、藥品與溶劑的生產。但氯氣非常危險：濃度低至百萬分之 3.5 就聞得到，達到百萬分之一千時，吸入幾口就可能致命。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "氯氣很危險，為什麼加了氯消毒的自來水卻可以喝？想想濃度與化學形式的差別。",
+      "categoryIds": [
+        "halogen"
+      ],
+      "furtherReadingElementNumbers": [
+        11,
+        9,
+        35
+      ],
+      "referenceIds": [
+        "pubchem-element:17@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "黃綠色、用於全球安全飲用水、1774 年 Scheele 以軟錳礦與鹽酸製得並以為含氧、1810 年 Davy 證明為元素並命名、chloros 字源、幾乎與所有元素直接化合而只以化合物存在、主要為食鹽、多以電解食鹽水製得、消毒水與泳池及工業用途、3.5 ppm 可嗅出與 1000 ppm 吸入幾口可能致命，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 18,
+      "title": "空氣裡「懶惰」的成分",
+      "openingZh": "氬的名字來自希臘文 argos，意思是「懶惰」或「不活潑」，因為它幾乎不和其他元素結合。",
+      "sections": [
+        {
+          "heading": "一百多年的謎題",
+          "paragraphs": [
+            "1785 年，Henry Cavendish 發現：把空氣中的氧和氮除去後，總會剩下一點不明的氣體。這個問題後來引起了 Lord Rayleigh 的興趣；1894 年，他與 William Ramsay 終於在空氣中發現了氬。"
+          ]
+        },
+        {
+          "heading": "大氣中第三多的氣體",
+          "paragraphs": [
+            "氬約占地球大氣的 0.93%，是第三多的氣體，可在製造氧氣和氮氣時作為副產品取得。"
+          ]
+        },
+        {
+          "heading": "保護燈絲的氣體",
+          "paragraphs": [
+            "白熾燈泡與日光燈管裡充填氬氣，可防止高溫的燈絲被氧侵蝕；電弧焊接與半導體晶體的生長，也常用氬來隔絕空氣。人們曾以為氬完全不會形成化合物，直到 2000 年，科學家合成了氟氫化氬，但它只在極低溫下才穩定。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Cavendish 在 1785 年就發現空氣裡有「剩下的氣體」，為什麼要等到一百多年後，才確認它是新元素？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        2,
+        10,
+        7
+      ],
+      "referenceIds": [
+        "pubchem-element:18@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "argos 字源與不與其他元素結合、1785 年 Cavendish 除去氧氮後的殘餘氣體問題、Rayleigh 因此產生興趣、1894 年 Rayleigh 與 Ramsay 發現（CIAAW）、大氣 0.93% 且為第三多氣體、製氧製氮的副產品、燈泡與燈管防止燈絲被氧侵蝕、電弧焊與半導體晶體、2000 年合成氟氫化氬且僅在約 −246 °C 以下穩定（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：大氣含量 LANL 寫 0.94%，本文採 Jefferson Lab 的 0.93%。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 19,
@@ -488,6 +697,92 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 35,
+      "title": "惡臭的紅棕色液體",
+      "openingZh": "溴是唯一在室溫下呈液態的非金屬元素。它的名字來自希臘文 bromos，意思是「惡臭」。",
+      "sections": [
+        {
+          "heading": "差一點就發現",
+          "paragraphs": [
+            "最早製得溴的是德國學生 Carl Löwig。他把這種紅色、有臭味的液體拿給教授 Leopold Gmelin 看，Gmelin 鼓勵他多製備一些來研究；但考試與假期耽誤了進度，法國化學家 Antoine-Jérôme Balard 在 1826 年率先發表論文，發現的功勞因此歸於 Balard。"
+          ]
+        },
+        {
+          "heading": "危險的液體",
+          "paragraphs": [
+            "溴在室溫下容易揮發成紅色蒸氣，會強烈刺激眼睛與喉嚨，接觸皮膚會造成嚴重灼傷，處理時必須採取最嚴格的安全措施。"
+          ]
+        },
+        {
+          "heading": "古代的紫色染料",
+          "paragraphs": [
+            "古代文明珍視的昂貴紫色染料「泰爾紫」，來自一種名為骨螺（murex）的海洋生物所分泌的有機溴化合物。今天的溴則用於燻蒸劑、阻燃劑、淨水藥劑，以及攝影用的溴化銀。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "溴上方的氯是氣體，下方的碘是固體。同一族的鹵素，為什麼在室溫下會從氣體、液體變成固體？",
+      "categoryIds": [
+        "halogen"
+      ],
+      "furtherReadingElementNumbers": [
+        17,
+        53,
+        80
+      ],
+      "referenceIds": [
+        "pubchem-element:35"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "唯一室溫下呈液態的非金屬、bromos 字源、Löwig 最早製得並交給 Gmelin、考試與假期延誤、Balard 於 1826 年發表而獲得發現功勞（Jefferson Lab；CIAAW 記 Löwig 於 1825 年製得）、易揮發成紅色蒸氣並刺激眼喉、灼傷皮膚與嚴格安全措施、泰爾紫來自 murex 分泌的有機溴化合物、燻蒸劑阻燃劑淨水與溴化銀，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Jefferson Lab 稱 murex 為 sea mussel，實為海螺類，本文僅寫「海洋生物」。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 36,
+      "title": "曾經定義一公尺的元素",
+      "openingZh": "從 1960 年起，有二十多年的時間，國際上以氪-86 的一條橙紅色譜線來定義一公尺的長度。",
+      "sections": [
+        {
+          "heading": "藏起來的元素",
+          "paragraphs": [
+            "1898 年 5 月 30 日，William Ramsay 與 Morris Travers 讓液態空氣中較易揮發的成分沸騰散去，在剩下的少量液體中發現了氪。名稱來自希臘文 kryptos，意思是「隱藏的」。"
+          ]
+        },
+        {
+          "heading": "長度的標準",
+          "paragraphs": [
+            "1960 年之前，公尺由巴黎一根鉑銥合金棒定義；之後改以氪-86 的橙紅色譜線為準。1983 年，國際度量衡局再將公尺重新定義為光在真空中於 1/299,792,458 秒內行經的距離。"
+          ]
+        },
+        {
+          "heading": "昂貴的氣體",
+          "paragraphs": [
+            "從空氣中取得氪的成本很高，限制了它的用途。氪被用於高速攝影的閃光燈，也和氬混合填充某些日光燈。曾被認為完全惰性的氪，其實能形成少數化合物，例如二氟化氪。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼科學家要改用原子的光譜線，而不是一根金屬棒，來定義長度的標準？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        18,
+        54,
+        10
+      ],
+      "referenceIds": [
+        "pubchem-element:36"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1960 年以氪-86 橙紅色譜線定義公尺並取代巴黎鉑銥合金棒、1983 年國際度量衡局改以光速定義（LANL）、1898 年 5 月 30 日 Ramsay 與 Travers 在液態空氣殘餘中發現、kryptos 字源、取得成本高、高速攝影閃光燈、與氬混合填充日光燈、二氟化氪（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 37,
       "title": "光譜裡的深紅色線條",
       "openingZh": "1861 年，兩位德國科學家用分光鏡觀察一種礦物，看到從未見過的深紅色譜線，一個新元素就此現身。",
@@ -570,6 +865,92 @@
         "status": "source-checked",
         "checkedOn": "2026-10-18",
         "notesZh": "碳酸鍶與硝酸鍶用於煙火與信號彈的紅光、Strontian 地名與菱鍶礦、Crawford 1790 年認出新礦物、Hope 1792 年觀察紅色火焰（CIAAW）、Davy 1808 年電解分離、比鈣軟且與水反應較劇烈、保存在煤油、切面由銀白轉黃、細粉自燃、鍶-90 為核爆產物、半衰期約 28.8 年、累積於骨骼，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現者與年份 LANL 與 Jefferson Lab 歸於 Crawford（1790 年），CIAAW 歸於 Hope（1792 年），本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 53,
+      "title": "海藻灰中冒出的紫色雲",
+      "openingZh": "1811 年，法國化學家 Bernard Courtois 處理海藻灰時，不小心加了太多硫酸，一團紫色的煙霧突然冒了出來。",
+      "sections": [
+        {
+          "heading": "紫色的元素",
+          "paragraphs": [
+            "這團紫色氣體在房間裡的金屬物品上凝結成固體，那就是碘。1814 年，Louis-Joseph Gay-Lussac 證明它是一種元素，並依希臘文 iodes（紫色）為它命名。"
+          ]
+        },
+        {
+          "heading": "身體需要一點點",
+          "paragraphs": [
+            "人體需要微量的碘：甲狀腺製造的甲狀腺素含有碘，能調控身體與心智發育的速度。缺碘可能造成甲狀腺腫，因此有些食鹽會添加碘。"
+          ]
+        },
+        {
+          "heading": "藍色的檢驗",
+          "paragraphs": [
+            "碘遇到澱粉會變成深藍色，可用來檢驗澱粉。碘與碘化鉀溶於酒精，可作為外傷消毒劑；但純碘吞食有毒，也可能灼傷皮膚、傷害眼睛。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "碘在室溫下就會慢慢變成紫色氣體。和多數固體相比，這種性質有什麼特別之處？",
+      "categoryIds": [
+        "halogen"
+      ],
+      "furtherReadingElementNumbers": [
+        35,
+        85,
+        9
+      ],
+      "referenceIds": [
+        "pubchem-element:53@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1811 年 Courtois 處理海藻灰時加入過量硫酸冒出紫色雲並凝結成固態碘（Jefferson Lab）、1814 年 Gay-Lussac 證明為元素並命名、iodes 字源（CIAAW）、甲狀腺素含碘並調控發育、缺碘致甲狀腺腫與加碘鹽、遇澱粉呈深藍色、碘與碘化鉀酒精溶液外用消毒、純碘吞食有毒並傷害皮膚眼睛、室溫下揮發成藍紫色氣體（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 54,
+      "title": "空氣裡的陌生人",
+      "openingZh": "氙的名字來自希臘文 xenos，意思是「陌生人」。在空氣中，每兩千萬份大約只有一份是氙。",
+      "sections": [
+        {
+          "heading": "接連發現的稀有氣體",
+          "paragraphs": [
+            "1898 年 7 月 12 日，William Ramsay 與 Morris Travers 在發現氪和氖之後不久，又從液態空氣中找到了氙。"
+          ]
+        },
+        {
+          "heading": "明亮的白光",
+          "paragraphs": [
+            "氙在通電激發時會發出明亮的白光，廣泛用於閃光燈；氙燈的光也能殺菌，並用來激發紅寶石雷射。"
+          ]
+        },
+        {
+          "heading": "推動太空船",
+          "paragraphs": [
+            "由於原子量大，氙離子曾被當作「深太空一號」探測器上實驗性離子引擎的燃料。氙本身無毒，也並非完全惰性：它能與氟、氧等元素形成化合物，而這些化合物因為氧化性很強，具有高毒性。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "稀有氣體曾被稱為「惰性氣體」。知道氙能形成化合物之後，你覺得這個舊名稱還恰當嗎？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        36,
+        86,
+        55
+      ],
+      "referenceIds": [
+        "pubchem-element:54@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "xenos 字源、大氣中約兩千萬分之一（LANL）、1898 年 7 月 12 日 Ramsay 與 Travers 在氪與氖之後於液態空氣中發現、通電發白光用於閃光燈、殺菌燈與激發紅寶石雷射、深太空一號實驗性離子引擎（Jefferson Lab）、氙無毒但其化合物因強氧化性而高毒性（LANL）、與氟氧等形成化合物，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
       },
       "version": "2026-10-18"
     },
@@ -712,6 +1093,92 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 85,
+      "title": "地殼中不到 30 公克",
+      "openingZh": "砈的名字來自希臘文 astatos，意思是「不穩定」。它天然存在，但任何時刻整個地殼中的砈都不到 30 公克。",
+      "sections": [
+        {
+          "heading": "用迴旋加速器製造",
+          "paragraphs": [
+            "1940 年，Dale R. Corson、K. R. MacKenzie 與 Emilio Segrè 在加州大學，以迴旋加速器加速的 α 粒子轟擊鉍-209，首次製得砈-211。由於極為稀少，砈都是在需要時才製造；Jefferson Lab 估計，至今總產量只有約 0.05 微克。"
+          ]
+        },
+        {
+          "heading": "最像碘的鹵素",
+          "paragraphs": [
+            "砈最穩定的同位素砈-210，半衰期只有約 8.1 小時。質譜實驗證實，這種高放射性的鹵素在化學上和其他鹵素很相似，尤其像碘；據報告它比碘更具金屬性，也可能像碘一樣累積在甲狀腺中。"
+          ]
+        },
+        {
+          "heading": "只為研究",
+          "paragraphs": [
+            "因為產量極少、壽命又短，砈目前除了基礎科學研究之外沒有用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "砈和碘同屬鹵素，卻被認為更具金屬性。為什麼同一族的元素越往下，金屬性往往越強？",
+      "categoryIds": [
+        "halogen"
+      ],
+      "furtherReadingElementNumbers": [
+        53,
+        83,
+        84
+      ],
+      "referenceIds": [
+        "pubchem-element:85"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "astatos 字源、1940 年 Corson、MacKenzie 與 Segrè 在加州大學以 α 粒子轟擊鉍製得、地殼中少於 30 公克（Jefferson Lab；LANL 寫少於 1 盎司）、需要時才製造、總產量約 0.05 微克、砈-210 半衰期 8.1 小時、質譜證實化學性質似碘、據稱比碘更具金屬性並可能累積於甲狀腺、僅用於研究，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Jefferson Lab 將 Corson 誤拼為 Carson，本文採 LANL 的 Corson。本站將砈的鹵素分類標為有爭議，見分類標籤。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 86,
+      "title": "從地底滲入屋內的氣體",
+      "openingZh": "氡是無色、無味的放射性氣體。它會從地底滲進房屋，因此有人關注住家裡的氡含量。",
+      "sections": [
+        {
+          "heading": "原本叫做 niton",
+          "paragraphs": [
+            "1900 年，德國化學家 Friedrich Ernst Dorn 在研究鐳的衰變鏈時發現了氡，當時稱為「鐳的放射物」。1908 年，William Ramsay 與 Gray 分離出這種元素並測量密度，發現它是已知最重的氣體，並依拉丁文 nitens（發光）命名為 niton；1923 年起才改稱 radon。"
+          ]
+        },
+        {
+          "heading": "吸入為何危險",
+          "paragraphs": [
+            "氡主要經 α 衰變，α 粒子很容易被擋住，通常不算嚴重的輻射危害；但氡是氣體，會被吸入體內，讓組織直接受到輻射。它衰變後還會產生壽命更長的固態放射性元素，附著在灰塵上一起被吸入。"
+          ]
+        },
+        {
+          "heading": "冷卻後會發光",
+          "paragraphs": [
+            "冷卻成固體的氡會發出黃色的光，溫度再降低時轉為橙紅色。少量的氡有時被醫院用來治療某些癌症。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "氡會從地底的岩石滲出。為什麼地下室或通風不良的房間，可能更需要注意氡的濃度？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        88,
+        92,
+        54
+      ],
+      "referenceIds": [
+        "pubchem-element:86"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "無色無味放射性氣體、從地底礦石衰變滲入房屋且各地差異大、住家氡含量受關注、1900 年 Dorn 研究鐳衰變鏈時發現、niton 與 nitens、1923 年起稱 radon（Jefferson Lab）、radium emanation、1908 年 Ramsay 與 Gray 分離並發現為最重氣體（LANL）、α 衰變與吸入的危害、衰變產物附著灰塵、固態氡發黃光並轉橙紅、少量用於癌症治療，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 87,
       "title": "地殼裡最多只有一小撮",
       "openingZh": "鍅是天然存在的元素，但科學家估計，整個地殼中任何時刻存在的鍅，加起來大約不超過 30 公克。",
@@ -795,6 +1262,92 @@
         "status": "source-checked",
         "checkedOn": "2026-10-18",
         "notesZh": "鐳與其鹽類會發光、曾用於自發光塗料並多改用鈷-60 等放射源、1898 年 Curie 夫婦發現、瀝青鈾礦比分離出的鈾更具放射性的推論、每噸鈾礦約 0.14 公克鐳（Jefferson Lab；LANL 為 7 噸約 1 公克，兩者一致）、處理數噸礦石並發現釙、鐳-226 半衰期約 1600 年、居里的定義與每秒 3.7 × 10¹⁰ 次衰變、中子源與癌症治療、實驗筆記至今汙染嚴重、每 25 年失去約 1% 活性，皆已對照 PubChem 收錄的 Los Alamos 與 Jefferson Lab 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 117,
+      "title": "以田納西命名的超重元素",
+      "openingZh": "鿬是人工合成的超重元素，不存在於地殼中。至今只製造出幾個鿬原子。",
+      "sections": [
+        {
+          "heading": "跨國合作的成果",
+          "paragraphs": [
+            "IUPAC 的資料指出，2009 年，科學家在俄羅斯杜布納以鈣-48 離子轟擊鉳-249，合成了鿬-293 與鿬-294 兩種同位素。2010 年 4 月 5 日，杜布納聯合原子核研究所與美國勞倫斯利佛摩、橡樹嶺國家實驗室的科學家共同宣布了這項成果。"
+          ]
+        },
+        {
+          "heading": "名字的由來",
+          "paragraphs": [
+            "2016 年 11 月 28 日，元素 117 正式命名為 tennessine，符號 Ts。名稱紀念美國田納西地區對超重元素研究的貢獻，包括橡樹嶺國家實驗室、范德堡大學與田納西大學諾克斯維爾分校；其中橡樹嶺負責生產與化學分離合成超重元素所需的特殊錒系靶材料。"
+          ]
+        },
+        {
+          "heading": "轉瞬即逝",
+          "paragraphs": [
+            "Jefferson Lab 記載，鿬最穩定的同位素鿬-294 半衰期約 80 毫秒，會經 α 衰變成為鏌-290。它目前除了基礎科學研究之外沒有用途。本站依週期表位置把它歸入鹵素，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "如果一種元素每次只能製造出幾個原子，而且不到一秒就衰變，科學家要如何確認它真的存在？",
+      "categoryIds": [
+        "halogen"
+      ],
+      "furtherReadingElementNumbers": [
+        85,
+        118,
+        97
+      ],
+      "referenceIds": [
+        "pubchem-element:117"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "不存在於地殼、2009 年以鈣-48 轟擊鉳-249 合成鿬-293 與鿬-294（IUPAC IPTEI）、2010 年 4 月 5 日杜布納與勞倫斯利佛摩、橡樹嶺共同宣布（Jefferson Lab）、2016 年 11 月 28 日命名與符號（LANL）、田納西地區三個機構與橡樹嶺生產錒系靶材料（IUPAC IPTEI）、鿬-294 半衰期約 80 毫秒並衰變為鏌-290、只製造出幾個原子且僅用於研究（Jefferson Lab），皆已對照 PubChem 收錄的原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 118,
+      "title": "週期表的最後一格",
+      "openingZh": "鿫的原子序是 118，位在目前週期表的最後一格。它不存在於地殼中，至今只製造出幾個原子。",
+      "sections": [
+        {
+          "heading": "三個原子",
+          "paragraphs": [
+            "2006 年 10 月 16 日，俄羅斯杜布納聯合原子核研究所與美國勞倫斯利佛摩國家實驗室的科學家宣布合成了鿫。他們以鈣-48 離子轟擊鉲-249，在 1080 小時內共射出 1.6 × 10¹⁹ 個鈣離子，只產生了 3 個鿫原子。"
+          ]
+        },
+        {
+          "heading": "不到一毫秒",
+          "paragraphs": [
+            "鿫-294 的半衰期約 0.89 毫秒，會經 α 衰變成為鉝-290。目前除了基礎科學研究之外，鿫沒有任何用途。"
+          ]
+        },
+        {
+          "heading": "以科學家命名",
+          "paragraphs": [
+            "2016 年 11 月 28 日，元素 118 正式命名為 oganesson，符號 Og，紀念 Yuri Oganessian（1933 年生）在超錒系元素研究上的開創性貢獻，包括發現超重元素，以及為「穩定島」提供實驗證據。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鿫位在稀有氣體這一族的最下方，但至今沒有人能測量它的化學性質。只有幾個原子、壽命不到一毫秒的元素，該依據什麼決定它的分類？",
+      "categoryIds": [
+        "noble-gas"
+      ],
+      "furtherReadingElementNumbers": [
+        86,
+        117,
+        98
+      ],
+      "referenceIds": [
+        "pubchem-element:118"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "不存在於地殼（IUPAC IPTEI）、2006 年 10 月 16 日杜布納與勞倫斯利佛摩宣布、以鈣-48 轟擊鉲-249、1080 小時 1.6 × 10¹⁹ 個鈣離子產生 3 個原子、鿫-294 半衰期約 0.89 毫秒並衰變為鉝-290、僅用於研究（Jefferson Lab）、2016 年 11 月 28 日命名（LANL）、紀念 Oganessian 及其發現超重元素與穩定島證據（IUPAC IPTEI），皆已對照 PubChem 收錄的原文。註：IPTEI 記實驗於 2005 年進行，Jefferson Lab 記 2006 年宣布，兩者分指實驗與宣布，本文採宣布日期。"
       },
       "version": "2026-10-18"
     }

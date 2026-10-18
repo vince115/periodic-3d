@@ -67,7 +67,9 @@ relatedElementNumbers: number[];      // 週期表相鄰元素（同週期左右
 ### 參考來源 ID
 
 - 書目 ID：見 `contentReferences.json`（`accessed: null` 代表引用背景文獻但未取得全文）。
-- `pubchem-element:<原子序>`：PubChem 元素頁（收錄 Los Alamos National Laboratory、Jefferson Lab 的文字）。
+- `pubchem-element:<原子序>`：PubChem 元素頁（收錄 Los Alamos National Laboratory、Jefferson Lab、CIAAW 與 IUPAC IPTEI 的文字）。
+  - 每次下載並閱讀元素頁，都要在 `contentReferences.json` 的 `elementPagesRead`（日期 → 原子序）登記；引用未登記的元素頁，測試會失敗。
+  - 同一元素頁在不同日期讀過兩次以上時，必須寫成 `pubchem-element:<原子序>@<閱讀日期>`，指明主張是對照哪一次閱讀的內容。
 - `ciaaw:<英文元素名>`：CIAAW 元素頁。
 
 ## 查核狀態
@@ -83,8 +85,11 @@ relatedElementNumbers: number[];      // 週期表相鄰元素（同週期左右
 
 ## 新增一篇元素故事（第三階段流程）
 
-1. 先查閱 PubChem 元素頁與 CIAAW 元素頁（或其他可信來源），記下可支持的事實與原文。
+1. 先查閱 PubChem 元素頁與 CIAAW 元素頁（或其他可信來源），記下可支持的事實與原文，並在 `elementPagesRead` 登記閱讀日期。
 2. 在 `elementStories.json` 新增一筆，只寫來源能支持的內容；不虛構歷史、人物或引用。
 3. 涉及有毒、放射性或高反應性元素時採安全科普敘述，不提供操作步驟。
 4. 依實際比對結果填寫 `verification.status` 與 `notesZh`（列出已比對與待查的主張）。
 5. 執行 `npm test`：測試會檢查字數、繁體用字、連結與查核規則。
+6. 來源之間互相矛盾時（例如發現年份不同），在正文並陳或省略，並在 `notesZh` 記錄差異，不自行裁定。
+
+第三階段依分類分批撰寫：第 1 批鹼金屬與鹼土金屬、第 2 批鹵素與稀有氣體（皆於 2026-10-18 對照 PubChem 元素頁）。
