@@ -521,6 +521,49 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 13,
+      "title": "曾經昂貴的金屬",
+      "openingZh": "鋁是地殼中含量最多的金屬，約占地殼的 8%，卻從不以單質存在。十九世紀中葉，一公斤鋁要價約 1200 美元。",
+      "sections": [
+        {
+          "heading": "從明礬到金屬",
+          "paragraphs": [
+            "鋁的名稱來自拉丁文 alumen，指明礬。1825 年，丹麥的 Hans Christian Ørsted 製得不純的鋁，兩年後德國化學家 Friedrich Wöhler 以不同方法取得了鋁。1854 年，法國化學家 Henri Sainte-Claire Deville 改良製程，讓鋁價從 1852 年的每公斤約 1200 美元降到 1859 年的約 40 美元，但仍然貴得無法普及。"
+          ]
+        },
+        {
+          "heading": "便宜鋁的時代",
+          "paragraphs": [
+            "1886 年，美國的 Charles Martin Hall 與法國的 Paul Héroult 各自發明了電解氧化鋁製鋁的方法；1888 年，奧地利化學家 Karl Joseph Bayer 又發明了從鋁土礦便宜取得氧化鋁的製程。這兩種方法至今仍生產全世界幾乎所有的鋁。"
+          ]
+        },
+        {
+          "heading": "又輕又耐用",
+          "paragraphs": [
+            "鋁的導電性只有銅的約 60%，但因為很輕，被用在輸電線上。鋁合金則是現代飛機與火箭的重要材料。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鋁在地殼中含量最多，為什麼直到十九世紀末才變得便宜？可以從鋁與氧結合得有多牢固想一想。",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        5,
+        31,
+        14
+      ],
+      "referenceIds": [
+        "pubchem-element:13@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "地殼中最多的金屬且約 8%（Jefferson Lab 8.2%、LANL 8.1%）、不以單質存在、1852 年每公斤約 1200 美元與 1859 年約 40 美元、Deville 1854 年改良、1886 年 Hall 與 Héroult、1888 年 Bayer 製程且至今生產幾乎所有的鋁（Jefferson Lab）、alumen 字源、1825 年 Ørsted 製得不純鋁、1827 年 Wöhler（CIAAW、LANL）、導電性約為銅的 60% 而用於輸電線、飛機火箭合金（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 14,
       "title": "沙子裡的晶片",
       "openingZh": "海灘上的沙子和手機裡的晶片，主角都是同一種元素——矽。",
@@ -869,6 +912,49 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 31,
+      "title": "接近室溫就熔化的金屬",
+      "openingZh": "鎵在接近室溫時就會熔化，而且保持液態的溫度範圍極廣，因此可以用來製作高溫溫度計。",
+      "sections": [
+        {
+          "heading": "被預言的元素",
+          "paragraphs": [
+            "1871 年，Mendeleev 預言了這個元素，稱為「類鋁」（ekaaluminum）。1875 年，法國化學家 Paul-Émile Lecoq de Boisbaudran 用光譜分析發現了鎵。名稱來自拉丁文 Gallia（法國）；Los Alamos 指出，拉丁文 gallus（公雞）也恰好是發現者姓氏 Lecoq 的翻譯。"
+          ]
+        },
+        {
+          "heading": "凝固時會膨脹",
+          "paragraphs": [
+            "鎵凝固時體積會膨脹 3.1%，因此不該存放在玻璃或金屬容器中，以免容器在它凝固時破裂。它也很容易過冷，降到凝固點以下仍保持液態。"
+          ]
+        },
+        {
+          "heading": "從發光二極體到微中子",
+          "paragraphs": [
+            "鎵被用來摻雜半導體，製造電晶體與發光二極體；砷化鎵能直接把電能轉換成雷射光。在義大利，大量的三氯化鎵被用來建造研究太陽微中子的鎵微中子觀測站。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "大多數物質凝固時體積會縮小，鎵卻會膨脹。你還知道哪一種常見的物質，結冰時也會膨脹？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        13,
+        32,
+        49
+      ],
+      "referenceIds": [
+        "pubchem-element:31@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "接近室溫熔化、液態範圍極廣而用於高溫溫度計、1871 年 Mendeleev 預言為 ekaaluminum、1875 年 Lecoq de Boisbaudran 以光譜發現、Gallia 與 gallus 字源、凝固膨脹 3.1% 而不宜存於玻璃或金屬容器、容易過冷（LANL）、摻雜半導體製造電晶體與發光二極體、砷化鎵雷射、義大利鎵微中子觀測站（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：取得金屬鎵的時間，LANL 與 Jefferson Lab 記為 1875 年同年，CIAAW 記為 1878 年與 Jungfleisch 共同分離，本文未寫分離年份。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 32,
       "title": "被預言的元素",
       "openingZh": "早在鍺被發現的十五年前，Dmitri Mendeleev 就根據他的週期表上留下的空格，預言了它的存在。",
@@ -1166,6 +1252,92 @@
         "status": "source-checked",
         "checkedOn": "2026-10-18",
         "notesZh": "碳酸鍶與硝酸鍶用於煙火與信號彈的紅光、Strontian 地名與菱鍶礦、Crawford 1790 年認出新礦物、Hope 1792 年觀察紅色火焰（CIAAW）、Davy 1808 年電解分離、比鈣軟且與水反應較劇烈、保存在煤油、切面由銀白轉黃、細粉自燃、鍶-90 為核爆產物、半衰期約 28.8 年、累積於骨骼，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現者與年份 LANL 與 Jefferson Lab 歸於 Crawford（1790 年），CIAAW 歸於 Hope（1792 年），本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 49,
+      "title": "靛藍色的光譜線",
+      "openingZh": "銦的名字來自它光譜中一條明亮的靛藍色（indigo）譜線。",
+      "sections": [
+        {
+          "heading": "找鉈卻找到銦",
+          "paragraphs": [
+            "1863 年，德國的 Ferdinand Reich 與 Hieronymus Theodor Richter 在鋅礦樣品中尋找鉈的痕跡，卻看見這條靛藍色譜線，因而發現了銦；1867 年，他們分離出金屬銦。直到 1924 年，全世界已分離出的銦大約只有一公克左右。"
+          ]
+        },
+        {
+          "heading": "會「哭」的金屬",
+          "paragraphs": [
+            "銦是非常柔軟、帶有明亮光澤的銀白色金屬，彎曲純銦時會發出尖銳的「哭聲」。它和鎵一樣能潤濕玻璃。"
+          ]
+        },
+        {
+          "heading": "鏡子與低熔點合金",
+          "paragraphs": [
+            "銦可以蒸鍍在玻璃上做成鏡子，反射效果和銀鏡一樣好，卻比較不容易失去光澤。含 24% 銦與 76% 鎵的合金在室溫下是液體。銦也用於高速馬達軸承的鍍層，以及電晶體、整流器等電子元件。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Reich 和 Richter 原本在找鉈，卻發現了銦。科學研究中，為什麼「意外的發現」常常發生？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        31,
+        50,
+        81
+      ],
+      "referenceIds": [
+        "pubchem-element:49@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "indigo 字源、1863 年 Reich 與 Richter 在鋅礦中尋找鉈時發現、1867 年分離（CIAAW、Jefferson Lab）、1924 年前全世界約一公克、柔軟銀白並有光澤、彎曲時發出尖聲、潤濕玻璃（LANL）、銦鏡與銀鏡一樣好且較耐蝕、24% 銦與 76% 鎵合金室溫為液體、軸承鍍層與電子元件（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 50,
+      "title": "青銅背後的金屬",
+      "openingZh": "考古證據顯示，人類使用錫至少已有 5500 年。錫和銅製成的合金，就是青銅。",
+      "sections": [
+        {
+          "heading": "古老的金屬",
+          "paragraphs": [
+            "錫自史前時代就為人所知，符號 Sn 來自拉丁文 stannum。錫主要取自錫石（二氧化錫），把錫石與碳一起在爐中焙燒，就能提煉出錫。"
+          ]
+        },
+        {
+          "heading": "怕冷的錫",
+          "paragraphs": [
+            "錫在室溫附近有兩種形態。一般的白錫在 13.2 °C 以下會慢慢變成幾乎沒有用途的灰錫；加入少量的銻或鉍，就能防止這種轉變。彎曲錫棒時，晶體斷裂會發出聲響，稱為「錫鳴」。"
+          ]
+        },
+        {
+          "heading": "浮在錫上的玻璃",
+          "paragraphs": [
+            "現今大部分的窗玻璃，是把熔融的玻璃倒在熔融的錫上製成的：玻璃浮在錫面上冷卻，形成平整、兩面平行的玻璃板。錫也被鍍在鋼製罐頭上防鏽，錫鉛合金則可做成焊料與白鑞。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "熔融的玻璃為什麼能浮在熔融的錫上？想想兩者的密度。",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        29,
+        82,
+        51
+      ],
+      "referenceIds": [
+        "pubchem-element:50@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "使用至少 5500 年、青銅為錫銅合金、取自錫石並與碳焙燒、白錫與灰錫在 13.2 °C 的轉變及加入銻或鉍防止、浮法玻璃且多數窗玻璃以此製造、鍍錫鋼罐、錫鉛焊料與白鑞（Jefferson Lab）、史前已知與 stannum（CIAAW）、錫鳴（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
       },
       "version": "2026-10-18"
     },
@@ -1480,6 +1652,135 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 81,
+      "title": "嫩綠色的光譜線",
+      "openingZh": "鉈的名字來自希臘文 thallos，意思是「綠色嫩枝」，因為它的光譜中有一條鮮綠色的譜線。",
+      "sections": [
+        {
+          "heading": "硫酸殘渣裡的新元素",
+          "paragraphs": [
+            "1861 年，英國化學家 William Crookes 從朋友那裡取得生產硫酸後留下的殘渣，除去其中的硒後，用分光鏡尋找碲的痕跡。他沒看到碲的黃色譜線，卻看到一條從未有人見過的鮮綠色譜線。1862 年，Crookes 與法國化學家 Claude-Auguste Lamy 幾乎同時分離出金屬鉈。"
+          ]
+        },
+        {
+          "heading": "不會被察覺的毒物",
+          "paragraphs": [
+            "硫酸鉈沒有氣味也沒有味道，不會讓人察覺它的存在，過去曾被廣泛用作老鼠藥與殺蟻劑；美國自 1970 年代中期起，已禁止它用於家用殺蟲與滅鼠。"
+          ]
+        },
+        {
+          "heading": "感測紅外線",
+          "paragraphs": [
+            "鉈很軟，可以用刀切開，但在空氣中很快就會失去光澤。硫化鉈的導電性會隨紅外線照射而改變，被用於光電管與紅外線偵測裝置。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "沒有氣味、沒有味道的毒物，為什麼特別危險？這和禁止某些化學品進入家庭的規定有什麼關係？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        49,
+        82,
+        52
+      ],
+      "referenceIds": [
+        "pubchem-element:81@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "thallos 字源與鮮綠色譜線、1861 年 Crookes 以分光鏡發現、硫酸殘渣與除去硒後尋找碲（Jefferson Lab）、1862 年 Crookes 與 Lamy 幾乎同時分離（LANL、CIAAW）、硫酸鉈無臭無味而曾用作滅鼠與殺蟻、美國禁止家用（Jefferson Lab 記 1974 年、LANL 記 1975 年，本文寫 1970 年代中期）、質軟可用刀切且在空氣中失去光澤、硫化鉈用於光電管與紅外線偵測，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 82,
+      "title": "羅馬浴場的水管",
+      "openingZh": "鉛非常耐腐蝕：古羅馬浴場的排水鉛管上刻著羅馬皇帝的徽記，有些至今仍在使用。",
+      "sections": [
+        {
+          "heading": "古老又沉重",
+          "paragraphs": [
+            "鉛自史前時代就為人所知，符號 Pb 來自拉丁文 plumbum。煉金術士認為鉛是最古老的金屬，並把它和土星連在一起。今天的鉛主要從方鉛礦焙燒取得。"
+          ]
+        },
+        {
+          "heading": "會累積的毒物",
+          "paragraphs": [
+            "鉛是一種會在體內累積的毒物。鉛曾大量用於油漆與殺蟲劑，近年為了減少對健康的危害，這些用途已大幅縮減，甚至幾乎停用。"
+          ]
+        },
+        {
+          "heading": "擋住輻射",
+          "paragraphs": [
+            "鉛的密度很高，被用來屏蔽 X 光與 γ 射線，裝設在 X 光設備與核反應爐周圍。今天大部分的鉛用於汽車等使用的鉛酸蓄電池；鉛也能吸收聲音與振動。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鉛能擋住 X 光，鈹卻讓 X 光輕易通過。這兩種元素的原子有什麼明顯的不同？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        50,
+        83,
+        4
+      ],
+      "referenceIds": [
+        "pubchem-element:82@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "耐腐蝕與刻有羅馬皇帝徽記的浴場排水鉛管仍在使用、煉金術士認為最古老並與土星相連（LANL）、史前已知與 plumbum（CIAAW）、主要從方鉛礦焙燒取得、累積性毒物、高密度屏蔽 X 光與 γ 射線、多用於鉛酸蓄電池、吸收聲音與振動（Jefferson Lab、LANL）、油漆用途大幅縮減與鉛殺蟲劑幾乎停用（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：Jefferson Lab 提到羅馬帝國衰落部分歸因於鉛，此為有爭議的說法，本文未採用。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 83,
+      "title": "幾乎不會衰變的元素",
+      "openingZh": "鉍-209 曾被認為是自然界最重的穩定同位素，但 2002 年的實驗發現，它其實會極其緩慢地衰變。",
+      "sections": [
+        {
+          "heading": "和鉛、錫分不清",
+          "paragraphs": [
+            "古人常把鉍和鉛、錫混為一談。1753 年，法國化學家 Claude Geoffroy the Younger 證明鉍是有別於鉛的元素。它的名稱來自德文 weisse Masse，意思是「白色的塊」，指的是它的氧化物的顏色。"
+          ]
+        },
+        {
+          "heading": "極長的半衰期",
+          "paragraphs": [
+            "鉍-209 會經 α 衰變成為鉈-205，半衰期約 1.9 × 10¹⁹ 年。鉍也是抗磁性最強的金屬，導熱性除了汞之外比任何金屬都低。"
+          ]
+        },
+        {
+          "heading": "防火與胃藥",
+          "paragraphs": [
+            "鉍與錫、鎘等金屬形成的低熔點合金，被用在自動灑水系統與火災偵測裝置中。碳酸鉍可用來治療腹瀉與胃潰瘍，氯氧化鉍則大量用於化妝品。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鉍-209 的半衰期約 1.9 × 10¹⁹ 年。一塊鉍放了一億年，大約有多少比例的原子會衰變？這樣的元素，在日常使用上算是「穩定」嗎？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        82,
+        84,
+        51
+      ],
+      "referenceIds": [
+        "pubchem-element:83@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "鉍-209 曾被認為是最重的穩定同位素、2002 年實驗、α 衰變為鉈-205、半衰期約 1.9 × 10¹⁹ 年、低熔點合金用於自動灑水與火災偵測、碳酸鉍治療腹瀉與胃潰瘍（Jefferson Lab）、古人與鉛錫混淆、1753 年 Geoffroy the Younger 證明、weisse Masse 字源與氧化物顏色（CIAAW、LANL）、抗磁性最強、導熱性僅高於汞、氯氧化鉍用於化妝品（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 84,
       "title": "以祖國命名的放射性元素",
       "openingZh": "釙是 Marie Curie 在 1898 年發現的第一個元素，她以祖國波蘭為它命名。",
@@ -1693,6 +1994,173 @@
         "status": "source-checked",
         "checkedOn": "2026-10-18",
         "notesZh": "鐳與其鹽類會發光、曾用於自發光塗料並多改用鈷-60 等放射源、1898 年 Curie 夫婦發現、瀝青鈾礦比分離出的鈾更具放射性的推論、每噸鈾礦約 0.14 公克鐳（Jefferson Lab；LANL 為 7 噸約 1 公克，兩者一致）、處理數噸礦石並發現釙、鐳-226 半衰期約 1600 年、居里的定義與每秒 3.7 × 10¹⁰ 次衰變、中子源與癌症治療、實驗筆記至今汙染嚴重、每 25 年失去約 1% 活性，皆已對照 PubChem 收錄的 Los Alamos 與 Jefferson Lab 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 113,
+      "title": "第一個在亞洲發現的元素",
+      "openingZh": "鉨是第一個在亞洲國家發現的元素。它的名字來自日文的 Nihon（日本），意思是「日出之國」。",
+      "sections": [
+        {
+          "heading": "鋅撞上鉍",
+          "paragraphs": [
+            "2004 年 7 月 23 日，日本理化學研究所仁科加速器科學中心的科學家，把鋅離子加速到光速的 10%，撞擊薄薄的鉍靶，製造出最初的兩個鉨原子。兩個原子都很快經過四次 α 衰變，成為𨧀-262，再自發分裂。"
+          ]
+        },
+        {
+          "heading": "命名與性質",
+          "paragraphs": [
+            "2016 年 11 月 28 日，元素 113 正式命名為 nihonium，符號 Nh，名稱由仁科中心的發現團隊提出。鉨最穩定的同位素鉨-286 半衰期約 20 秒；由於只製造出幾個原子，目前除了基礎研究之外沒有用途。本站依週期表位置把它歸為其他金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "要讓兩個原子核融合成更重的元素，為什麼必須把離子加速到極高的速度？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        30,
+        83,
+        115
+      ],
+      "referenceIds": [
+        "pubchem-element:113@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "第一個在亞洲國家發現的元素與 Nihon 字源（IUPAC IPTEI、LANL）、2004 年 7 月 23 日仁科中心以光速 10% 的鋅離子撞擊鉍靶製得兩個原子、四次 α 衰變成𨧀-262 後自發分裂、鉨-286 半衰期約 20 秒、僅用於研究（Jefferson Lab）、2016 年 11 月 28 日命名並由發現團隊提出（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 114,
+      "title": "穩定島的線索",
+      "openingZh": "鈇是人工合成的超重元素，不存在於地殼中。Los Alamos 的資料指出，它的半衰期比 112 號元素長得多，被視為「穩定島」的證據之一。",
+      "sections": [
+        {
+          "heading": "杜布納的發現",
+          "paragraphs": [
+            "俄羅斯杜布納聯合原子核研究所的科學家以鈣離子轟擊鈽，首次製得鈇。發現年份各來源不同：Jefferson Lab 記為 1998 年，Los Alamos 與 IUPAC 記為 1999 年；IUPAC 也指出，這項合成是與美國勞倫斯利佛摩國家實驗室合作完成的。"
+          ]
+        },
+        {
+          "heading": "什麼是穩定島",
+          "paragraphs": [
+            "穩定島是一項預測：在 114 號元素附近，質子與中子的特定組合可能形成較穩定的原子核。不過各來源記載的鈇半衰期並不一致，從不到一秒到數十秒都有。"
+          ]
+        },
+        {
+          "heading": "命名",
+          "paragraphs": [
+            "2012 年 5 月 31 日，IUPAC 採用 flerovium 這個名稱。Los Alamos 寫道，它紀念創立杜布納研究所的俄羅斯物理學家 Georgy Flyorov；IUPAC 則寫明名稱來自該所的 Flerov 核反應實驗室。本站依週期表位置把它歸為其他金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "如果真的存在「穩定島」，為什麼比 114 號更輕的某些超重元素，壽命反而更短？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        112,
+        116,
+        94
+      ],
+      "referenceIds": [
+        "pubchem-element:114@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "不存在於地殼（IUPAC IPTEI）、半衰期遠長於 112 號並為穩定島證據、穩定島的預測內容、2012 年 5 月 31 日採用名稱、紀念 Flyorov（LANL）、名稱來自 Flerov 實驗室並與勞倫斯利佛摩合作（IUPAC IPTEI）、以鈣離子轟擊鈽（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。來源差異：發現年份 Jefferson Lab 為 1998 年、LANL 與 IPTEI 為 1999 年；半衰期 Jefferson Lab 同時寫約 21 秒與約 0.97 秒、LANL 寫 30 秒，本文只寫範圍而不採用單一數值。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 115,
+      "title": "以莫斯科命名",
+      "openingZh": "鏌是人工合成的超重元素，不存在於地殼中。它的名字來自俄羅斯的莫斯科地區。",
+      "sections": [
+        {
+          "heading": "四個原子",
+          "paragraphs": [
+            "2003 年 7 月 14 日到 8 月 10 日，杜布納聯合原子核研究所的科學家用迴旋加速器以鈣-48 離子轟擊鋂-243，製造出 1 個鏌-287 與 3 個鏌-288 原子，它們都很快衰變成其他元素。2004 年 2 月 2 日，杜布納與美國勞倫斯利佛摩、橡樹嶺國家實驗室的科學家共同宣布了這項成果。"
+          ]
+        },
+        {
+          "heading": "從 ununpentium 到 moscovium",
+          "paragraphs": [
+            "在正式命名前，元素 115 依 IUPAC 的系統命名法暫稱 ununpentium，意思就是「一一五」。2016 年 11 月 28 日，它正式命名為 moscovium，符號 Mc，紀念杜布納研究所所在的莫斯科地區。"
+          ]
+        },
+        {
+          "heading": "轉瞬即逝",
+          "paragraphs": [
+            "鏌最穩定的同位素鏌-289 半衰期約 220 毫秒，會經 α 衰變成為鉨-285。它除了基礎研究之外沒有用途。本站依週期表位置把它歸為其他金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "系統命名法以 un、un、pent 代表 1、1、5。依照同樣的規則，元素 116 在正式命名前的暫用名稱會是什麼？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        113,
+        95,
+        83
+      ],
+      "referenceIds": [
+        "pubchem-element:115@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "不存在於地殼與莫斯科地區（IUPAC IPTEI、LANL）、2003 年 7 月 14 日至 8 月 10 日以鈣-48 轟擊鋂-243、1 個鏌-287 與 3 個鏌-288、2004 年 2 月 2 日與勞倫斯利佛摩及橡樹嶺共同宣布、鏌-289 半衰期約 220 毫秒並衰變為鉨-285、僅用於研究（Jefferson Lab）、ununpentium 系統名（IUPAC IPTEI）、2016 年 11 月 28 日命名（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 116,
+      "title": "衰變鏈上的一環",
+      "openingZh": "鉝是人工合成的超重元素，不存在於地殼中。它位在一條衰變鏈的中間：鿫會衰變成鉝，鉝再衰變成鈇。",
+      "sections": [
+        {
+          "heading": "鈣撞上鋦",
+          "paragraphs": [
+            "2000 年 12 月 6 日，杜布納聯合原子核研究所與美國勞倫斯利佛摩國家實驗室的科學家宣布，他們以鈣-48 離子轟擊鋦-248，製造出鉝-292。研究人員也曾在鿫的衰變產物中研究鉝。"
+          ]
+        },
+        {
+          "heading": "命名",
+          "paragraphs": [
+            "鉝原本暫稱 ununhexium；2012 年 5 月 31 日，IUPAC 採用 livermorium 這個名稱，符號 Lv。目前已知四種鉝的同位素。"
+          ]
+        },
+        {
+          "heading": "轉瞬即逝",
+          "paragraphs": [
+            "鉝最穩定的同位素鉝-293 半衰期約 53 毫秒，會經 α 衰變成為鈇-289。它除了基礎研究之外沒有用途。本站依週期表位置把它歸為其他金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鿫衰變成鉝，鉝再衰變成鈇。為什麼追蹤衰變鏈，可以幫助科學家確認新元素的身分？",
+      "categoryIds": [
+        "post-transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        114,
+        118,
+        96
+      ],
+      "referenceIds": [
+        "pubchem-element:116@2026-10-18",
+        "pubchem-element:118@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "不存在於地殼、作為鿫衰變產物研究、ununhexium 暫名、2012 年 5 月命名、四種同位素（IUPAC IPTEI、LANL）、2000 年 12 月 6 日杜布納與勞倫斯利佛摩宣布、以鈣-48 轟擊鋦-248 製得鉝-292、鉝-293 半衰期約 53 毫秒並衰變為鈇-289、僅用於研究（Jefferson Lab）、鿫衰變為鉝（Jefferson Lab 元素 118 頁，2026-10-18 已閱讀），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
       },
       "version": "2026-10-18"
     },
