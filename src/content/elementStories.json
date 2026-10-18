@@ -4441,6 +4441,376 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 104,
+      "title": "第一個超錒系元素",
+      "openingZh": "鑪是第一個超錒系元素，以提出放射性蛻變理論、獲得諾貝爾獎的 Ernest Rutherford 命名。",
+      "sections": [
+        {
+          "heading": "杜布納與柏克萊",
+          "paragraphs": [
+            "1964 年，杜布納聯合原子核研究所的科學家以氖-22 轟擊鈽-242，認為製造出了鑪-260。1969 年，Albert Ghiorso 領導的柏克萊團隊試圖確認這項結果；他們缺少加速氖離子的設備，改以碳離子轟擊鉲，製造出幾種鑪的同位素，卻無法重現杜布納的那一種。"
+          ]
+        },
+        {
+          "heading": "共同的功勞",
+          "paragraphs": [
+            "Jefferson Lab 寫道，發現鑪的功勞至今仍有爭議；IUPAC 則把首次合成的功勞，共同歸於柏克萊的 Ghiorso 團隊與杜布納的 Flerov 團隊。Los Alamos 指出，鑪預期具有和鉿相似的化學性質。"
+          ]
+        },
+        {
+          "heading": "確認新元素的線索",
+          "paragraphs": [
+            "鑪除了基礎研究之外沒有用途，但鑪-261 曾是確認 112 號元素鎶合成時所依據的衰變產物之一。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "兩個團隊用不同的方法製造出不同的同位素，各自宣稱發現了同一個元素。你覺得應該如何判斷誰才是發現者？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        72,
+        105,
+        112
+      ],
+      "referenceIds": [
+        "pubchem-element:104@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "第一個超錒系元素與預期似鉿（LANL）、以 Rutherford 命名並因放射性蛻變理論獲諾貝爾獎、共同功勞歸 Ghiorso 與 Flerov 團隊、鑪-261 用於確認鎶（IUPAC IPTEI）、1964 年杜布納以氖-22 轟擊鈽-242、1969 年柏克萊以碳離子轟擊鉲而無法重現、功勞仍有爭議、僅用於研究（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 105,
+      "title": "以杜布納命名",
+      "openingZh": "𨧀以俄羅斯的杜布納命名，那裡是聯合原子核研究所的所在地。",
+      "sections": [
+        {
+          "heading": "兩邊的報告",
+          "paragraphs": [
+            "1967 年，Georgi Flerov 報告，杜布納的團隊可能以氖-22 轟擊鋂-243，製造出了幾個 105 號元素的原子。1970 年 4 月下旬，柏克萊的 Ghiorso 等人宣布，他們以氮-15 轟擊鉲-249，明確辨認出了這個元素。"
+          ]
+        },
+        {
+          "heading": "共同的功勞",
+          "paragraphs": [
+            "和鑪一樣，Jefferson Lab 寫道發現的功勞至今仍有爭議，IUPAC 則把首次合成的功勞，共同歸於柏克萊的 Ghiorso 團隊與杜布納的 Flerov 團隊。"
+          ]
+        },
+        {
+          "heading": "最穩定的同位素",
+          "paragraphs": [
+            "𨧀最穩定的同位素𨧀-268，半衰期約 32 小時，會發生自發分裂。它除了基礎研究之外沒有用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "兩個團隊使用的靶材與離子都不相同。為什麼這會讓他們的實驗結果很難直接比較？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        104,
+        73,
+        106
+      ],
+      "referenceIds": [
+        "pubchem-element:105@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以杜布納命名（LANL、IUPAC IPTEI）、1967 年 Flerov 報告以氖-22 轟擊鋂-243、1970 年 4 月下旬柏克萊以氮-15 轟擊鉲-249 辨認（LANL、Jefferson Lab）、功勞仍有爭議與𨧀-268 半衰期約 32 小時並自發分裂、僅用於研究（Jefferson Lab）、共同功勞（IUPAC IPTEI），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 106,
+      "title": "以 Seaborg 命名",
+      "openingZh": "𨭎以 Glenn T. Seaborg 命名，他合成了好幾種超鈾元素。",
+      "sections": [
+        {
+          "heading": "相隔三個月的兩項宣布",
+          "paragraphs": [
+            "1974 年 6 月，杜布納的科學家宣布以鉻-54 轟擊鉛，合成了 106 號元素。同年 9 月，柏克萊與利佛摩實驗室的團隊以氧-18 轟擊鉲-249，製造出半衰期約 1 秒的𨭎-263，它會先衰變成鑪，再衰變成鍩。"
+          ]
+        },
+        {
+          "heading": "1993 年的確認",
+          "paragraphs": [
+            "柏克萊團隊的結果在 1993 年獲得確認，發現的功勞因此歸於他們；IUPAC 也記載，𨭎首次由 Albert Ghiorso 的團隊在柏克萊合成。"
+          ]
+        },
+        {
+          "heading": "確認更重元素的線索",
+          "paragraphs": [
+            "𨭎除了基礎研究之外沒有用途，但𨭎-265 曾是確認 112 號元素鎶合成時所依據的衰變產物之一。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "𨭎-263 會先衰變成鑪，再衰變成鍩。為什麼辨認這些衰變產物，能幫助確認新元素真的被製造出來？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        104,
+        74,
+        94
+      ],
+      "referenceIds": [
+        "pubchem-element:106@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Seaborg 命名且其合成多種超鈾元素、1974 年 Ghiorso 團隊於柏克萊首次合成、𨭎-265 用於確認鎶（IUPAC IPTEI）、1974 年 6 月杜布納宣布、9 月柏克萊與利佛摩以氧-18 轟擊鉲-249、衰變為鑪再衰變為鍩（LANL）、杜布納早三個月、𨭎-263 半衰期約 1 秒、1993 年確認並歸功柏克萊、僅用於研究（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。註：LANL 原文稱 Seaborg 為杜布納團隊成員，明顯有誤，本文未採用。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 107,
+      "title": "以 Bohr 命名",
+      "openingZh": "𨨏以諾貝爾物理學獎得主 Niels Bohr 命名，過去曾使用 nielsbohrium 這個名稱。",
+      "sections": [
+        {
+          "heading": "杜布納的一瞥",
+          "paragraphs": [
+            "1976 年，杜布納的蘇聯科學家宣布以鉻-54 轟擊鉍，合成了 107 號元素；據報導，1975 年的實驗曾讓科學家「瞥見」這個新元素千分之二秒。他們用的靶，是一個塗有薄層鉍、快速旋轉的圓筒。"
+          ]
+        },
+        {
+          "heading": "達姆施塔特的確認",
+          "paragraphs": [
+            "1981 年，德國達姆施塔特重離子研究中心的 Peter Armbruster、Gottfried Münzenberg 等人，以鉻-54 轟擊鉍-209，製造並辨認出六個 107 號元素的原子。IUPAC 把首次合成的功勞歸於這支德國團隊。"
+          ]
+        },
+        {
+          "heading": "最穩定的同位素",
+          "paragraphs": [
+            "𨨏最穩定的同位素𨨏-270，半衰期約 1 分鐘，會經 α 衰變成為𨧀-266。它除了基礎研究之外沒有用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Bohr 的電子排布理論，曾幫助科學家找到 72 號元素鉿。以他的名字命名 107 號元素，你覺得有什麼意義？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        72,
+        75,
+        105
+      ],
+      "referenceIds": [
+        "pubchem-element:107@2026-10-18",
+        "pubchem-element:72@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Bohr 命名（IUPAC IPTEI、LANL）、曾稱 nielsbohrium、1976 年杜布納宣布、1975 年瞥見千分之二秒、旋轉的鍍鉍圓筒靶、達姆施塔特團隊確認並辨認六個原子（LANL）、1981 年 Armbruster 與 Münzenberg 等人以鉻-54 轟擊鉍-209、𨨏-270 半衰期約 1 分鐘並衰變成𨧀-266、僅用於研究（Jefferson Lab）、IUPAC 歸功德國團隊（IUPAC IPTEI）、Bohr 理論與鉿（元素 72 頁），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 108,
+      "title": "以黑森邦命名",
+      "openingZh": "𨭆的名字來自拉丁文 Hassia，也就是德國的黑森邦；達姆施塔特曾是黑森邦的首府。",
+      "sections": [
+        {
+          "heading": "鐵撞上鉛",
+          "paragraphs": [
+            "1984 年，德國達姆施塔特重離子研究中心的 Peter Armbruster、Gottfried Münzenberg 等人，用線性加速器以鐵-58 離子轟擊鉛-208，製造出𨭆-265，它的半衰期只有約 2 毫秒。"
+          ]
+        },
+        {
+          "heading": "達姆施塔特的元素",
+          "paragraphs": [
+            "𨭆最穩定的同位素𨭆-270，半衰期約 22 秒，會經 α 衰變成為𨭎-266。這座研究中心後來還陸續合成了 109 到 112 號元素。𨭆目前只用於化學與重元素的研究。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "𨭆以研究中心所在的地區命名，𨧀以杜布納命名，鉳以柏克萊命名。為什麼許多超重元素，都以實驗室的所在地命名？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        76,
+        107,
+        110
+      ],
+      "referenceIds": [
+        "pubchem-element:108@2026-10-18",
+        "pubchem-element:109@2026-10-18",
+        "pubchem-element:110@2026-10-18",
+        "pubchem-element:111@2026-10-18",
+        "pubchem-element:112@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Hassia 字源與達姆施塔特曾為黑森首府、1984 年 GSI 以 208Pb(58Fe, n) 合成、用於化學與重元素研究（IUPAC IPTEI）、Armbruster 與 Münzenberg 等人以線性加速器、𨭆-265 半衰期約 2 毫秒、𨭆-270 半衰期約 22 秒並衰變為𨭎-266（Jefferson Lab）、GSI 合成 109–112 號元素（各元素頁），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 109,
+      "title": "紀念 Lise Meitner",
+      "openingZh": "䥑以物理學家 Lise Meitner 命名。她參與發現了 91 號元素鏷，也正確詮釋了核分裂的實驗結果。",
+      "sections": [
+        {
+          "heading": "一週只得到一個原子",
+          "paragraphs": [
+            "德國達姆施塔特重離子研究中心的物理學家，以鐵-58 撞擊鉍-209 的靶，製造並辨認出了 109 號元素；整整一週的轟擊，才得到一個融合的原子核。團隊以四種獨立的測量，確認了它的存在。"
+          ]
+        },
+        {
+          "heading": "轉瞬即逝",
+          "paragraphs": [
+            "最初製得的䥑-266，半衰期只有幾毫秒；最穩定的同位素䥑-278，半衰期約 8 秒。䥑只用於科學研究。本站依週期表位置把它歸為過渡金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "一週的轟擊只得到一個原子。如果你是研究人員，要如何確定偵測到的那一個訊號，真的來自新元素？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        91,
+        108,
+        110
+      ],
+      "referenceIds": [
+        "pubchem-element:109@2026-10-18",
+        "pubchem-element:91@2026-10-18",
+        "pubchem-element:93@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Meitner 命名並參與發現鏷（IUPAC IPTEI；鏷頁記 Hahn 與 Meitner 於 1918 年發現鏷-231）、Meitner 正確詮釋核分裂（元素 93 頁 LANL）、達姆施塔特以鐵-58 撞擊鉍-209、一週得到一個原子核、四種獨立測量（LANL）、䥑-266 約 3.8 毫秒（Jefferson Lab；LANL 寫 5 毫秒後開始衰變）、䥑-278 半衰期約 8 秒、僅用於研究，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。來源差異：合成年份 Jefferson Lab 與 LANL 為 1982 年（LANL 記 8 月 29 日）、IUPAC IPTEI 為 1984 年，本文未寫年份。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 110,
+      "title": "以達姆施塔特命名",
+      "openingZh": "鐽以德國城市達姆施塔特命名，它在 1994 年於當地的重離子研究中心首次被合成。",
+      "sections": [
+        {
+          "heading": "1994 年 11 月 9 日",
+          "paragraphs": [
+            "1994 年 11 月 9 日下午 4 點 39 分，達姆施塔特重離子研究中心偵測到第一個 110 號元素的原子。科學家花了大約一週，向鉛靶射出至少十億的十億倍個鎳離子，才得到這一個原子。參與的國際團隊，還包括來自杜布納、斯洛伐克與芬蘭的科學家。"
+          ]
+        },
+        {
+          "heading": "轉瞬即逝",
+          "paragraphs": [
+            "最初製得的鐽-269，半衰期只有約 0.17 毫秒；最穩定的同位素鐽-281，半衰期約 20 秒，大多會自發分裂。鐽除了基礎研究之外沒有用途。本站依週期表位置把它歸為過渡金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "射出十億的十億倍個鎳離子，才得到一個原子。這個比例告訴我們，要讓兩個原子核融合有多困難？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        28,
+        82,
+        111
+      ],
+      "referenceIds": [
+        "pubchem-element:110@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以達姆施塔特命名、1994 年 GSI 與杜布納、斯洛伐克、芬蘭的國際團隊合成（IUPAC IPTEI、LANL）、1994 年 11 月 9 日下午 4:39 偵測到第一個原子（LANL）、約一週射出至少 10¹⁸ 個鎳離子、鐽-269 約 0.17 毫秒、鐽-281 約 20 秒且約 85% 自發分裂、僅用於研究（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 111,
+      "title": "以 X 光的發現者命名",
+      "openingZh": "錀以 1895 年發現 X 光的 Wilhelm Conrad Röntgen 命名。",
+      "sections": [
+        {
+          "heading": "三個原子",
+          "paragraphs": [
+            "1994 年底，德國達姆施塔特重離子研究中心的國際團隊以鎳-64 轟擊鉍-209，製造出三個錀-272 原子，半衰期約 1.5 毫秒。參與者來自德國、俄羅斯、斯洛伐克與芬蘭的研究機構。這項首次合成的功勞，在 2003 年獲得確認。"
+          ]
+        },
+        {
+          "heading": "最穩定的同位素",
+          "paragraphs": [
+            "錀最穩定的同位素錀-281，半衰期約 26 秒，會自發分裂。錀除了基礎研究之外沒有用途。本站依週期表位置把它歸為過渡金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "X 光的發現改變了醫學與物理學。以 Röntgen 命名 111 號元素，和以地名命名相比，有什麼不同的意義？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        79,
+        110,
+        112
+      ],
+      "referenceIds": [
+        "pubchem-element:111@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Röntgen 命名與 1895 年發現 X 光、GSI 與俄斯芬機構的國際團隊、以鎳-64 轟擊鉍-209、2003 年確認首次合成功勞（IUPAC IPTEI）、1994 年底、三個錀-272 原子、半衰期約 1.5 毫秒、錀-281 半衰期約 26 秒並自發分裂、僅用於研究（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 112,
+      "title": "以哥白尼命名",
+      "openingZh": "鎶以提出日心說的天文學家 Nicolaus Copernicus 命名。",
+      "sections": [
+        {
+          "heading": "鋅撞上鉛",
+          "paragraphs": [
+            "1996 年 2 月 9 日，德國達姆施塔特重離子研究中心的 Sigurd Hofmann 與國際團隊，以鋅-70 轟擊鉛-208，製造出鎶-277，半衰期只有約 0.24 毫秒。觀察到的 α 衰變最後產生已知的核種𨭎-269，藉此確認了新元素。"
+          ]
+        },
+        {
+          "heading": "符號的更改",
+          "paragraphs": [
+            "鎶的符號原本建議為 Cp，但因為 Cp 曾經是鎦的舊名 cassiopeium 的符號，因此沒有被採用。"
+          ]
+        },
+        {
+          "heading": "像氡多於像汞",
+          "paragraphs": [
+            "Los Alamos 指出，鎶的性質比較像氡，而不像週期表上同一族的汞，但因為半衰期很短，很難研究。最穩定的同位素鎶-285 半衰期約 30 秒。本站依週期表位置把它歸為過渡金屬，屬於預測分類。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鎶位在汞的下方，性質卻被認為比較像氡。這說明了週期表的規律，在超重元素中可能出現什麼變化？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        80,
+        86,
+        71
+      ],
+      "referenceIds": [
+        "pubchem-element:112@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "以 Copernicus 命名、1996 年 Hofmann 與國際團隊以 208Pb(70Zn, n) 合成、衰變至已知的𨭎-269（IUPAC IPTEI）、1996 年 2 月 9 日、鎶-277 約 0.24 毫秒、鎶-285 約 30 秒、Cp 因曾為 cassiopeium 的符號而未被採用（Jefferson Lab）、性質較似氡而非汞且難以研究（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。預測分類一句依據本站分類規則（Z ≥ 109 標為 predicted）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 113,
       "title": "第一個在亞洲發現的元素",
       "openingZh": "鉨是第一個在亞洲國家發現的元素。它的名字來自日文的 Nihon（日本），意思是「日出之國」。",

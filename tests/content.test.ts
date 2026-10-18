@@ -3,7 +3,6 @@ import { ELEMENTS } from "@/data/elements";
 import {
   CATEGORY_GUIDES,
   ELEMENT_STORIES,
-  getElementStory,
   resolveReference,
   type ArticleSection,
 } from "@/lib/content";
@@ -44,26 +43,8 @@ describe("category guides (elementCategories.json)", () => {
 });
 
 describe("element stories (elementStories.json)", () => {
-  it("cover every element of the categories finished so far, once each, in order", () => {
-    const numbers = ELEMENT_STORIES.map((s) => s.elementNumber);
-    expect(numbers).toEqual([...numbers].sort((a, b) => a - b));
-    expect(new Set(numbers).size).toBe(numbers.length);
-    for (const n of [1, 6, 8, 14, 29, 79]) expect(numbers).toContain(n);
-    // Phase 3 batches, one category group at a time.
-    const finished = ["alkali-metal", "alkaline-earth-metal", "halogen", "noble-gas", "nonmetal", "metalloid", "post-transition-metal", "lanthanide", "actinide"];
-    const members = ELEMENTS.filter((el) => el.categoryTags.some((t) => finished.includes(t.id)));
-    expect(members).toHaveLength(80);
-    for (const el of members) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
-    // Transition metals are written period by period.
-    const transitionPeriodsDone = [4, 5, 6];
-    const transitionDone = ELEMENTS.filter(
-      (el) => el.category === "transition-metal" && transitionPeriodsDone.includes(el.period),
-    );
-    expect(transitionDone.map((el) => el.number)).toEqual([
-      21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 72, 73, 74, 75, 76, 77,
-      78, 79, 80,
-    ]);
-    for (const el of transitionDone) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
+  it("cover all 118 elements, once each, in atomic-number order", () => {
+    expect(ELEMENT_STORIES.map((s) => s.elementNumber)).toEqual(ELEMENTS.map((el) => el.number));
   });
 
   it("are 200–450 characters with a question, links and no duplicated element data", () => {

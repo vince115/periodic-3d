@@ -44,8 +44,8 @@ export function StoriesOverview() {
         <h1 className="mt-1 text-2xl font-[653] leading-8 text-white">元素故事</h1>
         <p className="mt-2 max-w-4xl text-sm leading-relaxed text-slate-400">
           先從 {CATEGORY_GUIDES.length} 篇分類導讀認識各類元素的共同特性，再逐一閱讀 118 種元素的介紹。
-          每個元素都有一頁，附上有來源的基本資料；科學故事目前已發布 {ELEMENT_STORIES.length} 篇，
-          其他元素的故事會在逐句對照來源後陸續加入。
+          每個元素都有一頁，附上有來源的基本資料與一篇科學故事（共 {ELEMENT_STORIES.length} 篇）；
+          每篇都標示參考來源與查核狀態，來源之間說法不一時會並陳差異。
         </p>
         <Link href={STORY_PAGES[0].href} className="story-start">
           從第一篇開始閱讀
