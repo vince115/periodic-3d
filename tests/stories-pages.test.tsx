@@ -13,8 +13,9 @@ import { CategoryStoryPage } from "@/components/stories/CategoryStoryPage";
 import { ElementStoryPage } from "@/components/stories/ElementStoryPage";
 import { StoriesNav } from "@/components/stories/StoriesNav";
 import { StoriesOverview } from "@/components/stories/StoriesOverview";
-import { getElementByNumber } from "@/data/elements";
-import { CATEGORY_GUIDES } from "@/lib/content";
+import { getCategory } from "@/data/categories";
+import { ELEMENTS, getElementByNumber } from "@/data/elements";
+import { CATEGORY_GUIDES, getElementStory } from "@/lib/content";
 import { formatAtomicMass } from "@/lib/element-utils";
 import { STORY_PAGES, getStoryPosition } from "@/lib/stories-nav";
 
@@ -97,11 +98,21 @@ describe("element pages", () => {
     expect(within(pager).getByRole("link", { name: /上一篇/ })).toHaveAttribute("href", expect.stringMatching(/^\/stories\/categories\//));
   });
 
-  it("says the story is still being written instead of inventing one", () => {
-    render(<ElementStoryPage number={40} />);
-    expect(screen.getByRole("heading", { name: "鋯的科學故事撰寫中" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "過渡金屬" })).toHaveAttribute("href", "/stories/categories/transition-metal");
-    expect(screen.getByRole("link", { name: "41 Nb 鈮" })).toHaveAttribute("href", "/stories/elements/41");
+  // Skipped once every element has a published story.
+  const pending = ELEMENTS.find((el) => !getElementStory(el.number));
+  it.skipIf(!pending)("says the story is still being written instead of inventing one", () => {
+    const el = pending!;
+    render(<ElementStoryPage number={el.number} />);
+    expect(screen.getByRole("heading", { name: `${el.nameZh}的科學故事撰寫中` })).toBeInTheDocument();
+    const primary = el.categoryTags[0].id;
+    expect(screen.getByRole("link", { name: getCategory(primary).labelZh })).toHaveAttribute(
+      "href",
+      `/stories/categories/${primary}`,
+    );
+    const neighbour = getElementByNumber(el.relatedElementNumbers[0])!;
+    expect(
+      screen.getByRole("link", { name: `${neighbour.number} ${neighbour.symbol} ${neighbour.nameZh}` }),
+    ).toHaveAttribute("href", `/stories/elements/${neighbour.number}`);
   });
 
   it("opens a category page from the classification tags", async () => {

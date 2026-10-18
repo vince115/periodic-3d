@@ -2,6 +2,8 @@ import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it } from "vitest";
 import { PeriodicExplorer } from "@/components/periodic-table/PeriodicExplorer";
+import { ELEMENTS } from "@/data/elements";
+import { getElementStory } from "@/lib/content";
 
 const tile = (name: RegExp) => screen.getByRole("button", { name });
 
@@ -155,7 +157,11 @@ describe("PeriodicExplorer", () => {
     await user.click(screen.getByRole("button", { name: "8 O 氧" }));
     expect(screen.getByRole("article")).toHaveTextContent("Oxygen");
 
-    await user.click(tile(/^40 號元素 鋯/));
-    expect(screen.getByText(/鋯的科學故事撰寫中/)).toBeInTheDocument();
+    // Elements whose story is not yet published say so instead of offering a link.
+    const pending = ELEMENTS.find((el) => !getElementStory(el.number));
+    if (pending) {
+      await user.click(tile(new RegExp(`^${pending.number} 號元素 ${pending.nameZh}`)));
+      expect(screen.getByText(new RegExp(`${pending.nameZh}的科學故事撰寫中`))).toBeInTheDocument();
+    }
   });
 });

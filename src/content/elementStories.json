@@ -1644,6 +1644,438 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 39,
+      "title": "一個小鎮命名的四個元素",
+      "openingZh": "瑞典斯德哥爾摩附近的小鎮 Ytterby 有一座採石場，出產許多含稀土的特殊礦物。釔、鉺、鋱、鐿四個元素，都是以這個小鎮命名的。",
+      "sections": [
+        {
+          "heading": "採石場裡的新元素",
+          "paragraphs": [
+            "芬蘭化學家 Johan Gadolin 分析這裡出產的礦物時發現了釔（CIAAW 與 Los Alamos 記為 1794 年，Jefferson Lab 記為 1789 年）；這種礦物後來以他的名字改稱為矽鈹釔礦（gadolinite）。1843 年，Mosander 證明當時所謂的「釔土」其實含有三種元素的氧化物，另外兩種被命名為鉺土與鋱土。"
+          ]
+        },
+        {
+          "heading": "紅色的螢光",
+          "paragraphs": [
+            "氧化釔是釔最主要的用途：摻入銪後，可做成彩色電視映像管中的紅色螢光粉。"
+          ]
+        },
+        {
+          "heading": "人造寶石",
+          "paragraphs": [
+            "釔鐵石榴石是很有效的微波濾波器；硬度 8.5 的釔鋁石榴石，則被用作仿鑽石的寶石。少量的釔也能提高鋁、鎂合金的強度。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼一座小小的採石場，能找到這麼多種新元素？這些元素彼此之間可能有什麼關係？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        21,
+        65,
+        68,
+        70
+      ],
+      "referenceIds": [
+        "pubchem-element:39@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Ytterby 採石場出產稀土礦物並為釔鉺鋱鐿命名（LANL）、Gadolin 發現並以其名改稱礦物（CIAAW、Jefferson Lab）、1843 年 Mosander 將釔土分為三種元素的氧化物（LANL）、氧化釔為最大用途並與銪製成彩色電視紅色螢光粉、釔鐵石榴石微波濾波器、硬度 8.5 的釔鋁石榴石仿鑽、0.1–0.2% 釔強化鋁鎂合金（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現年份 CIAAW 與 LANL 為 1794 年、Jefferson Lab 為 1789 年，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 40,
+      "title": "核反應爐裡的金屬",
+      "openingZh": "每年生產的鋯，將近 90% 用在核能工業：它很耐腐蝕，又不容易吸收中子，是核反應爐的理想材料。",
+      "sections": [
+        {
+          "heading": "像金子的寶石",
+          "paragraphs": [
+            "鋯的名稱源自 zargun 一詞，意思是「像金子的」。1789 年，德國化學家 Martin Heinrich Klaproth 分析一塊來自錫蘭的鋯石，發現了這個新元素。1824 年，Jöns Jacob Berzelius 首次製得不純的鋯，純鋯則要到 1914 年才製成。"
+          ]
+        },
+        {
+          "heading": "難分難捨的鉿",
+          "paragraphs": [
+            "鋯和鉿的化學性質非常相似，鉿又總是混在鋯礦中，使得純鋯極難取得。核反應爐用的鋯，必須幾乎完全不含鉿。"
+          ]
+        },
+        {
+          "heading": "從寶石到乳液",
+          "paragraphs": [
+            "透明的鋯石可以切磨得像鑽石一樣，常用於珠寶。二氧化鋯耐得住極高溫，用來製作坩堝與高溫爐的內襯。碳酸鋯能與漆酚結合，被用在治療毒漆藤皮膚炎的乳液中。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "核反應爐裡的結構材料，為什麼最好「不容易吸收中子」？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        22,
+        72,
+        41
+      ],
+      "referenceIds": [
+        "pubchem-element:40@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "近 90% 用於核能工業並須幾乎不含鉿、耐腐蝕且不易吸收中子、鋯與鉿化學性質相似而難以分離、鋯石切磨如鑽石、二氧化鋯坩堝與高溫爐內襯、碳酸鋯治療毒漆藤（Jefferson Lab、LANL）、zargun 字源（CIAAW 寫阿拉伯文、LANL 寫波斯文，本文不寫語源國別）、1789 年 Klaproth 分析錫蘭鋯石、1824 年 Berzelius 製得不純鋯、1914 年製得純鋯（CIAAW、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 41,
+      "title": "與鉭難分難解",
+      "openingZh": "鈮的名字來自希臘神話中 Tantalus 的女兒 Niobe，因為人們曾以為鈮和鉭（tantalum）是同一種元素。",
+      "sections": [
+        {
+          "heading": "博物館裡的礦物",
+          "paragraphs": [
+            "1801 年，英國化學家 Charles Hatchett 分析一份來自美洲、在大英博物館存放多年的鈮鐵礦（columbite）樣品，發現了新元素，取名 columbium。1809 年，William Hyde Wollaston 卻宣稱 columbium 就是鉭。"
+          ]
+        },
+        {
+          "heading": "百年的名稱之爭",
+          "paragraphs": [
+            "後來德國化學家 Heinrich Rose 證明兩者是不同的元素，取名為 niobium。此後歐洲用 niobium、美國仍用 columbium，直到二十世紀中葉 IUPAC 採用 niobium；不過 Los Alamos 指出，許多冶金業者仍稱它為 columbium。"
+          ]
+        },
+        {
+          "heading": "超導的心臟",
+          "paragraphs": [
+            "純鈮冷卻到 9.25 K 以下就會成為超導體，鈮鈦合金可做成超導線與超導磁鐵。Jefferson Lab 的電子加速器使用 338 個浸在液態氦中的超導鈮腔，把電子加速到接近光速。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鈮和鉭總是一起出現，性質又非常相似。為什麼週期表上同一族、上下相鄰的元素，有時特別難以分辨？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        73,
+        22,
+        23
+      ],
+      "referenceIds": [
+        "pubchem-element:41@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Niobe 與 Tantalus 字源及曾被認為與鉭相同（CIAAW、LANL）、來自美洲的 columbite 樣品在大英博物館存放多年、1801 年 Hatchett 分析並命名 columbium、1809 年 Wollaston 宣稱與鉭相同、Rose 重新發現並命名、9.25 K 超導、鈮鈦超導線與磁鐵、338 個超導鈮腔（Jefferson Lab）、歐美名稱並存與 IUPAC 採用、冶金業仍稱 columbium（CIAAW、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Rose 的年份 CIAAW 為 1846 年、Jefferson Lab 為 1844 年；IUPAC 採用年份 CIAAW 為 1949 年、LANL 為 1950 年；首次分離 CIAAW 為 1846 年、LANL 為 1864 年，本文均未寫年份。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 42,
+      "title": "被誤認為鉛的元素",
+      "openingZh": "鉬的名字來自希臘文 molybdos，意思是「鉛」。古人把任何能在紙上留下痕跡的黑色礦物，都叫作「鉛」。",
+      "sections": [
+        {
+          "heading": "從石墨與鉛礦中分辨出來",
+          "paragraphs": [
+            "輝鉬礦曾被誤認為石墨或鉛礦。1778 年，瑞典化學家 Carl Wilhelm Scheele 認出它是一種新元素的礦石；幾年後，Peter Jacob Hjelm 分離出了金屬鉬（CIAAW 與 Jefferson Lab 記為 1781 年，Los Alamos 記為 1782 年）。"
+          ]
+        },
+        {
+          "heading": "超高強度鋼",
+          "paragraphs": [
+            "鉬的熔點很高，在常見的金屬中只有鎢和鉭比它更高。在鋼中加入 0.25% 到 8% 的鉬，可以製成能承受每平方英寸 30 萬磅壓力的超高強度鋼，也能提高鋼在高溫下的強度。"
+          ]
+        },
+        {
+          "heading": "植物也需要",
+          "paragraphs": [
+            "在機油會分解的高溫下，二硫化鉬仍能作為潤滑劑。鉬也是植物營養必需的微量元素，有些土地因為缺鉬而貧瘠；在生物體內，鉬是固氮作用所必需的。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鉬礦和石墨都是能在紙上留下痕跡的黑色物質。古人分不清楚，現代化學家會用哪些方法區分它們？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        74,
+        24,
+        7
+      ],
+      "referenceIds": [
+        "pubchem-element:42@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "molybdos 字源與古人對黑色礦物的稱呼（CIAAW）、輝鉬礦曾被誤認為石墨或鉛礦、1778 年 Scheele 認出、Hjelm 分離（LANL、Jefferson Lab）、熔點僅低於鎢與鉭（LANL）、0.25–8% 鉬的超高強度鋼與 30 萬 psi、提高高溫強度、二硫化鉬高溫潤滑、植物必需微量元素與缺鉬土地貧瘠、固氮作用所必需（LANL、Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Hjelm 分離年份 CIAAW 與 Jefferson Lab 為 1781 年、LANL 為 1782 年，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 43,
+      "title": "第一個人造元素",
+      "openingZh": "鎝的名字來自希臘文 technetos，意思是「人造的」。它是第一個以人工方法製造出來的元素。",
+      "sections": [
+        {
+          "heading": "週期表上的空格",
+          "paragraphs": [
+            "週期表預言了 43 號元素的存在，1925 年曾有人誤報發現了它，並取名 masurium。直到 1937 年，義大利的 Carlo Perrier 與 Emilio Segrè，才在一份經美國柏克萊迴旋加速器以氘核轟擊過的鉬樣品中，真正找到了鎝。"
+          ]
+        },
+        {
+          "heading": "地球上幾乎沒有",
+          "paragraphs": [
+            "鎝最穩定的同位素鎝-98，半衰期約 420 萬年。Jefferson Lab 寫道地球上從未發現天然的鎝；Los Alamos 則記載，1962 年科學家在非洲的瀝青鈾礦中，找到了極微量由鈾-238 自發分裂產生的鎝-99。至於某些恆星的光譜中，確實能看到鎝的譜線。"
+          ]
+        },
+        {
+          "heading": "醫學與防鏽",
+          "paragraphs": [
+            "鎝可以作為醫學示蹤劑。少量的鎝能減緩鋼的腐蝕，但因為它具有放射性，只能用在密閉的系統中。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鎝在某些恆星中被觀測到，在地球上卻幾乎找不到。這透露了恆星內部可能正在發生什麼事？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        42,
+        75,
+        25
+      ],
+      "referenceIds": [
+        "pubchem-element:43@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "technetos 字源、週期表預言、1925 年誤報為 masurium、1937 年 Perrier 與 Segrè 在柏克萊迴旋加速器以氘核轟擊的鉬樣品中發現、第一個人造元素、1962 年在非洲瀝青鈾礦中發現極微量鎝-99、恆星光譜中的鎝譜線與重元素生成理論（LANL）、鎝-98 半衰期約 420 萬年、醫學示蹤劑、密閉系統中防鏽（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Jefferson Lab 寫地球上從未發現天然鎝，LANL 記載 1962 年的極微量發現，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 44,
+      "title": "以俄羅斯命名的鉑族金屬",
+      "openingZh": "釕的名字來自拉丁文 Ruthenia，也就是俄羅斯的舊稱。它是在烏拉山的鉑礦中被發現的。",
+      "sections": [
+        {
+          "heading": "三種新金屬？",
+          "paragraphs": [
+            "1820 年代，Gottfried Wilhelm Osann 分析烏拉山粗鉑溶於王水後的殘渣，以為找到了三種新金屬。1844 年，俄羅斯化學家 Karl Karlovich Klaus 證明 Osann 的樣品並不純，但其中確實含有一種新金屬；他從粗鉑中不溶於王水的部分取得了 6 公克的釕，因此一般被視為發現者。"
+          ]
+        },
+        {
+          "heading": "讓鈦更耐腐蝕",
+          "paragraphs": [
+            "在鈦中加入 0.1% 的釕，可以讓鈦的耐腐蝕性提高 100 倍。少量的釕也能強化鉑和鈀，這些合金被用於珠寶與耐磨的電接點。"
+          ]
+        },
+        {
+          "heading": "堅硬的白色金屬",
+          "paragraphs": [
+            "釕是堅硬的白色金屬，常溫下不會失去光澤，也是用途廣泛的催化劑。今天的釕主要是開採與精煉鉑時的副產品。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Osann 以為找到三種新金屬，Klaus 卻發現樣品不純。為什麼樣品的純度，對確認新元素這麼重要？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        45,
+        46,
+        76
+      ],
+      "referenceIds": [
+        "pubchem-element:44@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Ruthenia 字源（CIAAW、LANL）、Osann 分析烏拉山粗鉑殘渣並以為有三種新金屬、1844 年 Klaus 證明樣品不純但含新金屬、取得 6 公克並被普遍視為發現者（LANL、CIAAW）、0.1% 釕使鈦耐腐蝕性提高 100 倍、強化鉑鈀並用於珠寶與電接點、多為鉑的副產品（Jefferson Lab）、堅硬白色、常溫不失光澤、催化劑（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Osann 的研究 LANL 記為 1827 年、CIAAW 記為 1828 年，本文寫 1820 年代。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 45,
+      "title": "玫瑰色的溶液",
+      "openingZh": "銠的名字來自希臘文 rhodon，意思是「玫瑰」，因為它的鹽類稀溶液呈玫瑰色。",
+      "sections": [
+        {
+          "heading": "鉑礦裡的紅色粉末",
+          "paragraphs": [
+            "1803 年，英國化學家 William Hyde Wollaston 在發現鈀之後不久，又從南美洲的鉑礦樣品中發現了銠。他除去鉑和鈀之後，剩下一種暗紅色的粉末；用氫氣處理這種粉末，就得到了銠。"
+          ]
+        },
+        {
+          "heading": "又硬又閃亮",
+          "paragraphs": [
+            "銠呈銀白色，熔點比鉑高、密度比鉑低，反光性強，堅硬又耐用。電鍍的銠層非常堅硬，被用於光學儀器。"
+          ]
+        },
+        {
+          "heading": "稀少的金屬",
+          "paragraphs": [
+            "Los Alamos 記載，銠全世界的年產量只有約 7 到 8 公噸。它主要用來強化鉑和鈀，這些合金被用於爐線圈、飛機火星塞的電極與實驗室坩堝；銠也用於汽車的觸媒轉換器。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "銠的產量這麼少，為什麼還能用在汽車觸媒轉換器這類大量生產的產品中？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        46,
+        44,
+        78
+      ],
+      "referenceIds": [
+        "pubchem-element:45@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "rhodon 字源與鹽類稀溶液呈玫瑰色（CIAAW）、1803 年 Wollaston 在發現鈀後從南美洲鉑礦中發現、除去鉑鈀後的暗紅粉末並以氫氣處理（Jefferson Lab）、銀白色、熔點高於鉑而密度較低、反光堅硬耐用、電鍍銠用於光學儀器、年產量約 7–8 公噸（LANL）、強化鉑鈀並用於爐線圈火星塞電極坩堝、觸媒轉換器（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 46,
+      "title": "以小行星命名的元素",
+      "openingZh": "鈀的名字來自 1802 年剛被發現的小行星智神星（Pallas），而智神星則以希臘的智慧女神命名。",
+      "sections": [
+        {
+          "heading": "匿名發表",
+          "paragraphs": [
+            "1803 年，英國化學家 William Hyde Wollaston 從南美洲的鉑礦樣品中發現了鈀。為了取得優先權，又不透露製備的細節，他最初是以匿名的方式發表這項發現。"
+          ]
+        },
+        {
+          "heading": "吸收氫氣的金屬",
+          "paragraphs": [
+            "鈀在室溫下能吸收多達自身體積 900 倍的氫氣；氫也很容易穿過加熱的鈀，因此可用來純化氫氣。細粉狀的鈀則是氫化與脫氫反應的良好催化劑。"
+          ]
+        },
+        {
+          "heading": "白色 K 金與牙醫",
+          "paragraphs": [
+            "在黃金中加入鈀可以讓它褪色，成為白色 K 金（white gold）。鈀也用於製作錶的彈簧、手術器械、電接點，以及牙科的填充物與牙冠。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "一塊金屬能吸收自身體積 900 倍的氫氣。你覺得氫原子可能藏在金屬的哪裡？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        45,
+        78,
+        1,
+        79
+      ],
+      "referenceIds": [
+        "pubchem-element:46@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Pallas 字源與智慧女神、1802 年 Olbers 發現智神星、1803 年 Wollaston 發現、匿名發表以取得優先權（CIAAW）、南美洲鉑礦樣品（Jefferson Lab）、室溫吸收 900 倍體積的氫、氫穿過加熱的鈀而可純化、氫化脫氫催化劑、白色 K 金、錶彈簧手術器械電接點牙科（Jefferson Lab、LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 47,
+      "title": "最會導電的金屬",
+      "openingZh": "銀是所有金屬中導電、導熱最好的，也是已知反射可見光最好的物質。",
+      "sections": [
+        {
+          "heading": "五千年的歷史",
+          "paragraphs": [
+            "考古證據顯示，人類使用銀至少已有 5000 年。小亞細亞與愛琴海島嶼上留下的礦渣顯示，早在西元前 3000 年，人們就學會從鉛中分離出銀。符號 Ag 來自拉丁文 argentum。"
+          ]
+        },
+        {
+          "heading": "會變黑的銀",
+          "paragraphs": [
+            "純銀在乾淨的空氣與水中很穩定，但遇到臭氧、硫化氫或含硫的空氣就會失去光澤，因此銀鏡需要保護塗層。含銀 92.5% 的合金（sterling silver）用於銀器與珠寶。"
+          ]
+        },
+        {
+          "heading": "照片與人造雨",
+          "paragraphs": [
+            "硝酸銀對光敏感，被用來製造底片與相紙。碘化銀則可用來播撒雲種，促成降雨。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "銀器放久了會變黑。根據銀會和哪些物質反應，你覺得變黑的那一層可能是什麼物質？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        29,
+        79,
+        46
+      ],
+      "referenceIds": [
+        "pubchem-element:47@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "導電導熱最佳、反射可見光最佳（Jefferson Lab、LANL）、使用至少 5000 年（Jefferson Lab）、小亞細亞與愛琴海礦渣顯示西元前 3000 年分離銀與鉛、argentum（LANL、CIAAW）、在純淨空氣與水中穩定而遇臭氧硫化氫含硫空氣失去光澤（LANL）、銀鏡需保護塗層、92.5% 純銀合金、硝酸銀用於底片相紙、碘化銀播撒雲種（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 48,
+      "title": "加熱會變色的鋅礦",
+      "openingZh": "1817 年，德國的 Friedrich Stromeyer 注意到，有些菱鋅礦樣品加熱時會發出黃色的光，有些卻不會。",
+      "sections": [
+        {
+          "heading": "藏在鋅礦裡",
+          "paragraphs": [
+            "Stromeyer 進一步研究後發現，會變色的樣品含有微量的新元素，也就是鎘。鎘的名稱來自希臘文 kadmeia，是菱鋅礦的古名。今天的鎘幾乎都是處理鋅礦時的副產品。"
+          ]
+        },
+        {
+          "heading": "曾經定義一公尺",
+          "paragraphs": [
+            "1927 年，國際度量衡會議曾以鎘的紅色譜線波長來定義一公尺；後來這個定義改用氪的譜線。"
+          ]
+        },
+        {
+          "heading": "有毒的金屬",
+          "paragraphs": [
+            "鎘有毒，使用因此受到限制。它容易吸收中子，被用來製作核反應爐的控制棒，也用於鎳鎘充電電池與防腐蝕電鍍；含鎘的焊料必須小心處理，以免鎘中毒。鎘是否屬於過渡金屬各方看法不同，本站將這項分類標為有爭議。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鎘和鋅在週期表上同族，又總是一起出現在礦石中。這種相似性，會讓提煉純金屬遇到什麼困難？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        30,
+        80,
+        36
+      ],
+      "referenceIds": [
+        "pubchem-element:48@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1817 年 Stromeyer 研究菱鋅礦、加熱時部分樣品發黃光而含微量新元素（Jefferson Lab）、kadmeia 字源（CIAAW、LANL）、幾乎全為鋅礦副產品、1927 年以鎘紅色譜線定義公尺後改用氪（LANL）、有毒而用途受限、吸收中子作控制棒、鎳鎘電池、電鍍、含鎘焊料需小心處理（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。分類爭議一句依據本站分類資料（IUPAC 註明第 12 族並非總是包含在過渡金屬內）。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 49,
       "title": "靛藍色的光譜線",
       "openingZh": "銦的名字來自它光譜中一條明亮的靛藍色（indigo）譜線。",
