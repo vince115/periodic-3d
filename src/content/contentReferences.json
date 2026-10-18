@@ -1,5 +1,5 @@
 {
-  "_note": "Shared bibliography for elementCategories.json and elementStories.json. 'accessed' is the date the text was actually read and compared against the claims citing it; null means the work is cited for background but its text was not available to the author (e.g. paywalled), so claims relying only on it remain unverified. Per-element PubChem pages are referenced as 'pubchem-element:<Z>' and CIAAW element pages as 'ciaaw:<name>'; those are resolved in src/lib/content.ts.",
+  "_note": "Shared bibliography for elementCategories.json and elementStories.json. 'accessed' is the date the text was actually read and compared against the claims citing it; null means the work is cited for background but its text was not available to the author (e.g. paywalled), so claims relying only on it remain unverified. Per-element PubChem pages are referenced as 'pubchem-element:<Z>' and CIAAW element pages as 'ciaaw:<name>'; those are resolved in src/lib/content.ts. 'elementPagesRead' records the date each element's PubChem record was downloaded and read; citing an element page that is not listed there is an error.",
   "references": {
     "iupac-redbook-2005": {
       "kind": "standard",
@@ -37,5 +37,53 @@
       "url": "https://doi.org/10.1021/cr00085a006",
       "accessed": null
     }
+  },
+  "elementPagesRead": {
+    "2026-10-16": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      13,
+      14,
+      17,
+      18,
+      22,
+      26,
+      29,
+      31,
+      32,
+      33,
+      50,
+      53,
+      54,
+      58,
+      63,
+      64,
+      78,
+      79,
+      82,
+      83,
+      92,
+      94,
+      95
+    ],
+    "2026-10-18": [
+      3,
+      4,
+      11,
+      12,
+      19,
+      20,
+      37,
+      38,
+      55,
+      56,
+      87,
+      88
+    ]
   }
 }

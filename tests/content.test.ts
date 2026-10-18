@@ -43,8 +43,16 @@ describe("category guides (elementCategories.json)", () => {
 });
 
 describe("element stories (elementStories.json)", () => {
-  it("include the first batch: H, C, O, Si, Cu, Au", () => {
-    expect(ELEMENT_STORIES.map((s) => s.elementNumber)).toEqual([1, 6, 8, 14, 29, 79]);
+  it("include the first batch and every alkali / alkaline earth metal, once each, in order", () => {
+    const numbers = ELEMENT_STORIES.map((s) => s.elementNumber);
+    expect(numbers).toEqual([...numbers].sort((a, b) => a - b));
+    expect(new Set(numbers).size).toBe(numbers.length);
+    for (const n of [1, 6, 8, 14, 29, 79]) expect(numbers).toContain(n);
+    const sBlockMetals = ELEMENTS.filter((el) =>
+      el.categoryTags.some((t) => t.id === "alkali-metal" || t.id === "alkaline-earth-metal"),
+    ).map((el) => el.number);
+    expect(sBlockMetals).toEqual([3, 4, 11, 12, 19, 20, 37, 38, 55, 56, 87, 88]);
+    for (const n of sBlockMetals) expect(getElementStory(n), String(n)).toBeDefined();
     expect(getElementStory(26)).toBeUndefined();
   });
 
@@ -87,6 +95,8 @@ describe("sources and verification", () => {
       }
     }
     expect(() => resolveReference("made-up-source")).toThrow();
+    // Element pages must be recorded as read before they can be cited.
+    expect(() => resolveReference("pubchem-element:27")).toThrow(/not recorded as read/);
   });
 
   it("records an honest status: never self-assigned expert review, and 'source-checked' only when every source was read", () => {
@@ -95,7 +105,12 @@ describe("sources and verification", () => {
       expect(v.status, name).not.toBe("expert-reviewed");
       expect(v.notesZh.length, name).toBeGreaterThan(10);
       if (v.status === "source-checked") {
-        for (const id of refs) expect(resolveReference(id).accessed, `${name}: ${id}`).not.toBeNull();
+        for (const id of refs) {
+          const accessed = resolveReference(id).accessed;
+          expect(accessed, `${name}: ${id}`).not.toBeNull();
+          // A source cannot have been compared before it was read.
+          expect(accessed! <= v.checkedOn, `${name}: ${id}`).toBe(true);
+        }
       }
     }
   });

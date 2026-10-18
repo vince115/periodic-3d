@@ -78,6 +78,13 @@ export const CATEGORY_GUIDES = categoriesFile.categories as CategoryGuide[];
 export const ELEMENT_STORIES = storiesFile.stories as ElementStory[];
 const BIBLIOGRAPHY = referencesFile.references as Record<string, Omit<Reference, "id">>;
 
+/** Date each element's PubChem record was read, by atomic number. */
+const PUBCHEM_READ_ON = new Map(
+  Object.entries(referencesFile.elementPagesRead as Record<string, number[]>).flatMap(([date, numbers]) =>
+    numbers.map((n) => [n, date] as const),
+  ),
+);
+
 const GUIDES_BY_ID = new Map(CATEGORY_GUIDES.map((g) => [g.id, g]));
 const STORIES_BY_NUMBER = new Map(ELEMENT_STORIES.map((s) => [s.elementNumber, s]));
 
@@ -89,8 +96,8 @@ export function getElementStory(number: number): ElementStory | undefined {
   return STORIES_BY_NUMBER.get(number);
 }
 
-/** Retrieval date of the PubChem / CIAAW element pages used for checking. */
-const ELEMENT_PAGES_ACCESSED = "2026-10-16";
+/** Retrieval date of the CIAAW element pages cited by the first batch. */
+const CIAAW_PAGES_ACCESSED = "2026-10-16";
 
 /**
  * Resolves a reference id. Besides bibliography ids, two families are
@@ -106,12 +113,14 @@ export function resolveReference(id: string): Reference {
   if (pubchem) {
     const element = getElementByNumber(Number(pubchem[1]));
     if (!element) throw new Error(`Unknown element in reference ${id}`);
+    const accessed = PUBCHEM_READ_ON.get(element.number);
+    if (!accessed) throw new Error(`${id} is cited but not recorded as read (contentReferences.json → elementPagesRead)`);
     return {
       id,
       kind: "database",
-      citation: `PubChem Element: ${element.name}（收錄 Los Alamos National Laboratory 與 Jefferson Lab 的元素資料）`,
+      citation: `PubChem Element: ${element.name}（收錄 Los Alamos National Laboratory、Jefferson Lab 與 CIAAW 的元素資料）`,
       url: `https://pubchem.ncbi.nlm.nih.gov/element/${element.number}`,
-      accessed: ELEMENT_PAGES_ACCESSED,
+      accessed,
     };
   }
 
@@ -123,7 +132,7 @@ export function resolveReference(id: string): Reference {
       kind: "standard",
       citation: `IUPAC Commission on Isotopic Abundances and Atomic Weights (CIAAW): ${name[0].toUpperCase()}${name.slice(1)}`,
       url: `https://www.ciaaw.org/${name}.htm`,
-      accessed: ELEMENT_PAGES_ACCESSED,
+      accessed: CIAAW_PAGES_ACCESSED,
     };
   }
 

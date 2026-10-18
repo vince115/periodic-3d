@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "_note": "Element science stories, keyed by atomic number (elementNumber). Basic element data is not repeated here — it comes from public/data/elements.json. First batch (phase 2): H, C, O, Si, Cu, Au. People are named with their original-language names to avoid ambiguous transliterations.",
+  "_note": "Element science stories, keyed by atomic number (elementNumber). Basic element data is not repeated here — it comes from public/data/elements.json. First batch (phase 2): H, C, O, Si, Cu, Au. Phase 3 is written one category group at a time; batch 1 (2026-10-18) covers the alkali and alkaline earth metals, checked against the PubChem element records (LANL, Jefferson Lab, CIAAW, IUPAC IPTEI texts). People are named with their original-language names to avoid ambiguous transliterations.",
   "stories": [
     {
       "elementNumber": 1,
@@ -47,6 +47,92 @@
         "notesZh": "1671 年 Boyle、1766 年 Cavendish、名稱由來、九成以上原子為氫、恆星核融合、哈柏法、氫化、火箭燃料與燃料電池皆已對照 CIAAW 與 PubChem（LANL、Jefferson Lab）原文。註：LANL 原文寫作 1776 年，與 CIAAW 及 Jefferson Lab 的 1766 年不同，本文採用 1766 年。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 3,
+      "title": "比水還輕的金屬",
+      "openingZh": "鋰是最輕的金屬，密度大約只有水的一半。這麼輕的金屬，為什麼會出現在電池裡？",
+      "sections": [
+        {
+          "heading": "從「石頭」得名",
+          "paragraphs": [
+            "鋰的名稱來自希臘文 lithos，意思是「石頭」，因為當時人們只在礦物中找到它。瑞典的 Johan August Arfwedson 在透鋰長石中發現了鋰；Los Alamos 與 Jefferson Lab 記為 1817 年，CIAAW 則記為 1818 年。至於誰最先取得金屬鋰，各來源的記載也不相同。"
+          ]
+        },
+        {
+          "heading": "輕巧又活潑",
+          "paragraphs": [
+            "鋰和鈉一樣會與水反應，但沒有鈉那麼劇烈。自然界中沒有單質的鋰，它以化合物的形式少量分散在幾乎所有火成岩與許多礦泉中。鋰鹽能讓火焰呈現漂亮的深紅色。"
+          ]
+        },
+        {
+          "heading": "從電池到太空船",
+          "paragraphs": [
+            "鋰的電化學電位很高，因此是電池負極材料的重要候選。氫氧化鋰可以去除太空船艙內的二氧化碳，硬脂酸鋰則是耐高溫的通用潤滑劑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鋰、鈉、鉀都在第 1 族，為什麼鋰和水的反應反而比鈉溫和？可以從原子大小與最外層電子離原子核的距離想一想。",
+      "categoryIds": [
+        "alkali-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        11,
+        19,
+        12
+      ],
+      "referenceIds": [
+        "pubchem-element:3"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "最輕的金屬與密度約為水的一半、名稱來自 lithos、Arfwedson 在透鋰長石中發現、與水反應不如鈉劇烈、不以單質存在並分布於火成岩與礦泉、火焰呈深紅色、電化學電位高而適合作電池負極、氫氧化鋰去除太空船二氧化碳、硬脂酸鋰潤滑劑，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現年份 LANL 與 Jefferson Lab 為 1817 年，CIAAW 為 1818 年；首次取得金屬鋰，CIAAW 記為 Bunsen 與 Matthiessen（1855 年），Jefferson Lab 記為 Brande 與 Davy，本文並陳而不擇一。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 4,
+      "title": "甜味背後的毒性",
+      "openingZh": "鈹曾經有另一個名字 glucinium，來自希臘文的「甜」，因為它的鹽類嘗起來有甜味。不過，這是一個絕對不該親自驗證的發現。",
+      "sections": [
+        {
+          "heading": "藏在綠柱石裡",
+          "paragraphs": [
+            "鈹的名稱來自綠柱石，祖母綠與海藍寶都是綠柱石的寶石形式。法國化學家 Vauquelin 在綠柱石與祖母綠中發現了這個新元素（CIAAW 記為 1797 年，Los Alamos 與 Jefferson Lab 記為 1798 年）。1828 年，Friedrich Wöhler 與 Antoine Bussy 各自獨立取得了金屬鈹；直到 1949 年，IUPAC 才選定 beryllium 這個名稱。"
+          ]
+        },
+        {
+          "heading": "輕、硬，又讓 X 光通過",
+          "paragraphs": [
+            "鈹是最輕的金屬之一，熔點卻在輕金屬中名列前茅。它對 X 光相當透明，因此被做成 X 光管的窗口；鈹銅合金則用於彈簧、電接點與不會產生火花的工具。"
+          ]
+        },
+        {
+          "heading": "安全提醒",
+          "paragraphs": [
+            "鈹與許多鈹化合物具有毒性，絕對不能品嘗或吞入。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鈹讓 X 光容易穿過，鉛卻能擋住 X 光。原子的哪些特性可能和這種差別有關？",
+      "categoryIds": [
+        "alkaline-earth-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        12,
+        3,
+        13
+      ],
+      "referenceIds": [
+        "pubchem-element:4"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "glucinium 與甜味、名稱來自綠柱石、祖母綠與海藍寶為綠柱石、Vauquelin 發現、1828 年 Wöhler 與 Bussy 各自取得、1949 年 IUPAC 選定名稱（CIAAW）、最輕金屬之一且熔點高、對 X 光透明而作 X 光管窗口、鈹銅用於彈簧電接點與無火花工具、有毒不可品嘗，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現年份 CIAAW 為 1797 年，LANL 與 Jefferson Lab 為 1798 年，本文並陳。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 6,
@@ -140,6 +226,92 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 11,
+      "title": "藏在鹽裡的活潑金屬",
+      "openingZh": "每天吃的食鹽是氯化鈉，但純的鈉金屬一碰到水就可能起火。同一種元素，為什麼差別這麼大？",
+      "sections": [
+        {
+          "heading": "電解出來的元素",
+          "paragraphs": [
+            "鈉的化合物很早就為人熟知，但直到 1807 年，英國化學家 Humphry Davy 才以電解苛性鈉（氫氧化鈉）的方法，首次取得金屬鈉。符號 Na 來自拉丁文 natrium。鈉約占地殼的 2.6%，是鹼金屬中含量最多的一種，卻因為太活潑，從不以單質存在於自然界。"
+          ]
+        },
+        {
+          "heading": "太陽光裡的黃色",
+          "paragraphs": [
+            "鈉的 D 譜線是太陽光譜中最顯著的譜線之一。鈉蒸氣可用於路燈，發出明亮的黃光。"
+          ]
+        },
+        {
+          "heading": "生活中的鈉化合物",
+          "paragraphs": [
+            "除了食鹽，小蘇打（碳酸氫鈉）、蘇打灰（碳酸鈉）與硼砂都是常見的鈉化合物。液態鈉也曾被用作核反應爐的冷卻劑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鈉金屬很危險，氯氣也有毒，為什麼兩者結合成的氯化鈉卻可以食用？想想原子變成離子後，性質會有什麼改變。",
+      "categoryIds": [
+        "alkali-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        3,
+        19,
+        17
+      ],
+      "referenceIds": [
+        "pubchem-element:11"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1807 年 Davy 電解苛性鈉首次取得金屬鈉、符號來自 natrium、約占地殼 2.6% 且為鹼金屬中最多、不以單質存在、D 譜線為太陽光譜中最顯著者之一、鈉蒸氣路燈發黃光、常見鈉化合物、液態鈉曾作核反應爐冷卻劑、與水接觸可能起火，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：鈉在地球元素豐度的排名，LANL 寫第四、Jefferson Lab 寫第六，本文未採用排名。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 12,
+      "title": "耀眼白光的輕金屬",
+      "openingZh": "點燃鎂，會發出刺眼的白光。煙火、信號彈與攝影用的閃光燈泡，都曾借用這道光。",
+      "sections": [
+        {
+          "heading": "來自希臘的地名",
+          "paragraphs": [
+            "鎂的名稱來自希臘色薩利地區的 Magnesia。蘇格蘭化學家 Joseph Black 在 1755 年認出它是一種元素；1808 年 Humphry Davy 取得了不純的金屬，1831 年 Antoine Bussy 才製得純鎂。"
+          ]
+        },
+        {
+          "heading": "海水中的寶庫",
+          "paragraphs": [
+            "鎂在地殼中含量很高，卻從不以單質存在。今天的鎂多半從海水中提取：每立方公里的海水約含 13 億公斤的鎂。"
+          ]
+        },
+        {
+          "heading": "從飛機到藥箱",
+          "paragraphs": [
+            "鎂比鋁還輕三分之一，鎂鋁合金被用在飛機與火箭上。鎂的化合物也走進了藥箱：氫氧化鎂（鎂乳）可用作制酸劑，硫酸鎂則是俗稱的瀉鹽。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鎂這麼輕，為什麼不能直接取代鋁，做成各種結構材料？想想它燃燒的特性。",
+      "categoryIds": [
+        "alkaline-earth-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        4,
+        20,
+        13
+      ],
+      "referenceIds": [
+        "pubchem-element:12"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "燃燒發出耀眼白光並用於煙火、信號彈與閃光燈泡、Magnesia 地名、1755 年 Black 認出、1808 年 Davy 取得不純金屬、1831 年 Bussy 製得純鎂、不以單質存在、多從海水提取且每立方公里約 13 億公斤、比鋁輕三分之一、鎂鋁合金用於飛機火箭、鎂乳與瀉鹽、燃點低限制結構用途（延伸思考），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：鎂在地殼的含量排名，LANL 寫第八、Jefferson Lab 寫第七，本文未採用排名。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 14,
       "title": "沙子裡的晶片",
       "openingZh": "海灘上的沙子和手機裡的晶片，主角都是同一種元素——矽。",
@@ -185,6 +357,92 @@
       "version": "2026-10-16"
     },
     {
+      "elementNumber": 19,
+      "title": "第一個電解出來的金屬",
+      "openingZh": "1807 年，Humphry Davy 用電流分解苛性鉀，得到一種軟到能用刀切開的金屬。這是第一個以電解法分離出來的金屬。",
+      "sections": [
+        {
+          "heading": "名字的由來",
+          "paragraphs": [
+            "鉀的英文 potassium 來自 potash，字面意思是「鍋中的灰」；符號 K 則來自拉丁文 kalium，源於阿拉伯文 qali，意思是鹼。幾個月後，Davy 用同樣的方法取得了鈉。"
+          ]
+        },
+        {
+          "heading": "植物需要的元素",
+          "paragraphs": [
+            "鉀是植物生長不可缺少的成分，存在於大多數土壤中，因此鉀鹽最大的用途是肥料。鉀礦常見於古代湖床與海床的沉積層，例如鉀石鹽與光鹵石。"
+          ]
+        },
+        {
+          "heading": "能產生氧氣的化合物",
+          "paragraphs": [
+            "超氧化鉀能與水氣和二氧化碳反應並放出氧氣，因此被用在呼吸裝置中。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鉀和鈉同屬鹼金屬，Davy 為什麼能用同一種方法在幾個月內先後取得兩者？它們的化學性質有哪些相似之處？",
+      "categoryIds": [
+        "alkali-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        11,
+        37,
+        20
+      ],
+      "referenceIds": [
+        "pubchem-element:19"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1807 年 Davy 電解苛性鉀、為第一個以電解分離的金屬（LANL）、質軟可用刀切（Jefferson Lab）、potash、kalium 與 qali 的字源、數月後以同法取得鈉、鉀為植物生長必需且肥料為最大用途、鉀石鹽與光鹵石見於古代湖床海床、超氧化鉀用於呼吸裝置，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 20,
+      "title": "骨頭與石灰岩的共同成分",
+      "openingZh": "粉筆、大理石和石灰岩看起來很不一樣，其實都是碳酸鈣；骨頭和牙齒的主要成分，也是含鈣的化合物。",
+      "sections": [
+        {
+          "heading": "羅馬人的石灰",
+          "paragraphs": [
+            "鈣的名稱來自拉丁文 calx，意思是石灰。早在西元一世紀，羅馬人就會製作石灰，但金屬鈣直到 1808 年才被分離出來：Humphry Davy 得知 Jöns Jacob Berzelius 與 M. M. af Pontin 在汞中電解石灰製得鈣汞齊後，成功取得了不純的金屬鈣。"
+          ]
+        },
+        {
+          "heading": "活潑的金屬",
+          "paragraphs": [
+            "鈣在地殼中含量排名第五，卻從不以單質存在，因為它很容易與氧和水反應。金屬鈣在空氣中會形成一層白色的氮化物，燃燒時發出黃紅色的火焰。"
+          ]
+        },
+        {
+          "heading": "從建築到牙膏",
+          "paragraphs": [
+            "碳酸鈣加熱後變成生石灰，加水則成為熟石灰，是化學工業中便宜的鹼。石膏（硫酸鈣）用來製作石膏板，碳酸鈣也被加進牙膏與胃藥中。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "我們從食物中攝取的「鈣」，並不是金屬鈣。身體裡的鈣以什麼形式存在？為什麼它不會像金屬鈣那樣和水反應？",
+      "categoryIds": [
+        "alkaline-earth-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        12,
+        38,
+        15
+      ],
+      "referenceIds": [
+        "pubchem-element:20"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "粉筆、大理石、石灰岩皆為碳酸鈣、磷酸鈣為骨骼牙齒主要成分、calx 字源、羅馬人於一世紀製作石灰、1808 年 Davy 在得知 Berzelius 與 Pontin 製得鈣汞齊後取得不純金屬鈣、地殼含量第五、不以單質存在、空氣中形成白色氮化物、燃燒呈黃紅色火焰、生石灰與熟石灰、石膏板、牙膏與胃藥，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 29,
       "title": "人類最早的金屬夥伴之一",
       "openingZh": "考古證據顯示，人類使用銅至少已有一萬一千年。為什麼銅能陪伴人類這麼久？",
@@ -228,6 +486,178 @@
         "notesZh": "使用至少 11,000 年與提煉至少 7,000 年（Jefferson Lab）、名稱源自賽普勒斯、約 5,000 年前發展合金、青銅為最早合金、黃銅、導電性僅次於銀、耐腐蝕與錢幣水管、斐林試劑、殺藻劑皆已對照 CIAAW 與 PubChem 原文。註：LANL 另寫「開採約 5,000 年」，與 Jefferson Lab 的估計不同；本文採用 Jefferson Lab 對「使用」與「提煉」的區分。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 37,
+      "title": "光譜裡的深紅色線條",
+      "openingZh": "1861 年，兩位德國科學家用分光鏡觀察一種礦物，看到從未見過的深紅色譜線，一個新元素就此現身。",
+      "sections": [
+        {
+          "heading": "用光找到的元素",
+          "paragraphs": [
+            "Robert Wilhelm Bunsen 與 Gustav Kirchhoff 分析鱗雲母時發現了銣，名稱來自拉丁文 rubidus，意思是「最深的紅色」。Bunsen 在 1863 年分離出銣。今天的銣大多是提煉鋰時的副產品。"
+          ]
+        },
+        {
+          "heading": "極度活潑",
+          "paragraphs": [
+            "銣在室溫下就可能呈液態。它在空氣中會自燃，遇水則劇烈反應，甚至點燃釋出的氫氣，因此必須保存在乾燥的礦物油、真空或惰性氣體中。"
+          ]
+        },
+        {
+          "heading": "未來的推進劑？",
+          "paragraphs": [
+            "因為銣很容易游離，曾被考慮作為太空船離子引擎的推進劑，不過銫的效率略高一些。銣也被用來製作光電管與特殊玻璃。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Bunsen 和 Kirchhoff 只看光譜就斷定這是新元素。為什麼每種元素發出的光譜線都不一樣？",
+      "categoryIds": [
+        "alkali-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        19,
+        55,
+        3
+      ],
+      "referenceIds": [
+        "pubchem-element:37"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1861 年 Bunsen 與 Kirchhoff 以分光鏡在鱗雲母中發現、深紅色譜線、rubidus 字源、Bunsen 於 1863 年分離（CIAAW）、多為提煉鋰的副產品、室溫下可能呈液態、空氣中自燃與遇水劇烈反應、保存方式、離子引擎推進劑與銫效率較高、光電管與特殊玻璃，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 38,
+      "title": "煙火裡的紅色",
+      "openingZh": "煙火與信號彈中鮮豔的紅色火光，常常來自鍶的化合物。",
+      "sections": [
+        {
+          "heading": "蘇格蘭小鎮的名字",
+          "paragraphs": [
+            "鍶的名稱來自蘇格蘭小鎮 Strontian，當地礦場出產菱鍶礦。1790 年，愛爾蘭化學家 Adair Crawford 發現這種礦物和其他鋇礦不同；CIAAW 則把發現歸於 1792 年觀察到鍶鮮紅火焰的 Thomas Charles Hope。1808 年，Humphry Davy 首次以電解法分離出鍶。"
+          ]
+        },
+        {
+          "heading": "比鈣更活潑",
+          "paragraphs": [
+            "鍶比鈣軟，與水的反應也比鈣劇烈，必須保存在煤油中以防氧化。剛切開的鍶呈銀白色，但很快就因氧化而變黃；細粉狀的鍶甚至會在空氣中自燃。"
+          ]
+        },
+        {
+          "heading": "放射性的鍶-90",
+          "paragraphs": [
+            "鍶-90 是核爆炸常見的產物，半衰期約 28.8 年。它會被人體吸收並累積在骨骼中，因此特別危險。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鍶-90 為什麼會累積在骨骼中？這和鍶與鈣同屬第 2 族有什麼關係？",
+      "categoryIds": [
+        "alkaline-earth-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        20,
+        56,
+        37
+      ],
+      "referenceIds": [
+        "pubchem-element:38"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "碳酸鍶與硝酸鍶用於煙火與信號彈的紅光、Strontian 地名與菱鍶礦、Crawford 1790 年認出新礦物、Hope 1792 年觀察紅色火焰（CIAAW）、Davy 1808 年電解分離、比鈣軟且與水反應較劇烈、保存在煤油、切面由銀白轉黃、細粉自燃、鍶-90 為核爆產物、半衰期約 28.8 年、累積於骨骼，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現者與年份 LANL 與 Jefferson Lab 歸於 Crawford（1790 年），CIAAW 歸於 Hope（1792 年），本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 55,
+      "title": "天藍色的時間守護者",
+      "openingZh": "銫的名字來自拉丁文 caesius，意思是「天藍色」。這個名字，和科學家第一次看見它的方式有關。",
+      "sections": [
+        {
+          "heading": "礦泉水中的新元素",
+          "paragraphs": [
+            "1860 年，Robert Wilhelm Bunsen 與 Gustav Robert Kirchhoff 用分光鏡分析德國杜爾克海姆的礦泉水，看見明亮的藍色譜線，因而發現了銫。不過直到 1882 年，德國化學家 Carl Setterberg 才首次把它分離出來。"
+          ]
+        },
+        {
+          "heading": "熔點很低的金屬",
+          "paragraphs": [
+            "銫的熔點在金屬元素中第二低。它是正電性最強的元素，遇冷水會發生爆炸性的反應；它的氫氧化物是已知最強的鹼，甚至會侵蝕玻璃。"
+          ]
+        },
+        {
+          "heading": "原子鐘",
+          "paragraphs": [
+            "銫被用在原子鐘裡。Los Alamos 的資料指出，這種時鐘在 300 年內的誤差只有約 5 秒。銫也用於光電管，以及某些有機化合物的氫化反應中作為催化劑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "原子鐘利用原子吸收或發出的特定頻率來計時。為什麼用原子當時鐘，會比擺錘更準確？",
+      "categoryIds": [
+        "alkali-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        37,
+        87,
+        56
+      ],
+      "referenceIds": [
+        "pubchem-element:55"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "caesius 字源與藍色譜線、1860 年 Bunsen 與 Kirchhoff 分析杜爾克海姆礦泉水發現、1882 年 Setterberg 首次分離（CIAAW）、熔點在金屬元素中第二低（Jefferson Lab）、正電性最強、遇冷水爆炸性反應、氫氧化銫為已知最強鹼且侵蝕玻璃、原子鐘 300 年誤差約 5 秒（LANL）、光電管與氫化催化，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 56,
+      "title": "可以喝下去的鋇",
+      "openingZh": "能溶於水的鋇化合物有毒，但做腸胃道 X 光檢查前，病人卻要喝下含硫酸鋇的顯影劑。這是怎麼回事？",
+      "sections": [
+        {
+          "heading": "「重」的元素",
+          "paragraphs": [
+            "鋇的名稱來自希臘文 barys，意思是「重」。1774 年，Scheele 區分出鋇的氧化物與石灰的不同；1808 年，Humphry Davy 首次以電解取得金屬鋇。"
+          ]
+        },
+        {
+          "heading": "不溶，所以安全",
+          "paragraphs": [
+            "硫酸鋇不溶於水，因此可以安全吞服；它又能有效吸收 X 光，讓腸胃道在 X 光影像中清楚顯現。相反地，能溶於水或酸的鋇化合物都有毒。"
+          ]
+        },
+        {
+          "heading": "綠色火光與發光石",
+          "paragraphs": [
+            "硝酸鋇燃燒時發出明亮的綠光，用於煙火與信號彈。十六世紀初，義大利波隆那附近發現了由不純硫酸鋇構成的「波隆那石」，照光後能在黑暗中發光，曾被煉金術士認為具有魔力。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "同樣是鋇的化合物，為什麼硫酸鋇可以吞服，碳酸鋇卻曾被用作老鼠藥？溶解度在這裡扮演什麼角色？",
+      "categoryIds": [
+        "alkaline-earth-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        38,
+        88,
+        20
+      ],
+      "referenceIds": [
+        "pubchem-element:56"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "barys 字源、1774 年 Scheele 區分鋇的氧化物與石灰、1808 年 Davy 電解取得、硫酸鋇不溶於水可安全吞服並吸收 X 光用於腸胃道影像、可溶於水或酸的鋇化合物有毒、硝酸鋇綠色火光用於煙火信號彈、波隆那石的發現與煉金術士的看法、碳酸鋇曾作老鼠藥，皆已對照 PubChem 收錄的 Los Alamos 與 Jefferson Lab 原文。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 79,
@@ -280,6 +710,93 @@
         "notesZh": "5,500 年歷史、以單質存在、Au 的由來、不失光澤、延展性數據、合金與 K 金定義、首飾牙科錢幣用途、衛星紅外線反射皆已對照 CIAAW 與 PubChem（Jefferson Lab、LANL）原文。「相對論效應造成金色與惰性」引用 Pyykkö (1988)，但未取得全文逐句比對，待查核。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 87,
+      "title": "地殼裡最多只有一小撮",
+      "openingZh": "鍅是天然存在的元素，但科學家估計，整個地殼中任何時刻存在的鍅，加起來大約不超過 30 公克。",
+      "sections": [
+        {
+          "heading": "以祖國命名",
+          "paragraphs": [
+            "1939 年，巴黎居禮研究所的 Marguerite Perey 在研究錒的衰變時發現了鍅，並以她的祖國法國為它命名。"
+          ]
+        },
+        {
+          "heading": "只能存在幾十分鐘",
+          "paragraphs": [
+            "鍅最長壽的同位素鍅-223，半衰期只有約 22 分鐘，也是唯一天然存在的鍅同位素。所有已知的鍅同位素都極不穩定，至今沒有人製備出可以秤重的鍅，科學家只能透過放射化學方法研究它的性質，發現它和銫最相似。"
+          ]
+        },
+        {
+          "heading": "只為研究而存在",
+          "paragraphs": [
+            "鍅可以用質子轟擊釷來製造，但產量極少、壽命又短，目前除了基礎科學研究之外沒有任何用途。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鍅位於鹼金屬的最下方。如果真的能取得一大塊鍅，你預期它和水的反應會比銫更激烈嗎？為什麼這個預測很難用實驗驗證？",
+      "categoryIds": [
+        "alkali-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        55,
+        89,
+        88
+      ],
+      "referenceIds": [
+        "pubchem-element:87"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1939 年 Perey 於居禮研究所在研究錒衰變時發現、以法國命名、地殼中約 30 公克（IUPAC IPTEI；Jefferson Lab 與 LANL 寫不超過一盎司）、鍅-223 半衰期約 22 分鐘且為唯一天然同位素、無可秤重的樣品、以放射化學研究且性質最似銫、以質子轟擊釷製造、僅用於基礎研究，皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 IUPAC IPTEI 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 88,
+      "title": "在黑暗中發光的元素",
+      "openingZh": "鐳和它的鹽類會自己發出微光。這種光芒曾讓鐳被塗在錶面上，最後卻因為危險而被其他放射源取代。",
+      "sections": [
+        {
+          "heading": "從瀝青鈾礦中提煉",
+          "paragraphs": [
+            "1898 年，Marie Skłodowska Curie 與 Pierre Curie 發現了鐳。Marie Curie 注意到未精煉的瀝青鈾礦比從中分離出的鈾更具放射性，推論礦石中還藏著其他放射性元素。每噸鈾礦只含約 0.14 公克的鐳，她必須處理好幾噸礦石，才得到極少量的鐳與另一種新元素釙。"
+          ]
+        },
+        {
+          "heading": "放射性的尺規",
+          "paragraphs": [
+            "鐳-226 的半衰期約 1600 年。放射性活度單位「居里」，就是以 1 公克鐳-226 每秒的衰變次數（約 370 億次）來定義的。"
+          ]
+        },
+        {
+          "heading": "危險的光芒",
+          "paragraphs": [
+            "鐳曾被用來製作自發光塗料、中子源，以及治療癌症，後來多改用鈷-60 等其他放射源。Curie 夫婦當年的實驗筆記，至今仍汙染嚴重，無法安全翻閱。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "Los Alamos 的資料提到，鐳大約每 25 年失去 1% 的活性。這和約 1600 年的半衰期一致嗎？試著估算看看。",
+      "categoryIds": [
+        "alkaline-earth-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        56,
+        84,
+        86,
+        92
+      ],
+      "referenceIds": [
+        "pubchem-element:88"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "鐳與其鹽類會發光、曾用於自發光塗料並多改用鈷-60 等放射源、1898 年 Curie 夫婦發現、瀝青鈾礦比分離出的鈾更具放射性的推論、每噸鈾礦約 0.14 公克鐳（Jefferson Lab；LANL 為 7 噸約 1 公克，兩者一致）、處理數噸礦石並發現釙、鐳-226 半衰期約 1600 年、居里的定義與每秒 3.7 × 10¹⁰ 次衰變、中子源與癌症治療、實驗筆記至今汙染嚴重、每 25 年失去約 1% 活性，皆已對照 PubChem 收錄的 Los Alamos 與 Jefferson Lab 原文。"
+      },
+      "version": "2026-10-18"
     }
   ]
 }
