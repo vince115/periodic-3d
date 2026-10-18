@@ -155,7 +155,7 @@ describe("PeriodicExplorer", () => {
     await user.click(screen.getByRole("button", { name: "8 O 氧" }));
     expect(screen.getByRole("article")).toHaveTextContent("Oxygen");
 
-    await user.click(tile(/^26 號元素 鐵/));
-    expect(screen.getByText(/鐵的科學故事撰寫中/)).toBeInTheDocument();
+    await user.click(tile(/^40 號元素 鋯/));
+    expect(screen.getByText(/鋯的科學故事撰寫中/)).toBeInTheDocument();
   });
 });

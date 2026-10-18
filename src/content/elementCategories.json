@@ -203,8 +203,8 @@
       "referenceIds": [
         "iupac-redbook-2005",
         "iupac-group3-2021",
-        "pubchem-element:22",
-        "pubchem-element:26",
+        "pubchem-element:22@2026-10-16",
+        "pubchem-element:26@2026-10-16",
         "pubchem-element:29",
         "pubchem-element:78",
         "ciaaw:mercury",

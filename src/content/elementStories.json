@@ -867,6 +867,351 @@
       "version": "2026-10-18"
     },
     {
+      "elementNumber": 21,
+      "title": "預言成真的類硼",
+      "openingZh": "Mendeleev 曾預言週期表上有一個「類硼」（ekaboron），原子量介於鈣與鈦之間。後來發現的鈧，正是這個元素。",
+      "sections": [
+        {
+          "heading": "斯堪地那維亞的礦物",
+          "paragraphs": [
+            "瑞典化學家 Lars Fredrik Nilson 想從 10 公斤的黑稀金礦中製備純的鐿土，卻發現了鈧；CIAAW 與 Jefferson Lab 記為 1879 年，Los Alamos 記為 1878 年。名稱來自拉丁文 Scandia（斯堪地那維亞）。瑞典化學家 Per Teodor Cleve 隨後證明，鈧就是 Mendeleev 預言的類硼。"
+          ]
+        },
+        {
+          "heading": "又輕又貴",
+          "paragraphs": [
+            "金屬鈧直到 1937 年才首次製得，1960 年才生產出第一磅純鈧。鈧很輕，熔點卻比鋁高得多，因此受到太空船設計者的關注；但每公克約 270 美元的價格，讓它難以普及。"
+          ]
+        },
+        {
+          "heading": "像陽光的燈",
+          "paragraphs": [
+            "鈧鋁合金被用於部分運動器材，例如鋁製球棒與自行車車架。把碘化鈧加入水銀燈中，可以發出接近陽光的光。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鈧在太陽與某些恆星中的含量排名，比在地球上高得多。為什麼同一種元素在不同天體上的豐度會不一樣？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        39,
+        22,
+        13
+      ],
+      "referenceIds": [
+        "pubchem-element:21@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Mendeleev 預言 ekaboron 且原子量介於鈣與鈦之間、Nilson 處理 10 公斤黑稀金礦（LANL、Jefferson Lab）、Scandia 字源與 Cleve 證明為類硼（CIAAW）、1937 年首次製得金屬與 1960 年第一磅純鈧、質輕且熔點遠高於鋁而受太空船設計關注（LANL）、每公克約 270 美元、鈧鋁合金用於球棒與自行車車架、碘化鈧加入水銀燈發出似陽光的光（Jefferson Lab）、太陽中豐度第 23 而地球第 50（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現年份 CIAAW 與 Jefferson Lab 為 1879 年、LANL 為 1878 年，本文並陳。註：LANL 鈧頁的「化學上屬於鹼土元素」一段明顯誤植自鈣頁，本文未採用。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 22,
+      "title": "像鋼一樣強，卻輕得多",
+      "openingZh": "鈦和鋼一樣堅固，卻輕了 45%；它比鋁重 60%，強度卻是鋁的兩倍。",
+      "sections": [
+        {
+          "heading": "大地之子",
+          "paragraphs": [
+            "1791 年，英國牧師 William Gregor 在礦物中發現了鈦；1795 年，德國化學家 Martin Heinrich Klaproth 再次發現它，並依希臘神話中「大地最初的兒子」泰坦為它命名。不純的鈦在 1887 年由 Nilson 與 Pettersson 製得，純度 99.9% 的鈦則要到 1910 年才由 Matthew Hunter 製成。"
+          ]
+        },
+        {
+          "heading": "從珍品到工業材料",
+          "paragraphs": [
+            "鈦曾經只是實驗室裡的稀奇物品，直到 1946 年 Kroll 證明可以用鎂還原四氯化鈦來量產；這個方法至今仍被廣泛使用。"
+          ]
+        },
+        {
+          "heading": "從飛機到人工關節",
+          "paragraphs": [
+            "鈦耐海水腐蝕，被用來製作船隻的螺旋槳軸；鈦合金則用於飛機與火箭。鈦在人體內不起反應，也被用來製作人工髖關節與骨釘。鈦最大的用途其實是二氧化鈦白色顏料。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鈦的性能這麼好，為什麼沒有取代鋼，成為最常見的金屬？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        26,
+        13,
+        40
+      ],
+      "referenceIds": [
+        "pubchem-element:22@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "與鋼一樣強但輕 45%、比鋁重 60% 但強兩倍（Jefferson Lab、LANL）、1791 年 Gregor 發現、1795 年 Klaproth 命名、泰坦字源（CIAAW、LANL）、1887 年 Nilson 與 Pettersson 製得不純鈦、1910 年 Hunter 製得 99.9% 純鈦、1946 年 Kroll 法以鎂還原四氯化鈦且仍廣泛使用（LANL）、耐海水用於螺旋槳軸、飛機火箭合金、人體內不起反應而用於人工髖關節骨釘、二氧化鈦顏料為最大用途、高成本限制普及（延伸思考）（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 23,
+      "title": "被否定又重新發現的元素",
+      "openingZh": "釩在 1801 年就被發現了，但發現者後來接受了別人的錯誤判斷，撤回了自己的發現。",
+      "sections": [
+        {
+          "heading": "沉船與誤判",
+          "paragraphs": [
+            "1801 年，西班牙的 Andrés Manuel del Río 發現了釩。他把樣品與說明方法的信寄到巴黎鑑定，但根據 Jefferson Lab 的記載，那封信隨船沉沒，巴黎只收到樣品；一位法國化學家誤判這只是不純的鉻，del Río 也接受了這個結論。1830 年，瑞典化學家 Nils Gabriel Sefström 在分析瑞典礦場的鐵時，重新發現了它。"
+          ]
+        },
+        {
+          "heading": "美麗的女神",
+          "paragraphs": [
+            "Sefström 依北歐神話的女神 Vanadis 為它命名，因為它的化合物有許多美麗的顏色。後來英國化學家 Henry Roscoe 以氫還原氯化物，取得了近乎純的釩。"
+          ]
+        },
+        {
+          "heading": "強化鋼鐵",
+          "paragraphs": [
+            "大約 80% 的釩被製成釩鐵或作為鋼的添加物。含釩的鋼強韌、耐衝擊又耐腐蝕，被用來製造汽車的車軸、曲軸與齒輪，以及彈簧與刀具。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "del Río 因為別人的錯誤判斷而撤回了發現。今天的科學界有哪些做法，可以減少這種情況？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        24,
+        22,
+        41
+      ],
+      "referenceIds": [
+        "pubchem-element:23@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "1801 年 del Río 發現、寄往巴黎的信隨船沉沒、法國化學家誤判為不純的鉻而 del Río 接受（Jefferson Lab、LANL）、1830 年 Sefström 分析瑞典礦場的鐵時重新發現、Vanadis 字源與多彩化合物、Roscoe 以氫還原氯化物（LANL、CIAAW）、約 80% 用於釩鐵或鋼添加物、釩鋼用於車軸曲軸齒輪彈簧刀具（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：Roscoe 分離釩的年份 Jefferson Lab 與 LANL 為 1867 年、CIAAW 為 1869 年，本文未寫年份。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 24,
+      "title": "色彩繽紛的元素",
+      "openingZh": "鉻的名字來自希臘文 chroma，意思是「顏色」，因為它的化合物有許多顏色。紅寶石與祖母綠的顏色，也都來自鉻的化合物。",
+      "sections": [
+        {
+          "heading": "西伯利亞紅鉛",
+          "paragraphs": [
+            "1797 年，法國化學家 Louis-Nicolas Vauquelin 研究一種稱為「西伯利亞紅鉛」的礦物（鉻鉛礦），把它和鹽酸混合，製得了鉻的氧化物。他原以為還沒有方法能分離出鉻，沒想到 1798 年只是在木炭爐中加熱這種氧化物，就得到了金屬鉻。"
+          ]
+        },
+        {
+          "heading": "閃亮又耐腐蝕",
+          "paragraphs": [
+            "鉻是堅硬、易碎又非常耐腐蝕的藍白色金屬，可以拋光得非常閃亮，常被鍍在其他金屬表面作為保護層。鉻加進鋼中能讓鋼變硬；含鉻量至少 10% 的鋼，就是不鏽鋼。"
+          ]
+        },
+        {
+          "heading": "顏料與皮革",
+          "paragraphs": [
+            "鉻黃（鉻酸鉛）曾被用作黃色顏料，鉻綠（三氧化二鉻）則是廣泛使用的綠色顏料；重鉻酸鉀被用來鞣製皮革。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "同樣含有鉻，紅寶石是紅色、祖母綠是綠色。為什麼同一種元素能帶來不同的顏色？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        23,
+        25,
+        26
+      ],
+      "referenceIds": [
+        "pubchem-element:24@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "chroma 字源與多彩化合物（CIAAW、LANL）、紅寶石與祖母綠的顏色來自鉻化合物、1797 年 Vauquelin 以西伯利亞紅鉛（鉻鉛礦）與鹽酸製得氧化鉻、1798 年於木炭爐中加熱得到金屬鉻、藍白色堅硬易碎耐腐蝕、可拋光並用於電鍍、使鋼變硬與含鉻至少 10% 的不鏽鋼、鉻黃與鉻綠顏料、重鉻酸鉀鞣革（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 25,
+      "title": "鋼鐵背後的配角",
+      "openingZh": "每年生產的錳，將近 90% 都用在煉鋼上。這個不太起眼的元素，是鋼鐵不可缺少的配角。",
+      "sections": [
+        {
+          "heading": "磁石的名字",
+          "paragraphs": [
+            "錳的名稱來自拉丁文 magnes（磁石），因為軟錳礦具有磁性。1774 年，Carl Wilhelm Scheele 等人認出它是一種元素；同一年，瑞典化學家 Johan Gottlieb Gahn 把軟錳礦和木炭一起加熱，分離出了金屬錳。"
+          ]
+        },
+        {
+          "heading": "讓鋼更強韌",
+          "paragraphs": [
+            "錳加入熔融的鋼中，可以除去氧和硫，也能讓鋼更容易加工，並提高強度與耐衝擊性。鐵軌用的鋼，錳含量可高達 1.2%。"
+          ]
+        },
+        {
+          "heading": "紫水晶的顏色",
+          "paragraphs": [
+            "錳能讓玻璃呈現紫水晶般的顏色，真正的紫水晶也是因錳而呈紫色。二氧化錳用於乾電池，也能去除玻璃中因鐵雜質而產生的綠色。錳還是動物體內廣泛存在的重要微量元素。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "同樣是錳，加進玻璃能讓玻璃變紫，二氧化錳卻能去除玻璃的綠色。你覺得「去除顏色」可能是怎麼做到的？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        26,
+        24,
+        27
+      ],
+      "referenceIds": [
+        "pubchem-element:25@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "近 90% 用於煉鋼、除氧除硫並提高加工性強度耐衝擊、鐵軌鋼錳含量達 1.2%（Jefferson Lab）、magnes 字源與軟錳礦磁性（CIAAW、LANL）、1774 年 Scheele 等人認出元素、同年 Gahn 以軟錳礦與木炭加熱分離（CIAAW、Jefferson Lab、LANL）、使玻璃呈紫水晶色並為紫水晶顏色來源、二氧化錳用於乾電池並去除鐵雜質的綠色、動物體內的重要微量元素（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 26,
+      "title": "千年不鏽的鐵柱",
+      "openingZh": "印度德里矗立著一根約西元 400 年製造的鐵柱，高約 7.25 公尺，經歷一千多年的風吹日曬，鏽蝕卻非常輕微。",
+      "sections": [
+        {
+          "heading": "最便宜的金屬",
+          "paragraphs": [
+            "考古證據顯示，人類使用鐵至少已有 5000 年。鐵是最便宜的金屬，也是含量最多的金屬之一，約占地殼的 5.6%；地球的核心也被認為主要由鐵組成。符號 Fe 來自拉丁文 ferrum。"
+          ]
+        },
+        {
+          "heading": "從迴紋針到摩天大樓",
+          "paragraphs": [
+            "大量的鐵被用來煉鋼。鋼是鐵與碳的合金，通常含 0.3% 到 1.5% 的碳；再加入其他元素，鋼還能有更多特性：鉻能防鏽，鎳能耐熱耐酸，錳能提高強度，鎢能在高溫下保持硬度。"
+          ]
+        },
+        {
+          "heading": "生命中的鐵",
+          "paragraphs": [
+            "鐵參與植物葉綠素的形成，也是紅血球中血紅素的重要成分，負責運送氧氣。硫酸亞鐵可以用來治療貧血。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "純鐵在潮濕的空氣中很快就會生鏽，德里鐵柱卻千年少有鏽蝕。你覺得可能有哪些原因？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        24,
+        27,
+        28,
+        6
+      ],
+      "referenceIds": [
+        "pubchem-element:26@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "德里鐵柱約西元 400 年、高約 7.25 公尺、鏽蝕極少、純鐵在潮濕空氣中迅速腐蝕、地核被認為主要為鐵（LANL）、使用至少 5000 年、最便宜且最豐富的金屬之一、約占地殼 5.6%、鋼含 0.3–1.5% 碳、鉻鎳錳鎢對鋼的作用、葉綠素形成與血紅素、硫酸亞鐵治療貧血（Jefferson Lab）、ferrum 字源（CIAAW），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。註：CIAAW 鐵頁關於鐵-56 形成能量的敘述與核物理的一般說法不符，本文未採用。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 27,
+      "title": "礦工口中的地精",
+      "openingZh": "鈷的名字來自德文 Kobold，意思是「地精」或「惡靈」。礦工們曾迷信，是這些惡靈在礦坑裡作怪。",
+      "sections": [
+        {
+          "heading": "惡靈的礦石",
+          "paragraphs": [
+            "這些礦石含有砷，會損害礦工的健康，而且用一般方法處理也煉不出金屬，因此被認為受到惡靈作祟。瑞典化學家 Georg Brandt 想證明某些礦物能讓玻璃變藍，是因為一種未知元素，而不是當時普遍認為的鉍，因而發現了鈷；CIAAW 與 Los Alamos 記為 1735 年，Jefferson Lab 記為 1739 年。"
+          ]
+        },
+        {
+          "heading": "藍色的歷史",
+          "paragraphs": [
+            "幾個世紀以來，鈷鹽一直被用來為瓷器、玻璃、陶器、磁磚與琺瑯上色，帶來鮮豔又持久的藍色。"
+          ]
+        },
+        {
+          "heading": "磁鐵、刀具與維生素",
+          "paragraphs": [
+            "鋁鎳鈷合金能做成強力的永久磁鐵；含鈷、鉻、鎢的合金則用於高速切削刀具。放射性的鈷-60 是重要的 γ 射線來源，可用於治療某些癌症。鈷也是維生素 B12 的必要成分。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "古代礦工把無法提煉、又會傷害健康的礦石歸咎於惡靈。今天我們會如何解釋這些現象？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        26,
+        28,
+        33
+      ],
+      "referenceIds": [
+        "pubchem-element:27@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Kobold 字源、礦石含砷損害健康且一般方法煉不出金屬（CIAAW）、Brandt 證明玻璃的藍色來自未知元素而非鉍（Jefferson Lab）、鈷鹽數世紀來為瓷器玻璃陶器磁磚琺瑯上藍色（LANL）、鋁鎳鈷磁鐵、鈷鉻鎢切削刀具合金、鈷-60 γ 射線與癌症治療、維生素 B12（Jefferson Lab），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：發現年份 CIAAW 與 LANL 為 1735 年、Jefferson Lab 為 1739 年，本文並陳。"
+      },
+      "version": "2026-10-18"
+    },
+    {
+      "elementNumber": 28,
+      "title": "假銅礦裡的金屬",
+      "openingZh": "德國礦工曾把一種礦物叫作 Kupfernickel，意思是「假銅」：它看起來像銅礦，卻煉不出銅來。",
+      "sections": [
+        {
+          "heading": "騙人的小精靈",
+          "paragraphs": [
+            "鎳的名稱來自德文 Nickel，意思是「騙人的小精靈」。1751 年，瑞典的 Axel Fredrik Cronstedt 在這種紅砷鎳礦中發現了鎳。"
+          ]
+        },
+        {
+          "heading": "天外來的鎳",
+          "paragraphs": [
+            "大多數隕石都含有鎳，鐵隕石中鎳的比例可達 5% 到將近 20%，因此鎳成為辨認隕石的依據之一。加拿大安大略省的薩德伯里地區生產全世界約 30% 的鎳，一般認為那裡的大型鎳礦床與遠古的隕石撞擊有關。"
+          ]
+        },
+        {
+          "heading": "硬幣與不鏽鋼",
+          "paragraphs": [
+            "鎳堅硬又耐腐蝕，常被鍍在其他金屬表面，也大量用於不鏽鋼與硬幣。一公斤的鎳可以拉成 300 公里長的線。細粉狀的鎳則是植物油氫化的催化劑。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "為什麼鎳的含量，可以幫助科學家判斷一塊石頭是不是隕石？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        26,
+        27,
+        29
+      ],
+      "referenceIds": [
+        "pubchem-element:28@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "Kupfernickel 與假銅、Nickel 字源、1751 年 Cronstedt 在紅砷鎳礦中發現（CIAAW、Jefferson Lab）、多數隕石含鎳且鐵隕石含 5% 至近 20%、作為辨認隕石的依據、薩德伯里約占全球 30%（LANL）、礦床被認為源自隕石撞擊、鍍層、硬幣、一公斤可拉成 300 公里、植物油氫化催化劑（Jefferson Lab）、不鏽鋼（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。"
+      },
+      "version": "2026-10-18"
+    },
+    {
       "elementNumber": 29,
       "title": "人類最早的金屬夥伴之一",
       "openingZh": "考古證據顯示，人類使用銅至少已有一萬一千年。為什麼銅能陪伴人類這麼久？",
@@ -910,6 +1255,49 @@
         "notesZh": "使用至少 11,000 年與提煉至少 7,000 年（Jefferson Lab）、名稱源自賽普勒斯、約 5,000 年前發展合金、青銅為最早合金、黃銅、導電性僅次於銀、耐腐蝕與錢幣水管、斐林試劑、殺藻劑皆已對照 CIAAW 與 PubChem 原文。註：LANL 另寫「開採約 5,000 年」，與 Jefferson Lab 的估計不同；本文採用 Jefferson Lab 對「使用」與「提煉」的區分。"
       },
       "version": "2026-10-16"
+    },
+    {
+      "elementNumber": 30,
+      "title": "犧牲自己保護鐵",
+      "openingZh": "在鐵器表面鍍上一層鋅，可以防止鐵生鏽。今天大約三分之一的金屬鋅，都用在這種鍍鋅處理上。",
+      "sections": [
+        {
+          "heading": "黃銅的成分",
+          "paragraphs": [
+            "早在鋅被認出是元素之前，人們就用鋅礦製造黃銅，至今已有 2500 年以上；古羅馬人用黃銅製作錢幣、水壺與裝飾品。金屬鋅最早是在印度以羊毛等有機物還原菱鋅礦製得的；1746 年，Andreas Sigismund Marggraf 在歐洲用木炭重新製得了鋅。"
+          ]
+        },
+        {
+          "heading": "常溫易碎、加熱變軟",
+          "paragraphs": [
+            "鋅是帶藍白光澤的金屬，常溫下易碎，加熱到 100 至 150 °C 時卻變得容易延展。"
+          ]
+        },
+        {
+          "heading": "生活中的鋅",
+          "paragraphs": [
+            "鋅也用於乾電池與壓鑄零件；氧化鋅被廣泛用在油漆、橡膠、化妝品與藥品中。鋅是否屬於過渡金屬，各方定義不同，本站將這項分類標為有爭議。"
+          ]
+        }
+      ],
+      "thinkingQuestionZh": "鍍鋅的鐵即使表面被刮傷，裡面的鐵仍然不容易生鏽。為什麼鋅能「犧牲自己」保護鐵？",
+      "categoryIds": [
+        "transition-metal"
+      ],
+      "furtherReadingElementNumbers": [
+        29,
+        26,
+        48
+      ],
+      "referenceIds": [
+        "pubchem-element:30@2026-10-18"
+      ],
+      "verification": {
+        "status": "source-checked",
+        "checkedOn": "2026-10-18",
+        "notesZh": "約三分之一的鋅用於鍍鋅防鏽、犧牲陽極、黃銅使用約 2500 年、古羅馬黃銅錢幣水壺裝飾品、印度以羊毛還原菱鋅礦、1746 年 Marggraf 以木炭製得、乾電池與壓鑄（Jefferson Lab、LANL）、藍白光澤、常溫易碎而 100–150 °C 可延展、氧化鋅的用途（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。來源差異：印度製得金屬鋅的時代 LANL 為十三世紀、Jefferson Lab 為十五世紀，本文未寫年代。分類爭議一句依據本站分類資料（IUPAC 註明第 12 族並非總是包含在過渡金屬內）。"
+      },
+      "version": "2026-10-18"
     },
     {
       "elementNumber": 31,

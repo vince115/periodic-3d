@@ -8,6 +8,7 @@ import {
   type ArticleSection,
 } from "@/lib/content";
 import { ELEMENT_CATEGORY_IDS } from "@/types/element";
+import referencesFile from "@/content/contentReferences.json";
 
 const bodyLength = (sections: ArticleSection[]) => sections.flatMap((s) => s.paragraphs).join("").length;
 // Simplified-only forms (characters shared by both scripts, e.g. 氧 碳 汞, are excluded).
@@ -53,7 +54,14 @@ describe("element stories (elementStories.json)", () => {
     const members = ELEMENTS.filter((el) => el.categoryTags.some((t) => finished.includes(t.id)));
     expect(members).toHaveLength(50);
     for (const el of members) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
-    expect(getElementStory(26)).toBeUndefined();
+    // Transition metals are written period by period.
+    const transitionPeriodsDone = [4];
+    const transitionDone = ELEMENTS.filter(
+      (el) => el.category === "transition-metal" && transitionPeriodsDone.includes(el.period),
+    );
+    expect(transitionDone.map((el) => el.number)).toEqual([21, 22, 23, 24, 25, 26, 27, 28, 29, 30]);
+    for (const el of transitionDone) expect(getElementStory(el.number), `${el.number} ${el.name}`).toBeDefined();
+    expect(getElementStory(40)).toBeUndefined();
   });
 
   it("are 200–450 characters with a question, links and no duplicated element data", () => {
@@ -96,7 +104,9 @@ describe("sources and verification", () => {
     }
     expect(() => resolveReference("made-up-source")).toThrow();
     // Element pages must be recorded as read before they can be cited.
-    expect(() => resolveReference("pubchem-element:27")).toThrow(/not recorded as read/);
+    const read = new Set(Object.values(referencesFile.elementPagesRead).flat());
+    const unread = ELEMENTS.find((el) => !read.has(el.number));
+    if (unread) expect(() => resolveReference(`pubchem-element:${unread.number}`)).toThrow(/not recorded as read/);
     // A page read on several dates must say which reading the claims were checked against.
     expect(() => resolveReference("pubchem-element:2")).toThrow(/cite it as/);
     expect(resolveReference("pubchem-element:2@2026-10-18").accessed).toBe("2026-10-18");

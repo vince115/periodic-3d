@@ -98,10 +98,10 @@ describe("element pages", () => {
   });
 
   it("says the story is still being written instead of inventing one", () => {
-    render(<ElementStoryPage number={26} />);
-    expect(screen.getByRole("heading", { name: "鐵的科學故事撰寫中" })).toBeInTheDocument();
+    render(<ElementStoryPage number={40} />);
+    expect(screen.getByRole("heading", { name: "鋯的科學故事撰寫中" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "過渡金屬" })).toHaveAttribute("href", "/stories/categories/transition-metal");
-    expect(screen.getByRole("link", { name: "27 Co 鈷" })).toHaveAttribute("href", "/stories/elements/27");
+    expect(screen.getByRole("link", { name: "41 Nb 鈮" })).toHaveAttribute("href", "/stories/elements/41");
   });
 
   it("opens a category page from the classification tags", async () => {
