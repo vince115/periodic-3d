@@ -148,8 +148,9 @@ const CATEGORY_MAP = {
 
 // ---------------------------------------------------------------------------
 // Position: period / group / block derived from atomic number.
-// Group assignment follows the IUPAC 2021 provisional recommendation
-// (group 3 = Sc, Y, Lu, Lr); La–Yb and Ac–No get group = null.
+// Group 3 is shown as Sc, Y, Lu, Lr: the compromise suggested by the IUPAC
+// group 3 task group's 2021 provisional report, which calls the choice a
+// matter of convention (no formal IUPAC ruling); La–Yb and Ac–No get group = null.
 // ---------------------------------------------------------------------------
 const PERIOD_ENDS = [2, 10, 18, 36, 54, 86, 118];
 
@@ -286,10 +287,10 @@ function notesFor(z, el) {
   if (z === 1) notes.push("氫位於第 1 族，但屬於非金屬，並非鹼金屬。");
   if (z === 2) notes.push("氦在版面上置於第 18 族（稀有氣體），但其電子排布屬於 s 區。");
   if ((z >= 57 && z <= 70) || (z >= 89 && z <= 102)) {
-    notes.push("本表未指定族：依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr；部分教科書則將 La、Ac 列為第 3 族。");
+    notes.push("本表未指定族：IUPAC 第 3 族工作小組 2021 年的臨時報告指出，第 3 族應為 Sc、Y、La、Ac 還是 Sc、Y、Lu、Lr，無法以客觀方式判定，屬於慣例選擇；本表採用報告提議的折衷方案 Sc、Y、Lu、Lr。");
   }
   if (z === 71 || z === 103) {
-    notes.push("依 IUPAC 2021 臨時建議列為第 3 族、d 區；版面上仍依常見慣例顯示於下方的鑭系／錒系列。");
+    notes.push("依 IUPAC 第 3 族工作小組 2021 年臨時報告提議的折衷方案列為第 3 族、d 區（報告指出這是慣例選擇，並呼籲 IUPAC 做出裁定）；版面上仍依常見慣例顯示於下方的鑭系／錒系列。");
   }
   if ([30, 48, 80, 112].includes(z)) {
     notes.push("第 12 族是否屬於過渡金屬依定義而異；本表沿用 PubChem 分類。");

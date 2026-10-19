@@ -8,10 +8,10 @@
       "accessed": "2026-10-16"
     },
     "iupac-group3-2021": {
-      "kind": "standard",
-      "citation": "IUPAC Project 2015-039-2-200, The constitution of group 3 of the periodic table (chair: E. R. Scerri). Provisional recommendation, 2021.",
-      "url": "https://iupac.org/projects/project-details/?project_nr=2015-039-2-200",
-      "accessed": null
+      "kind": "journal",
+      "citation": "E. R. Scerri. Provisional Report on Discussions on Group 3 of The Periodic Table. Chemistry International 2021, 43 (1), 31–34（IUPAC Project 2015-039-2-200 進度報告）",
+      "url": "https://doi.org/10.1515/ci-2021-0115",
+      "accessed": "2026-10-19"
     },
     "pubchem-periodic-table": {
       "kind": "database",
@@ -36,6 +36,12 @@
       "citation": "P. Pyykkö. Relativistic Effects in Structural Chemistry. Chemical Reviews 1988, 88 (3), 563–594.",
       "url": "https://doi.org/10.1021/cr00085a006",
       "accessed": null
+    },
+    "nist-asd-ground-configurations": {
+      "kind": "database",
+      "citation": "A. Kramida, Yu. Ralchenko, J. Reader, NIST ASD Team. NIST Atomic Spectra Database — Ground States and Ionization Energies（各元素基態電子組態）",
+      "url": "https://physics.nist.gov/PhysRefData/ASD/ionEnergy.html",
+      "accessed": "2026-10-16"
     }
   },
   "elementPagesRead": {
@@ -186,6 +192,12 @@
       116,
       117,
       118
+    ],
+    "2026-10-19": [
+      1,
+      8,
+      14,
+      29
     ]
   }
 }

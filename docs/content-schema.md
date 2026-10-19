@@ -36,7 +36,7 @@ relatedElementNumbers: number[];      // 週期表相鄰元素（同週期左右
 - **主要標籤**沿用 PubChem GroupBlock（既有的 `category`），決定方格顏色。
 - **成員名單**以 IUPAC Red Book 2005 §IR-3.5 的集合名稱為準：鹼金屬 Li–Fr（不含 H）、鹼土金屬 Be–Ra、鹵素 F–At、稀有氣體 He–Rn、鑭系 La–Lu、錒系 Ac–Lr、稀土金屬 Sc、Y＋鑭系、氮族、氧族。
 - **過渡金屬**：第 3–12 族；IUPAC 註明第 12 族「並非總是包含在內」，因此 Zn、Cd、Hg 標為 `disputed`。
-- **重疊**：Lu、Lr 依 IUPAC 2021 臨時建議屬第 3 族，加上 `transition-metal` 次要標籤（`convention`）。Po 主要為類金屬（`disputed`），另加「其他金屬」次要標籤。
+- **重疊**：IUPAC 第 3 族工作小組 2021 年臨時報告認為第 3 族組成屬慣例選擇，並提議 Sc、Y、Lu、Lr 為折衷；本站採用此方案，為 Lu、Lr 加上 `transition-metal` 次要標籤（`convention`）。Po 主要為類金屬（`disputed`），另加「其他金屬」次要標籤。
 - **預測**：Z ≥ 109 的分類一律標為 `predicted`，金屬性為 `uncertain`。
 - **類金屬**、**其他金屬**、**其他非金屬**不是 IUPAC 正式集合名稱，導讀文章中明確說明。
 

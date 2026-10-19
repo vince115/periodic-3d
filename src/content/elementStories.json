@@ -38,7 +38,7 @@
       ],
       "referenceIds": [
         "ciaaw:hydrogen",
-        "pubchem-element:1",
+        "pubchem-element:1@2026-10-16",
         "iupac-redbook-2005"
       ],
       "verification": {
@@ -343,7 +343,7 @@
       ],
       "referenceIds": [
         "ciaaw:oxygen",
-        "pubchem-element:8"
+        "pubchem-element:8@2026-10-16"
       ],
       "verification": {
         "status": "source-checked",
@@ -597,7 +597,7 @@
       ],
       "referenceIds": [
         "ciaaw:silicon",
-        "pubchem-element:14"
+        "pubchem-element:14@2026-10-16"
       ],
       "verification": {
         "status": "source-checked",
@@ -1245,7 +1245,7 @@
       ],
       "referenceIds": [
         "ciaaw:copper",
-        "pubchem-element:29"
+        "pubchem-element:29@2026-10-16"
       ],
       "verification": {
         "status": "source-checked",
@@ -3040,7 +3040,7 @@
         {
           "heading": "第 3 族的爭議",
           "paragraphs": [
-            "鎦屬於鑭系元素，但依 IUPAC 2021 年的臨時建議，它也被放在第 3 族，因此本站同時為它加上過渡金屬的分類標籤。鎦目前幾乎沒有商業用途，只有少量用作石油裂解與聚合反應的催化劑。"
+            "鎦屬於鑭系元素。第 3 族究竟該放鑭還是鎦，IUPAC 工作小組在 2021 年的臨時報告中認為無法客觀判定、屬於慣例選擇，並提議把鎦放進第 3 族作為折衷；本站採用這個方案，因此同時為它加上過渡金屬的標籤。鎦目前只有少量用作催化劑。"
           ]
         }
       ],
@@ -3056,14 +3056,15 @@
         39
       ],
       "referenceIds": [
-        "pubchem-element:71@2026-10-18"
+        "pubchem-element:71@2026-10-18",
+        "iupac-group3-2021"
       ],
       "verification": {
         "status": "source-checked",
-        "checkedOn": "2026-10-18",
-        "notesZh": "Lutetia 字源、1907 年 Urbain 發現、von Welsbach 獨立分離並命名 cassiopeium、Urbain 較早發表而 IUPAC 於 1949 年採用（CIAAW）、最難製備的元素之一（Jefferson Lab、LANL）、鎦-176 占 2.6% 且半衰期約 3 × 10¹⁰ 年、獨居石約 0.003%、純金屬近年才製得、裂解與聚合催化劑（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。第 3 族與過渡金屬標籤一句依據本站分類資料（IUPAC 2021 臨時建議）。"
+        "checkedOn": "2026-10-19",
+        "notesZh": "Lutetia 字源、1907 年 Urbain 發現、von Welsbach 獨立分離並命名 cassiopeium、Urbain 較早發表而 IUPAC 於 1949 年採用（CIAAW）、最難製備的元素之一（Jefferson Lab、LANL）、鎦-176 占 2.6% 且半衰期約 3 × 10¹⁰ 年、獨居石約 0.003%、純金屬近年才製得、裂解與聚合催化劑（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab 與 CIAAW 原文。第 3 族一段已對照 Scerri (2021) 臨時報告原文（2026-10-19 閱讀）：報告認為無客觀方式判定、屬慣例選擇，並提議 Sc、Y、Lu、Lr 為折衷。2026-10-19 修正：原文誤寫為「IUPAC 2021 臨時建議」。"
       },
-      "version": "2026-10-18"
+      "version": "2026-10-19"
     },
     {
       "elementNumber": 72,
@@ -4412,7 +4413,7 @@
         {
           "heading": "第 3 族的爭議",
           "paragraphs": [
-            "鐒的化學行為和二價的鍩不同，比較像錒系前段的三價元素。依 IUPAC 2021 年的臨時建議，它也被放在第 3 族，因此本站同時為它加上過渡金屬的分類標籤。"
+            "鐒的化學行為和二價的鍩不同，比較像錒系前段的三價元素。IUPAC 工作小組在 2021 年的臨時報告中，提議把鎦與鐒放在第 3 族作為折衷，並指出這屬於慣例選擇；本站採用這個方案，因此同時為它加上過渡金屬的標籤。"
           ]
         }
       ],
@@ -4427,14 +4428,15 @@
         104
       ],
       "referenceIds": [
-        "pubchem-element:103@2026-10-18"
+        "pubchem-element:103@2026-10-18",
+        "iupac-group3-2021"
       ],
       "verification": {
         "status": "source-checked",
-        "checkedOn": "2026-10-18",
-        "notesZh": "以 Lawrence 命名（LANL、IUPAC IPTEI）、1961 年 3 月 Ghiorso、Sikkeland、Larsh 與 Latimer 以硼離子轟擊約 3 微克鉲靶（Jefferson Lab、LANL）、同位素辨認的混淆（Jefferson Lab）、首次合成功勞共同歸於 Ghiorso 與 Flerov 團隊、Lw 改為 Lr 的原因（IUPAC IPTEI）、化學行為異於二價的鍩而似三價錒系（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。第 3 族與過渡金屬標籤一句依據本站分類資料（IUPAC 2021 臨時建議）。註：IUPAC IPTEI 將共同功勞記於 1971 年，本文未寫該年份。"
+        "checkedOn": "2026-10-19",
+        "notesZh": "以 Lawrence 命名（LANL、IUPAC IPTEI）、1961 年 3 月 Ghiorso、Sikkeland、Larsh 與 Latimer 以硼離子轟擊約 3 微克鉲靶（Jefferson Lab、LANL）、同位素辨認的混淆（Jefferson Lab）、首次合成功勞共同歸於 Ghiorso 與 Flerov 團隊、Lw 改為 Lr 的原因（IUPAC IPTEI）、化學行為異於二價的鍩而似三價錒系（LANL），皆已對照 PubChem 收錄的 Los Alamos、Jefferson Lab、CIAAW 與 IUPAC IPTEI 原文。第 3 族一段已對照 Scerri (2021) 臨時報告原文（2026-10-19 閱讀）：報告認為無客觀方式判定、屬慣例選擇，並提議 Sc、Y、Lu、Lr 為折衷。2026-10-19 修正：原文誤寫為「IUPAC 2021 臨時建議」。註：IUPAC IPTEI 將共同功勞記於 1971 年，本文未寫該年份。"
       },
-      "version": "2026-10-18"
+      "version": "2026-10-19"
     },
     {
       "elementNumber": 104,

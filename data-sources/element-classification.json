@@ -2,16 +2,16 @@
   "_note": "Rules for non-exclusive category tags, element families and metallicity, applied by scripts/build-elements.mjs. The primary tag of every element is its existing display category (PubChem GroupBlock, drives the colour). Each override records why it exists. Status meanings: established = membership stated by IUPAC (Red Book 2005 IR-3.5) or unambiguous by group/block; convention = common practice without a single authoritative list; disputed = authorities or textbooks disagree; predicted = superheavy element whose chemistry is mainly theoretical.",
   "sources": {
     "iupac-redbook-2005": "IUPAC, Nomenclature of Inorganic Chemistry — IUPAC Recommendations 2005 (Red Book), N.G. Connelly et al. (eds.), RSC Publishing, §IR-3.5 'Elements in the periodic table', p. 51. https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf",
-    "iupac-group3-2021": "IUPAC Project 2015-039-2-200, 'The constitution of group 3 of the periodic table' (chair: E. R. Scerri), provisional recommendation 2021 — group 3 as Sc, Y, Lu, Lr. https://iupac.org/projects/project-details/?project_nr=2015-039-2-200",
+    "iupac-group3-2021": "E. R. Scerri, 'Provisional Report on Discussions on Group 3 of The Periodic Table', Chemistry International 43 (1), 31–34 (2021), progress report of IUPAC Project 2015-039-2-200. Concludes there is no objective means to choose between Sc, Y, La, Ac and Sc, Y, Lu, Lr (a matter of convention) and suggests Sc, Y, Lu, Lr as a possible compromise. https://doi.org/10.1515/ci-2021-0115",
     "pubchem-periodic-table": "PubChem Periodic Table, GroupBlock classification. https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
-    "vernon-2013": "R. E. Vernon, 'Which Elements Are Metalloids?', J. Chem. Educ. 2013, 90, 1703–1707. https://doi.org/10.1021/ed3008457"
+    "pubchem-element-84": "PubChem Element: Polonium（收錄 Los Alamos National Laboratory 原文：'Polonium-210 is a low-melting, fairly volatile metal'），2026-10-18 下載、2026-10-19 比對。https://pubchem.ncbi.nlm.nih.gov/element/84"
   },
   "primaryStatus": {
     "disputed": {
-      "30": "IUPAC Red Book IR-3.5：第 3–12 族常稱為過渡元素，但「第 12 族並非總是包含在內」；鋅的 d 軌域在元素與常見離子中都是全滿。",
-      "48": "IUPAC Red Book IR-3.5：第 12 族並非總是被列為過渡元素；鎘的 d 軌域在常見氧化態中全滿。",
-      "80": "IUPAC Red Book IR-3.5：第 12 族並非總是被列為過渡元素；汞的 d 軌域在常見氧化態中全滿。",
-      "84": "釙的分類沒有統一標準：PubChem 列為類金屬，許多教科書依其導電性列為金屬（其他金屬）。",
+      "30": "IUPAC Red Book IR-3.5：第 3–12 族常稱為過渡元素，但「第 12 族並非總是包含在內」；依 NIST 的基態電子組態，鋅原子的 d 軌域已全滿。",
+      "48": "IUPAC Red Book IR-3.5：第 12 族並非總是被列為過渡元素；依 NIST 的基態電子組態，鎘原子的 d 軌域已全滿。",
+      "80": "IUPAC Red Book IR-3.5：第 12 族並非總是被列為過渡元素；依 NIST 的基態電子組態，汞原子的 d 軌域已全滿。",
+      "84": "釙的分類沒有統一標準：PubChem 列為類金屬，Los Alamos 的資料則把它描述為金屬。",
       "85": "砈列在 IUPAC 的鹵素名單中，但大量樣本從未被製得，其金屬性推測多於實測。"
     },
     "predictedFrom": 109
@@ -24,7 +24,7 @@
       ],
       "id": "transition-metal",
       "status": "convention",
-      "noteZh": "依 IUPAC 2021 臨時建議，第 3 族為 Sc、Y、Lu、Lr，因此也屬於第 3–12 族的 d 區過渡元素；同時仍是 IUPAC 列名的鑭系／錒系元素。",
+      "noteZh": "IUPAC 第 3 族工作小組 2021 年的臨時報告認為第 3 族的組成屬於慣例選擇，並提議以 Sc、Y、Lu、Lr 作為折衷；本站採用此方案，因此也將它列為第 3–12 族的 d 區過渡元素，同時它仍是 IUPAC 列名的鑭系／錒系元素。",
       "source": "iupac-group3-2021"
     },
     {
@@ -33,12 +33,12 @@
       ],
       "id": "post-transition-metal",
       "status": "disputed",
-      "noteZh": "許多教科書把釙歸為金屬（位於硼族右側的 p 區金屬）。",
-      "source": "vernon-2013"
+      "noteZh": "Los Alamos 的資料把釙描述為熔點低、相當易揮發的金屬，PubChem 的分類則列為類金屬。",
+      "source": "pubchem-element-84"
     }
   ],
   "elementNotes": {
-    "1": "氫位於第 1 族，但 IUPAC 的鹼金屬名單（Li、Na、K、Rb、Cs、Fr）不含氫；氫在一般條件下是雙原子分子的非金屬氣體。",
+    "1": "氫位於第 1 族，但 IUPAC 的鹼金屬名單（Li、Na、K、Rb、Cs、Fr）不含氫；PubChem 將氫歸為非金屬。",
     "57": "鑭是 IUPAC 列名的鑭系元素；部分週期表把鑭（而非鎦）放在第 3 族，屬於版面慣例差異。",
     "89": "錒是 IUPAC 列名的錒系元素；部分週期表把錒（而非鐒）放在第 3 族，屬於版面慣例差異。",
     "112": "鎶位於第 12 族：是否算過渡元素與鋅、鎘、汞同樣有定義上的爭議，且其化學性質主要來自理論預測與極少數原子的實驗。"
@@ -137,7 +137,7 @@
       "noble-gas": "nonmetal"
     },
     "uncertain": {
-      "84": "釙常被視為金屬或類金屬，依所採用的判斷標準而定。",
+      "84": "釙被歸為金屬或類金屬，依資料來源而不同：PubChem 列為類金屬，Los Alamos 描述為金屬。",
       "85": "砈的金屬性主要依理論推測，可能具有金屬性質。"
     },
     "uncertainFrom": 109
