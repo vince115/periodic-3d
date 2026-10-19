@@ -5,6 +5,7 @@ import { X } from "lucide-react";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { MenuList } from "./SideMenu";
 import { Navbar } from "./Navbar";
+import { SiteFooter } from "./SiteFooter";
 
 /** Keep in sync with --navbar-h in globals.css (single-row navbar, lg+). */
 export const NAVBAR_HEIGHT_PX = 48;
@@ -64,7 +65,10 @@ export function AppShell({ activeNavId, search, navbarTrailing, children }: AppS
         <nav id="side-menu" aria-label="主選單" className="side-menu">
           <MenuList activeId={activeNavId} />
         </nav>
-        <div className="min-w-0 flex-1">{children}</div>
+        <div className="flex min-w-0 flex-1 flex-col">
+          <div className="flex-1">{children}</div>
+          <SiteFooter />
+        </div>
       </div>
       {showDrawer && <MenuDrawer activeId={activeNavId} onClose={closeDrawer} />}
     </div>

@@ -1,11 +1,20 @@
 import type { Metadata, Viewport } from "next";
-import { Geist_Mono } from "next/font/google";
+import { Geist_Mono, Lato } from "next/font/google";
 import { THEME_BOOTSTRAP_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+/** Only the footer's "Buy me a coffee" label uses it, so it is not preloaded. */
+const lato = Lato({
+  variable: "--font-coffee",
+  subsets: ["latin"],
+  weight: "700",
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -25,7 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="zh-Hant-TW"
-      className={`${geistMono.variable} h-full antialiased`}
+      className={`${geistMono.variable} ${lato.variable} h-full antialiased`}
       // data-theme is set by the bootstrap script before hydration.
       suppressHydrationWarning
     >

@@ -99,9 +99,21 @@
   --color-slate-600: #7e8188;
   --color-sky-300: #669df1;
   --color-amber-200: #fbc828;
+
+  /* Buy me a coffee (footer): the brown button made on the service, white words, yellow coffee */
+  --coffee: #594436;
+  --coffee-hover: #6b5343;
+  --coffee-ink: #ffffff;
+  --coffee-bean: #ffdd00;
 }
 
 :root[data-theme="light"] {
+  /* Buy me a coffee (footer): soft amber button, dark words, white coffee */
+  --coffee: #ffd54f;
+  --coffee-hover: #ffca28;
+  --coffee-ink: #0d0c22;
+  --coffee-bean: #ffffff;
+
   --background: #ffffff;
   --foreground: #292a2e;
   --tile-base: #ffffff;
@@ -1672,4 +1684,68 @@ a.article__chip:hover {
   font-size: 0.75rem;
   color: var(--text-3);
   font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Site footer and "Buy me a coffee"                                          */
+/* ------------------------------------------------------------------------ */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  padding: 1.25rem 1rem;
+  font-size: 0.875rem;
+}
+@media (min-width: 640px) {
+  .site-footer__inner {
+    padding-inline: 1.5rem;
+  }
+}
+.site-footer__coffee {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+@media (min-width: 640px) {
+  .site-footer__coffee {
+    align-items: flex-end;
+  }
+}
+.coffee-button {
+  display: inline-flex;
+  height: 2.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+  border-radius: 0.5rem;
+  background: var(--coffee);
+  padding: 0 1rem;
+  color: var(--coffee-ink);
+  transition: background-color 120ms;
+}
+@media (min-width: 640px) {
+  .coffee-button {
+    align-self: auto;
+  }
+}
+.coffee-button:hover {
+  background: var(--coffee-hover);
+}
+.coffee-button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.coffee-button__label {
+  font-family: var(--font-coffee), "Lato", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
 }
